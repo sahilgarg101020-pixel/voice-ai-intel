@@ -1,0 +1,22 @@
+{
+  "reported_items": [
+    { "id": "vapi-500m-valuation-amazon-ring", "date": "2026-05-30", "company": "Vapi", "headline": "Vapi hits ~$500M valuation, wins Amazon Ring over 40 rivals", "url": "https://techcrunch.com/2026/05/12/vapi-hits-500m-valuation-as-amazon-ring-chose-its-ai-platform-over-40-rivals/", "type": "market", "status": "new" },
+    { "id": "sesame-ios-app-launch", "date": "2026-05-30", "company": "Sesame", "headline": "Sesame launches consumer iOS app", "url": "https://techcrunch.com/2026/05/28/sesame-the-conversational-ai-startup-from-oculus-founders-launches-its-ios-app/", "type": "market", "status": "new" },
+    { "id": "deepgram-flux-eos-latency", "date": "2026-05-30", "company": "Deepgram", "headline": "Deepgram Flux posts lowest end-of-speech detection latency", "url": "https://deepgram.com/learn/best-speech-to-text-apis-2026", "type": "tech", "status": "developing" },
+    { "id": "assemblyai-voice-agent-api-universal3", "date": "2026-05-30", "company": "AssemblyAI", "headline": "AssemblyAI Voice Agent API on Universal-3 Pro Streaming, 307ms P50, $4.50/hr", "url": "https://www.assemblyai.com/blog/best-speech-to-speech-voice-agent-api", "type": "tech", "status": "new" },
+    { "id": "gradium-70m-seed-expressive-voice", "date": "2026-05-30", "company": "Gradium", "headline": "Gradium raises $70M seed for expressive voice models", "url": "https://newmarketpitch.com/blogs/news/conversational-ai-funding-analysis", "type": "funding", "status": "new" },
+    { "id": "elevenlabs-crosslingual-emotion-transfer", "date": "2026-05-30", "company": "ElevenLabs", "headline": "ElevenLabs cross-lingual emotion/performance transfer in dubbing", "url": "https://elevenlabs.io/", "type": "tech", "status": "developing" },
+    { "id": "garrytan-retrieval-bottleneck-moss", "date": "2026-05-30", "company": "YC / Moss", "headline": "Garry Tan: retrieval latency is the voice-agent bottleneck; Moss does sub-10ms in-process search (open source)", "url": "https://x.com/garrytan/status/2060354064056201707", "type": "founder_take", "status": "new" },
+    { "id": "openai-gpt-realtime-customer-collab", "date": "2026-05-30", "company": "OpenAI", "headline": "gpt-realtime: trained with customers; MultiChallenge 30.5% (vs 20.6%), ComplexFuncBench 66.5% (vs 49.7%)", "url": "https://openai.com/index/introducing-gpt-realtime/", "type": "customer_signal", "status": "developing" }
+  ],
+  "themes": [
+    { "since": "2026-05-30", "theme": "Value shifting up-stack to orchestration/reliability (Vapi, LiveKit); raw TTS/STT commoditizing.", "direction": "up" },
+    { "since": "2026-05-30", "theme": "Real-time competition is about latency + turn-taking + interruption, not voice quality (Deepgram Flux, AssemblyAI streaming, Cartesia Sonic).", "direction": "up" },
+    { "since": "2026-05-30", "theme": "Retrieval latency emerging as the next named bottleneck for voice agents (Garry Tan / Moss).", "direction": "emerging" },
+    { "since": "2026-05-30", "theme": "Speech-to-speech models (gpt-realtime) collapsing the STT->LLM->TTS chain; pressure on pure-play vendors.", "direction": "up" },
+    { "since": "2026-05-30", "theme": "Function/tool-calling accuracy in voice becoming a key benchmark axis (ComplexFuncBench).", "direction": "emerging" },
+    { "since": "2026-05-30", "theme": "Consumer voice apps (Sesame) testing voice-as-destination vs voice-as-feature.", "direction": "watch" }
+  ],
+  "last_run": "2026-05-30",
+  "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
+}

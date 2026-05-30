@@ -1,0 +1,68 @@
+{
+  "companies": [
+    { "name": "Cartesia", "twitter": "cartesia_ai", "domain": "cartesia.ai" },
+    { "name": "ElevenLabs", "twitter": "elevenlabsio", "domain": "elevenlabs.io" },
+    { "name": "OpenAI", "twitter": "openai", "domain": "openai.com" },
+    { "name": "Google DeepMind", "twitter": "googledeepmind", "domain": "deepmind.google" },
+    { "name": "AWS", "twitter": "awscloud", "domain": "aws.amazon.com" },
+    { "name": "Deepgram", "twitter": "deepgramai", "domain": "deepgram.com" },
+    { "name": "AssemblyAI", "twitter": "assemblyai", "domain": "assemblyai.com" },
+    { "name": "PlayHT", "twitter": "play_ht", "domain": "play.ht" },
+    { "name": "Resemble AI", "twitter": "resembleai", "domain": "resemble.ai" },
+    { "name": "Smallest AI", "twitter": "smallest_ai", "domain": "smallest.ai" }
+  ],
+
+  "watch_topics": {
+    "tech_and_feature_direction": [
+      "latency / time-to-first-byte", "turn-taking & end-of-speech detection",
+      "interruption / barge-in handling", "retrieval speed for voice agents",
+      "function/tool calling in voice", "on-device / edge inference",
+      "multilingual & cross-lingual emotion", "voice cloning fidelity",
+      "speech-to-speech vs STT->LLM->TTS pipelines", "context / memory in voice agents",
+      "reliability & production-readiness", "open-source voice infra"
+    ],
+    "market_and_positioning": [
+      "new model launch", "pricing change", "new API / SDK",
+      "benchmark results", "partnership / enterprise win", "positioning shift",
+      "funding round", "go-to-market or vertical focus"
+    ],
+    "qualitative_signal": [
+      "customer quote / testimonial (what they liked or disliked)",
+      "founder or investor take / thesis (e.g. Garry Tan, Sarah Guo)",
+      "podcast remark / interview insight",
+      "developer / community sentiment (HN, Reddit, X)",
+      "hackathon / dev-event signal", "notable product critique or comparison"
+    ]
+  },
+
+  "signal_sources": {
+    "publications": ["TechCrunch", "The Information", "VentureBeat", "The Ken", "The Morning Context"],
+    "community": ["Hacker News", "Reddit r/LocalLLaMA", "Reddit r/artificial", "X / Twitter"],
+    "podcasts": ["Latent Space", "No Priors", "The Cognitive Revolution", "20VC"],
+    "investor_founder_voices_x": [
+      "garrytan", "saranormous", "eladgil", "swyx", "alexandr_wang", "amasad"
+    ],
+    "vendor_signal_pages": ["company blogs", "customer-story / case-study pages", "changelogs", "launch posts"]
+  },
+
+  "founder_lens": {
+    "prioritize": "Insight most useful to a founder BUILDING in voice AI: where the tech is heading, what users actually praise/complain about, which features are becoming table-stakes vs differentiators, emerging gaps/opportunities, and shifts in positioning.",
+    "deprioritize": "Treat funding/valuations as context, not the headline. One line is usually enough unless the round signals a strategic shift.",
+    "exemplars": [
+      { "type": "investor take", "url": "https://x.com/garrytan/status/2060354064056201707", "why": "Garry Tan naming retrieval latency as THE voice-agent bottleneck and pointing to an open-source fix (Moss) — a directional signal about what builders are prioritizing." },
+      { "type": "customer quotes", "url": "https://openai.com/index/introducing-gpt-realtime/", "why": "OpenAI sharing how customers actually use the realtime model and what they value — concrete demand signal, not just specs." }
+    ]
+  },
+
+  "brief": {
+    "target_words": [500, 800],
+    "hard_cap_words": 900,
+    "sections": ["TLDR", "Where the puck is going", "Signals from the field", "Watchlist / open threads"],
+    "note": "Lead with directional insight for builders. Funding is secondary context."
+  },
+
+  "discovery": {
+    "find_new_players": true,
+    "note": "Also surface emerging/stealth voice AI players and infra (e.g. retrieval, orchestration) not in the companies list."
+  }
+}
