@@ -12,6 +12,11 @@ state, and deliver to Slack.
 Work from this directory: `voice-ai-intel/`. All paths are relative to it.
 
 ## Step 0 — Load context
+0. **Sync state from `main` FIRST (critical for memory).** Cloud runs start on a throwaway
+   `claude/*` branch cloned from `main`, so you must pull the latest accumulated history before
+   doing anything: `git fetch origin main && git checkout main && git pull --ff-only origin main`
+   (if that fails, `git merge origin/main`). All dedup/trend memory lives on `main` — if you skip
+   this you will repeat yesterday's items.
 1. Read `config.json` (companies, watch topics, signal sources, founder_lens, brief format).
 2. Get `TWITTER_BEARER_TOKEN` and `SLACK_WEBHOOK_URL` from **environment variables first**
    (this is how the remote/cloud run provides them). If they're not set in the env, fall back to
@@ -81,9 +86,17 @@ quiet cycle, say so and keep it short rather than padding.
    - Update `themes` (rolling directional observations — what's trending up/down across runs).
      Keep tight; prune stale ones.
    - Set `last_run` to the run date.
-3. **Commit & push** so the next run sees this state (remote run only):
-   `git add briefs/ && git commit -m "brief: YYYY-MM-DD" && git push`
-   Never commit `.secrets.json` (it's gitignored). If push fails, keep the saved brief and report it.
+3. **Commit & push back to `main`** so the next run sees this state — this is mandatory and the
+   single most important step for continuity. Do NOT leave the work on the `claude/*` branch:
+   ```
+   git add briefs/
+   git commit -m "brief: YYYY-MM-DD"
+   git fetch origin main && git rebase origin/main   # pick up anything new, avoid conflicts
+   git push origin HEAD:main                          # push DIRECTLY to main, not the side branch
+   ```
+   Never commit `.secrets.json` (it's gitignored). If the push to `main` fails, retry once; if it
+   still fails, say so clearly in the Slack message so the failure is visible (otherwise the next
+   run silently loses memory and repeats itself).
 
 ## Step 5 — Deliver to Slack
 POST the brief to the webhook as Slack mrkdwn (use `*bold*`, `•` bullets, `<url|text>` links).
