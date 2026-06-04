@@ -1,22 +1,405 @@
 {
   "reported_items": [
-    { "id": "vapi-500m-valuation-amazon-ring", "date": "2026-05-30", "company": "Vapi", "headline": "Vapi hits ~$500M valuation, wins Amazon Ring over 40 rivals", "url": "https://techcrunch.com/2026/05/12/vapi-hits-500m-valuation-as-amazon-ring-chose-its-ai-platform-over-40-rivals/", "type": "market", "status": "new" },
-    { "id": "sesame-ios-app-launch", "date": "2026-05-30", "company": "Sesame", "headline": "Sesame launches consumer iOS app", "url": "https://techcrunch.com/2026/05/28/sesame-the-conversational-ai-startup-from-oculus-founders-launches-its-ios-app/", "type": "market", "status": "new" },
-    { "id": "deepgram-flux-eos-latency", "date": "2026-05-30", "company": "Deepgram", "headline": "Deepgram Flux posts lowest end-of-speech detection latency", "url": "https://deepgram.com/learn/best-speech-to-text-apis-2026", "type": "tech", "status": "developing" },
-    { "id": "assemblyai-voice-agent-api-universal3", "date": "2026-05-30", "company": "AssemblyAI", "headline": "AssemblyAI Voice Agent API on Universal-3 Pro Streaming, 307ms P50, $4.50/hr", "url": "https://www.assemblyai.com/blog/best-speech-to-speech-voice-agent-api", "type": "tech", "status": "new" },
-    { "id": "gradium-70m-seed-expressive-voice", "date": "2026-05-30", "company": "Gradium", "headline": "Gradium raises $70M seed for expressive voice models", "url": "https://newmarketpitch.com/blogs/news/conversational-ai-funding-analysis", "type": "funding", "status": "new" },
-    { "id": "elevenlabs-crosslingual-emotion-transfer", "date": "2026-05-30", "company": "ElevenLabs", "headline": "ElevenLabs cross-lingual emotion/performance transfer in dubbing", "url": "https://elevenlabs.io/", "type": "tech", "status": "developing" },
-    { "id": "garrytan-retrieval-bottleneck-moss", "date": "2026-05-30", "company": "YC / Moss", "headline": "Garry Tan: retrieval latency is the voice-agent bottleneck; Moss does sub-10ms in-process search (open source)", "url": "https://x.com/garrytan/status/2060354064056201707", "type": "founder_take", "status": "new" },
-    { "id": "openai-gpt-realtime-customer-collab", "date": "2026-05-30", "company": "OpenAI", "headline": "gpt-realtime: trained with customers; MultiChallenge 30.5% (vs 20.6%), ComplexFuncBench 66.5% (vs 49.7%)", "url": "https://openai.com/index/introducing-gpt-realtime/", "type": "customer_signal", "status": "developing" }
+    {
+      "id": "assemblyai-voice-agent-api-universal3",
+      "date": "2026-05-30",
+      "company": "AssemblyAI",
+      "headline": "AssemblyAI Voice Agent API on Universal-3 Pro Streaming, 307ms P50, $4.50/hr",
+      "url": "https://www.assemblyai.com/blog/best-speech-to-speech-voice-agent-api",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "deepgram-flux-eos-latency",
+      "date": "2026-05-30",
+      "company": "Deepgram",
+      "headline": "Deepgram Flux posts lowest end-of-speech detection latency",
+      "url": "https://deepgram.com/learn/best-speech-to-text-apis-2026",
+      "type": "tech",
+      "status": "developing"
+    },
+    {
+      "id": "elevenlabs-crosslingual-emotion-transfer",
+      "date": "2026-05-30",
+      "company": "ElevenLabs",
+      "headline": "ElevenLabs cross-lingual emotion/performance transfer in dubbing",
+      "url": "https://elevenlabs.io/",
+      "type": "tech",
+      "status": "developing"
+    },
+    {
+      "id": "garrytan-retrieval-bottleneck-moss",
+      "date": "2026-05-30",
+      "company": "YC / Moss",
+      "headline": "Garry Tan: retrieval latency is the voice-agent bottleneck; Moss does sub-10ms in-process search (open source)",
+      "url": "https://x.com/garrytan/status/2060354064056201707",
+      "type": "founder_take",
+      "status": "new"
+    },
+    {
+      "id": "gradium-70m-seed-expressive-voice",
+      "date": "2026-05-30",
+      "company": "Gradium",
+      "headline": "Gradium raises $70M seed for expressive voice models",
+      "url": "https://newmarketpitch.com/blogs/news/conversational-ai-funding-analysis",
+      "type": "funding",
+      "status": "new"
+    },
+    {
+      "id": "openai-gpt-realtime-customer-collab",
+      "date": "2026-05-30",
+      "company": "OpenAI",
+      "headline": "gpt-realtime: trained with customers; MultiChallenge 30.5% (vs 20.6%), ComplexFuncBench 66.5% (vs 49.7%)",
+      "url": "https://openai.com/index/introducing-gpt-realtime/",
+      "type": "customer_signal",
+      "status": "developing"
+    },
+    {
+      "id": "sesame-ios-app-launch",
+      "date": "2026-05-30",
+      "company": "Sesame",
+      "headline": "Sesame launches consumer iOS app",
+      "url": "https://techcrunch.com/2026/05/28/sesame-the-conversational-ai-startup-from-oculus-founders-launches-its-ios-app/",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "vapi-500m-valuation-amazon-ring",
+      "date": "2026-05-30",
+      "company": "Vapi",
+      "headline": "Vapi hits ~$500M valuation, wins Amazon Ring over 40 rivals",
+      "url": "https://techcrunch.com/2026/05/12/vapi-hits-500m-valuation-as-amazon-ring-chose-its-ai-platform-over-40-rivals/",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "cartesia-sonic2-eol-sonic35-live",
+      "date": "2026-06-01",
+      "company": "Cartesia",
+      "headline": "Cartesia Sonic 2 deprecated June 1; Sonic 3.5 live across 42 languages, 100ms p90 TTFA, native alphanumeric handling",
+      "url": "https://docs.cartesia.ai/build-with-cartesia/tts-models/older-models",
+      "type": "tech",
+      "status": "developing"
+    },
+    {
+      "id": "community-recovery-loop-voice-moat",
+      "date": "2026-06-01",
+      "company": "Community",
+      "headline": "Developer signal: real voice moat is recovery loop (rollback, escalation, context) not the underlying model",
+      "url": "https://x.com",
+      "type": "customer_signal",
+      "status": "new"
+    },
+    {
+      "id": "grok-voice-think-fast-1-pricing-production",
+      "date": "2026-06-01",
+      "company": "xAI",
+      "headline": "Grok Voice Think Fast 1.0 at $3/hr; live on Starlink support with 70% resolution rate and 20% sales conversion on 28 tools",
+      "url": "https://x.ai/news/grok-voice-think-fast-1",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "livekit-grok-full-stack-pipeline",
+      "date": "2026-06-01",
+      "company": "LiveKit / xAI",
+      "headline": "LiveKit Inference runs full xAI voice pipeline (STT + Grok + TTS) under single API key",
+      "url": "https://docs.livekit.io/agents/integrations/groq/",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "thinking-machines-tml-interaction-small",
+      "date": "2026-06-01",
+      "company": "Thinking Machines Lab",
+      "headline": "TML-Interaction-Small: full-duplex 200ms micro-turn interaction model, 77.8 FD-bench vs GPT-Realtime-2 46.8; interactivity as first-class architecture",
+      "url": "https://venturebeat.com/technology/thinking-machines-shows-off-preview-of-near-realtime-ai-voice-and-video-conversation-with-new-interaction-models",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "aa-wer-v2-agentalk-benchmark",
+      "date": "2026-06-02",
+      "company": "Artificial Analysis",
+      "headline": "AA-WER v2.0 AA-AgentTalk: agent-specific STT benchmark, 469 samples, 17 accent groups; ElevenLabs Scribe v2 leads at 2.3%",
+      "url": "https://artificialanalysis.ai/articles/aa-wer-v2",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "gradium-coval-tts-benchmark-1",
+      "date": "2026-06-02",
+      "company": "Gradium",
+      "headline": "Gradium #1 on Coval TTS benchmark: 155ms P50 TTFA, 2ms IQR, 3.3% WER \u2014 beats Cartesia Sonic-3 and Deepgram Aura-2",
+      "url": "https://gradium.ai/blog/coval-tts-benchmarks-may-2026",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "microsoft-build-mai-voice2-transcribe15",
+      "date": "2026-06-02",
+      "company": "Microsoft",
+      "headline": "Microsoft Build 2026: MAI-Voice 2 (15+ languages, wider emotion) and MAI-Transcribe 1.5 announced",
+      "url": "https://windowsforum.com/threads/microsoft-build-2026-mai-image-2-5-mai-voice-2-and-mai-transcribe-1-5.420924/",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "s2s-gemini-live-cost-disruption",
+      "date": "2026-06-02",
+      "company": "Google",
+      "headline": "Native S2S (Gemini Live $0.00165/min) shown up to ~12x cheaper than bundled pipeline APIs; S2S agentic benchmarks competitive",
+      "url": "https://speko.ai/blog/s2s-vs-cascaded",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "sesame-ios-turn-taking-user-signal",
+      "date": "2026-06-02",
+      "company": "Sesame",
+      "headline": "User: Sesame iOS turn-taking 'extremely impressive \u2014 very few false interruptions even when you pause'",
+      "url": "https://twitter.com",
+      "type": "customer_signal",
+      "status": "developing"
+    },
+    {
+      "id": "elevenlabs-v3-ga-quality-realtime-fork",
+      "date": "2026-06-03",
+      "company": "ElevenLabs",
+      "headline": "ElevenLabs v3 GA: explicitly not for real-time (Flash v2.5 ~75ms recommended); quality-vs-latency fork documented in API",
+      "url": "https://elevenlabs.io/blog/eleven-v3",
+      "type": "tech",
+      "status": "developing"
+    },
+    {
+      "id": "full-duplex-bench-v3-disfluency-tool-use",
+      "date": "2026-06-03",
+      "company": "Academic",
+      "headline": "FDB-v3 benchmarks full-duplex agents on tool use under real disfluency; GPT-Realtime leads accuracy (0.600), Gemini Live 3.1 fastest (4.25s); self-correction top failure mode across all systems",
+      "url": "https://arxiv.org/abs/2604.04847",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "microsoft-mai-voice-2-transcribe-build2026",
+      "date": "2026-06-03",
+      "company": "Microsoft",
+      "headline": "Microsoft launches MAI-Voice-2 (TTS, 15+ languages, emotional range incl. whisper) and MAI-Transcribe-1.5 at Build 2026 on Azure AI Foundry",
+      "url": "https://windowsforum.com/threads/microsoft-mai-models-at-build-2026-reasoning-code-voice-and-the-shift-to-model-ownership.421643/",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "microsoft-project-solara-voice-hardware",
+      "date": "2026-06-03",
+      "company": "Microsoft",
+      "headline": "Project Solara: agent-first hardware OS for voice-primary devices (smart badge, display), Azure cloud inference, Target/CVS/Best Buy pilots",
+      "url": "https://thenextweb.com/news/microsoft-project-solara-agent-first-devices-build-2026",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "bland-ai-production-latency-gap",
+      "date": "2026-06-04",
+      "company": "Bland AI",
+      "headline": "Developer field signal: Bland AI real-world P50 ~800ms vs. claimed sub-400ms; 800ms threshold consistently cited as user churn point",
+      "url": "https://www.retellai.com/blog/bland-vs-synthflow",
+      "type": "customer_signal",
+      "status": "new"
+    },
+    {
+      "id": "microsoft-mai-transcribe-15",
+      "date": "2026-06-04",
+      "company": "Microsoft",
+      "headline": "MAI-Transcribe-1.5 at Build 2026: improved accuracy and noise robustness; pairs with MAI-Voice-2 as integrated STT+TTS stack in Azure Foundry",
+      "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/new-mai-models-in-microsoft-foundry-across-text-image-voice-and-speech/4524632",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "microsoft-mai-voice-2",
+      "date": "2026-06-04",
+      "company": "Microsoft",
+      "headline": "MAI-Voice-2 at Build 2026: 15 languages, emotion registers (angry/joyful/whispered), zero-shot cloning, edge inference, $22/1M chars; 72% preferred over predecessor",
+      "url": "https://microsoft.ai/news/mai-voice-2expressive-speech-in-10-languages/",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "microsoft-project-solara",
+      "date": "2026-06-04",
+      "company": "Microsoft",
+      "headline": "Project Solara: agent-first OS for wearable+desk devices where voice is primary interface; pilots at Best Buy, CVS Health, Target",
+      "url": "https://thenextweb.com/news/microsoft-project-solara-agent-first-devices-build-2026",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "miso-one-8b-open-source-tts",
+      "date": "2026-06-04",
+      "company": "Miso Labs",
+      "headline": "Miso One: open-weights 8B TTS with 110ms latency, one-shot voice cloning, emotional range; free on GitHub",
+      "url": "https://github.com/MisoLabsAI/MisoTTS",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "voice-agent-testing-tooling-category",
+      "date": "2026-06-04",
+      "company": "Bluejay/Coval/Cekura/Maxim/Hamming",
+      "headline": "Voice agent testing tooling now a named category: 7+ platforms with audio-specific scoring (mispronunciation, pipeline latency, barge-in timing)",
+      "url": "https://hackernoon.com/7-of-the-best-voice-agent-testing-platforms-in-2026",
+      "type": "tech",
+      "status": "new"
+    }
   ],
   "themes": [
-    { "since": "2026-05-30", "theme": "Value shifting up-stack to orchestration/reliability (Vapi, LiveKit); raw TTS/STT commoditizing.", "direction": "up" },
-    { "since": "2026-05-30", "theme": "Real-time competition is about latency + turn-taking + interruption, not voice quality (Deepgram Flux, AssemblyAI streaming, Cartesia Sonic).", "direction": "up" },
-    { "since": "2026-05-30", "theme": "Retrieval latency emerging as the next named bottleneck for voice agents (Garry Tan / Moss).", "direction": "emerging" },
-    { "since": "2026-05-30", "theme": "Speech-to-speech models (gpt-realtime) collapsing the STT->LLM->TTS chain; pressure on pure-play vendors.", "direction": "up" },
-    { "since": "2026-05-30", "theme": "Function/tool-calling accuracy in voice becoming a key benchmark axis (ComplexFuncBench).", "direction": "emerging" },
-    { "since": "2026-05-30", "theme": "Consumer voice apps (Sesame) testing voice-as-destination vs voice-as-feature.", "direction": "watch" }
+    {
+      "since": "2026-05-30",
+      "theme": "Value shifting up-stack to orchestration/reliability (Vapi, LiveKit); raw TTS/STT commoditizing.",
+      "direction": "up"
+    },
+    {
+      "since": "2026-05-30",
+      "theme": "Real-time competition is about latency + turn-taking + interruption, not voice quality (Deepgram Flux, AssemblyAI streaming, Cartesia Sonic).",
+      "direction": "up"
+    },
+    {
+      "since": "2026-05-30",
+      "theme": "Retrieval latency emerging as the next named bottleneck for voice agents (Garry Tan / Moss).",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-05-30",
+      "theme": "Speech-to-speech models (gpt-realtime) collapsing the STT->LLM->TTS chain; pressure on pure-play vendors.",
+      "direction": "up"
+    },
+    {
+      "since": "2026-05-30",
+      "theme": "Function/tool-calling accuracy in voice becoming a key benchmark axis (ComplexFuncBench).",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-05-30",
+      "theme": "Consumer voice apps (Sesame) testing voice-as-destination vs voice-as-feature.",
+      "direction": "watch"
+    },
+    {
+      "since": "2026-05-30",
+      "theme": "Real-time competition is about latency + turn-taking + interruption, not voice quality.",
+      "direction": "up"
+    },
+    {
+      "since": "2026-05-30",
+      "theme": "Retrieval latency emerging as a named bottleneck for voice agents (Garry Tan / Moss).",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-05-30",
+      "theme": "Speech-to-speech models collapsing the STT->LLM->TTS chain; pressure on pure-play vendors.",
+      "direction": "up"
+    },
+    {
+      "since": "2026-05-30",
+      "theme": "Function/tool-calling accuracy in voice becoming a key benchmark axis.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-06-01",
+      "theme": "Interactivity-as-architecture (not software harness) emerging as differentiation axis; full-duplex quality gap vs raw latency gap (TML).",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-06-01",
+      "theme": "xAI price pressure ($3/hr Grok Voice) forcing value-justification at OpenAI Realtime-2 price points.",
+      "direction": "up"
+    },
+    {
+      "since": "2026-06-01",
+      "theme": "Full-stack bundling (STT+LLM+TTS under one key via LiveKit/Deepgram/AssemblyAI) becoming the developer default; orchestration layers as assembly points.",
+      "direction": "up"
+    },
+    {
+      "since": "2026-06-01",
+      "theme": "Recovery loop (error handling, rollback, escalation) named by builders as the real defensibility gap in voice agents.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-06-02",
+      "theme": "Latency consistency (IQR / tail latency) emerging as the key production metric above raw P50 speed.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-05-30",
+      "theme": "Speech-to-speech models collapsing the STT->LLM->TTS chain; S2S cost barrier falling fast (Gemini Live $0.00165/min).",
+      "direction": "up"
+    },
+    {
+      "since": "2026-05-30",
+      "theme": "Consumer voice apps (Sesame) testing voice-as-destination; turn-taking quality is what users praise.",
+      "direction": "watch"
+    },
+    {
+      "since": "2026-06-02",
+      "theme": "Microsoft building in-house voice stack (MAI series) \u2014 platform risk for pure-play TTS/STT vendors serving Azure enterprise.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-05-30",
+      "theme": "Retrieval latency and session context persistence emerging as named bottlenecks for voice agents (Garry Tan / Moss; Solara dev community).",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-05-30",
+      "theme": "Function/tool-calling accuracy in voice becoming a key benchmark axis (ComplexFuncBench, FDB-v3); self-correction under disfluency now the top named failure mode.",
+      "direction": "up"
+    },
+    {
+      "since": "2026-06-03",
+      "theme": "Big Tech (Microsoft MAI-Voice-2, MAI-Transcribe-1.5) entering voice infra as bundled Azure services; compressing margin window for pure-play STT/TTS vendors.",
+      "direction": "up"
+    },
+    {
+      "since": "2026-06-03",
+      "theme": "Voice as primary hardware I/O (Project Solara smart badge/display) signaling enterprise device market; watch retail + healthcare verticals.",
+      "direction": "watch"
+    },
+    {
+      "since": "2026-06-03",
+      "theme": "TTS market bifurcating: expressive/high-fidelity models (ElevenLabs v3) vs. real-time models (Flash v2.5, Cartesia Sonic) as distinct product categories.",
+      "direction": "up"
+    },
+    {
+      "since": "2026-05-30",
+      "theme": "Real-time competition is about latency + turn-taking + interruption, not voice quality (Deepgram Flux, AssemblyAI streaming, Cartesia Sonic 4 at 40ms TTFA).",
+      "direction": "up"
+    },
+    {
+      "since": "2026-05-30",
+      "theme": "Retrieval latency emerging as the next named bottleneck for voice agents (Garry Tan / Moss; YC hackathon June 6-7).",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-06-04",
+      "theme": "Open-source TTS (Voxtral, MOSS-TTS-Nano, Miso One) running sustained release cadence; demolishing commercial TTS pricing floor in the mid-tier.",
+      "direction": "up"
+    },
+    {
+      "since": "2026-06-04",
+      "theme": "Microsoft entering full-stack voice AI (MAI-Voice-2 + MAI-Transcribe-1.5 + Solara) changes enterprise procurement dynamics for specialist TTS/STT vendors.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-06-04",
+      "theme": "Voice agent evaluation/testing tooling (Bluejay, Coval, Cekura, Maxim) becoming production-critical infrastructure as production latency gaps emerge.",
+      "direction": "up"
+    },
+    {
+      "since": "2026-06-04",
+      "theme": "Agent-first device platforms (Project Solara) positioning voice as the default enterprise computing interface \u2014 TAM expansion signal.",
+      "direction": "emerging"
+    }
   ],
-  "last_run": "2026-05-30",
+  "last_run": "2026-06-04",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
