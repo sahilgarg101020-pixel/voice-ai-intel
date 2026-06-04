@@ -251,6 +251,24 @@
       "url": "https://hackernoon.com/7-of-the-best-voice-agent-testing-platforms-in-2026",
       "type": "tech",
       "status": "new"
+    },
+    {
+      "id": "audiohijack-voice-agent-hidden-audio-attack",
+      "date": "2026-06-04",
+      "company": "Academic / IEEE S&P",
+      "headline": "AudioHijack: inaudible adversarial audio in podcasts/videos hijacks voice AI agents into tool-call execution; 79–96% success rate on Azure and Mistral systems",
+      "url": "https://spectrum.ieee.org/voice-ai-audio-attacks",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "aethexai-3m-preseed-africa-mideast",
+      "date": "2026-06-04",
+      "company": "AethexAI",
+      "headline": "AethexAI raises $3M pre-seed to deploy Kora 1 voice models for Africa and the Middle East — trained on local call centers, radio, content; targets 1.5B+ underserved users",
+      "url": "https://techcrunch.com/2026/06/03/these-two-founders-left-goldman-and-meta-to-build-voice-ai-for-markets-everyone-else-overlooked/",
+      "type": "funding",
+      "status": "new"
     }
   ],
   "themes": [
@@ -398,6 +416,16 @@
       "since": "2026-06-04",
       "theme": "Agent-first device platforms (Project Solara) positioning voice as the default enterprise computing interface \u2014 TAM expansion signal.",
       "direction": "emerging"
+    },
+    {
+      "since": "2026-06-04",
+      "theme": "Voice AI security surface now production-critical: AudioHijack shows inaudible adversarial audio can hijack agents via ambient sound; expect audio-layer sandboxing to become a named evaluation axis.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-06-04",
+      "theme": "Geographic white space in voice AI: underserved markets (Africa, Middle East, South/SE Asia) require localized training data and noise-robustness that off-the-shelf models fail to provide.",
+      "direction": "watch"
     }
   ],
   "last_run": "2026-06-04",
