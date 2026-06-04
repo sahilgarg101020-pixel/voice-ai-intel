@@ -136,13 +136,13 @@
       "status": "new"
     },
     {
-      "id": "microsoft-build-mai-voice2-transcribe15",
+      "id": "microsoft-mai-voice-2",
       "date": "2026-06-02",
       "company": "Microsoft",
       "headline": "Microsoft Build 2026: MAI-Voice 2 (15+ languages, wider emotion) and MAI-Transcribe 1.5 announced",
       "url": "https://windowsforum.com/threads/microsoft-build-2026-mai-image-2-5-mai-voice-2-and-mai-transcribe-1-5.420924/",
       "type": "market",
-      "status": "new"
+      "status": "developing"
     },
     {
       "id": "s2s-gemini-live-cost-disruption",
@@ -181,21 +181,30 @@
       "status": "new"
     },
     {
-      "id": "microsoft-mai-voice-2-transcribe-build2026",
-      "date": "2026-06-03",
-      "company": "Microsoft",
-      "headline": "Microsoft launches MAI-Voice-2 (TTS, 15+ languages, emotional range incl. whisper) and MAI-Transcribe-1.5 at Build 2026 on Azure AI Foundry",
-      "url": "https://windowsforum.com/threads/microsoft-mai-models-at-build-2026-reasoning-code-voice-and-the-shift-to-model-ownership.421643/",
-      "type": "market",
-      "status": "new"
-    },
-    {
-      "id": "microsoft-project-solara-voice-hardware",
+      "id": "microsoft-project-solara",
       "date": "2026-06-03",
       "company": "Microsoft",
       "headline": "Project Solara: agent-first hardware OS for voice-primary devices (smart badge, display), Azure cloud inference, Target/CVS/Best Buy pilots",
       "url": "https://thenextweb.com/news/microsoft-project-solara-agent-first-devices-build-2026",
       "type": "market",
+      "status": "developing"
+    },
+    {
+      "id": "aethexai-3m-preseed-africa-mideast",
+      "date": "2026-06-04",
+      "company": "AethexAI",
+      "headline": "AethexAI raises $3M pre-seed to deploy Kora 1 voice models for Africa and the Middle East \u2014 trained on local call centers, radio, content; targets 1.5B+ underserved users",
+      "url": "https://techcrunch.com/2026/06/03/these-two-founders-left-goldman-and-meta-to-build-voice-ai-for-markets-everyone-else-overlooked/",
+      "type": "funding",
+      "status": "new"
+    },
+    {
+      "id": "audiohijack-voice-agent-hidden-audio-attack",
+      "date": "2026-06-04",
+      "company": "Academic / IEEE S&P",
+      "headline": "AudioHijack: inaudible adversarial audio in podcasts/videos hijacks voice AI agents into tool-call execution; 79\u201396% success rate on Azure and Mistral systems",
+      "url": "https://spectrum.ieee.org/voice-ai-audio-attacks",
+      "type": "tech",
       "status": "new"
     },
     {
@@ -208,30 +217,12 @@
       "status": "new"
     },
     {
-      "id": "microsoft-mai-transcribe-15",
+      "id": "microsoft-mai-transcribe-1-5",
       "date": "2026-06-04",
       "company": "Microsoft",
       "headline": "MAI-Transcribe-1.5 at Build 2026: improved accuracy and noise robustness; pairs with MAI-Voice-2 as integrated STT+TTS stack in Azure Foundry",
       "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/new-mai-models-in-microsoft-foundry-across-text-image-voice-and-speech/4524632",
       "type": "tech",
-      "status": "new"
-    },
-    {
-      "id": "microsoft-mai-voice-2",
-      "date": "2026-06-04",
-      "company": "Microsoft",
-      "headline": "MAI-Voice-2 at Build 2026: 15 languages, emotion registers (angry/joyful/whispered), zero-shot cloning, edge inference, $22/1M chars; 72% preferred over predecessor",
-      "url": "https://microsoft.ai/news/mai-voice-2expressive-speech-in-10-languages/",
-      "type": "tech",
-      "status": "new"
-    },
-    {
-      "id": "microsoft-project-solara",
-      "date": "2026-06-04",
-      "company": "Microsoft",
-      "headline": "Project Solara: agent-first OS for wearable+desk devices where voice is primary interface; pilots at Best Buy, CVS Health, Target",
-      "url": "https://thenextweb.com/news/microsoft-project-solara-agent-first-devices-build-2026",
-      "type": "market",
       "status": "new"
     },
     {
@@ -250,24 +241,6 @@
       "headline": "Voice agent testing tooling now a named category: 7+ platforms with audio-specific scoring (mispronunciation, pipeline latency, barge-in timing)",
       "url": "https://hackernoon.com/7-of-the-best-voice-agent-testing-platforms-in-2026",
       "type": "tech",
-      "status": "new"
-    },
-    {
-      "id": "audiohijack-voice-agent-hidden-audio-attack",
-      "date": "2026-06-04",
-      "company": "Academic / IEEE S&P",
-      "headline": "AudioHijack: inaudible adversarial audio in podcasts/videos hijacks voice AI agents into tool-call execution; 79–96% success rate on Azure and Mistral systems",
-      "url": "https://spectrum.ieee.org/voice-ai-audio-attacks",
-      "type": "tech",
-      "status": "new"
-    },
-    {
-      "id": "aethexai-3m-preseed-africa-mideast",
-      "date": "2026-06-04",
-      "company": "AethexAI",
-      "headline": "AethexAI raises $3M pre-seed to deploy Kora 1 voice models for Africa and the Middle East — trained on local call centers, radio, content; targets 1.5B+ underserved users",
-      "url": "https://techcrunch.com/2026/06/03/these-two-founders-left-goldman-and-meta-to-build-voice-ai-for-markets-everyone-else-overlooked/",
-      "type": "funding",
       "status": "new"
     }
   ],

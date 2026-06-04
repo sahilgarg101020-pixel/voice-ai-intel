@@ -56,12 +56,29 @@ positioning shifts. **Funding**: note briefly unless the round signals a strateg
   If the API returns 403/usage-cap, skip Twitter and rely on web search — never fail the run.
 - WebSearch + WebFetch for news, blogs, podcasts, community threads.
 
-## Step 2 — Dedupe & classify
-Build a normalized id (lowercased headline or canonical URL) for each candidate.
-- Already in `tracker.json.reported_items` with no new development → **drop it**.
-- Reported before but genuinely new movement → include as a **"developing"** update, framed
-  explicitly as an update ("Update on X: …"), never a repeat.
-- Brand new → **"new"**.
+## Step 2 — Dedupe & classify (READ THIS CAREFULLY — this is where the brief usually fails)
+Dedup is **semantic**, not string-matching. The same story will have a different headline/URL each
+day, so matching on those fails. Match on the underlying **entity + event**.
+
+**Canonical id rule.** For each candidate, build a STABLE id from `company-slug` + `product/event-slug`
+ONLY — never from the headline, date, or URL. Examples that must always produce the SAME id no matter
+the wording: "Microsoft MAI-Voice 2 launch", "MAI-Voice-2 priced at $22/1M", "MAI-Voice 2 adds emotion"
+→ all `microsoft-mai-voice-2`. "Cartesia Sonic 3.5" → `cartesia-sonic-3-5`. If a plausible id already
+exists in `reported_items`, REUSE that exact id — do not coin a new variant.
+
+**Decision per candidate:**
+- **Same story already in `reported_items`** (match by company + product/event, even if id text or
+  headline differs) → it is NOT new. By default **drop it**. It may appear ONLY as a single
+  one-line "developing" note inside *Where the puck is going* or *Watchlist*, and ONLY if there is
+  genuinely material new fact (e.g. price revealed, GA date, benchmark number) — framed as
+  "Update: …". It must **NEVER** be a TLDR bullet or the lead of the brief again.
+- **Brand new** (no matching company+event in `reported_items`) → eligible for TLDR, status `new`.
+
+**Hard rule:** Before finalizing, cross-check every TLDR bullet against `reported_items`. If the
+story's company+event already appears there from any prior day, delete that bullet from the TLDR.
+A TLDR may only contain genuinely new (not-previously-reported) items. If after this filter you have
+fewer than 3 new items, that's fine — write a shorter "quiet cycle" brief rather than recycling old
+launches as if they were news.
 
 ## Step 3 — Write the brief (target 500–800 words, hard cap 900)
 Four sections, in this order:
