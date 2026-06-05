@@ -242,6 +242,33 @@
       "url": "https://hackernoon.com/7-of-the-best-voice-agent-testing-platforms-in-2026",
       "type": "tech",
       "status": "new"
+    },
+    {
+      "id": "smallest-ai-pulse-stt-benchmarks",
+      "date": "2026-06-05",
+      "company": "Smallest AI",
+      "headline": "Pulse Pro: #1 hosted STT on CodeSOTA (5.42% HF mean WER), 3.2% on Coval agent benchmark vs Deepgram Nova-3 4.2%; heavy-noise WER 18.3% vs 25.6% (AssemblyAI) vs 31.3% (Deepgram) — 13-point production-condition gap hidden by aggregate WER",
+      "url": "https://smallest.ai/blog/pulse-stt-vs-deepgram-%E2%80%94-the-real-time-speech-to-text-showdown-for-2026",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "elevenlabs-speech-engine",
+      "date": "2026-06-05",
+      "company": "ElevenLabs",
+      "headline": "ElevenLabs Speech Engine: BYOL voice-session layer for chat agents — EL handles STT, turn-taking, TTS via WebSocket; developer server owns agent logic; 70+ languages, HIPAA/SOC2",
+      "url": "https://elevenlabs.io/speech-engine",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "deepgram-fortanix-nvidia-confidential-computing",
+      "date": "2026-06-05",
+      "company": "Deepgram",
+      "headline": "Deepgram + Fortanix + NVIDIA: on-prem voice AI in hardware-isolated TEE; audio and model weights encrypted in-use; first pre-integrated confidential-computing voice stack for regulated industries",
+      "url": "https://www.businesswire.com/news/home/20260601578779/en/Deepgram-Delivers-Private-Voice-AI-to-Regulated-Industries-with-On-Premises-Deployments-Powered-by-Fortanix-Confidential-AI-and-NVIDIA-Confidential-Computing",
+      "type": "tech",
+      "status": "new"
     }
   ],
   "themes": [
@@ -399,8 +426,23 @@
       "since": "2026-06-04",
       "theme": "Geographic white space in voice AI: underserved markets (Africa, Middle East, South/SE Asia) require localized training data and noise-robustness that off-the-shelf models fail to provide.",
       "direction": "watch"
+    },
+    {
+      "since": "2026-06-05",
+      "theme": "STT benchmark methodology under scrutiny: aggregate WER masking production-condition gaps of 10+ points; noise resilience and per-condition scoring emerging as the real procurement metric.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-06-05",
+      "theme": "ElevenLabs repositioning from TTS vendor to voice session infrastructure (Speech Engine BYOL); strategic bet on owning the voice wrapper for the LLM-native agent ecosystem.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-06-05",
+      "theme": "Data sovereignty / compliance becoming a named voice AI moat: first confidential-computing voice stack (Deepgram+Fortanix+NVIDIA) signals regulated-industry procurement criteria hardening.",
+      "direction": "emerging"
     }
   ],
-  "last_run": "2026-06-04",
+  "last_run": "2026-06-05",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
