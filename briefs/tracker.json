@@ -269,6 +269,33 @@
       "url": "https://www.businesswire.com/news/home/20260601578779/en/Deepgram-Delivers-Private-Voice-AI-to-Regulated-Industries-with-On-Premises-Deployments-Powered-by-Fortanix-Confidential-AI-and-NVIDIA-Confidential-Computing",
       "type": "tech",
       "status": "new"
+    },
+    {
+      "id": "apple-siri-ios27-gemini-wwdc2026",
+      "date": "2026-06-08",
+      "company": "Apple / Google",
+      "headline": "Apple WWDC 2026: Siri rebuilt ('Campo') on custom 1.2T-parameter Gemini model (~$1B/year deal); natural-language Voice Control, cross-app task chaining, multi-provider AI panel (Siri/Gemini/Claude) in iOS 27",
+      "url": "https://www.macrumors.com/guide/wwdc-2026-what-to-expect/",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "soniox-tencent-cloud-partnership",
+      "date": "2026-06-08",
+      "company": "Soniox / Tencent Cloud",
+      "headline": "Soniox STT (60+ languages, sub-200ms, mid-sentence language switching, $0.12/hr) integrated with Tencent Cloud TRTC across 200+ countries; also added as Retell AI sub-processor June 1",
+      "url": "https://www.prnewswire.com/apac/news-releases/tencent-cloud-and-soniox-announce-strategic-partnership-combining-advanced-speech-to-text-stt-technology-with-global-real-time-infrastructure-302786832.html",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "tool-sprawl-orchestration-community-signal",
+      "date": "2026-06-08",
+      "company": "Community",
+      "headline": "Developer signal (X, June 8): 'the real problem with multimodal agent work is tool sprawl — one command for OCR, another for transcription, another for TTS, another for provider fallback' — reinforces full-stack bundling trend",
+      "url": "https://x.com",
+      "type": "customer_signal",
+      "status": "new"
     }
   ],
   "themes": [
@@ -441,8 +468,23 @@
       "since": "2026-06-05",
       "theme": "Data sovereignty / compliance becoming a named voice AI moat: first confidential-computing voice stack (Deepgram+Fortanix+NVIDIA) signals regulated-industry procurement criteria hardening.",
       "direction": "emerging"
+    },
+    {
+      "since": "2026-06-08",
+      "theme": "Platform players (Apple) choosing third-party AI for voice (Gemini ~$1B/year) rather than building in-house; validates specialist voice AI infrastructure market — no one is 'just going to build this themselves.'",
+      "direction": "up"
+    },
+    {
+      "since": "2026-06-08",
+      "theme": "STT competitive map fragmenting below headline names: regional specialists (Soniox, sub-processors) accumulating production deployments in non-English-primary markets before aggregate numbers reflect it.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-06-08",
+      "theme": "Multi-provider AI consumer panels (iOS 27: Siri/Gemini/Claude in one interface) reducing single-assistant lock-in; builder opportunity in voice-aware app integrations via new platform APIs.",
+      "direction": "watch"
     }
   ],
-  "last_run": "2026-06-05",
+  "last_run": "2026-06-08",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
