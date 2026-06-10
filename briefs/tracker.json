@@ -332,6 +332,42 @@
       "url": "https://x.com",
       "type": "customer_signal",
       "status": "new"
+    },
+    {
+      "id": "alibaba-fun-realtime-tts-aa-1",
+      "date": "2026-06-10",
+      "company": "Alibaba",
+      "headline": "Alibaba Fun-Realtime-TTS takes #1 on Artificial Analysis Speech Arena (Elo 1,219), beating Google Gemini 3.1 Flash TTS (1,214) and Inworld Realtime TTS-2 (1,209) at $27.6/1M chars — first major Chinese cloud platform atop western-facing TTS leaderboard",
+      "url": "https://artificialanalysis.ai/articles/fun-realtime-tts-new-text-to-speech-model-topping-artificial-analysis-leaderboard",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "cartesia-ink-2-stt-streaming",
+      "date": "2026-06-10",
+      "company": "Cartesia",
+      "headline": "Cartesia Ink-2 streaming STT launches, debuts #1 on Artificial Analysis AA-WER Streaming leaderboard; native semantic turn detection (turn.eager_end for LLM head start), no external VAD — Cartesia now has Sonic TTS + Ink STT full session stack",
+      "url": "https://www.cartesia.ai/ink/",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "boson-ai-higgs-audio-v3-tts",
+      "date": "2026-06-10",
+      "company": "Boson AI",
+      "headline": "Higgs Audio v3 TTS (June 4): open-weights 4B model, 102 languages, 21 emotion types, zero-shot voice cloning, >10x real-time on H100 (RTF 0.26); free on Hugging Face under non-commercial license",
+      "url": "https://www.boson.ai/blog/higgs-audio-v3-tts",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "d2c-3m-calls-production-scale",
+      "date": "2026-06-10",
+      "company": "Community",
+      "headline": "D2C operator signal (X, June 9): AI voice agent at 3M calls/month within 9 months of launch, 3x growth in last 3 months — most concrete independent production scale signal this cycle",
+      "url": "https://x.com",
+      "type": "customer_signal",
+      "status": "new"
     }
   ],
   "themes": [
@@ -529,8 +565,23 @@
       "since": "2026-06-09",
       "theme": "Telephony (phone calling via SIP/Twilio) emerging as the primary voice agent deployment surface; SIP infrastructure costs hidden from all published API pricing models — a real production COGS blind spot.",
       "direction": "emerging"
+    },
+    {
+      "since": "2026-06-10",
+      "theme": "TTS commoditization accelerating from both ends: hyperscalers (Alibaba Fun-Realtime-TTS #1 on AA Speech Arena) and open-source (Higgs v3, Miso One, MOSS-TTS-Nano) compressing mid-tier pricing floor; defensible value shifting up-stack.",
+      "direction": "up"
+    },
+    {
+      "since": "2026-06-10",
+      "theme": "Session-stack race crystallizing: ElevenLabs (bundling + telephony + developer lock-in) vs Cartesia (raw latency + native turn detection + semantic endpointing) as two distinct full-stack approaches competing for the voice plumbing layer around every LLM.",
+      "direction": "up"
+    },
+    {
+      "since": "2026-06-10",
+      "theme": "Benchmark proliferation: AA now runs 3 distinct voice evals (AA-WER agent-specific, Speech Arena TTS quality, AA-WER Streaming); different leaders on each — benchmark literacy becoming a required builder skill for vendor procurement.",
+      "direction": "emerging"
     }
   ],
-  "last_run": "2026-06-09",
+  "last_run": "2026-06-10",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
