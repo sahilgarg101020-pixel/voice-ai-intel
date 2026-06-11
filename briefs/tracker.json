@@ -368,6 +368,24 @@
       "url": "https://x.com",
       "type": "customer_signal",
       "status": "new"
+    },
+    {
+      "id": "google-gemini-3.5-live-translate",
+      "date": "2026-06-11",
+      "company": "Google",
+      "headline": "Gemini 3.5 Live Translate: near real-time S2S translation, 70+ languages, auto-detects language, preserves speaker intonation/pacing, $0.023/min — available in Gemini Live API, AI Studio, Google Translate, Google Meet preview",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "nvidia-nemotron-3.5-asr",
+      "date": "2026-06-11",
+      "company": "NVIDIA",
+      "headline": "Nemotron 3.5 ASR: open-source, 600M param, 40-language streaming STT, configurable latency 80ms–1.12s with zero WER penalty, fine-tunable, self-hostable — highest developer bookmark rate of any ASR release this cycle",
+      "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b",
+      "type": "tech",
+      "status": "new"
     }
   ],
   "themes": [
@@ -402,26 +420,6 @@
       "direction": "watch"
     },
     {
-      "since": "2026-05-30",
-      "theme": "Real-time competition is about latency + turn-taking + interruption, not voice quality.",
-      "direction": "up"
-    },
-    {
-      "since": "2026-05-30",
-      "theme": "Retrieval latency emerging as a named bottleneck for voice agents (Garry Tan / Moss).",
-      "direction": "emerging"
-    },
-    {
-      "since": "2026-05-30",
-      "theme": "Speech-to-speech models collapsing the STT->LLM->TTS chain; pressure on pure-play vendors.",
-      "direction": "up"
-    },
-    {
-      "since": "2026-05-30",
-      "theme": "Function/tool-calling accuracy in voice becoming a key benchmark axis.",
-      "direction": "emerging"
-    },
-    {
       "since": "2026-06-01",
       "theme": "Interactivity-as-architecture (not software harness) emerging as differentiation axis; full-duplex quality gap vs raw latency gap (TML).",
       "direction": "emerging"
@@ -452,34 +450,9 @@
       "direction": "up"
     },
     {
-      "since": "2026-05-30",
-      "theme": "Consumer voice apps (Sesame) testing voice-as-destination; turn-taking quality is what users praise.",
-      "direction": "watch"
-    },
-    {
       "since": "2026-06-02",
-      "theme": "Microsoft building in-house voice stack (MAI series) \u2014 platform risk for pure-play TTS/STT vendors serving Azure enterprise.",
+      "theme": "Microsoft building in-house voice stack (MAI series) — platform risk for pure-play TTS/STT vendors serving Azure enterprise.",
       "direction": "emerging"
-    },
-    {
-      "since": "2026-05-30",
-      "theme": "Retrieval latency and session context persistence emerging as named bottlenecks for voice agents (Garry Tan / Moss; Solara dev community).",
-      "direction": "emerging"
-    },
-    {
-      "since": "2026-05-30",
-      "theme": "Function/tool-calling accuracy in voice becoming a key benchmark axis (ComplexFuncBench, FDB-v3); self-correction under disfluency now the top named failure mode.",
-      "direction": "up"
-    },
-    {
-      "since": "2026-06-03",
-      "theme": "Big Tech (Microsoft MAI-Voice-2, MAI-Transcribe-1.5) entering voice infra as bundled Azure services; compressing margin window for pure-play STT/TTS vendors.",
-      "direction": "up"
-    },
-    {
-      "since": "2026-06-03",
-      "theme": "Voice as primary hardware I/O (Project Solara smart badge/display) signaling enterprise device market; watch retail + healthcare verticals.",
-      "direction": "watch"
     },
     {
       "since": "2026-06-03",
@@ -487,34 +460,14 @@
       "direction": "up"
     },
     {
-      "since": "2026-05-30",
-      "theme": "Real-time competition is about latency + turn-taking + interruption, not voice quality (Deepgram Flux, AssemblyAI streaming, Cartesia Sonic 4 at 40ms TTFA).",
-      "direction": "up"
-    },
-    {
-      "since": "2026-05-30",
-      "theme": "Retrieval latency emerging as the next named bottleneck for voice agents (Garry Tan / Moss; YC hackathon June 6-7).",
-      "direction": "emerging"
-    },
-    {
       "since": "2026-06-04",
-      "theme": "Open-source TTS (Voxtral, MOSS-TTS-Nano, Miso One) running sustained release cadence; demolishing commercial TTS pricing floor in the mid-tier.",
+      "theme": "Open-source TTS (Voxtral, MOSS-TTS-Nano, Miso One, Higgs v3) running sustained release cadence; demolishing commercial TTS pricing floor in the mid-tier.",
       "direction": "up"
-    },
-    {
-      "since": "2026-06-04",
-      "theme": "Microsoft entering full-stack voice AI (MAI-Voice-2 + MAI-Transcribe-1.5 + Solara) changes enterprise procurement dynamics for specialist TTS/STT vendors.",
-      "direction": "emerging"
     },
     {
       "since": "2026-06-04",
       "theme": "Voice agent evaluation/testing tooling (Bluejay, Coval, Cekura, Maxim) becoming production-critical infrastructure as production latency gaps emerge.",
       "direction": "up"
-    },
-    {
-      "since": "2026-06-04",
-      "theme": "Agent-first device platforms (Project Solara) positioning voice as the default enterprise computing interface \u2014 TAM expansion signal.",
-      "direction": "emerging"
     },
     {
       "since": "2026-06-04",
@@ -552,11 +505,6 @@
       "direction": "emerging"
     },
     {
-      "since": "2026-06-08",
-      "theme": "Multi-provider AI consumer panels (iOS 27: Siri/Gemini/Claude in one interface) reducing single-assistant lock-in; builder opportunity in voice-aware app integrations via new platform APIs.",
-      "direction": "watch"
-    },
-    {
       "since": "2026-06-09",
       "theme": "ElevenLabs assembling full voice session stack (Scribe v2 Realtime STT + Speech Engine + Flash TTS + ElevenAgents telephony); session-level competition displacing individual model benchmarks as the purchasing axis.",
       "direction": "up"
@@ -580,8 +528,18 @@
       "since": "2026-06-10",
       "theme": "Benchmark proliferation: AA now runs 3 distinct voice evals (AA-WER agent-specific, Speech Arena TTS quality, AA-WER Streaming); different leaders on each — benchmark literacy becoming a required builder skill for vendor procurement.",
       "direction": "emerging"
+    },
+    {
+      "since": "2026-06-11",
+      "theme": "Real-time S2S translation commoditizing: Google (Gemini 3.5 Live Translate, $0.023/min) and OpenAI (GPT-Realtime-Translate, $0.034/min) both launched within 5 weeks; translation-as-API-layer becoming table stakes for any multilingual voice stack.",
+      "direction": "up"
+    },
+    {
+      "since": "2026-06-11",
+      "theme": "Open-source pressure expanding from TTS into STT: NVIDIA Nemotron 3.5 ASR (600M, 40 languages, fine-tunable) closes the self-hosted streaming STT gap; commercial STT moat compressing to session/orchestration layer.",
+      "direction": "up"
     }
   ],
-  "last_run": "2026-06-10",
+  "last_run": "2026-06-11",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
