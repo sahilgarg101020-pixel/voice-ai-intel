@@ -386,6 +386,51 @@
       "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b",
       "type": "tech",
       "status": "new"
+    },
+    {
+      "id": "deepgram-batch-diarization-v2",
+      "date": "2026-06-12",
+      "company": "Deepgram",
+      "headline": "Deepgram Batch Diarization V2: 3.3x human-preferred, ~80% median CER reduction on contact-center audio; word-level speaker labels (vs turn-level); new diarize_model parameter; self-hosted default in release 260514+",
+      "url": "https://deepgram.com/learn/nextgen-speaker-diarization-and-language-detection-models",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "voice-cloning-teams-enterprise-attack-2026",
+      "date": "2026-06-12",
+      "company": "Security / Industry",
+      "headline": "AI voice cloning weaponized for enterprise Teams attacks: real-time clones from seconds of audio, indistinguishable at scale; Teams cross-tenant feature exploited; 442% vishing surge H2 2024; inverse of AudioHijack — AI voice used to attack humans, not AI agents",
+      "url": "https://thehackernews.com/expert-insights/2026/06/how-attackers-are-adding-ai-voice.html",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "deepgram-restaurant-enterprise-voice-deployment",
+      "date": "2026-06-12",
+      "company": "Deepgram",
+      "headline": "Deepgram reveals two major QSR enterprise deployments (fried chicken, pastry chain): STT+TTS+S2S fine-tuned on menu vocab/acoustics, drive-through noise filtering, live menu sync, cart-building logic, per-order sentiment scoring, forward-deployed engineering — no API template survives real enterprise voice",
+      "url": "https://deepgram.com/learn/enterprise-restaurant-brands-deserve-frontier-voice-ai-models",
+      "type": "customer_signal",
+      "status": "new"
+    },
+    {
+      "id": "clinic-turn-detection-csat-signal",
+      "date": "2026-06-12",
+      "company": "Community",
+      "headline": "Clinic builder (X, June 12): 3 weeks optimizing WER — CSAT barely moved; 3 days cutting false interruption rate from 4.2 to 1.1 per call — CSAT jumped 22 points; 'turn-detection latency is the hidden variable nobody talks about'",
+      "url": "https://x.com",
+      "type": "customer_signal",
+      "status": "new"
+    },
+    {
+      "id": "elevenlabs-korea-launch-fortune500",
+      "date": "2026-06-12",
+      "company": "ElevenLabs",
+      "headline": "ElevenLabs establishes Korean operations at STK 2026; reveals 75% Fortune 500 penetration (up from 41% in 2024); Korean partners Naver, Krafton, SBS, ESTsoft; new product updates announced but not yet publicly detailed",
+      "url": "https://elevenlabs.io/blog/expanding-into-korea",
+      "type": "market",
+      "status": "new"
     }
   ],
   "themes": [
@@ -538,8 +583,28 @@
       "since": "2026-06-11",
       "theme": "Open-source pressure expanding from TTS into STT: NVIDIA Nemotron 3.5 ASR (600M, 40 languages, fine-tunable) closes the self-hosted streaming STT gap; commercial STT moat compressing to session/orchestration layer.",
       "direction": "up"
+    },
+    {
+      "since": "2026-06-12",
+      "theme": "Speaker diarization accuracy emerging as next production quality axis: Deepgram Batch V2's 3.3x human-preference / 80% CER reduction exposes how far behind legacy diarizers were on contact-center audio; expect benchmark competition to follow.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-06-12",
+      "theme": "Enterprise voice diverging into platform track (Vapi/Retell/ElevenAgents — developer volume) vs. custom-engineering track (Deepgram QSR/vertical, AethexAI — high ACV); custom track requires forward-deployed engineering, not just API access.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-06-12",
+      "theme": "Voice AI has a two-sided security problem: AI agents vulnerable to inaudible audio hijacking (AudioHijack), AND human employees vulnerable to AI-generated voice impersonation (Teams vishing); both threats live in production — no vendor has published mitigations for either.",
+      "direction": "up"
+    },
+    {
+      "since": "2026-06-12",
+      "theme": "Turn-detection accuracy > WER as the dominant user satisfaction driver: clinic operator data (22-point CSAT jump from false-interruption fix vs no movement from WER optimization) confirms the evaluation framework for production voice agents needs to shift.",
+      "direction": "up"
     }
   ],
-  "last_run": "2026-06-11",
+  "last_run": "2026-06-12",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
