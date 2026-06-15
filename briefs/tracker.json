@@ -431,6 +431,24 @@
       "url": "https://elevenlabs.io/blog/expanding-into-korea",
       "type": "market",
       "status": "new"
+    },
+    {
+      "id": "servicenow-code-switching-asr-benchmark",
+      "date": "2026-06-15",
+      "company": "ServiceNow",
+      "headline": "ServiceNow benchmarks frontier ASR on code-switched speech (4 language pairs, 7 models): ElevenLabs Scribe V2, Gemini 3 Flash, AssemblyAI Universal-3 Pro top leaderboard; monolingual models spike 30-50% WER at language boundaries — first enterprise-sourced bilingual voice agent benchmark",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/code-switching",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "anthropic-cookbook-elevenlabs-reference-stack",
+      "date": "2026-06-15",
+      "company": "Anthropic / ElevenLabs",
+      "headline": "Anthropic official Cookbook recipe specifies ElevenLabs Scribe v2 (STT) + Flash TTS as the reference voice stack for low-latency Claude-based voice apps; ElevenLabs tweet reached 18K impressions — institutional endorsement of ElevenLabs as default voice wrapper around top LLMs",
+      "url": "https://platform.claude.com/cookbook/third-party-elevenlabs-low-latency-stt-claude-tts",
+      "type": "customer_signal",
+      "status": "new"
     }
   ],
   "themes": [
@@ -603,8 +621,18 @@
       "since": "2026-06-12",
       "theme": "Turn-detection accuracy > WER as the dominant user satisfaction driver: clinic operator data (22-point CSAT jump from false-interruption fix vs no movement from WER optimization) confirms the evaluation framework for production voice agents needs to shift.",
       "direction": "up"
+    },
+    {
+      "since": "2026-06-15",
+      "theme": "Code-switching is the next STT frontier: monolingual ASR WER spikes 30-50% at language boundaries; no commercial benchmark existed until ServiceNow built one in-house — signals that multilingual benchmarking (per condition) is now a procurement necessity, not a nice-to-have.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-06-15",
+      "theme": "ElevenLabs winning 'default voice wrapper around top LLMs': Anthropic Cookbook specifies ElevenLabs Scribe + Flash as reference stack for Claude-based voice apps; distribution via developer documentation compounds the session-stack advantage beyond raw benchmark wins.",
+      "direction": "up"
     }
   ],
-  "last_run": "2026-06-12",
+  "last_run": "2026-06-15",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
