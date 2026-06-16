@@ -449,6 +449,24 @@
       "url": "https://platform.claude.com/cookbook/third-party-elevenlabs-low-latency-stt-claude-tts",
       "type": "customer_signal",
       "status": "new"
+    },
+    {
+      "id": "assemblyai-streaming-diarization-v2",
+      "date": "2026-06-16",
+      "company": "AssemblyAI",
+      "headline": "AssemblyAI streaming diarization major upgrade: 51% fewer false-alarm speakers, 80% fewer phantom turns, 82% fewer phantom words vs prior model and Deepgram Nova-3; $0.06/hr add-on via speaker_labels:true WebSocket param — first streaming diarization to eliminate phantom-speaker class of production failure",
+      "url": "https://www.assemblyai.com/blog/streaming-diarization-major-upgrade",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "coval-pipecat-ultravox-instruction-following-2026",
+      "date": "2026-06-16",
+      "company": "Coval / Pipecat / Ultravox",
+      "headline": "Coval 'State of Voice AI Instruction Following 2026' with Pipecat founder Kwindla and Ultravox CEO Zach Koch: intelligence-latency tradeoff is defining production constraint; production stacks stuck on 18-month-old models because voice-specific eval doesn't exist; cascaded vs S2S is the unresolved architecture tension; aiewf-eval is first open-source attempt at voice instruction-following benchmark",
+      "url": "https://www.coval.dev/blog/the-state-of-voice-ai-instruction-following-in-2026-a-conversation-with-kwindla-from-pipecat-and-zach-from-ultravox",
+      "type": "founder_take",
+      "status": "new"
     }
   ],
   "themes": [
@@ -631,8 +649,18 @@
       "since": "2026-06-15",
       "theme": "ElevenLabs winning 'default voice wrapper around top LLMs': Anthropic Cookbook specifies ElevenLabs Scribe + Flash as reference stack for Claude-based voice apps; distribution via developer documentation compounds the session-stack advantage beyond raw benchmark wins.",
       "direction": "up"
+    },
+    {
+      "since": "2026-06-16",
+      "theme": "Instruction following in long multi-turn voice conversations is the next production quality axis — and no production-validated benchmark exists yet; builders stuck on 18-month-old models because evaluation cost of switching is too high without trusted voice-specific evals.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-06-16",
+      "theme": "Diarization accuracy becoming an active competitive battleground: Deepgram Batch V2 (June 12) and AssemblyAI Streaming V2 (June 2) both posted major upgrades eliminating classes of production failure (phantom speakers, phantom turns); vendors now have to benchmark diarization quality, not just WER.",
+      "direction": "up"
     }
   ],
-  "last_run": "2026-06-15",
+  "last_run": "2026-06-16",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
