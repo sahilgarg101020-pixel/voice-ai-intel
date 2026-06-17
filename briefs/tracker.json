@@ -467,6 +467,42 @@
       "url": "https://www.coval.dev/blog/the-state-of-voice-ai-instruction-following-in-2026-a-conversation-with-kwindla-from-pipecat-and-zach-from-ultravox",
       "type": "founder_take",
       "status": "new"
+    },
+    {
+      "id": "bland-ai-series-c-50m",
+      "date": "2026-06-17",
+      "company": "Bland AI",
+      "headline": "Bland AI raises $50M Series C (Dell Technologies Capital lead), surpasses $100M total; 3.5M calls/week, 250+ enterprise clients (Samsara, Kin Insurance, CNO Financial); runs exclusively on proprietary in-house voice models — won't integrate third-party LLMs; targeting regulated industries (healthcare, financial services)",
+      "url": "https://fortune.com/2026/06/16/voice-ai-bland-50-million-after-being-rejected-by-180-investors/",
+      "type": "funding",
+      "status": "new"
+    },
+    {
+      "id": "smallest-ai-30b-voice-agent-efficiency",
+      "date": "2026-06-17",
+      "company": "Smallest AI",
+      "headline": "Smallest AI claims 30B voice agent matches ~600B-param frontier systems on third-party benchmarks; efficiency thesis for production voice — purpose-built small models outperforming general-purpose giants on voice-specific tasks",
+      "url": "https://x.com/smallest_ai",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "deepgram-hlth-europe-healthcare-deployment",
+      "date": "2026-06-17",
+      "company": "Deepgram",
+      "headline": "Deepgram at HLTH Europe: healthcare teams shifting from experimentation to deployment; demand for self-hosted and EU-compliant endpoints; regulated-industry voice deployment maturity signal",
+      "url": "https://x.com/deepgramai",
+      "type": "customer_signal",
+      "status": "new"
+    },
+    {
+      "id": "community-webrtc-vs-websocket-transport-latency",
+      "date": "2026-06-17",
+      "company": "Community",
+      "headline": "Developer signal: WebRTC (UDP/RTP) vs WebSocket (TCP) transport choice is hidden latency bottleneck; 'Voice AI has a ~500ms latency budget. WebSocket pipelines burn most of it before your STT even starts'",
+      "url": "https://x.com",
+      "type": "customer_signal",
+      "status": "new"
     }
   ],
   "themes": [
@@ -659,8 +695,23 @@
       "since": "2026-06-16",
       "theme": "Diarization accuracy becoming an active competitive battleground: Deepgram Batch V2 (June 12) and AssemblyAI Streaming V2 (June 2) both posted major upgrades eliminating classes of production failure (phantom speakers, phantom turns); vendors now have to benchmark diarization quality, not just WER.",
       "direction": "up"
+    },
+    {
+      "since": "2026-06-17",
+      "theme": "Voice AI market forking on proprietary-models vs. orchestration architecture: Bland AI ($50M, in-house models only) validates vertical-integration thesis for regulated industries, while Vapi/Retell/LiveKit win developer volume with mix-and-match; both approaches raising serious capital, diverging buyer criteria.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-06-17",
+      "theme": "Model efficiency thesis crystallizing for voice: Smallest AI (30B matching ~600B), NVIDIA Nemotron 3.5 (600M ASR), and open-source releases collectively compressing the compute floor for production voice agents; self-hosting becoming viable at much lower hardware thresholds.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-06-17",
+      "theme": "Transport protocol (WebRTC vs WebSocket) named as hidden latency layer below model-level optimizations; voice AI's ~500ms latency budget spent disproportionately on transport overhead, not inference.",
+      "direction": "emerging"
     }
   ],
-  "last_run": "2026-06-16",
+  "last_run": "2026-06-17",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
