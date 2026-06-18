@@ -503,6 +503,24 @@
       "url": "https://x.com",
       "type": "customer_signal",
       "status": "new"
+    },
+    {
+      "id": "poland-elevenlabs-ai-lab-investment",
+      "date": "2026-06-18",
+      "company": "ElevenLabs / Poland",
+      "headline": "Poland's BGK (via Vinci SA) takes $11M equity stake in ElevenLabs; launches AI Lab Poland national program; ElevenLabs at $500M ARR (up from $350M end 2025), plans to triple Warsaw headcount to 200+",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-17/poland-invests-11-million-in-elevenlabs-to-build-ai-tech-hub",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "gladia-solaria-3-stt",
+      "date": "2026-06-18",
+      "company": "Gladia",
+      "headline": "Gladia Solaria-3 STT: #1 on Earnings22 business audio benchmark at 6.4% WER (vs AssemblyAI 6.9%, ElevenLabs 7.7%, Deepgram 12.0%); European language specialization (EN/FR/DE/ES/IT); SOC 2/HIPAA/GDPR/ISO 27001; EU + US clusters",
+      "url": "https://www.gladia.io/solaria-3",
+      "type": "tech",
+      "status": "new"
     }
   ],
   "themes": [
@@ -710,8 +728,18 @@
       "since": "2026-06-17",
       "theme": "Transport protocol (WebRTC vs WebSocket) named as hidden latency layer below model-level optimizations; voice AI's ~500ms latency budget spent disproportionately on transport overhead, not inference.",
       "direction": "emerging"
+    },
+    {
+      "since": "2026-06-18",
+      "theme": "Sovereign/government equity investment in voice AI companies: Poland's BGK taking an $11M stake in ElevenLabs signals nation-state recognition of voice AI as strategic infrastructure; regulatory/compliance implications follow.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-06-18",
+      "theme": "STT competitive map fragmenting by vertical and language: Gladia (European business audio), Soniox (multilingual telephony), Nemotron (self-hosted); aggregate WER leaderboards losing procurement relevance as per-condition gaps of 2x emerge between vendors.",
+      "direction": "up"
     }
   ],
-  "last_run": "2026-06-17",
+  "last_run": "2026-06-18",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
