@@ -521,6 +521,33 @@
       "url": "https://www.gladia.io/solaria-3",
       "type": "tech",
       "status": "new"
+    },
+    {
+      "id": "xai-grok-tts-vapi-default-humanness-index",
+      "date": "2026-06-19",
+      "company": "xAI / Vapi",
+      "headline": "Grok TTS becomes default on Vapi (2.5M+ agents, 62M monthly calls), scores #1 on Vapi Humanness Index at 96/100 in blind voice-clone battles; ElevenLabs v3 and MiniMax Speech 2.5 both at 92",
+      "url": "https://x.ai/news/grok-vapi",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "anthropic-claude-voice-multilingual-push-to-talk",
+      "date": "2026-06-19",
+      "company": "Anthropic",
+      "headline": "Claude voice mode ships 18 new languages (German, Portuguese, Chinese, Japanese, Russian, Ukrainian, 12+ more) + push-to-talk + on-the-fly language switching; rolling out June 17 on mobile; previously English-only",
+      "url": "https://dataconomy.com/2026/06/17/anthropic-claude-voice-mode-multilingual-push-to-talk/",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "deepgram-voice-agent-gemini-outage-june17",
+      "date": "2026-06-19",
+      "company": "Deepgram",
+      "headline": "Deepgram Voice Agent API elevated error rates June 17-18 on Google Gemini model requests; recommended defining multiple LLM providers — multi-provider resilience not yet cleanly supported in most voice agent architectures",
+      "url": "https://status.deepgram.com/",
+      "type": "customer_signal",
+      "status": "new"
     }
   ],
   "themes": [
@@ -738,8 +765,23 @@
       "since": "2026-06-18",
       "theme": "STT competitive map fragmenting by vertical and language: Gladia (European business audio), Soniox (multilingual telephony), Nemotron (self-hosted); aggregate WER leaderboards losing procurement relevance as per-condition gaps of 2x emerge between vendors.",
       "direction": "up"
+    },
+    {
+      "since": "2026-06-19",
+      "theme": "TTS benchmark fragmentation deepening: Vapi Humanness Index (Grok #1), AA Speech Arena (Alibaba #1), Coval (Gradium #1) all crown different winners with different methodologies; no single TTS leaderboard exists — deployment surface determines the right benchmark.",
+      "direction": "up"
+    },
+    {
+      "since": "2026-06-19",
+      "theme": "LLM providers building voice as native first-party modality (Anthropic 18 languages, Apple/Gemini, Google Gemma 4 audio); wrapper layer compression risk accelerating for pure-play voice infrastructure companies.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-06-19",
+      "theme": "Multi-provider resilience becoming a named production requirement: Deepgram Voice Agent outage (Gemini model failures) exposed that most voice agent architectures have single-provider LLM dependency with no graceful fallback.",
+      "direction": "emerging"
     }
   ],
-  "last_run": "2026-06-18",
+  "last_run": "2026-06-19",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
