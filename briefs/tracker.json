@@ -548,6 +548,42 @@
       "url": "https://status.deepgram.com/",
       "type": "customer_signal",
       "status": "new"
+    },
+    {
+      "id": "gnani-ai-prisma-v2-5",
+      "date": "2026-06-22",
+      "company": "Gnani AI",
+      "headline": "Gnani AI Prisma v2.5: sovereign Indic STT trained on 14M hours, #1 in 8/9 Indian languages; 15% lower WER rural Hindi, 18% lower WER noisy Dravidian vs ElevenLabs/Deepgram/Sarvam; IndiaAI Mission backed; hosted on E2E Networks",
+      "url": "https://www.businesstoday.in/technology/artificial-intelligence/story/gnani-ai-launches-prisma-v2-5-claims-better-accuracy-than-sarvam-elevenlabs-on-indian-speech-538008-2026-06-19",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "smallest-ai-pulse-stt-east-asian",
+      "date": "2026-06-22",
+      "company": "Smallest AI",
+      "headline": "Smallest AI Pulse STT Realtime adds Japanese, Korean, Mandarin, Cantonese; claims outperforming Deepgram; 64ms TTFB streaming production-ready",
+      "url": "https://x.com/smallest_ai",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "deepgram-australia-endpoint-ga",
+      "date": "2026-06-22",
+      "company": "Deepgram",
+      "headline": "Deepgram Australia endpoint (api.au.deepgram.com) reaches GA; all processing/storage in-country on AWS ap-southeast-2; supports My Health Records Act compliance; third regional endpoint after US and EU",
+      "url": "https://developers.deepgram.com/docs/deployment-options",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "smallest-ai-lightning-v3-1-pro-voices",
+      "date": "2026-06-22",
+      "company": "Smallest AI",
+      "headline": "Smallest AI Lightning V3.1 Pro adds American and British accent voices with improved dynamic pacing; positions efficiency-at-scale as the production TTS differentiator",
+      "url": "https://x.com/smallest_ai",
+      "type": "tech",
+      "status": "new"
     }
   ],
   "themes": [
@@ -780,8 +816,18 @@
       "since": "2026-06-19",
       "theme": "Multi-provider resilience becoming a named production requirement: Deepgram Voice Agent outage (Gemini model failures) exposed that most voice agent architectures have single-provider LLM dependency with no graceful fallback.",
       "direction": "emerging"
+    },
+    {
+      "since": "2026-06-22",
+      "theme": "Sovereign voice AI crystallizing as three-continent trend: government equity (Poland/ElevenLabs), national mission funding (India/Gnani), regional data residency (Australia/Deepgram); compliance hardening from nice-to-have into procurement blocker.",
+      "direction": "up"
+    },
+    {
+      "since": "2026-06-22",
+      "theme": "STT regional specialists outperforming global leaders by 15-18% on local conditions: Gnani (India), Gladia (Europe), Soniox (multilingual telephony); aggregate WER leaderboards becoming actively misleading for procurement — per-condition benchmarking now a required builder skill.",
+      "direction": "up"
     }
   ],
-  "last_run": "2026-06-19",
+  "last_run": "2026-06-22",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
