@@ -584,6 +584,33 @@
       "url": "https://x.com/smallest_ai",
       "type": "tech",
       "status": "new"
+    },
+    {
+      "id": "minimax-speech-2-8",
+      "date": "2026-06-23",
+      "company": "MiniMax",
+      "headline": "MiniMax Speech 2.8 takes #1 on Artificial Analysis Speech Arena and HuggingFace TTS Arena; introduces native sound tags for disfluency modeling (um, uh, ah); 60% naturalness improvement vs 2.6; HD and Turbo variants; 40+ languages, 7 emotion modes",
+      "url": "https://www.minimax.io/news/minimax-speech-28",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "retell-ai-launch-week-enterprise-features",
+      "date": "2026-06-23",
+      "company": "Retell AI",
+      "headline": "Retell AI Launch Week 2026: live call monitoring, built-in CRM (Salesforce/HubSpot two-way sync), data retention periods, PCAP call debugging, Soniox STT sub-processor — five enterprise operations features in five days",
+      "url": "https://www.retellai.com/changelog",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "voice-ai-demo-production-gap-60pct-failure",
+      "date": "2026-06-23",
+      "company": "Industry",
+      "headline": "Voice AI demo-to-production failure rate quantified at 60%; seven failure modes documented (latency +40-120% under load, STT -10-25% in noise, model drift -15-30% in 60 days); 87% enterprise adoption but only 21% very satisfied",
+      "url": "https://www.autointerviewai.com/blog/ai-voice-agent-demo-production-gap-failure-modes-2026",
+      "type": "customer_signal",
+      "status": "new"
     }
   ],
   "themes": [
@@ -826,8 +853,23 @@
       "since": "2026-06-22",
       "theme": "STT regional specialists outperforming global leaders by 15-18% on local conditions: Gnani (India), Gladia (Europe), Soniox (multilingual telephony); aggregate WER leaderboards becoming actively misleading for procurement — per-condition benchmarking now a required builder skill.",
       "direction": "up"
+    },
+    {
+      "since": "2026-06-23",
+      "theme": "TTS quality leadership now unstable at the top: three different #1 models from three different countries in four weeks (Alibaba, xAI/Grok, MiniMax); any model-level TTS advantage lasts weeks not quarters — defensible moat is session orchestration and enterprise ops, not model quality.",
+      "direction": "up"
+    },
+    {
+      "since": "2026-06-23",
+      "theme": "Disfluency modeling as TTS quality frontier: MiniMax Speech 2.8's native sound tags (um, uh, ah) show 60% naturalness improvement; competing on imperfection rather than clarity is a new axis — expect fast-follow from ElevenLabs, Grok, Cartesia.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-06-23",
+      "theme": "Voice agent platform competition shifting from model quality to enterprise operations: CRM sync, live call monitoring, PCAP debugging, data retention, simulation testing (Retell, Vapi, Cartesia Line) — the bottleneck is now operations infrastructure, confirmed by 60% demo-to-production failure rate and 21% satisfaction despite 87% adoption.",
+      "direction": "up"
     }
   ],
-  "last_run": "2026-06-22",
+  "last_run": "2026-06-23",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
