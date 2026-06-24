@@ -611,6 +611,42 @@
       "url": "https://www.autointerviewai.com/blog/ai-voice-agent-demo-production-gap-failure-modes-2026",
       "type": "customer_signal",
       "status": "new"
+    },
+    {
+      "id": "assemblyai-universal-3-5-pro-realtime-context-carryover",
+      "date": "2026-06-24",
+      "company": "AssemblyAI",
+      "headline": "AssemblyAI Universal-3.5 Pro Realtime with Context Carryover: first STT model that takes agent's own question as input; one team cut critical-utterance error rate from 26% to 9%; launch quotes from Fireflies, Pipecat, LiveKit, Retell",
+      "url": "https://www.assemblyai.com/blog/universal-3-pro-streaming",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "ccw-2026-enterprise-voice-ai-inflection",
+      "date": "2026-06-24",
+      "company": "Industry / CCW",
+      "headline": "CCW 2026 (June 22-25, 3,000+ attendees) becomes voice AI's enterprise CX coming-out party: RingCentral AIR Pro agentic expansion, Amazon Connect Agentic CX Designer, Newo.ai 99.6% LSS zero-hallucination architecture — all no-code, all at a contact center conference not a tech conference",
+      "url": "https://www.cmswire.com/contact-center/customer-contact-week-2026-capturing-the-ai-announcements-in-contact-center-technology/",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "telus-digital-elevenlabs-elevenagents-partnership",
+      "date": "2026-06-24",
+      "company": "TELUS Digital / ElevenLabs",
+      "headline": "TELUS Digital becomes ElevenLabs' preferred implementation partner for ElevenAgents; leads enterprise deployment across Genesys, Twilio, Amazon Connect, Zendesk, Salesforce; first major global SI committed to a voice AI startup's agent platform",
+      "url": "https://www.prnewswire.com/news-releases/telus-digital-and-elevenlabs-partner-to-scale-voice-ai-alongside-frontline-customer-care-teams-302805598.html",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "ringcentral-air-pro-agentic-ccw-2026",
+      "date": "2026-06-24",
+      "company": "RingCentral",
+      "headline": "RingCentral expands AIR Pro with agentic voice AI: no-code AIR Pro Studio for building/deploying voice agents, end-to-end customer resolution, omnichannel context; beta now, GA H2 2026",
+      "url": "https://www.ringcentral.com/us/en/blog/ccw-2026-new-ai-contact-center-features/",
+      "type": "market",
+      "status": "new"
     }
   ],
   "themes": [
@@ -868,8 +904,23 @@
       "since": "2026-06-23",
       "theme": "Voice agent platform competition shifting from model quality to enterprise operations: CRM sync, live call monitoring, PCAP debugging, data retention, simulation testing (Retell, Vapi, Cartesia Line) — the bottleneck is now operations infrastructure, confirmed by 60% demo-to-production failure rate and 21% satisfaction despite 87% adoption.",
       "direction": "up"
+    },
+    {
+      "since": "2026-06-24",
+      "theme": "Context-aware STT emerging as next architecture shift: AssemblyAI Context Carryover feeds agent's last turn into STT model, cutting critical-utterance errors 65%; transcribing audio → understanding the conversation. Expect Deepgram, ElevenLabs Scribe, Smallest AI Pulse to follow within two release cycles.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-06-24",
+      "theme": "Voice AI buyer migrating from developer to CX operator: CCW 2026 (contact center conference, not tech conference) was the venue for more voice AI launches than any dev conference this week; no-code voice agent builders (RingCentral AIR Pro Studio, Amazon Connect Agentic CX Designer) becoming table stakes — the tool is moving from the builder to the operator.",
+      "direction": "up"
+    },
+    {
+      "since": "2026-06-24",
+      "theme": "Systems integrators entering voice AI: TELUS Digital committing to implement ElevenAgents across five enterprise CX stacks (Genesys, Twilio, Connect, Zendesk, Salesforce) is the 'consulting firm picks a platform' moment; enterprise adoption infrastructure maturing beyond developer self-serve.",
+      "direction": "emerging"
     }
   ],
-  "last_run": "2026-06-23",
+  "last_run": "2026-06-24",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
