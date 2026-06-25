@@ -647,6 +647,60 @@
       "url": "https://www.ringcentral.com/us/en/blog/ccw-2026-new-ai-contact-center-features/",
       "type": "market",
       "status": "new"
+    },
+    {
+      "id": "coval-28m-series-a",
+      "date": "2026-06-25",
+      "company": "Coval",
+      "headline": "Coval raises $28M Series A (Norwest lead, Base10, Twilio Ventures, YC); ex-Waymo evaluation lead Brooke Hopkins brings autonomous vehicle testing discipline to voice agents; 60+ customers including Zoom and Deepgram; $31M total raised",
+      "url": "https://www.prnewswire.com/news-releases/coval-raises-28-million-series-a-to-define-safety-and-reliability-for-autonomous-voice-agents-302808740.html",
+      "type": "funding",
+      "status": "new"
+    },
+    {
+      "id": "deepgram-state-of-voice-ai-2026-report",
+      "date": "2026-06-25",
+      "company": "Deepgram",
+      "headline": "Deepgram State of Voice AI 2026: 80% of orgs use voice agents but only 21% very satisfied; 92% capture speech data; 67% consider voice AI core to strategy; 84% plan to increase investment; 46% say model fine-tuning would drive adoption",
+      "url": "https://deepgram.com/state-of-voice-ai-report",
+      "type": "customer_signal",
+      "status": "new"
+    },
+    {
+      "id": "voices-for-cx-branded-ai-voice-governance",
+      "date": "2026-06-25",
+      "company": "Voices.com",
+      "headline": "Voices for CX: branded AI voice governance for contact center platforms — professionally cast, licensed AI voices with consent/compensation/usage rights management; 79% of decision-makers say inauthentic AI voices hurt brand; 185+ countries, 110+ languages; launched at CCW 2026",
+      "url": "https://www.voices.com/blog/voices-for-customer-experience/",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "smallest-ai-dograh-open-source-integration",
+      "date": "2026-06-25",
+      "company": "Smallest AI / Dograh",
+      "headline": "Smallest AI models (Lightning v3.1, Lightning v3.1 Pro, Pulse STT) go live on Dograh, the open-source self-hostable Vapi/Retell alternative (BSD-licensed, YC alumni-founded); Smallest AI exhibiting at CCW booth 1620 — first conference presence",
+      "url": "https://x.com/smallest_ai",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "talkdesk-agent-builder-ccw-2026",
+      "date": "2026-06-25",
+      "company": "Talkdesk",
+      "headline": "Talkdesk Agent Builder at CCW: natural-language AI agent creation, concept-to-production in hours, pre-deployment validation, continuous governance via CXA Operations Center; finalist for CCW Automation Solution of the Year",
+      "url": "https://www.globenewswire.com/news-release/2026/06/23/3316084/0/en/talkdesk-ends-the-guesswork-in-deploying-customer-facing-AI-agents.html",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "harjtaggar-voice-agent-testing-self-driving",
+      "date": "2026-06-25",
+      "company": "YC / Investors",
+      "headline": "Harj Taggar (YC partner): 'Deploying voice agents in the enterprise needs the same testing discipline as self-driving cars' — retweeted by Elad Gil; Waymo-to-voice analogy becoming consensus investor framing",
+      "url": "https://x.com/harjtaggar",
+      "type": "founder_take",
+      "status": "new"
     }
   ],
   "themes": [
@@ -919,8 +973,28 @@
       "since": "2026-06-24",
       "theme": "Systems integrators entering voice AI: TELUS Digital committing to implement ElevenAgents across five enterprise CX stacks (Genesys, Twilio, Connect, Zendesk, Salesforce) is the 'consulting firm picks a platform' moment; enterprise adoption infrastructure maturing beyond developer self-serve.",
       "direction": "emerging"
+    },
+    {
+      "since": "2026-06-25",
+      "theme": "Voice agent testing/evaluation becoming funded infrastructure category: Coval $28M (ex-Waymo, Twilio Ventures) + Harj Taggar/Elad Gil investor consensus = 'self-driving car testing discipline for voice agents' is now the procurement framing. Expect testing/simulation to become a required line item in enterprise voice AI deployments.",
+      "direction": "up"
+    },
+    {
+      "since": "2026-06-25",
+      "theme": "Voice AI adoption-satisfaction gap quantified: 80% adoption but only 21% satisfaction (Deepgram 2026 report) confirms the production quality problem is systemic, not anecdotal. 46% wanting fine-tuning signals customization, not model quality, as the next value driver.",
+      "direction": "up"
+    },
+    {
+      "since": "2026-06-25",
+      "theme": "Voice AI governance (consent, licensing, brand alignment) emerging as an infrastructure layer: Voices for CX is the first product explicitly selling AI voice governance to enterprise; 79% of decision-makers flag inauthentic voices as brand-damaging.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-06-25",
+      "theme": "Open-source voice agent orchestration (Dograh, Pipecat) gaining production-tier model integrations: Smallest AI shipping to Dograh signals that commercial voice model vendors see open orchestration layers as a distribution channel, not a threat.",
+      "direction": "emerging"
     }
   ],
-  "last_run": "2026-06-24",
+  "last_run": "2026-06-25",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
