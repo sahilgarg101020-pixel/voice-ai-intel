@@ -701,6 +701,42 @@
       "url": "https://x.com/harjtaggar",
       "type": "founder_take",
       "status": "new"
+    },
+    {
+      "id": "prosper-ai-30m-series-a-a16z",
+      "date": "2026-06-26",
+      "company": "Prosper AI",
+      "headline": "Prosper AI raises $30M Series A (a16z lead, Base10, Emergence, YC) for healthcare voice AI agents; 150K+ providers, 40+ care orgs, 5x revenue growth since seed, 80% competitive win rate; powers $1.3B+ in patient care",
+      "url": "https://siliconangle.com/2026/06/22/prosper-ai-nabs-30m-help-healthcare-providers-streamline-patient-interactions/",
+      "type": "funding",
+      "status": "new"
+    },
+    {
+      "id": "zoom-agent-architect-ccw-2026",
+      "date": "2026-06-26",
+      "company": "Zoom",
+      "headline": "Zoom ships Agent Architect at CCW: prompt-to-production voice and digital AI agents + Agent Performance Suite for pre-deployment simulation and live resolution/containment/cost tracking",
+      "url": "https://news.zoom.com/introducing-agent-architect-and-agent-performance-suite-for-zoom-virtual-agent/",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "microsoft-voice-live-foundry-ga",
+      "date": "2026-06-26",
+      "company": "Microsoft",
+      "headline": "Microsoft Voice Live for Foundry Prompt Agents reaches GA: unified real-time API bundling STT, TTS, turn detection, interruption handling, avatars; Foundry Agent Service also GA; Teams/M365 Copilot publishing planned GA June 2026",
+      "url": "https://devblogs.microsoft.com/foundry/foundry-agent-service-ga/",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "amazon-connect-nlx-saks-production-case-study",
+      "date": "2026-06-26",
+      "company": "Amazon / NLX",
+      "headline": "Amazon Connect + NLX (acquired April 2026): Saks Fifth Avenue voice AI to production in 6 weeks, business analyst-led design, sub-1% error rate on read-backs, <2s per turn; Agentic CX Designer ships no-code builder",
+      "url": "https://aws.amazon.com/blogs/contact-center/business-user-is-the-new-architect-of-customer-experience/",
+      "type": "customer_signal",
+      "status": "new"
     }
   ],
   "themes": [
@@ -993,8 +1029,23 @@
       "since": "2026-06-25",
       "theme": "Open-source voice agent orchestration (Dograh, Pipecat) gaining production-tier model integrations: Smallest AI shipping to Dograh signals that commercial voice model vendors see open orchestration layers as a distribution channel, not a threat.",
       "direction": "emerging"
+    },
+    {
+      "since": "2026-06-26",
+      "theme": "Healthcare becoming voice AI's first fully funded vertical category: Prosper AI $30M (a16z), Deepgram HLTH Europe deployments, Microsoft Copilot Studio voice GA for Dynamics 365 Contact Center — structured call workflows + compliance moat + measurable ROI = repeatable vertical template. Insurance and financial services next.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-06-26",
+      "theme": "No-code voice agent builders now table stakes across every major CX platform: Zoom (Agent Architect), Amazon Connect (Agentic CX Designer), RingCentral (AIR Pro Studio), Talkdesk (Agent Builder), Salesforce (Agentforce WEM), Dialpad, 8x8 all ship prompt-to-production or visual builders by end of CCW 2026. Differentiation shifting to pre-deployment simulation quality.",
+      "direction": "up"
+    },
+    {
+      "since": "2026-06-26",
+      "theme": "Microsoft assembling end-to-end enterprise voice agent stack within Foundry: Voice Live (STT+TTS+turn detection+avatars) + Foundry Agent Service (orchestration+governance) + Teams/M365 publishing = voice agent distribution to 80%+ of Fortune 500. Direct platform risk for Vapi, Retell, LiveKit in enterprise segment.",
+      "direction": "emerging"
     }
   ],
-  "last_run": "2026-06-25",
+  "last_run": "2026-06-26",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
