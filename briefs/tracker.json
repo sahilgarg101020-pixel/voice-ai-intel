@@ -737,6 +737,42 @@
       "url": "https://aws.amazon.com/blogs/contact-center/business-user-is-the-new-architect-of-customer-experience/",
       "type": "customer_signal",
       "status": "new"
+    },
+    {
+      "id": "sinch-ai-production-paradox-74pct-rollback",
+      "date": "2026-06-29",
+      "company": "Sinch",
+      "headline": "Sinch AI Production Paradox: 74% of enterprises rolled back a live AI agent; 81% among mature-guardrail orgs; infrastructure satisfaction strongest predictor of success; 2,527 decision-makers surveyed across 10 countries",
+      "url": "https://www.prnewswire.com/news-releases/sinch-research-reveals-74-of-enterprises-have-rolled-back-live-ai-customer-communications-agents-302770730.html",
+      "type": "customer_signal",
+      "status": "new"
+    },
+    {
+      "id": "soniox-v5-real-time-pareto-stt",
+      "date": "2026-06-29",
+      "company": "Soniox",
+      "headline": "Soniox v5 Real-Time: Pareto-frontier streaming STT at $2/1K min (cheapest proprietary); 4.5% WER at 0.05s; real-time diarization, 60+ languages; v4 EOL June 30",
+      "url": "https://soniox.com/blog/soniox-v5-real-time",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "speechmatics-melia-code-switching-stt",
+      "date": "2026-06-29",
+      "company": "Speechmatics",
+      "headline": "Speechmatics Melia: first STT with native code-switching across 55+ languages in single pass; outperforms Deepgram/Microsoft/AssemblyAI on FLEURS; $0.129/hr; batch production preview",
+      "url": "https://www.speechmatics.com/company/articles-and-news/introducing-melia-multilingual-speech-to-text-model",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "openai-jalapeno-inference-chip",
+      "date": "2026-06-29",
+      "company": "OpenAI / Broadcom",
+      "headline": "OpenAI Jalapeño: custom inference ASIC with Broadcom targeting 50% lower inference costs; 9-month development cycle; deployment by end of 2026; reduces NVIDIA dependency",
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/",
+      "type": "market",
+      "status": "new"
     }
   ],
   "themes": [
@@ -1044,8 +1080,23 @@
       "since": "2026-06-26",
       "theme": "Microsoft assembling end-to-end enterprise voice agent stack within Foundry: Voice Live (STT+TTS+turn detection+avatars) + Foundry Agent Service (orchestration+governance) + Teams/M365 publishing = voice agent distribution to 80%+ of Fortune 500. Direct platform risk for Vapi, Retell, LiveKit in enterprise segment.",
       "direction": "emerging"
+    },
+    {
+      "since": "2026-06-29",
+      "theme": "Production-to-rollback gap quantified at 74% (Sinch, 2,527 enterprises): better governance doesn't prevent production failures, it detects them faster (81% rollback among mature-guardrail orgs). Infrastructure satisfaction, not guardrail investment, is the strongest deployment success predictor. Recovery speed > deployment quality as the winning architecture.",
+      "direction": "up"
+    },
+    {
+      "since": "2026-06-29",
+      "theme": "STT Pareto frontier now crowded with specialists: Soniox v5 (price-performance, $2/1K min), Speechmatics Melia (code-switching, 55+ languages), Cartesia Ink-2 (accuracy + semantic turn detection), plus regional leaders (Gnani, Gladia, Smallest AI). No single model wins everywhere — STT procurement is a multi-axis vendor selection, not a leaderboard pick.",
+      "direction": "up"
+    },
+    {
+      "since": "2026-06-29",
+      "theme": "Custom inference silicon entering voice AI cost calculus: OpenAI Jalapeño (50% lower inference cost target, end-of-2026 deployment) could halve per-minute voice AI costs within a year. Platform companies (OpenAI, Google TPU) building custom chips while pure-play voice companies remain on commodity GPU — structural cost advantage divergence emerging.",
+      "direction": "emerging"
     }
   ],
-  "last_run": "2026-06-26",
+  "last_run": "2026-06-29",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
