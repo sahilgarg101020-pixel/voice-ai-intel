@@ -773,6 +773,42 @@
       "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/",
       "type": "market",
       "status": "new"
+    },
+    {
+      "id": "aiewf-2026-voice-realtime-track",
+      "date": "2026-06-30",
+      "company": "AI Engineer / Industry",
+      "headline": "AIEWF 2026 opens June 29 at Moscone West with Voice & Realtime AI as a full headliner track; 6,000+ engineers; AI Agents front and center, RAG/prompt engineering marginalized — first developer conference where voice AI is fully mainstream",
+      "url": "https://www.ai.engineer/worldsfair/2026",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "kwindla-openai-realtime-004-cost",
+      "date": "2026-06-30",
+      "company": "OpenAI / Pipecat",
+      "headline": "Kwindla (Pipecat co-founder): OpenAI Realtime API now ~$0.04/min speech-to-speech in real-world production — 10x cheaper than a year ago; S2S vs. cascaded is now an architecture decision, not a cost decision",
+      "url": "https://x.com/kwindla/status/1961473869115765177",
+      "type": "founder_take",
+      "status": "new"
+    },
+    {
+      "id": "elevenlabs-interruption-ignore-terms",
+      "date": "2026-06-30",
+      "company": "ElevenLabs",
+      "headline": "ElevenLabs June 22 changelog: interruption_ignore_terms — array of phrases that suppress end-of-turn detection; first platform-level control for false interruptions on specific content types (disclaimers, pricing, long sequences)",
+      "url": "https://elevenlabs.io/docs/changelog/2026/6/22",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "deepgram-mid-session-eot-tuning",
+      "date": "2026-06-30",
+      "company": "Deepgram",
+      "headline": "Deepgram Voice Agent UpdateListen: mid-session eot_threshold tuning without stream restart (Flux v2 API); combined with UpdatePrompt and UpdateSpeak gives runtime-adaptive control across all three session layers",
+      "url": "https://developers.deepgram.com/docs/configure-voice-agent",
+      "type": "tech",
+      "status": "new"
     }
   ],
   "themes": [
@@ -1095,8 +1131,18 @@
       "since": "2026-06-29",
       "theme": "Custom inference silicon entering voice AI cost calculus: OpenAI Jalapeño (50% lower inference cost target, end-of-2026 deployment) could halve per-minute voice AI costs within a year. Platform companies (OpenAI, Google TPU) building custom chips while pure-play voice companies remain on commodity GPU — structural cost advantage divergence emerging.",
       "direction": "emerging"
+    },
+    {
+      "since": "2026-06-30",
+      "theme": "Turn detection moving from opaque model parameter to precision-tunable API surface: ElevenLabs interruption_ignore_terms (phrase-level suppression), Deepgram UpdateListen (mid-session EOT threshold), Microsoft Voice Live threshold_level — all shipped within two weeks. False-interruption rate per content type is the next eval axis builders must instrument.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-06-30",
+      "theme": "S2S cost floor has collapsed 10x in 12 months: OpenAI Realtime at ~$0.04/min (confirmed by Pipecat co-founder), Gemini Live at $0.00165/min, Jalapeño coming end-2026. The economic argument for cascaded pipelines is no longer 'cost' — the remaining arguments are debuggability, controllability, and STT/LLM/TTS tuning independence.",
+      "direction": "up"
     }
   ],
-  "last_run": "2026-06-29",
+  "last_run": "2026-06-30",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
