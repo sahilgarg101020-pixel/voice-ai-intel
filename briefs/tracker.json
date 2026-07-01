@@ -809,6 +809,24 @@
       "url": "https://developers.deepgram.com/docs/configure-voice-agent",
       "type": "tech",
       "status": "new"
+    },
+    {
+      "id": "amazon-science-moderatorlm-multiparty-turn-taking",
+      "date": "2026-07-01",
+      "company": "Amazon Science",
+      "headline": "ModeratorLM: first role-conditioned turn-taking model for multi-party voice agents; +40% turn-taking precision, +70% recall, fewer false-positive interruptions vs non-role-conditioned baselines on real meeting audio",
+      "url": "https://arxiv.org/abs/2606.13544",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "ovh-gladia-acquisition",
+      "date": "2026-07-01",
+      "company": "OVH Groupe / Gladia",
+      "headline": "OVH Groupe enters exclusive negotiations to acquire Gladia (STT specialist, 300K+ developers, 2,000+ enterprise customers) to internalize STT for sovereign multimodal/agentic AI; originally announced June 11, previously unreported in this brief",
+      "url": "https://corporate.ovhcloud.com/en/newsroom/news/ovhgroupe-gladia-exclusive-negotiations-voice-ai/",
+      "type": "market",
+      "status": "new"
     }
   ],
   "themes": [
@@ -1141,8 +1159,18 @@
       "since": "2026-06-30",
       "theme": "S2S cost floor has collapsed 10x in 12 months: OpenAI Realtime at ~$0.04/min (confirmed by Pipecat co-founder), Gemini Live at $0.00165/min, Jalapeño coming end-2026. The economic argument for cascaded pipelines is no longer 'cost' — the remaining arguments are debuggability, controllability, and STT/LLM/TTS tuning independence.",
       "direction": "up"
+    },
+    {
+      "since": "2026-07-01",
+      "theme": "Turn-detection research expanding from 1:1 end-of-speech/interruption tuning (Deepgram, Cartesia, ElevenLabs) into multi-party floor-tracking (Amazon Science ModeratorLM) — the 2-party problem is commoditizing fast, multi-party is the next open differentiation window for meeting assistants and group-call agents.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-07-01",
+      "theme": "Sovereign voice AI theme escalating from equity investment/partnership into outright M&A: OVH acquiring Gladia to internalize STT signals hyperscalers now see specialist STT/TTS vendors as acquisition targets, not just integration partners — same logic as Microsoft's in-house MAI-Voice build, different mechanism.",
+      "direction": "emerging"
     }
   ],
-  "last_run": "2026-06-30",
+  "last_run": "2026-07-01",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
