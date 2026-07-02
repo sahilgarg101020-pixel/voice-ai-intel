@@ -827,6 +827,42 @@
       "url": "https://corporate.ovhcloud.com/en/newsroom/news/ovhgroupe-gladia-exclusive-negotiations-voice-ai/",
       "type": "market",
       "status": "new"
+    },
+    {
+      "id": "xai-grok-voice-agent-builder",
+      "date": "2026-07-02",
+      "company": "xAI",
+      "headline": "xAI launches Grok Voice Agent Builder (beta): no-code voice agent platform direct from the model vendor, $0.05/min agent + $0.01/min telephony, undercuts ElevenLabs/Vapi on price",
+      "url": "https://x.ai/news/grok-voice-agent-builder",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "cartesia-line-sip-telephony",
+      "date": "2026-07-02",
+      "company": "Cartesia",
+      "headline": "Cartesia adds SIP trunking (beta) and phone-number/provider APIs, completing full session stack (Sonic TTS + Ink-2 STT + Line orchestration + telephony)",
+      "url": "https://docs.cartesia.ai/changelog/2026",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "assemblyai-pricing-increase-in-region",
+      "date": "2026-07-02",
+      "company": "AssemblyAI",
+      "headline": "AssemblyAI raises in-region model pricing 10% citing provider cost increases, effective July 1; global-region opt-out preserves old pricing — first documented price increase against 12 months of category-wide cost collapse",
+      "url": "https://www.assemblyai.com/pricing",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "elevenlabs-legacy-model-deprecation-july9",
+      "date": "2026-07-02",
+      "company": "ElevenLabs",
+      "headline": "ElevenLabs sunsets eleven_monolingual_v1, eleven_multilingual_v1, and scribe_v1 on July 9; builders must migrate to v2 equivalents",
+      "url": "https://elevenlabs.io/docs/changelog",
+      "type": "market",
+      "status": "new"
     }
   ],
   "themes": [
@@ -1169,8 +1205,23 @@
       "since": "2026-07-01",
       "theme": "Sovereign voice AI theme escalating from equity investment/partnership into outright M&A: OVH acquiring Gladia to internalize STT signals hyperscalers now see specialist STT/TTS vendors as acquisition targets, not just integration partners — same logic as Microsoft's in-house MAI-Voice build, different mechanism.",
       "direction": "emerging"
+    },
+    {
+      "since": "2026-07-02",
+      "theme": "Foundation model vendors verticalizing into the no-code builder layer, not just the API layer: xAI ships its own Voice Agent Builder directly competing with Vapi/Retell/Bland on price — after CX platforms did the same at CCW, model vendors are now cutting out the orchestration middleman too.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-07-02",
+      "theme": "Session-stack telephony convergence: Cartesia SIP trunking mirrors ElevenLabs' ElevenAgents telephony move — both leading session-stack vendors now absorbing the phone layer that was flagged (June 9) as a hidden production COGS blind spot.",
+      "direction": "up"
+    },
+    {
+      "since": "2026-07-02",
+      "theme": "First documented price increase in this brief's tracked history: AssemblyAI raises in-region STT pricing 10% against 12 months of category-wide cost collapse — early signal that data-residency/compliance processing carries real infra cost that doesn't ride the commodity curve down.",
+      "direction": "watch"
     }
   ],
-  "last_run": "2026-07-01",
+  "last_run": "2026-07-02",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
