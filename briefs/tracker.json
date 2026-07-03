@@ -863,6 +863,24 @@
       "url": "https://elevenlabs.io/docs/changelog",
       "type": "market",
       "status": "new"
+    },
+    {
+      "id": "elevenlabs-22b-tender-offer",
+      "date": "2026-07-03",
+      "company": "ElevenLabs",
+      "headline": "ElevenLabs in early talks for tender offer at ~$22B valuation, doubling its $11B February Series D mark; ARR reportedly past $500M annualized",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-02/elevenlabs-in-talks-for-tender-offer-at-22-billion-valuation",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "google-gemini-spark-mac-ramble-voice-mode",
+      "date": "2026-07-03",
+      "company": "Google",
+      "headline": "Gemini Spark ships on Mac desktop with 'Ramble' press-and-hold voice mode: turns unstructured speech into a polished, context-aware draft at cursor",
+      "url": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/",
+      "type": "tech",
+      "status": "new"
     }
   ],
   "themes": [
@@ -1220,8 +1238,23 @@
       "since": "2026-07-02",
       "theme": "First documented price increase in this brief's tracked history: AssemblyAI raises in-region STT pricing 10% against 12 months of category-wide cost collapse — early signal that data-residency/compliance processing carries real infra cost that doesn't ride the commodity curve down.",
       "direction": "watch"
+    },
+    {
+      "since": "2026-07-03",
+      "theme": "Investors pricing the voice session/orchestration layer well above the model layer: ElevenLabs' valuation doubled in 5 months (Feb $11B -> July ~$22B talks) right after completing its full session stack (STT+Speech Engine+TTS+telephony), even as TTS model-quality leadership churns weekly — confirms model quality is not the moat being paid for.",
+      "direction": "up"
+    },
+    {
+      "since": "2026-07-03",
+      "theme": "Voice-as-input is becoming default assistant furniture across every major platform (Apple, Anthropic, Microsoft, now Google Gemini Spark 'Ramble') rather than a standalone product; dictation/draft voice UX is now table stakes, pushing genuine differentiation toward structured tool-calling phone/call-center agents.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-07-03",
+      "theme": "Weekly step-function STT/TTS announcements (which defined May-June) are cooling: two straight quiet cycles from Cartesia/Deepgram/AssemblyAI/Speechmatics and no confirmed on-stage launch from AIEWF's Voice track days after it opened; effort may be shifting toward slower-to-announce ops/reliability work.",
+      "direction": "watch"
     }
   ],
-  "last_run": "2026-07-02",
+  "last_run": "2026-07-03",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
