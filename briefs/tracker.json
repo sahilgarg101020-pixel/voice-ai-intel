@@ -881,6 +881,33 @@
       "url": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/",
       "type": "tech",
       "status": "new"
+    },
+    {
+      "id": "ihbench-post-interruption-recovery",
+      "date": "2026-07-06",
+      "company": "Academic",
+      "headline": "IHBench: first benchmark for post-interruption recovery (not just detection) in structured voice-agent workflows across 10 enterprise domains, 27 model configs; closed-weight models degrade ~3.3x more slowly over long conversations than open-weight, no audio-vs-text modality gap",
+      "url": "https://arxiv.org/abs/2606.19595",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "deepgram-claude-sonnet-5-voice-agent-api",
+      "date": "2026-07-06",
+      "company": "Deepgram",
+      "headline": "Deepgram Voice Agent API adds Claude Sonnet 5 as a managed Anthropic LLM (Advanced tier); Flux gains word-level timestamps (July 1-2 changelog)",
+      "url": "https://developers.deepgram.com/docs/voice-agent-llm-models",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "kotoba-technologies-10m-seed-east-asia",
+      "date": "2026-07-06",
+      "company": "Kotoba Technologies",
+      "headline": "Kotoba Technologies raises additional $10M seed (Kindred Ventures, Salesforce Ventures, Sony Innovation Fund; $23M total) for real-time S2S voice models in Japanese/Korean/Chinese; 180K+ app users, Fortune Global 500 customers",
+      "url": "https://www.businesswire.com/news/home/20260624276012/en/Kotoba-Technologies-Raises-$10-Million-in-Seed-Funding-to-Expand-Real-Time-Voice-AI-Platform-Across-East-Asia",
+      "type": "funding",
+      "status": "new"
     }
   ],
   "themes": [
@@ -1251,10 +1278,25 @@
     },
     {
       "since": "2026-07-03",
-      "theme": "Weekly step-function STT/TTS announcements (which defined May-June) are cooling: two straight quiet cycles from Cartesia/Deepgram/AssemblyAI/Speechmatics and no confirmed on-stage launch from AIEWF's Voice track days after it opened; effort may be shifting toward slower-to-announce ops/reliability work.",
+      "theme": "Weekly step-function STT/TTS announcements (which defined May-June) are cooling: three straight quiet cycles from Cartesia/Deepgram/AssemblyAI/Speechmatics and no confirmed on-stage launch from AIEWF's Voice track a week after it opened; effort may be shifting toward slower-to-announce ops/reliability work.",
       "direction": "watch"
+    },
+    {
+      "since": "2026-07-06",
+      "theme": "Interruption handling splitting into two scored problems: prevention (turn-detection precision, tracked since May) and now recovery (IHBench) — recovery quality tracks with reasoning strength (closed-weight models degrade 3.3x slower), reframing 'recovery loop is the moat' as a language-model selection question, not just an audio-model one.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-07-06",
+      "theme": "Multi-LLM managed options becoming a named resilience feature for voice session vendors (Deepgram adds Claude Sonnet 5), directly responding to the single-provider-dependency gap exposed by Deepgram's own June Gemini outage; expect ElevenLabs/Cartesia/Microsoft to follow.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-07-06",
+      "theme": "Geographic white-space pattern extends to East Asia (Kotoba Technologies, Japanese/Korean/Chinese S2S) alongside India (Gnani), Europe (Gladia), Africa/Middle East (AethexAI) — regional specialists keep landing real enterprise traction ahead of aggregate benchmarks, and remain plausible acquisition targets per the OVH-Gladia precedent.",
+      "direction": "up"
     }
   ],
-  "last_run": "2026-07-03",
+  "last_run": "2026-07-06",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
