@@ -971,6 +971,33 @@
       "url": "https://www.eu-startups.com/2026/06/uk-speech-ai-startup-lucida-ai-lands-e6-1-million-to-develop-speech-native-ai-for-global-communication",
       "type": "funding",
       "status": "new"
+    },
+    {
+      "id": "openai-gpt-realtime-2-1",
+      "date": "2026-07-08",
+      "company": "OpenAI",
+      "headline": "gpt-realtime-2.1 and 2.1-mini ship: ~25% p95 latency cut via caching, mini reasons through tool calls (no dead air), better alphanumeric recall and barge-in handling; $32/$64 full vs $10/$20 mini per 1M tokens (audio in/out)",
+      "url": "https://www.marktechpost.com/2026/07/06/openai-gpt-realtime-2-1-mini-reasoning-realtime-api/",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "elevenlabs-scribe-realtime-control-primitives",
+      "date": "2026-07-08",
+      "company": "ElevenLabs",
+      "headline": "Scribe realtime WebSocket adds keyterms biasing (up to 50 terms) and no_verbatim filler-stripping mode; sendMultimodalMessage hook and audio_duration_secs also shipped in STT responses",
+      "url": "https://elevenlabs.io/docs/changelog",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "xai-grok-voice-builder-no-confirm-gap",
+      "date": "2026-07-08",
+      "company": "xAI",
+      "headline": "Developer review of Grok Voice Agent Builder flags no confirmation/human-in-loop gate before acting on transcribed instructions (e.g., misheard input adds wrong cart item); also beta-access 403 friction",
+      "url": "https://www.eesel.ai/blog/grok-voice-agent-builder-review",
+      "type": "customer_signal",
+      "status": "new"
     }
   ],
   "themes": [
@@ -1383,8 +1410,23 @@
       "since": "2026-07-07",
       "theme": "Voice-cloning consent/governance question now playing out in entertainment, not just contact centers: Netflix/ElevenLabs' Gene Wilder recreation (estate-approved, industry-backlashed) is the media-industry mirror of the 'inauthentic AI voice hurts brand' governance theme tracked since Voices for CX in June.",
       "direction": "watch"
+    },
+    {
+      "since": "2026-07-08",
+      "theme": "Frontier realtime models now fixing tool-call dead air inside the model itself: OpenAI's gpt-realtime-2.1-mini reasons while a tool call executes, moving a problem builders used to patch with filler phrases into first-class model behavior — lands two days after IHBench put a number on how much post-interruption/pause recovery still varies by model tier.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-07-08",
+      "theme": "STT/TTS API surfaces turning into production-tuning dial sets (ElevenLabs keyterms biasing, no_verbatim) rather than raw accuracy jumps, now that top-vendor WER gaps have shrunk to fractions of a point — same shift as Deepgram's mid-session threshold tuning and ElevenLabs' interruption_ignore_terms two weeks ago.",
+      "direction": "up"
+    },
+    {
+      "since": "2026-07-08",
+      "theme": "No-code voice builders shipping fast without safety gating: a week-old Grok Voice Agent Builder review found no confirmation step before acting on a misheard transcription — concrete illustration of the demo-to-production gap this brief quantified in June (60% failure rate, 21% satisfaction despite 87% adoption).",
+      "direction": "watch"
     }
   ],
-  "last_run": "2026-07-07",
+  "last_run": "2026-07-08",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
