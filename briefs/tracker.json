@@ -998,6 +998,24 @@
       "url": "https://www.eesel.ai/blog/grok-voice-agent-builder-review",
       "type": "customer_signal",
       "status": "new"
+    },
+    {
+      "id": "openai-gpt-live",
+      "date": "2026-07-09",
+      "company": "OpenAI",
+      "headline": "OpenAI ships GPT-Live, a full-duplex voice model replacing ChatGPT's turn-based voice mode; delegates reasoning/search to GPT-5.5 in background; global rollout on iOS/Android/web, no API yet; paired with explicit post-launch emotional-reliance monitoring",
+      "url": "https://openai.com/index/introducing-gpt-live/",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "openai-gpt-live-emotional-reliance-safety",
+      "date": "2026-07-09",
+      "company": "OpenAI",
+      "headline": "OpenAI names emotional-reliance/parasocial attachment as a monitored post-launch risk for GPT-Live given prior ChatGPT mental-health-harm lawsuits",
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/09/openai-makes-chatgpt-better-at-banter/5268841",
+      "type": "customer_signal",
+      "status": "new"
     }
   ],
   "themes": [
@@ -1425,8 +1443,18 @@
       "since": "2026-07-08",
       "theme": "No-code voice builders shipping fast without safety gating: a week-old Grok Voice Agent Builder review found no confirmation step before acting on a misheard transcription — concrete illustration of the demo-to-production gap this brief quantified in June (60% failure rate, 21% satisfaction despite 87% adoption).",
       "direction": "watch"
+    },
+    {
+      "since": "2026-07-09",
+      "theme": "Reasoning-during-a-pause moves from API feature to consumer platform default: GPT-Live decouples always-on conversational interaction from heavier reasoning (delegated to GPT-5.5 in background), the same architecture gpt-realtime-2.1-mini shipped for builders two days earlier, now pushed to ChatGPT's full install base rather than just voice-agent developers.",
+      "direction": "up"
+    },
+    {
+      "since": "2026-07-09",
+      "theme": "Voice-AI naturalism now ships with a named psychological-safety liability: OpenAI pairs GPT-Live's full-duplex backchanneling with explicit post-launch monitoring for emotional reliance, extending the governance thread (Voices for CX brand authenticity, Netflix/Gene Wilder consent) into a third lane — dependency risk — that companion-style and long-session voice products should expect to be evaluated on next.",
+      "direction": "emerging"
     }
   ],
-  "last_run": "2026-07-08",
+  "last_run": "2026-07-09",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
