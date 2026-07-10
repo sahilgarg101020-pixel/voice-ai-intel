@@ -1016,6 +1016,33 @@
       "url": "https://www.theregister.com/ai-and-ml/2026/07/09/openai-makes-chatgpt-better-at-banter/5268841",
       "type": "customer_signal",
       "status": "new"
+    },
+    {
+      "id": "grido-ab-wellbeing-companion-eu-sovereign",
+      "date": "2026-07-10",
+      "company": "Grido AB",
+      "headline": "Grido AB launches voice-first AI wellbeing companion across EU App Store, built and hosted entirely in Europe; founder: 'not a clinical or medical product'",
+      "url": "https://insider.fitt.co/press-release/grido-launches-a-voice-first-ai-wellbeing-companion-built-and-hosted-in-europe/",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "huggingface-cerebras-gemma4-s2s-pipeline",
+      "date": "2026-07-10",
+      "company": "Hugging Face / Cerebras",
+      "headline": "Hugging Face + Cerebras open-source speech-to-speech pipeline on Gemma 4 (Parakeet STT + Gemma 4 31B on Cerebras + Qwen3-TTS); ~1.5s first token at 1,851 tok/s, P95 tail-latency framing, powers 9,000+ Reachy Mini robots; originally announced July 1, previously unreported in this brief",
+      "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "assort-health-120m-series-c",
+      "date": "2026-07-10",
+      "company": "Assort Health",
+      "headline": "Assort Health raises $120M Series C (Menlo Ventures) at $1.2B valuation for patient-journey voice agent platform, 190M+ patient voice interactions, 20x revenue growth in 15 months; originally announced June 24, previously unreported in this brief",
+      "url": "https://www.assorthealth.com/blog/assort-health-raises-120-million-series-c-to-scale-largest-deployment-of-ai-agents-for-the-patient-journey",
+      "type": "funding",
+      "status": "new"
     }
   ],
   "themes": [
@@ -1453,8 +1480,28 @@
       "since": "2026-07-09",
       "theme": "Voice-AI naturalism now ships with a named psychological-safety liability: OpenAI pairs GPT-Live's full-duplex backchanneling with explicit post-launch monitoring for emotional reliance, extending the governance thread (Voices for CX brand authenticity, Netflix/Gene Wilder consent) into a third lane — dependency risk — that companion-style and long-session voice products should expect to be evaluated on next.",
       "direction": "emerging"
+    },
+    {
+      "since": "2026-07-10",
+      "theme": "Companion-voice products now pre-emptively disclaiming clinical/dependency framing in launch copy: Grido's 'not a clinical or medical product' positioning lands one day after OpenAI named emotional reliance as a monitored GPT-Live risk — the psychological-safety lane is shaping product marketing before regulation forces it.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-07-10",
+      "theme": "Data sovereignty pitch extending from enterprise/government procurement into consumer trust marketing: Grido markets EU-only hosting as a feature for individual users, the first consumer (not B2B/government) application of the sovereign-voice-AI theme tracked since June 18.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-07-10",
+      "theme": "Retrieval/tail-latency thesis (open since May 30, Garry Tan/Moss) gets its first fully open, production-running concretization: Hugging Face + Cerebras' Gemma 4 S2S pipeline is explicitly marketed on P95 stability over median TTFB and already powers 9,000+ physical robots, not just a benchmark demo.",
+      "direction": "up"
+    },
+    {
+      "since": "2026-07-10",
+      "theme": "Healthcare voice-AI vertical funding streak continues past Prosper AI: Assort Health's $120M Series C is the second mega-round in three weeks, reinforcing structured-workflow verticals as the most reliable place voice-AI capital is flowing versus broad consumer engagement plays.",
+      "direction": "up"
     }
   ],
-  "last_run": "2026-07-09",
+  "last_run": "2026-07-10",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
