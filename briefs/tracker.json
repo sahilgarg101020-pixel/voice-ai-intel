@@ -1043,6 +1043,42 @@
       "url": "https://www.assorthealth.com/blog/assort-health-raises-120-million-series-c-to-scale-largest-deployment-of-ai-agents-for-the-patient-journey",
       "type": "funding",
       "status": "new"
+    },
+    {
+      "id": "deeplearningai-vocalbridge-voice-builder-challenge",
+      "date": "2026-07-13",
+      "company": "DeepLearning.AI / VocalBridge",
+      "headline": "DeepLearning.AI's 7-day Voice AI Builder Challenge with VocalBridge wraps (July 12): 500+ iterations, 38 submissions, builders scored on teaching agents when to escalate to a human vs. push through alone — recovery-loop/escalation design as a practiced, competitive builder skill",
+      "url": "https://community.deeplearning.ai/t/7-day-voice-ai-builder-challenge-winners/893368",
+      "type": "customer_signal",
+      "status": "new"
+    },
+    {
+      "id": "apple-openai-hardware-trade-secret-lawsuit",
+      "date": "2026-07-13",
+      "company": "Apple / OpenAI",
+      "headline": "Apple sues OpenAI (July 10) alleging systematic trade-secret theft tied to OpenAI's Jony Ive-designed consumer hardware device; not voice-specific on its face but relevant given the device is widely expected to be voice-first",
+      "url": "https://www.cnbc.com/2026/07/10/apple-openai-lawsuit-trade-secrets.html",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "gradium-70m-seed-expressive-voice",
+      "date": "2026-07-13",
+      "company": "Gradium",
+      "headline": "Update: Gradium extends seed round by $30M (total $100M+), Nvidia joins as new investor, opens San Francisco office — capital still backing a frontier voice-model lab directly, not just session/orchestration plays",
+      "url": "https://techcrunch.com/2026/07/09/paris-based-ai-voice-startup-gradium-raises-100m-seed-backed-by-nvidia/",
+      "type": "funding",
+      "status": "developing"
+    },
+    {
+      "id": "openai-gpt-live",
+      "date": "2026-07-13",
+      "company": "OpenAI",
+      "headline": "Update: GPT-Live draws its first real user backlash days into rollout — not latency or accuracy, but backchanneling (\"mhmm\"/\"yeah\") landing as over-frequent and intrusive rather than natural; no tuning control shipped yet",
+      "url": "https://finance.biggo.com/news/e3986ab2-abf9-4cee-b8dc-39349a6a6eaf",
+      "type": "customer_signal",
+      "status": "developing"
     }
   ],
   "themes": [
@@ -1500,8 +1536,23 @@
       "since": "2026-07-10",
       "theme": "Healthcare voice-AI vertical funding streak continues past Prosper AI: Assort Health's $120M Series C is the second mega-round in three weeks, reinforcing structured-workflow verticals as the most reliable place voice-AI capital is flowing versus broad consumer engagement plays.",
       "direction": "up"
+    },
+    {
+      "since": "2026-07-13",
+      "theme": "Recovery-loop/escalation design graduates from vendor feature to practiced builder skill: DeepLearning.AI's community challenge scored 38 teams explicitly on teaching agents when to call a human for backup — the recovery-loop thesis (tracked since June 1, shipped as Retell's Conductor in early July) is now something builders train and compete on directly, not just something platforms bake in.",
+      "direction": "up"
+    },
+    {
+      "since": "2026-07-13",
+      "theme": "Naturalism failure mode flips at consumer scale: GPT-Live's backchannel over-eagerness shows full-duplex products can fail by over-signaling engagement, not just by cutting people off — the opposite direction from every turn-detection story this brief has tracked since May. Enterprise voice vendors already ship fine-grained dials for this (ElevenLabs interruption_ignore_terms, Deepgram mid-session threshold updates); OpenAI's consumer product shipped with none.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-07-13",
+      "theme": "Capital hasn't fully consolidated around 'orchestration is the moat, model quality churns weekly': Gradium's Nvidia-backed $30M extension (total $100M+) is a bet that a compute-heavy frontier voice-model lab is still worth backing directly, not just as a component inside someone else's session stack.",
+      "direction": "watch"
     }
   ],
-  "last_run": "2026-07-10",
+  "last_run": "2026-07-13",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
