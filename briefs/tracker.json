@@ -1079,6 +1079,33 @@
       "url": "https://finance.biggo.com/news/e3986ab2-abf9-4cee-b8dc-39349a6a6eaf",
       "type": "customer_signal",
       "status": "developing"
+    },
+    {
+      "id": "apple-siri-ios27-gemini-wwdc2026",
+      "date": "2026-07-14",
+      "company": "Apple",
+      "headline": "Update: iOS 27 public beta ships July 13 with Siri voice pace/expressivity sliders (added beta 3, gated to iPhone Air/17 Pro); early reviewer sentiment strongly positive, called \"a clear winner\"",
+      "url": "https://9to5mac.com/2026/07/13/ios-27-public-beta/",
+      "type": "market",
+      "status": "developing"
+    },
+    {
+      "id": "openai-gpt-live",
+      "date": "2026-07-14",
+      "company": "OpenAI",
+      "headline": "Update: OpenAI opens signup form for GPT-Live-1 / GPT-Live-1 mini API access (\"soon\", no date), closing the API-timeline gap flagged July 10; backchanneling-frequency complaint from July 13 still has no shipped fix",
+      "url": "https://openai.com/form/gpt-live-1-in-the-api/",
+      "type": "market",
+      "status": "developing"
+    },
+    {
+      "id": "elevenlabs-22b-tender-offer",
+      "date": "2026-07-14",
+      "company": "ElevenLabs",
+      "headline": "Update: $22B tender offer talks reportedly on track to close by September — first concrete timeline attached to the July 2 valuation story",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-02/elevenlabs-in-talks-for-tender-offer-at-22-billion-valuation",
+      "type": "funding",
+      "status": "developing"
     }
   ],
   "themes": [
@@ -1551,8 +1578,23 @@
       "since": "2026-07-13",
       "theme": "Capital hasn't fully consolidated around 'orchestration is the moat, model quality churns weekly': Gradium's Nvidia-backed $30M extension (total $100M+) is a bet that a compute-heavy frontier voice-model lab is still worth backing directly, not just as a component inside someone else's session stack.",
       "direction": "watch"
+    },
+    {
+      "since": "2026-07-14",
+      "theme": "Voice-tuning dials are reaching mass consumer platforms, not just developer APIs: Apple ships user-facing pace/expressivity sliders for the rebuilt Siri in iOS 27 beta, the same 'production-tuning dial' pattern tracked since June 30 for ElevenLabs/Deepgram APIs — now visible to end users, not just builders.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-07-14",
+      "theme": "OpenAI's post-launch fix speed depends on problem type: architectural fixes (tool-call dead air, routed to background reasoning) shipped within days; UX-tuning fixes needing real usage data (GPT-Live backchannel frequency) and access gaps (API signup) both took a week or more — useful calibration for how fast a platform vendor resolves different classes of production complaint.",
+      "direction": "watch"
+    },
+    {
+      "since": "2026-07-14",
+      "theme": "Infra-layer launch cooldown (Cartesia/Deepgram/AssemblyAI/Speechmatics/Soniox) now four straight quiet weeks, confirming the July 3 slowdown call rather than a one-off blip.",
+      "direction": "watch"
     }
   ],
-  "last_run": "2026-07-13",
+  "last_run": "2026-07-14",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
