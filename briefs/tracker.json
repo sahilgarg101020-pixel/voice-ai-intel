@@ -1106,6 +1106,33 @@
       "url": "https://www.bloomberg.com/news/articles/2026-07-02/elevenlabs-in-talks-for-tender-offer-at-22-billion-valuation",
       "type": "funding",
       "status": "developing"
+    },
+    {
+      "id": "speechify-simba-3-2-tts-leaderboard",
+      "date": "2026-07-15",
+      "company": "Speechify",
+      "headline": "Speechify Simba 3.2 takes #1 on Artificial Analysis TTS leaderboard and joint-second on Voice Arena, beating ElevenLabs/Cartesia/OpenAI/Google DeepMind flagships while also being the cheapest model in the top ten (~15x cheaper than ElevenLabs, ~6x cheaper than Cartesia) — first new player in this brief's TTS leaderboard-churn thread to combine #1 quality with lowest price",
+      "url": "https://www.prweb.com/releases/speechifys-simba-3-2-ranks-1-on-independent-artificial-analysis-tts-leaderboard-worlds-best-real-time-voice-model-above-elevenlabs-openai-google-deepmind--others-302819731.html",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "apple-siri-ios27-gemini-wwdc2026",
+      "date": "2026-07-15",
+      "company": "Apple",
+      "headline": "Update: iOS 27 public beta opens to all testers July 14 (previously developer-beta only); pace/expressivity sliders remain iPhone Air/17 Pro-gated; Reddit sentiment continues strongly positive (\"best beta I have ever tested\")",
+      "url": "https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta/",
+      "type": "customer_signal",
+      "status": "developing"
+    },
+    {
+      "id": "openai-gpt-live-agi-framing",
+      "date": "2026-07-15",
+      "company": "OpenAI",
+      "headline": "OpenAI researcher frames GPT-Live as \"one step closer to a truly accessible AGI\" during launch livestream — first time this brief has seen a vendor attach AGI messaging specifically to a voice/naturalism feature rather than a reasoning capability",
+      "url": "https://gizmodo.com/the-future-is-always-listening-openai-says-its-new-voice-assistant-is-one-step-closer-to-a-truly-accessible-agi-2000783210",
+      "type": "founder_take",
+      "status": "new"
     }
   ],
   "themes": [
@@ -1590,11 +1617,21 @@
       "direction": "watch"
     },
     {
-      "since": "2026-07-14",
-      "theme": "Infra-layer launch cooldown (Cartesia/Deepgram/AssemblyAI/Speechmatics/Soniox) now four straight quiet weeks, confirming the July 3 slowdown call rather than a one-off blip.",
+      "since": "2026-07-15",
+      "theme": "TTS leaderboard churn adds a price axis: unlike the prior three #1 flips (Alibaba, Grok, MiniMax), which won on quality alone at comparable price points, Speechify's Simba 3.2 tops Artificial Analysis while also being the cheapest model in the top ten — a more direct threat to the ElevenLabs/Cartesia session-stack pricing bet than quality churn alone.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-07-15",
+      "theme": "Vendors escalating voice-naturalism messaging into AGI territory: OpenAI's \"one step closer to a truly accessible AGI\" framing for GPT-Live is the first time this brief has seen AGI language attached to a voice/UX feature rather than a reasoning one — raises the stakes on getting naturalism/backchannel tuning right given OpenAI's own emotional-reliance monitoring on the same product.",
+      "direction": "watch"
+    },
+    {
+      "since": "2026-07-15",
+      "theme": "Infra-layer launch cooldown (Cartesia/Deepgram/AssemblyAI/Speechmatics/Soniox) now five straight quiet weeks.",
       "direction": "watch"
     }
   ],
-  "last_run": "2026-07-14",
+  "last_run": "2026-07-15",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
