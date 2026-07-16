@@ -1133,6 +1133,15 @@
       "url": "https://gizmodo.com/the-future-is-always-listening-openai-says-its-new-voice-assistant-is-one-step-closer-to-a-truly-accessible-agi-2000783210",
       "type": "founder_take",
       "status": "new"
+    },
+    {
+      "id": "rime-24m-series-a-enterprise-s2s",
+      "date": "2026-07-16",
+      "company": "Rime",
+      "headline": "Rime raises $24M Series A (M13 Ventures lead) to build enterprise-ready speech-to-speech models; hires ex-Meta Superintelligence Labs/NVIDIA audio researcher Rafael Valle as Chief Science Officer; powers ~100M monthly calls for Mayo Clinic, Dialpad, Upstart, Asurion; CEO Lily Clifford: most voice agents today are \"a new IVR, but with a better voice\"",
+      "url": "https://techcrunch.com/2026/07/15/rime-picks-up-24m-series-a-to-help-enterprises-field-customer-calls/",
+      "type": "funding",
+      "status": "new"
     }
   ],
   "themes": [
@@ -1630,8 +1639,23 @@
       "since": "2026-07-15",
       "theme": "Infra-layer launch cooldown (Cartesia/Deepgram/AssemblyAI/Speechmatics/Soniox) now five straight quiet weeks.",
       "direction": "watch"
+    },
+    {
+      "since": "2026-07-16",
+      "theme": "Frontier-lab audio talent flowing OUT to vertical voice specialists, not just platforms absorbing specialists: Rime hires Rafael Valle straight from Meta Superintelligence Labs, mirroring Gradium's Nvidia-backed extension a week earlier — two proprietary S2S labs raising and recruiting from general frontier labs in the same six weeks, betting vertical model ownership beats being a component in someone else's session stack.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-07-16",
+      "theme": "A funded, technically serious founder (Rime's Lily Clifford) publicly calling most production voice agents \"a new IVR, but with a better voice\" is a direct counterweight to OpenAI's AGI framing for GPT-Live one week earlier — naturalism-benchmark chasing vs. the harder, less measurable problem of making the interaction worth having.",
+      "direction": "watch"
+    },
+    {
+      "since": "2026-07-16",
+      "theme": "Infra-layer launch cooldown (Cartesia/Deepgram/AssemblyAI/Speechmatics/Soniox) now six straight quiet weeks.",
+      "direction": "watch"
     }
   ],
-  "last_run": "2026-07-15",
+  "last_run": "2026-07-16",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
