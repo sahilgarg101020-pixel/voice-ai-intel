@@ -1142,6 +1142,24 @@
       "url": "https://techcrunch.com/2026/07/15/rime-picks-up-24m-series-a-to-help-enterprises-field-customer-calls/",
       "type": "funding",
       "status": "new"
+    },
+    {
+      "id": "apple-speechanalyzer-whisper-benchmark",
+      "date": "2026-07-17",
+      "company": "Apple",
+      "headline": "Independent Inscribe benchmark (5,559 utterances, all transcripts published): Apple's on-device SpeechAnalyzer API cuts WER 3.5-4x vs its SFSpeechRecognizer predecessor (9.02%->2.12% clean, 16.25%->4.56% noisy), beats Whisper Small, runs ~3x faster on M2 Pro; drops custom-vocabulary support and covers ~30 locales vs Whisper's 100+",
+      "url": "https://get-inscribe.com/blog/apple-speech-api-benchmark.html",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "deepgram-nova3-monolingual-selfhosted-260714",
+      "date": "2026-07-17",
+      "company": "Deepgram",
+      "headline": "Deepgram self-hosted container refresh (release-260714, July 14) with 'improved' Nova-3 monolingual models for batch and streaming; no published WER numbers, read as routine maintenance amid the ongoing infra-layer cooldown",
+      "url": "https://developers.deepgram.com/changelog",
+      "type": "tech",
+      "status": "new"
     }
   ],
   "themes": [
@@ -1654,8 +1672,23 @@
       "since": "2026-07-16",
       "theme": "Infra-layer launch cooldown (Cartesia/Deepgram/AssemblyAI/Speechmatics/Soniox) now six straight quiet weeks.",
       "direction": "watch"
+    },
+    {
+      "since": "2026-07-17",
+      "theme": "Infra-layer launch cooldown (Cartesia/AssemblyAI/Speechmatics/Soniox) now seven straight weeks; only motion is Deepgram's July 14 self-hosted container refresh with unquantified 'improved' Nova-3 monolingual models.",
+      "direction": "watch"
+    },
+    {
+      "since": "2026-07-17",
+      "theme": "On-device STT gets a credible platform-vendor upgrade outside the specialist pack: independently-benchmarked Apple SpeechAnalyzer beats Whisper on English WER/speed but drops custom vocab and 70+ locales versus Whisper — a real tradeoff, not a clean replacement, for production teams.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-07-17",
+      "theme": "Reproducible, receipts-published third-party benchmarking (Inscribe releasing all 5,559 raw transcripts) becoming the credibility bar for any WER claim, extending the 'aggregate WER hides production gaps' and 'benchmark literacy' threads from vendor leaderboards to platform-native voice features (Apple, and by extension Google/Microsoft).",
+      "direction": "emerging"
     }
   ],
-  "last_run": "2026-07-16",
+  "last_run": "2026-07-17",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
