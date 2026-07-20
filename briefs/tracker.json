@@ -1160,6 +1160,24 @@
       "url": "https://developers.deepgram.com/changelog",
       "type": "tech",
       "status": "new"
+    },
+    {
+      "id": "voice-scam-economic-impact-insuranceopedia",
+      "date": "2026-07-20",
+      "company": "Industry / Insuranceopedia",
+      "headline": "Insuranceopedia study estimates deepfake voice scams could cost Americans ~$39.7B/year (base case, range $2.6B-$46.4B); 25% of US adults report receiving an AI-voice scam call, 77% of those targeted lost money — first dollar-figure quantification of the voice-cloning/vishing threat this brief has tracked since June",
+      "url": "https://cordcuttersnews.com/experts-warn-this-ai-scam-could-cost-americans-nearly-40-billion-a-year-heres-how-to-protect-yourself/",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "deeplearningai-vocalbridge-voice-builder-challenge",
+      "date": "2026-07-20",
+      "company": "DeepLearning.AI / VocalBridge / Sabre",
+      "headline": "Update: Sabre, VocalBridge, and DeepLearning.AI ran a 400-developer Bay Area hackathon (July 18) targeting agentic travel voice agents against real Sabre APIs, American Airlines, and PayPal data, explicitly testing higher-stakes moments (disrupted flight, late-night hotel issue) rather than chatbot demos — same recovery-loop/escalation-design thread as the July 13 builder challenge, now extended into a named enterprise-data domain",
+      "url": "https://www.prnewswire.com/news-releases/sabre-opens-travel-infrastructure-to-silicon-valley-developers-building-the-next-voice-ai-agents-powering-the-complete-trip-at-bay-area-hackathon-302826482.html",
+      "type": "customer_signal",
+      "status": "developing"
     }
   ],
   "themes": [
@@ -1687,8 +1705,18 @@
       "since": "2026-07-17",
       "theme": "Reproducible, receipts-published third-party benchmarking (Inscribe releasing all 5,559 raw transcripts) becoming the credibility bar for any WER claim, extending the 'aggregate WER hides production gaps' and 'benchmark literacy' threads from vendor leaderboards to platform-native voice features (Apple, and by extension Google/Microsoft).",
       "direction": "emerging"
+    },
+    {
+      "since": "2026-07-20",
+      "theme": "Voice-cloning/vishing threat gets a market-sized price tag: Insuranceopedia's ~$39.7B/year estimate is the first dollar-figure attempt (vs. incident counts like the 442% H2-2024 vishing surge) to size the security thread tracked since AudioHijack and the Teams-vishing wave in June — expect voice authentication/anti-spoofing to start showing up as an explicit enterprise procurement line item, mirroring how data-sovereignty hardened into one over June.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-07-20",
+      "theme": "Recovery-loop/escalation-design builder-skill thread keeps compounding: VocalBridge's July 13 scored builder challenge and July 18 Sabre travel hackathon are two instances in a week of the same organizing idea (train/test builders explicitly on when-to-escalate, not just model selection) — worth watching for a third before calling it a durable pattern.",
+      "direction": "watch"
     }
   ],
-  "last_run": "2026-07-17",
+  "last_run": "2026-07-20",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
