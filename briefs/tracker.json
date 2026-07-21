@@ -1178,6 +1178,15 @@
       "url": "https://www.prnewswire.com/news-releases/sabre-opens-travel-infrastructure-to-silicon-valley-developers-building-the-next-voice-ai-agents-powering-the-complete-trip-at-bay-area-hackathon-302826482.html",
       "type": "customer_signal",
       "status": "developing"
+    },
+    {
+      "id": "apple-openai-hardware-trade-secret-lawsuit",
+      "date": "2026-07-21",
+      "company": "Apple / OpenAI",
+      "headline": "Update: reporting fills in OpenAI's first hardware device as an explicitly voice-first ‘humanlike AI companion’ — screen-free, camera, motorized parts, runs advanced ChatGPT Voice Mode, unveil later 2026 / ship 2027; TechCrunch (July 19) asks directly whether Apple's trade-secret suit will delay it",
+      "url": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/",
+      "type": "market",
+      "status": "developing"
     }
   ],
   "themes": [
@@ -1715,8 +1724,13 @@
       "since": "2026-07-20",
       "theme": "Recovery-loop/escalation-design builder-skill thread keeps compounding: VocalBridge's July 13 scored builder challenge and July 18 Sabre travel hackathon are two instances in a week of the same organizing idea (train/test builders explicitly on when-to-escalate, not just model selection) — worth watching for a third before calling it a durable pattern.",
       "direction": "watch"
+    },
+    {
+      "since": "2026-07-21",
+      "theme": "OpenAI's Apple-lawsuit exposure names its first hardware bet explicitly as a voice-first product, not just AI-adjacent: a screen-free 'humanlike AI companion' built on ChatGPT Voice Mode, with camera/motorized parts designed to seem alive — the same emotional-reliance tension flagged for GPT-Live (July 9) and Grido (July 10) now attaches to a physical device whose ship timeline a live trade-secret suit could plausibly delay.",
+      "direction": "emerging"
     }
   ],
-  "last_run": "2026-07-20",
+  "last_run": "2026-07-21",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
