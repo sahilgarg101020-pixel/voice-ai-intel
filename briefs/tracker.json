@@ -1187,6 +1187,24 @@
       "url": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/",
       "type": "market",
       "status": "developing"
+    },
+    {
+      "id": "eu-dma-google-android-ai-assistants",
+      "date": "2026-07-22",
+      "company": "EU / Google",
+      "headline": "EU Digital Markets Act decision (July 16) orders Google to give rival AI assistants (ChatGPT, Claude, Perplexity) Gemini-equivalent Android access: voice invocation, on-device actions, contextual/system data across 11 feature groups; search-data sharing Jan 2027, voice hooks with Android 18 by Aug 2027, concurrent hotword with Android 19 by 2028 — first regulator (not partnership/acquisition) forcing open the assistant-invocation layer",
+      "url": "https://www.androidauthority.com/eu-android-ai-google-search-mandates-3688186/",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "xai-grok-voice-21-multilingual-voices",
+      "date": "2026-07-22",
+      "company": "xAI",
+      "headline": "xAI ships 21 new multilingual Grok voices (July 6) plus naturalness retrain of original five; 25+ languages across realtime Voice Agent API, TTS API, Voice Agent Builder — previously unreported in this brief",
+      "url": "https://x.ai/news/new-flagship-voices",
+      "type": "tech",
+      "status": "new"
     }
   ],
   "themes": [
@@ -1729,8 +1747,18 @@
       "since": "2026-07-21",
       "theme": "OpenAI's Apple-lawsuit exposure names its first hardware bet explicitly as a voice-first product, not just AI-adjacent: a screen-free 'humanlike AI companion' built on ChatGPT Voice Mode, with camera/motorized parts designed to seem alive — the same emotional-reliance tension flagged for GPT-Live (July 9) and Grido (July 10) now attaches to a physical device whose ship timeline a live trade-secret suit could plausibly delay.",
       "direction": "emerging"
+    },
+    {
+      "since": "2026-07-22",
+      "theme": "First regulatory (not competitive) crack in platform-assistant lock-in: EU's DMA order forces Google to open Android's voice-invocation layer to rival consumer AI assistants — a countervailing force against the 'wrapper compression'/native-first-party-voice thread this brief has tracked since June, though the 2027-2028 timeline means zero near-term effect for builders and covers consumer assistants, not enterprise voice-agent platforms.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-07-22",
+      "theme": "Infra-layer launch cooldown (Cartesia/Deepgram/AssemblyAI/Speechmatics/Soniox) extends past a month with no break; feature-layer vendors (xAI's multilingual voice expansion, Anthropic's quiet Claude Voice Mode UI refresh) keep shipping incremental, non-headline additions in the gap.",
+      "direction": "watch"
     }
   ],
-  "last_run": "2026-07-21",
+  "last_run": "2026-07-22",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
