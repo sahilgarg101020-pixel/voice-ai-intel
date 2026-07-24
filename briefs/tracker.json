@@ -1223,6 +1223,42 @@
       "url": "https://www.testingcatalog.com/claude-voice-mode-to-get-opus-and-sonnet-model-options/",
       "type": "tech",
       "status": "developing"
+    },
+    {
+      "id": "devrev-voice-ai-shared-memory",
+      "date": "2026-07-24",
+      "company": "DevRev",
+      "headline": "DevRev launches Voice AI inside Customer Agent, extending shared organizational memory (tickets, orders, code, docs) into live calls with context-preserving human handoff",
+      "url": "https://www.manilatimes.net/2026/07/23/tmt-newswire/globenewswire/devrev-launches-voice-ai-with-shared-organizational-memory-across-agents/2390387",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "tiktok-ai-voice-ban-livestreams",
+      "date": "2026-07-24",
+      "company": "TikTok",
+      "headline": "TikTok Shop bans AI-generated voices, pre-recorded loops, and radio-style scripted audio from shopping livestreams; violations dent seller account-health score; originally announced mid-July, previously unreported in this brief",
+      "url": "https://www.socialmediatoday.com/news/tiktok-bans-ai-generated-voices-in-shopping-livestreams/822977/",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "meta-patent-voice-mood-detection",
+      "date": "2026-07-24",
+      "company": "Meta",
+      "headline": "Meta patents wearable that continuously infers emotional state from voice (tone, pitch, sighs, laughter) correlated with time/location/medication timing; filed Dec 2025, published July 2, framed as fitness coaching; previously unreported in this brief",
+      "url": "https://futurism.com/artificial-intelligence/meta-patent-detects-mood-constantly-analyzing-voice",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "openai-gpt-live",
+      "date": "2026-07-24",
+      "company": "OpenAI",
+      "headline": "Update: GPT-Live now fully rolled out to all ChatGPT Go/Plus/Pro users, free-tier rollout in progress; backchanneling-frequency complaint from July 13 still unaddressed",
+      "url": "https://x.com/OpenAI/status/2075019750569378007",
+      "type": "market",
+      "status": "developing"
     }
   ],
   "themes": [
@@ -1785,8 +1821,23 @@
       "since": "2026-07-23",
       "theme": "Recovery-loop-as-moat thesis (tracked since June 1) now operationalized directly by a frontier model vendor: OpenAI's Presence makes identity verification, policy-bound approved actions, and human escalation first-class primitives, and OpenAI dogfoods it on its own support line before selling it — same 'prove it on yourself first' pattern as Retell's Conductor (July 7).",
       "direction": "up"
+    },
+    {
+      "since": "2026-07-24",
+      "theme": "Context/memory-in-voice theme gets its first audio-agnostic entrant: DevRev builds voice on top of an existing cross-system memory graph (tickets, orders, code, docs) rather than building context features on top of an STT/turn-detection stack — inverts the direction every prior mover in this thread (AssemblyAI, ElevenLabs, Deepgram) has taken, and is a real competitive angle for CRM/support incumbents (Zendesk, Salesforce, Intercom) against voice-native platforms.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-07-24",
+      "theme": "Voice-authenticity and companion-safety threads (Voices for CX, Netflix/Gene Wilder, GPT-Live emotional-reliance monitoring, Grido's clinical disclaimer) now have a hard-enforcement counterpart and an opposite-direction counterexample in the same week: TikTok Shop bans undisclosed AI voice in commerce, while Meta patents a device built to listen continuously without disclosure — the same underlying anxiety about synthetic/monitored voice, pulling toward disclosure-first regulation on one side and listen-by-default hardware on the other.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-07-24",
+      "theme": "Infra-layer launch cooldown (Cartesia/Deepgram/AssemblyAI/Speechmatics/Soniox) extends into a ninth-plus week with no break; motion continues to come from adjacent layers (CRM/support platforms, consumer platforms, foundation-model hardware) rather than the core STT/TTS vendors.",
+      "direction": "watch"
     }
   ],
-  "last_run": "2026-07-23",
+  "last_run": "2026-07-24",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
