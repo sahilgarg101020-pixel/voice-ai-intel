@@ -1259,6 +1259,51 @@
       "url": "https://x.com/OpenAI/status/2075019750569378007",
       "type": "market",
       "status": "developing"
+    },
+    {
+      "id": "soundhound-deliverect-voice-ordering",
+      "date": "2026-07-27",
+      "company": "SoundHound / Deliverect",
+      "headline": "SoundHound AI partners with Deliverect to fully automate restaurant voice ordering (drive-through, phone, kiosk) straight into kitchen POS across 100+ languages; distinct from the pending SoundHound-LivePerson merger — SoundHound running a vertical-integration play and an enterprise-CX-fusion play simultaneously",
+      "url": "https://www.prnewswire.com/news-releases/deliverect-and-soundhound-ai-partner-to-turn-voice-into-a-fully-automated-ordering-channel-for-restaurants-302833315.html",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "anthropic-claude-voice-multilingual-push-to-talk",
+      "date": "2026-07-27",
+      "company": "Anthropic",
+      "headline": "Update: Claude Voice Mode now runs on Opus/Sonnet (not just Haiku) with voice-triggered connectors into Gmail, Calendar, Slack, Canva, Notion; Claude Fable (most capable model) explicitly stays text-only, scoped to daily-driver models not frontier reasoning",
+      "url": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/",
+      "type": "tech",
+      "status": "developing"
+    },
+    {
+      "id": "openai-gpt-live",
+      "date": "2026-07-27",
+      "company": "OpenAI",
+      "headline": "Update: GPT-Live comes to the ChatGPT desktop app (macOS/Windows), able to steer Codex and ChatGPT Work agents by voice mid-conversation — voice as control surface for other agents, not just a conversation product",
+      "url": "https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/",
+      "type": "tech",
+      "status": "developing"
+    },
+    {
+      "id": "eu-ai-act-article-50-deepfake-disclosure",
+      "date": "2026-07-27",
+      "company": "EU",
+      "headline": "EU AI Act Article 50 deepfake/synthetic-content disclosure obligations become enforceable August 2, 2026; broad definition covers AI-generated voice resembling a real person, fines up to €15M or 3% global turnover; marking/detection grace period for pre-Aug-2 systems only extends to Dec 2",
+      "url": "https://datamatters.sidley.com/2026/06/24/eu-ai-act-transparency-obligations-preparing-for-compliance-by-2-august-2026/",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "soundhound-liveperson-acquisition-oasys",
+      "date": "2026-07-27",
+      "company": "SoundHound / LivePerson",
+      "headline": "Update: LivePerson stockholder vote on the SoundHound merger formally set for August 20; board unanimously recommends approval",
+      "url": "https://www.tipranks.com/news/company-announcements/liveperson-sets-august-vote-on-premium-all-stock-and-cash-merger-with-soundhound-ai",
+      "type": "market",
+      "status": "developing"
     }
   ],
   "themes": [
@@ -1836,8 +1881,28 @@
       "since": "2026-07-24",
       "theme": "Infra-layer launch cooldown (Cartesia/Deepgram/AssemblyAI/Speechmatics/Soniox) extends into a ninth-plus week with no break; motion continues to come from adjacent layers (CRM/support platforms, consumer platforms, foundation-model hardware) rather than the core STT/TTS vendors.",
       "direction": "watch"
+    },
+    {
+      "since": "2026-07-27",
+      "theme": "Voice as a control surface for other agents is emerging as a convergent bet: Anthropic's voice-triggered cross-app connectors (Gmail/Calendar/Slack/Canva/Notion) and OpenAI's GPT-Live steering Codex/ChatGPT Work agents on desktop shipped within 24 hours of each other, but both labs kept their most capable reasoning model (Claude Fable, and implicitly GPT-5.5-class reasoning routed to background in GPT-Live) out of the direct voice path — voice is trusted as an orchestration UI before it's trusted to carry frontier reasoning directly.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-07-27",
+      "theme": "SoundHound running two integration-depth bets at once — vertical (Deliverect/restaurant ordering, narrow vocabulary + high call volume, mirrors Deepgram's June QSR playbook) and horizontal (LivePerson merger fusing voice + enterprise messaging, vote set for Aug 20) — a live test of which integration strategy actually wins enterprise voice.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-07-27",
+      "theme": "Voice-authenticity/disclosure thread (Voices for CX, TikTok ban, Netflix/Gene Wilder, Meta patent) gets its first hard regulatory deadline: EU AI Act Article 50 enforceable Aug 2 with fines up to €15M/3% global turnover — the governance conversation this brief has tracked since June stops being soft-power/PR and starts being a compliance line item for anyone shipping AI voice in the EU.",
+      "direction": "up"
+    },
+    {
+      "since": "2026-07-27",
+      "theme": "Infra-layer launch cooldown (Cartesia/Deepgram/AssemblyAI/Speechmatics/Soniox) extends into an eleventh week with no break.",
+      "direction": "watch"
     }
   ],
-  "last_run": "2026-07-24",
+  "last_run": "2026-07-27",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
