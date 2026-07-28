@@ -1304,6 +1304,33 @@
       "url": "https://www.tipranks.com/news/company-announcements/liveperson-sets-august-vote-on-premium-all-stock-and-cash-merger-with-soundhound-ai",
       "type": "market",
       "status": "developing"
+    },
+    {
+      "id": "meta-rayban-conversation-focus-paywall",
+      "date": "2026-07-28",
+      "company": "Meta",
+      "headline": "Meta pauses Ray-Ban Conversation Focus paywall (quietly capped at 3 free hrs/month in late June, $20/mo Meta One Premium for 15 hrs) after backlash; feature runs entirely on-device with zero marginal inference cost, undercutting the usual AI-paywall justification",
+      "url": "https://www.engadget.com/2223212/meta-walks-back-rate-limits-for-smart-glasses-conversation-focus/",
+      "type": "customer_signal",
+      "status": "developing"
+    },
+    {
+      "id": "amazon-az3-chip-ondevice-wakeword",
+      "date": "2026-07-28",
+      "company": "Amazon",
+      "headline": "Update: Panos Panay tells CNN the always-listening $50 Bee Pioneer bracelet is now central to Alexa's ambient-assistant future, teases agentic \"Moonraker\" project — first explicit link between the July 7 AZ3 on-device roadmap and a concrete always-on consumer product",
+      "url": "https://us.cnn.com/2026/07/26/tech/ai-devices-see-listen-record-meta-amazon-plaud",
+      "type": "market",
+      "status": "developing"
+    },
+    {
+      "id": "inflection-pi-journeys-voice-mode-2",
+      "date": "2026-07-28",
+      "company": "Inflection AI",
+      "headline": "Inflection AI Labs launches with Pi Journeys and Real-Time Voice Mode 2.0 (near-latency-free, detects and mirrors vocal stress/excitement/sadness) — first real consumer voice push since Mustafa Suleyman and most technical staff exited to Microsoft in 2024; originally announced July 21, previously unreported in this brief",
+      "url": "https://venturebeat.com/orchestration/inflection-ai-returns-to-consumer-market-with-pi-journeys-after-microsoft-upheaval",
+      "type": "market",
+      "status": "new"
     }
   ],
   "themes": [
@@ -1901,8 +1928,18 @@
       "since": "2026-07-27",
       "theme": "Infra-layer launch cooldown (Cartesia/Deepgram/AssemblyAI/Speechmatics/Soniox) extends into an eleventh week with no break.",
       "direction": "watch"
+    },
+    {
+      "since": "2026-07-28",
+      "theme": "Always-on consumer audio hardware splits into two opposite bets in the same week: Meta metering an on-device, zero-marginal-cost glasses feature and retreating within days under backlash, while Amazon leans further into always-listening (Bee bracelet, \"Moonraker\") as the foundation of Alexa's next act — the business model and disclosure norms for always-on audio devices are still unresolved on both sides.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-07-28",
+      "theme": "Companion-voice re-entrants keep landing into a tightening safety window: Inflection's emotion-aware Pi Journeys relaunch arrives days before EU AI Act Article 50 enforcement and on the heels of GPT-Live's emotional-reliance monitoring and Grido's clinical disclaimer — the companion-safety thread (tracked since July 9) is now shaping how a comeback consumer voice product gets positioned, not just how incumbents respond to backlash.",
+      "direction": "watch"
     }
   ],
-  "last_run": "2026-07-27",
+  "last_run": "2026-07-28",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
