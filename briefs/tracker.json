@@ -130,7 +130,7 @@
       "id": "gradium-coval-tts-benchmark-1",
       "date": "2026-06-02",
       "company": "Gradium",
-      "headline": "Gradium #1 on Coval TTS benchmark: 155ms P50 TTFA, 2ms IQR, 3.3% WER \u2014 beats Cartesia Sonic-3 and Deepgram Aura-2",
+      "headline": "Gradium #1 on Coval TTS benchmark: 155ms P50 TTFA, 2ms IQR, 3.3% WER — beats Cartesia Sonic-3 and Deepgram Aura-2",
       "url": "https://gradium.ai/blog/coval-tts-benchmarks-may-2026",
       "type": "tech",
       "status": "new"
@@ -157,7 +157,7 @@
       "id": "sesame-ios-turn-taking-user-signal",
       "date": "2026-06-02",
       "company": "Sesame",
-      "headline": "User: Sesame iOS turn-taking 'extremely impressive \u2014 very few false interruptions even when you pause'",
+      "headline": "User: Sesame iOS turn-taking 'extremely impressive — very few false interruptions even when you pause'",
       "url": "https://twitter.com",
       "type": "customer_signal",
       "status": "developing"
@@ -193,7 +193,7 @@
       "id": "aethexai-3m-preseed-africa-mideast",
       "date": "2026-06-04",
       "company": "AethexAI",
-      "headline": "AethexAI raises $3M pre-seed to deploy Kora 1 voice models for Africa and the Middle East \u2014 trained on local call centers, radio, content; targets 1.5B+ underserved users",
+      "headline": "AethexAI raises $3M pre-seed to deploy Kora 1 voice models for Africa and the Middle East — trained on local call centers, radio, content; targets 1.5B+ underserved users",
       "url": "https://techcrunch.com/2026/06/03/these-two-founders-left-goldman-and-meta-to-build-voice-ai-for-markets-everyone-else-overlooked/",
       "type": "funding",
       "status": "new"
@@ -202,7 +202,7 @@
       "id": "audiohijack-voice-agent-hidden-audio-attack",
       "date": "2026-06-04",
       "company": "Academic / IEEE S&P",
-      "headline": "AudioHijack: inaudible adversarial audio in podcasts/videos hijacks voice AI agents into tool-call execution; 79\u201396% success rate on Azure and Mistral systems",
+      "headline": "AudioHijack: inaudible adversarial audio in podcasts/videos hijacks voice AI agents into tool-call execution; 79–96% success rate on Azure and Mistral systems",
       "url": "https://spectrum.ieee.org/voice-ai-audio-attacks",
       "type": "tech",
       "status": "new"
@@ -1331,6 +1331,24 @@
       "url": "https://venturebeat.com/orchestration/inflection-ai-returns-to-consumer-market-with-pi-journeys-after-microsoft-upheaval",
       "type": "market",
       "status": "new"
+    },
+    {
+      "id": "fish-audio-52m-seed",
+      "date": "2026-07-29",
+      "company": "Fish Audio",
+      "headline": "Fish Audio raises $52M seed (Coreline Ventures, Capital Today co-lead) at $21M ARR, 8M+ users one year in; expanding beyond TTS into voice-native LLMs and speech-to-speech; customers include OpenAI, HeyGen, Retell, LiveKit, Telnyx, Sanas",
+      "url": "https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/",
+      "type": "funding",
+      "status": "new"
+    },
+    {
+      "id": "dxc-elevenlabs-partnership",
+      "date": "2026-07-29",
+      "company": "DXC / ElevenLabs",
+      "headline": "DXC Technology becomes ElevenLabs' second major global-SI partner in five weeks (after TELUS Digital, June 24); DXC invested in ElevenLabs' Series D, will co-develop voice solutions via its LabX incubator for enterprise customers",
+      "url": "https://www.prnewswire.com/news-releases/dxc-and-elevenlabs-announce-strategic-partnership-to-scale-enterprise-ai-and-voice-innovation-302835490.html",
+      "type": "market",
+      "status": "new"
     }
   ],
   "themes": [
@@ -1938,8 +1956,23 @@
       "since": "2026-07-28",
       "theme": "Companion-voice re-entrants keep landing into a tightening safety window: Inflection's emotion-aware Pi Journeys relaunch arrives days before EU AI Act Article 50 enforcement and on the heels of GPT-Live's emotional-reliance monitoring and Grido's clinical disclaimer — the companion-safety thread (tracked since July 9) is now shaping how a comeback consumer voice product gets positioned, not just how incumbents respond to backlash.",
       "direction": "watch"
+    },
+    {
+      "since": "2026-07-29",
+      "theme": "Full-audio-stack ambition spreads to a third TTS vendor (Fish Audio, after Cartesia and ElevenLabs): funding rounds now explicitly earmarked for voice-native LLMs / speech-to-speech, not just better TTS.",
+      "direction": "up"
+    },
+    {
+      "since": "2026-07-29",
+      "theme": "Global systems integrators racing to own enterprise voice-AI delivery, not just resell it: DXC (July 28) is the second major SI to commit to ElevenLabs specifically, after TELUS Digital (June 24).",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-07-29",
+      "theme": "Infra-layer launch cooldown (Cartesia/Deepgram/AssemblyAI/Speechmatics/Soniox) extends into a 13th straight week; only motion is Deepgram incremental changelog items with no named release.",
+      "direction": "watch"
     }
   ],
-  "last_run": "2026-07-28",
+  "last_run": "2026-07-29",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
