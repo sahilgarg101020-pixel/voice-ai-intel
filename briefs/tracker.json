@@ -2004,8 +2004,18 @@
       "since": "2026-07-30",
       "theme": "Infra-layer launch cooldown (Cartesia/Deepgram/AssemblyAI/Speechmatics/Soniox) extends into a 14th straight week with no break.",
       "direction": "watch"
+    },
+    {
+      "since": "2026-07-31",
+      "theme": "EU AI Act Article 50 (enforceable Aug 2) turns out to have concrete build requirements, not just a headline fine: a session-start disclosure UI and machine-readable synthetic-audio marking, with the disclosure-UI obligation carrying no grace period even though marking/detection has one through Dec 2 for pre-Aug-2 systems — sharpens the governance thread (tracked since June) from brand-perception risk into a two-day-out engineering deadline.",
+      "direction": "up"
+    },
+    {
+      "since": "2026-07-31",
+      "theme": "Infra-layer launch cooldown (Cartesia/Deepgram/AssemblyAI/Speechmatics/Soniox) extends into a 15th straight week with no break; genuinely quiet 24-hour cycle across the whole space — first day in this brief's history with zero new reportable stories.",
+      "direction": "watch"
     }
   ],
-  "last_run": "2026-07-30",
+  "last_run": "2026-07-31",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
