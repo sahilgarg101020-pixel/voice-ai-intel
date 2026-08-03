@@ -1367,6 +1367,42 @@
       "url": "https://techcrunch.com/2026/07/29/encore-ai-raises-30m-to-build-ai-agents-that-learn-from-customer-calls/",
       "type": "funding",
       "status": "new"
+    },
+    {
+      "id": "smallest-ai-13m-series-a-turing-test",
+      "date": "2026-08-03",
+      "company": "Smallest AI",
+      "headline": "Smallest AI raises $13M Series A (Seligman Ventures lead, Sierra Ventures, 3one4 Capital; $21M+ total); architecture bet on listening/thinking/speaking simultaneously rather than a faster STT-LLM-TTS pipeline; 1B+ production voice minutes across RingCentral, Truecaller, Piramal, Pocket; founder: 'we want our models to break the Turing test'",
+      "url": "https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human/",
+      "type": "funding",
+      "status": "new"
+    },
+    {
+      "id": "ovh-gladia-acquisition",
+      "date": "2026-08-03",
+      "company": "OVH Groupe / Gladia",
+      "headline": "Update: OVH Groupe completed the Gladia acquisition July 31 (all-share deal, 1.8M new OVH shares at \u20ac15.66 each) \u2014 first sovereign-cloud voice-AI deal in this brief's tracked thread to actually close rather than remain in exclusive negotiations",
+      "url": "https://corporate.ovhcloud.com/en/newsroom/news/ovh-group-gladia-closing-acquisition-voice-ai/",
+      "type": "market",
+      "status": "closed"
+    },
+    {
+      "id": "eu-ai-act-article-50-deepfake-disclosure",
+      "date": "2026-08-03",
+      "company": "EU",
+      "headline": "Update: Article 50 became enforceable August 2 \u2014 fines up to \u20ac15M/3% global turnover now live; duty applies to essentially any AI voice/chat interaction with an EU user, not only formally 'high-risk' Annex III systems, a distinction several readiness guides were still conflating days before the deadline",
+      "url": "https://www.aguardic.com/blog/eu-ai-act-article-50-august-2-readiness",
+      "type": "market",
+      "status": "developing"
+    },
+    {
+      "id": "microsoft-mai-voice-2",
+      "date": "2026-08-03",
+      "company": "Microsoft",
+      "headline": "Update: MAI-Voice-2-Flash ships in public preview (July 23, previously unreported here) \u2014 2x faster / 32% cheaper than MAI-Voice-2 at $15/1M characters, powers Dynamics 365 Contact Center; Microsoft claims up to 89% lower GPU cost than a comparable OpenAI-based stack",
+      "url": "https://venturebeat.com/infrastructure/microsoft-launches-new-in-house-ai-models-it-says-cut-costs-up-to-89-versus-openai",
+      "type": "tech",
+      "status": "developing"
     }
   ],
   "themes": [
@@ -2014,8 +2050,23 @@
       "since": "2026-07-31",
       "theme": "Infra-layer launch cooldown (Cartesia/Deepgram/AssemblyAI/Speechmatics/Soniox) extends into a 15th straight week with no break; genuinely quiet 24-hour cycle across the whole space — first day in this brief's history with zero new reportable stories.",
       "direction": "watch"
+    },
+    {
+      "since": "2026-08-03",
+      "theme": "Efficiency-beats-scale thesis (tracked since June 17) gets capital from both ends in one week: Smallest AI's $13M Series A and Microsoft's MAI-Voice-2-Flash both lead with speed/cost unit economics over model quality — the competitive frontier visibly shifting from benchmark wins to production cost-per-minute.",
+      "direction": "up"
+    },
+    {
+      "since": "2026-08-03",
+      "theme": "Sovereign/platform consolidation of independent STT/TTS vendors moves from announcements to closings: OVH-Gladia completed July 31, the first deal in this thread (Deepgram+Fortanix+NVIDIA, Poland/ElevenLabs) to actually close; independent voice-infra vendors' realistic exits narrowing to acquisition-by-platform or defensible niche.",
+      "direction": "up"
+    },
+    {
+      "since": "2026-08-03",
+      "theme": "EU AI Act Article 50 moves from countdown to live enforcement (August 2): fines and market-surveillance authority powers now active; the transparency duty catches ordinary voice/chat AI broadly, not just high-risk-classified systems — a distinction that caught several compliance guides out right up to the deadline.",
+      "direction": "up"
     }
   ],
-  "last_run": "2026-07-31",
+  "last_run": "2026-08-03",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
