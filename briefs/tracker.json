@@ -1457,6 +1457,33 @@
       "url": "https://x.ai/news/grok-voice-think-fast-2",
       "type": "market",
       "status": "closed"
+    },
+    {
+      "id": "modulate-ai4-voice-supervision",
+      "date": "2026-08-06",
+      "company": "Modulate",
+      "headline": "Modulate presents 'Voice Agent Supervision: Finding the Hidden Cost of Conversational Blind Spots' at Ai4 2026 — Velma platform is a live in-call supervision layer flagging frustration/escalation/compliance signals that transcript-only monitoring misses; Modulate's models rank #1 on HF Open ASR Leaderboard",
+      "url": "https://www.accessnewswire.com/newsroom/en/computers-technology-and-internet/modulate-to-showcase-voice-native-ai-architecture-at-ai4-2026-1193493",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "rime-miravoice-caller-retention-study",
+      "date": "2026-08-06",
+      "company": "Rime",
+      "headline": "Independent Miravoice study presented at AAPOR 2026 (~100K calls, 12 voices across Rime/ElevenLabs/Google): Rime voices show statistically significant lower hang-up-during-intro rates and fastest median completion time — first third-party outcome-based TTS caller-retention benchmark tracked in this brief; update on Rime thread (Series A + Rafael Valle hire, July 16)",
+      "url": "https://www.cmswire.com/customer-experience/rime-lands-24m-series-a-to-scale-voice-ai/",
+      "type": "customer_signal",
+      "status": "developing"
+    },
+    {
+      "id": "soundhound-liveperson-acquisition-oasys",
+      "date": "2026-08-06",
+      "company": "SoundHound / LivePerson",
+      "headline": "Update: LivePerson/SoundHound merger vote details firmed up — shareholders vote by 11:59pm ET Aug 19 (record date July 6), deal values LivePerson shares at ~$3.33 (cash + stock, ~22% premium to pre-announcement price), board unanimously recommends approval",
+      "url": "https://www.tipranks.com/news/company-announcements/liveperson-sets-august-vote-on-premium-all-stock-and-cash-merger-with-soundhound-ai",
+      "type": "market",
+      "status": "developing"
     }
   ],
   "themes": [
@@ -2094,8 +2121,23 @@
       "since": "2026-08-05",
       "direction": "up",
       "theme": "Interactivity-as-architecture thesis (tracked since June 1, Thinking Machines) gets independent convergence from a second frontier lab: OpenAI's GPT-Live rebuild removes the turn detector from the audio path, cutting response jitter 489ms->104ms."
+    },
+    {
+      "since": "2026-08-06",
+      "direction": "emerging",
+      "theme": "A supervision/observability layer is separating from the testing-tooling category (Coval/Cekura/Hamming/Retell Conductor): Modulate's Ai4 pitch is live in-call monitoring for emotion/escalation/compliance signals a transcript alone doesn't carry, one layer up from the June 12 turn-detection/CSAT thread now that turn-taking and WER are commodity."
+    },
+    {
+      "since": "2026-08-06",
+      "direction": "up",
+      "theme": "Credibility bar for voice-AI performance claims keeps rising toward independent, outcome-based validation over self-reported benchmarks: Miravoice's ~100K-call AAPOR study measuring Rime/ElevenLabs/Google on actual hang-up/completion rates is a different class of evidence than the vendor-run TTS Arena Elo churn tracked all summer."
+    },
+    {
+      "since": "2026-08-06",
+      "direction": "watch",
+      "theme": "Infra-layer cooldown hits 19 straight weeks with zero headline ships from Cartesia/Deepgram/AssemblyAI/Speechmatics/Soniox, even as model labs (Microsoft MAI-Realtime, xAI Grok Voice) and the platform layer (Yellow.ai SPAC, LivePerson/SoundHound) keep moving — open question whether independent STT/TTS vendors are heads-down or being squeezed by consolidation."
     }
   ],
-  "last_run": "2026-08-05",
+  "last_run": "2026-08-06",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
