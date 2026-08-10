@@ -1502,6 +1502,24 @@
       "url": "https://www.artificialintelligence-news.com/news/eu-ai-act-article-50-transparency-rules-enter-force/",
       "type": "market",
       "status": "developing"
+    },
+    {
+      "id": "openai-brockman-voice-interface-future",
+      "date": "2026-08-10",
+      "company": "OpenAI",
+      "headline": "Greg Brockman: voice is 'the interface of the future,' clicking/typing is 'a phase' that ends within a couple of years — said at ChatGPT Voice/GPT-Live media roundtable",
+      "url": "https://fortune.com/2026/08/04/openai-president-greg-brockman-we-contort-ourselves-around-computers-clicking-and-typing-is-a-phase/",
+      "type": "founder_take",
+      "status": "new"
+    },
+    {
+      "id": "deepgram-nova3-quality-punjabi-nepali",
+      "date": "2026-08-10",
+      "company": "Deepgram",
+      "headline": "Deepgram changelog: improved Nova-3 monolingual quality (Aug 4) and added Punjabi/Nepali batch+streaming support (Aug 5) — incremental shipping continues underneath the infra-layer cooldown",
+      "url": "https://developers.deepgram.com/changelog",
+      "type": "tech",
+      "status": "new"
     }
   ],
   "themes": [
@@ -2164,8 +2182,18 @@
       "since": "2026-08-07",
       "theme": "Second Chinese-lab #1 on a Western-facing voice benchmark in two months (Alibaba Qwen Audio 3.0 Realtime after June's Fun-Realtime-TTS) \u2014 model-layer capability gap closing/gone even as production-readiness gap stays wide.",
       "direction": "emerging"
+    },
+    {
+      "since": "2026-08-10",
+      "theme": "Infra-layer 'cooldown' is a headline-architecture gap, not vendor inactivity: Deepgram's Aug 4-5 changelog (Nova-3 quality tuning, Punjabi/Nepali support) shows maintenance-tier shipping continuing underneath the same week press coverage calls the STT/TTS layer dead \u2014 changelogs, not blog front pages, are where the real signal is right now.",
+      "direction": "watch"
+    },
+    {
+      "since": "2026-08-10",
+      "theme": "Voice-as-default-interface thesis (tracked since July 3) gets its most senior institutional backer yet: OpenAI president Greg Brockman frames clicking/typing itself as 'a phase' ending within a couple of years, a stronger and more explicit claim than any prior platform-vendor voice feature ship \u2014 raises the execution bar on GPT-Live's own naturalness bugs (jitter, backchannel over-eagerness).",
+      "direction": "up"
     }
   ],
-  "last_run": "2026-08-07",
+  "last_run": "2026-08-10",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
