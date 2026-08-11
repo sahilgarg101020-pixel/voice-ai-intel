@@ -1507,7 +1507,7 @@
       "id": "openai-brockman-voice-interface-future",
       "date": "2026-08-10",
       "company": "OpenAI",
-      "headline": "Greg Brockman: voice is 'the interface of the future,' clicking/typing is 'a phase' that ends within a couple of years — said at ChatGPT Voice/GPT-Live media roundtable",
+      "headline": "Greg Brockman: voice is 'the interface of the future,' clicking/typing is 'a phase' that ends within a couple of years \u2014 said at ChatGPT Voice/GPT-Live media roundtable",
       "url": "https://fortune.com/2026/08/04/openai-president-greg-brockman-we-contort-ourselves-around-computers-clicking-and-typing-is-a-phase/",
       "type": "founder_take",
       "status": "new"
@@ -1516,9 +1516,18 @@
       "id": "deepgram-nova3-quality-punjabi-nepali",
       "date": "2026-08-10",
       "company": "Deepgram",
-      "headline": "Deepgram changelog: improved Nova-3 monolingual quality (Aug 4) and added Punjabi/Nepali batch+streaming support (Aug 5) — incremental shipping continues underneath the infra-layer cooldown",
+      "headline": "Deepgram changelog: improved Nova-3 monolingual quality (Aug 4) and added Punjabi/Nepali batch+streaming support (Aug 5) \u2014 incremental shipping continues underneath the infra-layer cooldown",
       "url": "https://developers.deepgram.com/changelog",
       "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "kinney-drugs-burt-ai-pullback",
+      "date": "2026-08-11",
+      "company": "Kinney Drugs",
+      "headline": "Kinney Drugs pulls back its \"Burt\" AI phone assistant after hundreds of customer complaints \u2014 wrong refill info on sensitive medications, unclear consent, no human escalation path; reverts to touch-tone; hit HN front page",
+      "url": "https://vtdigger.org/2026/08/10/kinney-drugs-pulls-back-ai-tool-after-customer-complaints/",
+      "type": "customer_signal",
       "status": "new"
     }
   ],
@@ -2144,11 +2153,6 @@
       "direction": "up"
     },
     {
-      "since": "2026-07-03",
-      "direction": "watch",
-      "theme": "Infra-layer (Cartesia/Deepgram/AssemblyAI/Speechmatics/Soniox) launch cooldown extends to an 18th straight week as of Aug 5 \u2014 still waiting on which core STT/TTS vendor breaks it first."
-    },
-    {
       "since": "2026-08-05",
       "direction": "emerging",
       "theme": "Enterprise voice/CX roll-up-by-acquisition emerges as an alternative to the platform-and-marketplace playbook: Yellow.ai's SPAC proceeds earmarked to buy BPO operators outright, not just out-build them on software."
@@ -2169,11 +2173,6 @@
       "theme": "Credibility bar for voice-AI performance claims keeps rising toward independent, outcome-based validation over self-reported benchmarks: Miravoice's ~100K-call AAPOR study measuring Rime/ElevenLabs/Google on actual hang-up/completion rates is a different class of evidence than the vendor-run TTS Arena Elo churn tracked all summer."
     },
     {
-      "since": "2026-08-06",
-      "direction": "watch",
-      "theme": "Infra-layer cooldown hits 19 straight weeks with zero headline ships from Cartesia/Deepgram/AssemblyAI/Speechmatics/Soniox, even as model labs (Microsoft MAI-Realtime, xAI Grok Voice) and the platform layer (Yellow.ai SPAC, LivePerson/SoundHound) keep moving \u2014 open question whether independent STT/TTS vendors are heads-down or being squeezed by consolidation."
-    },
-    {
       "since": "2026-08-07",
       "theme": "Benchmark-vs-production-latency gap gets its sharpest data point yet: Qwen Audio 3.0 Realtime Plus sweeps every AA Speech-to-Speech Index sub-benchmark but posts ~4s time-to-first-audio (vs 1.14s for GPT-Realtime-2 High) \u2014 a composite intelligence score that doesn't penalize latency enough to catch an unshippable model, reinforcing the Aug 6 'credibility bar rising toward outcome-based validation' thread from the opposite direction.",
       "direction": "up"
@@ -2192,8 +2191,13 @@
       "since": "2026-08-10",
       "theme": "Voice-as-default-interface thesis (tracked since July 3) gets its most senior institutional backer yet: OpenAI president Greg Brockman frames clicking/typing itself as 'a phase' ending within a couple of years, a stronger and more explicit claim than any prior platform-vendor voice feature ship \u2014 raises the execution bar on GPT-Live's own naturalness bugs (jitter, backchannel over-eagerness).",
       "direction": "up"
+    },
+    {
+      "since": "2026-08-11",
+      "theme": "Demo-to-production-gap and recovery-loop themes (tracked since June) get their first named, concrete real-world instance: Kinney Drugs' pharmacy voice assistant pulled after hundreds of complaints over wrong sensitive-medication info and no human escalation \u2014 survey stats (60% failure, 74% rollback) now have a face.",
+      "direction": "up"
     }
   ],
-  "last_run": "2026-08-10",
+  "last_run": "2026-08-11",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
