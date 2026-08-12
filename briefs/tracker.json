@@ -130,7 +130,7 @@
       "id": "gradium-coval-tts-benchmark-1",
       "date": "2026-06-02",
       "company": "Gradium",
-      "headline": "Gradium #1 on Coval TTS benchmark: 155ms P50 TTFA, 2ms IQR, 3.3% WER \u2014 beats Cartesia Sonic-3 and Deepgram Aura-2",
+      "headline": "Gradium #1 on Coval TTS benchmark: 155ms P50 TTFA, 2ms IQR, 3.3% WER — beats Cartesia Sonic-3 and Deepgram Aura-2",
       "url": "https://gradium.ai/blog/coval-tts-benchmarks-may-2026",
       "type": "tech",
       "status": "new"
@@ -157,7 +157,7 @@
       "id": "sesame-ios-turn-taking-user-signal",
       "date": "2026-06-02",
       "company": "Sesame",
-      "headline": "User: Sesame iOS turn-taking 'extremely impressive \u2014 very few false interruptions even when you pause'",
+      "headline": "User: Sesame iOS turn-taking 'extremely impressive — very few false interruptions even when you pause'",
       "url": "https://twitter.com",
       "type": "customer_signal",
       "status": "developing"
@@ -193,7 +193,7 @@
       "id": "aethexai-3m-preseed-africa-mideast",
       "date": "2026-06-04",
       "company": "AethexAI",
-      "headline": "AethexAI raises $3M pre-seed to deploy Kora 1 voice models for Africa and the Middle East \u2014 trained on local call centers, radio, content; targets 1.5B+ underserved users",
+      "headline": "AethexAI raises $3M pre-seed to deploy Kora 1 voice models for Africa and the Middle East — trained on local call centers, radio, content; targets 1.5B+ underserved users",
       "url": "https://techcrunch.com/2026/06/03/these-two-founders-left-goldman-and-meta-to-build-voice-ai-for-markets-everyone-else-overlooked/",
       "type": "funding",
       "status": "new"
@@ -202,7 +202,7 @@
       "id": "audiohijack-voice-agent-hidden-audio-attack",
       "date": "2026-06-04",
       "company": "Academic / IEEE S&P",
-      "headline": "AudioHijack: inaudible adversarial audio in podcasts/videos hijacks voice AI agents into tool-call execution; 79\u201396% success rate on Azure and Mistral systems",
+      "headline": "AudioHijack: inaudible adversarial audio in podcasts/videos hijacks voice AI agents into tool-call execution; 79–96% success rate on Azure and Mistral systems",
       "url": "https://spectrum.ieee.org/voice-ai-audio-attacks",
       "type": "tech",
       "status": "new"
@@ -247,7 +247,7 @@
       "id": "smallest-ai-pulse-stt-benchmarks",
       "date": "2026-06-05",
       "company": "Smallest AI",
-      "headline": "Pulse Pro: #1 hosted STT on CodeSOTA (5.42% HF mean WER), 3.2% on Coval agent benchmark vs Deepgram Nova-3 4.2%; heavy-noise WER 18.3% vs 25.6% (AssemblyAI) vs 31.3% (Deepgram) \u2014 13-point production-condition gap hidden by aggregate WER",
+      "headline": "Pulse Pro: #1 hosted STT on CodeSOTA (5.42% HF mean WER), 3.2% on Coval agent benchmark vs Deepgram Nova-3 4.2%; heavy-noise WER 18.3% vs 25.6% (AssemblyAI) vs 31.3% (Deepgram) — 13-point production-condition gap hidden by aggregate WER",
       "url": "https://smallest.ai/blog/pulse-stt-vs-deepgram-%E2%80%94-the-real-time-speech-to-text-showdown-for-2026",
       "type": "tech",
       "status": "new"
@@ -256,7 +256,7 @@
       "id": "elevenlabs-speech-engine",
       "date": "2026-06-05",
       "company": "ElevenLabs",
-      "headline": "ElevenLabs Speech Engine: BYOL voice-session layer for chat agents \u2014 EL handles STT, turn-taking, TTS via WebSocket; developer server owns agent logic; 70+ languages, HIPAA/SOC2",
+      "headline": "ElevenLabs Speech Engine: BYOL voice-session layer for chat agents — EL handles STT, turn-taking, TTS via WebSocket; developer server owns agent logic; 70+ languages, HIPAA/SOC2",
       "url": "https://elevenlabs.io/speech-engine",
       "type": "market",
       "status": "new"
@@ -292,7 +292,7 @@
       "id": "tool-sprawl-orchestration-community-signal",
       "date": "2026-06-08",
       "company": "Community",
-      "headline": "Developer signal (X, June 8): 'the real problem with multimodal agent work is tool sprawl \u2014 one command for OCR, another for transcription, another for TTS, another for provider fallback' \u2014 reinforces full-stack bundling trend",
+      "headline": "Developer signal (X, June 8): 'the real problem with multimodal agent work is tool sprawl — one command for OCR, another for transcription, another for TTS, another for provider fallback' — reinforces full-stack bundling trend",
       "url": "https://x.com",
       "type": "customer_signal",
       "status": "new"
@@ -301,7 +301,7 @@
       "id": "elevenlabs-elevenagets-hermes-phone",
       "date": "2026-06-09",
       "company": "ElevenLabs",
-      "headline": "ElevenLabs 'Call your Hermes Agent' demo (ElevenAgents + SIP/Twilio + gpt-4o + Speech Engine) hits 927K impressions, 3,294 likes, 3,157 bookmarks \u2014 telephony live in production; highest-engagement voice AI post in recent cycles",
+      "headline": "ElevenLabs 'Call your Hermes Agent' demo (ElevenAgents + SIP/Twilio + gpt-4o + Speech Engine) hits 927K impressions, 3,294 likes, 3,157 bookmarks — telephony live in production; highest-engagement voice AI post in recent cycles",
       "url": "https://x.com/ElevenLabsDevs/article/2062561944385519801",
       "type": "market",
       "status": "new"
@@ -310,7 +310,7 @@
       "id": "elevenlabs-scribe-v2-realtime-agents",
       "date": "2026-06-09",
       "company": "ElevenLabs",
-      "headline": "Scribe v2 Realtime now native STT in ElevenLabs Agents: 150ms, 93.5% accuracy on FLEURS across 30 languages (vs Deepgram Nova-3 80%, Gemini Flash 2.5 90%), 90-language coverage \u2014 completing ElevenLabs' full session stack",
+      "headline": "Scribe v2 Realtime now native STT in ElevenLabs Agents: 150ms, 93.5% accuracy on FLEURS across 30 languages (vs Deepgram Nova-3 80%, Gemini Flash 2.5 90%), 90-language coverage — completing ElevenLabs' full session stack",
       "url": "https://elevenlabs.io/realtime-speech-to-text",
       "type": "tech",
       "status": "new"
@@ -319,7 +319,7 @@
       "id": "deepgram-premai-sovereign-stt-deployment",
       "date": "2026-06-09",
       "company": "Deepgram",
-      "headline": "PremAI deploys Deepgram Nova-3 for real-time multilingual STT 'that never leaves trusted infrastructure' in sovereign AI ecosystem across 200+ countries \u2014 first named enterprise customer for data-sovereignty-as-moat thesis",
+      "headline": "PremAI deploys Deepgram Nova-3 for real-time multilingual STT 'that never leaves trusted infrastructure' in sovereign AI ecosystem across 200+ countries — first named enterprise customer for data-sovereignty-as-moat thesis",
       "url": "https://twitter.com/deepgramai/status/2063333878354296915",
       "type": "customer_signal",
       "status": "new"
@@ -328,7 +328,7 @@
       "id": "community-sip-trunk-infra-cost-voice-agents",
       "date": "2026-06-09",
       "company": "Community",
-      "headline": "Developer signal (X, June 9): $0.008/min wholesale SIP trunk in SEA \u2014 at 1,000 concurrent agents, carrier dial cost exceeds LLM spend; surfaces hidden production COGS layer absent from all vendor pricing pages",
+      "headline": "Developer signal (X, June 9): $0.008/min wholesale SIP trunk in SEA — at 1,000 concurrent agents, carrier dial cost exceeds LLM spend; surfaces hidden production COGS layer absent from all vendor pricing pages",
       "url": "https://x.com",
       "type": "customer_signal",
       "status": "new"
@@ -337,7 +337,7 @@
       "id": "alibaba-fun-realtime-tts-aa-1",
       "date": "2026-06-10",
       "company": "Alibaba",
-      "headline": "Alibaba Fun-Realtime-TTS takes #1 on Artificial Analysis Speech Arena (Elo 1,219), beating Google Gemini 3.1 Flash TTS (1,214) and Inworld Realtime TTS-2 (1,209) at $27.6/1M chars \u2014 first major Chinese cloud platform atop western-facing TTS leaderboard",
+      "headline": "Alibaba Fun-Realtime-TTS takes #1 on Artificial Analysis Speech Arena (Elo 1,219), beating Google Gemini 3.1 Flash TTS (1,214) and Inworld Realtime TTS-2 (1,209) at $27.6/1M chars — first major Chinese cloud platform atop western-facing TTS leaderboard",
       "url": "https://artificialanalysis.ai/articles/fun-realtime-tts-new-text-to-speech-model-topping-artificial-analysis-leaderboard",
       "type": "market",
       "status": "new"
@@ -346,7 +346,7 @@
       "id": "cartesia-ink-2-stt-streaming",
       "date": "2026-06-10",
       "company": "Cartesia",
-      "headline": "Cartesia Ink-2 streaming STT launches, debuts #1 on Artificial Analysis AA-WER Streaming leaderboard; native semantic turn detection (turn.eager_end for LLM head start), no external VAD \u2014 Cartesia now has Sonic TTS + Ink STT full session stack",
+      "headline": "Cartesia Ink-2 streaming STT launches, debuts #1 on Artificial Analysis AA-WER Streaming leaderboard; native semantic turn detection (turn.eager_end for LLM head start), no external VAD — Cartesia now has Sonic TTS + Ink STT full session stack",
       "url": "https://www.cartesia.ai/ink/",
       "type": "tech",
       "status": "new"
@@ -364,7 +364,7 @@
       "id": "d2c-3m-calls-production-scale",
       "date": "2026-06-10",
       "company": "Community",
-      "headline": "D2C operator signal (X, June 9): AI voice agent at 3M calls/month within 9 months of launch, 3x growth in last 3 months \u2014 most concrete independent production scale signal this cycle",
+      "headline": "D2C operator signal (X, June 9): AI voice agent at 3M calls/month within 9 months of launch, 3x growth in last 3 months — most concrete independent production scale signal this cycle",
       "url": "https://x.com",
       "type": "customer_signal",
       "status": "new"
@@ -373,7 +373,7 @@
       "id": "google-gemini-3.5-live-translate",
       "date": "2026-06-11",
       "company": "Google",
-      "headline": "Gemini 3.5 Live Translate: near real-time S2S translation, 70+ languages, auto-detects language, preserves speaker intonation/pacing, $0.023/min \u2014 available in Gemini Live API, AI Studio, Google Translate, Google Meet preview",
+      "headline": "Gemini 3.5 Live Translate: near real-time S2S translation, 70+ languages, auto-detects language, preserves speaker intonation/pacing, $0.023/min — available in Gemini Live API, AI Studio, Google Translate, Google Meet preview",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/",
       "type": "tech",
       "status": "new"
@@ -382,7 +382,7 @@
       "id": "nvidia-nemotron-3.5-asr",
       "date": "2026-06-11",
       "company": "NVIDIA",
-      "headline": "Nemotron 3.5 ASR: open-source, 600M param, 40-language streaming STT, configurable latency 80ms\u20131.12s with zero WER penalty, fine-tunable, self-hostable \u2014 highest developer bookmark rate of any ASR release this cycle",
+      "headline": "Nemotron 3.5 ASR: open-source, 600M param, 40-language streaming STT, configurable latency 80ms–1.12s with zero WER penalty, fine-tunable, self-hostable — highest developer bookmark rate of any ASR release this cycle",
       "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b",
       "type": "tech",
       "status": "new"
@@ -400,7 +400,7 @@
       "id": "voice-cloning-teams-enterprise-attack-2026",
       "date": "2026-06-12",
       "company": "Security / Industry",
-      "headline": "AI voice cloning weaponized for enterprise Teams attacks: real-time clones from seconds of audio, indistinguishable at scale; Teams cross-tenant feature exploited; 442% vishing surge H2 2024; inverse of AudioHijack \u2014 AI voice used to attack humans, not AI agents",
+      "headline": "AI voice cloning weaponized for enterprise Teams attacks: real-time clones from seconds of audio, indistinguishable at scale; Teams cross-tenant feature exploited; 442% vishing surge H2 2024; inverse of AudioHijack — AI voice used to attack humans, not AI agents",
       "url": "https://thehackernews.com/expert-insights/2026/06/how-attackers-are-adding-ai-voice.html",
       "type": "tech",
       "status": "new"
@@ -409,7 +409,7 @@
       "id": "deepgram-restaurant-enterprise-voice-deployment",
       "date": "2026-06-12",
       "company": "Deepgram",
-      "headline": "Deepgram reveals two major QSR enterprise deployments (fried chicken, pastry chain): STT+TTS+S2S fine-tuned on menu vocab/acoustics, drive-through noise filtering, live menu sync, cart-building logic, per-order sentiment scoring, forward-deployed engineering \u2014 no API template survives real enterprise voice",
+      "headline": "Deepgram reveals two major QSR enterprise deployments (fried chicken, pastry chain): STT+TTS+S2S fine-tuned on menu vocab/acoustics, drive-through noise filtering, live menu sync, cart-building logic, per-order sentiment scoring, forward-deployed engineering — no API template survives real enterprise voice",
       "url": "https://deepgram.com/learn/enterprise-restaurant-brands-deserve-frontier-voice-ai-models",
       "type": "customer_signal",
       "status": "new"
@@ -418,7 +418,7 @@
       "id": "clinic-turn-detection-csat-signal",
       "date": "2026-06-12",
       "company": "Community",
-      "headline": "Clinic builder (X, June 12): 3 weeks optimizing WER \u2014 CSAT barely moved; 3 days cutting false interruption rate from 4.2 to 1.1 per call \u2014 CSAT jumped 22 points; 'turn-detection latency is the hidden variable nobody talks about'",
+      "headline": "Clinic builder (X, June 12): 3 weeks optimizing WER — CSAT barely moved; 3 days cutting false interruption rate from 4.2 to 1.1 per call — CSAT jumped 22 points; 'turn-detection latency is the hidden variable nobody talks about'",
       "url": "https://x.com",
       "type": "customer_signal",
       "status": "new"
@@ -436,7 +436,7 @@
       "id": "servicenow-code-switching-asr-benchmark",
       "date": "2026-06-15",
       "company": "ServiceNow",
-      "headline": "ServiceNow benchmarks frontier ASR on code-switched speech (4 language pairs, 7 models): ElevenLabs Scribe V2, Gemini 3 Flash, AssemblyAI Universal-3 Pro top leaderboard; monolingual models spike 30-50% WER at language boundaries \u2014 first enterprise-sourced bilingual voice agent benchmark",
+      "headline": "ServiceNow benchmarks frontier ASR on code-switched speech (4 language pairs, 7 models): ElevenLabs Scribe V2, Gemini 3 Flash, AssemblyAI Universal-3 Pro top leaderboard; monolingual models spike 30-50% WER at language boundaries — first enterprise-sourced bilingual voice agent benchmark",
       "url": "https://huggingface.co/blog/ServiceNow-AI/code-switching",
       "type": "tech",
       "status": "new"
@@ -445,7 +445,7 @@
       "id": "anthropic-cookbook-elevenlabs-reference-stack",
       "date": "2026-06-15",
       "company": "Anthropic / ElevenLabs",
-      "headline": "Anthropic official Cookbook recipe specifies ElevenLabs Scribe v2 (STT) + Flash TTS as the reference voice stack for low-latency Claude-based voice apps; ElevenLabs tweet reached 18K impressions \u2014 institutional endorsement of ElevenLabs as default voice wrapper around top LLMs",
+      "headline": "Anthropic official Cookbook recipe specifies ElevenLabs Scribe v2 (STT) + Flash TTS as the reference voice stack for low-latency Claude-based voice apps; ElevenLabs tweet reached 18K impressions — institutional endorsement of ElevenLabs as default voice wrapper around top LLMs",
       "url": "https://platform.claude.com/cookbook/third-party-elevenlabs-low-latency-stt-claude-tts",
       "type": "customer_signal",
       "status": "new"
@@ -454,7 +454,7 @@
       "id": "assemblyai-streaming-diarization-v2",
       "date": "2026-06-16",
       "company": "AssemblyAI",
-      "headline": "AssemblyAI streaming diarization major upgrade: 51% fewer false-alarm speakers, 80% fewer phantom turns, 82% fewer phantom words vs prior model and Deepgram Nova-3; $0.06/hr add-on via speaker_labels:true WebSocket param \u2014 first streaming diarization to eliminate phantom-speaker class of production failure",
+      "headline": "AssemblyAI streaming diarization major upgrade: 51% fewer false-alarm speakers, 80% fewer phantom turns, 82% fewer phantom words vs prior model and Deepgram Nova-3; $0.06/hr add-on via speaker_labels:true WebSocket param — first streaming diarization to eliminate phantom-speaker class of production failure",
       "url": "https://www.assemblyai.com/blog/streaming-diarization-major-upgrade",
       "type": "tech",
       "status": "new"
@@ -472,7 +472,7 @@
       "id": "bland-ai-series-c-50m",
       "date": "2026-06-17",
       "company": "Bland AI",
-      "headline": "Bland AI raises $50M Series C (Dell Technologies Capital lead), surpasses $100M total; 3.5M calls/week, 250+ enterprise clients (Samsara, Kin Insurance, CNO Financial); runs exclusively on proprietary in-house voice models \u2014 won't integrate third-party LLMs; targeting regulated industries (healthcare, financial services)",
+      "headline": "Bland AI raises $50M Series C (Dell Technologies Capital lead), surpasses $100M total; 3.5M calls/week, 250+ enterprise clients (Samsara, Kin Insurance, CNO Financial); runs exclusively on proprietary in-house voice models — won't integrate third-party LLMs; targeting regulated industries (healthcare, financial services)",
       "url": "https://fortune.com/2026/06/16/voice-ai-bland-50-million-after-being-rejected-by-180-investors/",
       "type": "funding",
       "status": "new"
@@ -481,7 +481,7 @@
       "id": "smallest-ai-30b-voice-agent-efficiency",
       "date": "2026-06-17",
       "company": "Smallest AI",
-      "headline": "Smallest AI claims 30B voice agent matches ~600B-param frontier systems on third-party benchmarks; efficiency thesis for production voice \u2014 purpose-built small models outperforming general-purpose giants on voice-specific tasks",
+      "headline": "Smallest AI claims 30B voice agent matches ~600B-param frontier systems on third-party benchmarks; efficiency thesis for production voice — purpose-built small models outperforming general-purpose giants on voice-specific tasks",
       "url": "https://x.com/smallest_ai",
       "type": "tech",
       "status": "new"
@@ -544,7 +544,7 @@
       "id": "deepgram-voice-agent-gemini-outage-june17",
       "date": "2026-06-19",
       "company": "Deepgram",
-      "headline": "Deepgram Voice Agent API elevated error rates June 17-18 on Google Gemini model requests; recommended defining multiple LLM providers \u2014 multi-provider resilience not yet cleanly supported in most voice agent architectures",
+      "headline": "Deepgram Voice Agent API elevated error rates June 17-18 on Google Gemini model requests; recommended defining multiple LLM providers — multi-provider resilience not yet cleanly supported in most voice agent architectures",
       "url": "https://status.deepgram.com/",
       "type": "customer_signal",
       "status": "new"
@@ -598,7 +598,7 @@
       "id": "retell-ai-launch-week-enterprise-features",
       "date": "2026-06-23",
       "company": "Retell AI",
-      "headline": "Retell AI Launch Week 2026: live call monitoring, built-in CRM (Salesforce/HubSpot two-way sync), data retention periods, PCAP call debugging, Soniox STT sub-processor \u2014 five enterprise operations features in five days",
+      "headline": "Retell AI Launch Week 2026: live call monitoring, built-in CRM (Salesforce/HubSpot two-way sync), data retention periods, PCAP call debugging, Soniox STT sub-processor — five enterprise operations features in five days",
       "url": "https://www.retellai.com/changelog",
       "type": "market",
       "status": "new"
@@ -625,7 +625,7 @@
       "id": "ccw-2026-enterprise-voice-ai-inflection",
       "date": "2026-06-24",
       "company": "Industry / CCW",
-      "headline": "CCW 2026 (June 22-25, 3,000+ attendees) becomes voice AI's enterprise CX coming-out party: RingCentral AIR Pro agentic expansion, Amazon Connect Agentic CX Designer, Newo.ai 99.6% LSS zero-hallucination architecture \u2014 all no-code, all at a contact center conference not a tech conference",
+      "headline": "CCW 2026 (June 22-25, 3,000+ attendees) becomes voice AI's enterprise CX coming-out party: RingCentral AIR Pro agentic expansion, Amazon Connect Agentic CX Designer, Newo.ai 99.6% LSS zero-hallucination architecture — all no-code, all at a contact center conference not a tech conference",
       "url": "https://www.cmswire.com/contact-center/customer-contact-week-2026-capturing-the-ai-announcements-in-contact-center-technology/",
       "type": "market",
       "status": "new"
@@ -670,7 +670,7 @@
       "id": "voices-for-cx-branded-ai-voice-governance",
       "date": "2026-06-25",
       "company": "Voices.com",
-      "headline": "Voices for CX: branded AI voice governance for contact center platforms \u2014 professionally cast, licensed AI voices with consent/compensation/usage rights management; 79% of decision-makers say inauthentic AI voices hurt brand; 185+ countries, 110+ languages; launched at CCW 2026",
+      "headline": "Voices for CX: branded AI voice governance for contact center platforms — professionally cast, licensed AI voices with consent/compensation/usage rights management; 79% of decision-makers say inauthentic AI voices hurt brand; 185+ countries, 110+ languages; launched at CCW 2026",
       "url": "https://www.voices.com/blog/voices-for-customer-experience/",
       "type": "market",
       "status": "new"
@@ -679,7 +679,7 @@
       "id": "smallest-ai-dograh-open-source-integration",
       "date": "2026-06-25",
       "company": "Smallest AI / Dograh",
-      "headline": "Smallest AI models (Lightning v3.1, Lightning v3.1 Pro, Pulse STT) go live on Dograh, the open-source self-hostable Vapi/Retell alternative (BSD-licensed, YC alumni-founded); Smallest AI exhibiting at CCW booth 1620 \u2014 first conference presence",
+      "headline": "Smallest AI models (Lightning v3.1, Lightning v3.1 Pro, Pulse STT) go live on Dograh, the open-source self-hostable Vapi/Retell alternative (BSD-licensed, YC alumni-founded); Smallest AI exhibiting at CCW booth 1620 — first conference presence",
       "url": "https://x.com/smallest_ai",
       "type": "market",
       "status": "new"
@@ -697,7 +697,7 @@
       "id": "harjtaggar-voice-agent-testing-self-driving",
       "date": "2026-06-25",
       "company": "YC / Investors",
-      "headline": "Harj Taggar (YC partner): 'Deploying voice agents in the enterprise needs the same testing discipline as self-driving cars' \u2014 retweeted by Elad Gil; Waymo-to-voice analogy becoming consensus investor framing",
+      "headline": "Harj Taggar (YC partner): 'Deploying voice agents in the enterprise needs the same testing discipline as self-driving cars' — retweeted by Elad Gil; Waymo-to-voice analogy becoming consensus investor framing",
       "url": "https://x.com/harjtaggar",
       "type": "founder_take",
       "status": "new"
@@ -769,7 +769,7 @@
       "id": "openai-jalapeno-inference-chip",
       "date": "2026-06-29",
       "company": "OpenAI / Broadcom",
-      "headline": "OpenAI Jalape\u00f1o: custom inference ASIC with Broadcom targeting 50% lower inference costs; 9-month development cycle; deployment by end of 2026; reduces NVIDIA dependency",
+      "headline": "OpenAI Jalapeño: custom inference ASIC with Broadcom targeting 50% lower inference costs; 9-month development cycle; deployment by end of 2026; reduces NVIDIA dependency",
       "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/",
       "type": "market",
       "status": "new"
@@ -778,7 +778,7 @@
       "id": "aiewf-2026-voice-realtime-track",
       "date": "2026-06-30",
       "company": "AI Engineer / Industry",
-      "headline": "AIEWF 2026 opens June 29 at Moscone West with Voice & Realtime AI as a full headliner track; 6,000+ engineers; AI Agents front and center, RAG/prompt engineering marginalized \u2014 first developer conference where voice AI is fully mainstream",
+      "headline": "AIEWF 2026 opens June 29 at Moscone West with Voice & Realtime AI as a full headliner track; 6,000+ engineers; AI Agents front and center, RAG/prompt engineering marginalized — first developer conference where voice AI is fully mainstream",
       "url": "https://www.ai.engineer/worldsfair/2026",
       "type": "market",
       "status": "new"
@@ -787,7 +787,7 @@
       "id": "kwindla-openai-realtime-004-cost",
       "date": "2026-06-30",
       "company": "OpenAI / Pipecat",
-      "headline": "Kwindla (Pipecat co-founder): OpenAI Realtime API now ~$0.04/min speech-to-speech in real-world production \u2014 10x cheaper than a year ago; S2S vs. cascaded is now an architecture decision, not a cost decision",
+      "headline": "Kwindla (Pipecat co-founder): OpenAI Realtime API now ~$0.04/min speech-to-speech in real-world production — 10x cheaper than a year ago; S2S vs. cascaded is now an architecture decision, not a cost decision",
       "url": "https://x.com/kwindla/status/1961473869115765177",
       "type": "founder_take",
       "status": "new"
@@ -796,7 +796,7 @@
       "id": "elevenlabs-interruption-ignore-terms",
       "date": "2026-06-30",
       "company": "ElevenLabs",
-      "headline": "ElevenLabs June 22 changelog: interruption_ignore_terms \u2014 array of phrases that suppress end-of-turn detection; first platform-level control for false interruptions on specific content types (disclaimers, pricing, long sequences)",
+      "headline": "ElevenLabs June 22 changelog: interruption_ignore_terms — array of phrases that suppress end-of-turn detection; first platform-level control for false interruptions on specific content types (disclaimers, pricing, long sequences)",
       "url": "https://elevenlabs.io/docs/changelog/2026/6/22",
       "type": "tech",
       "status": "new"
@@ -850,7 +850,7 @@
       "id": "assemblyai-pricing-increase-in-region",
       "date": "2026-07-02",
       "company": "AssemblyAI",
-      "headline": "AssemblyAI raises in-region model pricing 10% citing provider cost increases, effective July 1; global-region opt-out preserves old pricing \u2014 first documented price increase against 12 months of category-wide cost collapse",
+      "headline": "AssemblyAI raises in-region model pricing 10% citing provider cost increases, effective July 1; global-region opt-out preserves old pricing — first documented price increase against 12 months of category-wide cost collapse",
       "url": "https://www.assemblyai.com/pricing",
       "type": "market",
       "status": "new"
@@ -967,7 +967,7 @@
       "id": "lucida-ai-seed-speech-native",
       "date": "2026-07-07",
       "company": "Lucida AI",
-      "headline": "Lucida AI raises \u20ac6.1M seed (Velocity Capital) for speech-native, real-time conversation-practice app; 3M+ users, 2.2B minutes of spoken conversation",
+      "headline": "Lucida AI raises €6.1M seed (Velocity Capital) for speech-native, real-time conversation-practice app; 3M+ users, 2.2B minutes of spoken conversation",
       "url": "https://www.eu-startups.com/2026/06/uk-speech-ai-startup-lucida-ai-lands-e6-1-million-to-develop-speech-native-ai-for-global-communication",
       "type": "funding",
       "status": "new"
@@ -1048,7 +1048,7 @@
       "id": "deeplearningai-vocalbridge-voice-builder-challenge",
       "date": "2026-07-13",
       "company": "DeepLearning.AI / VocalBridge",
-      "headline": "DeepLearning.AI's 7-day Voice AI Builder Challenge with VocalBridge wraps (July 12): 500+ iterations, 38 submissions, builders scored on teaching agents when to escalate to a human vs. push through alone \u2014 recovery-loop/escalation design as a practiced, competitive builder skill",
+      "headline": "DeepLearning.AI's 7-day Voice AI Builder Challenge with VocalBridge wraps (July 12): 500+ iterations, 38 submissions, builders scored on teaching agents when to escalate to a human vs. push through alone — recovery-loop/escalation design as a practiced, competitive builder skill",
       "url": "https://community.deeplearning.ai/t/7-day-voice-ai-builder-challenge-winners/893368",
       "type": "customer_signal",
       "status": "new"
@@ -1066,7 +1066,7 @@
       "id": "gradium-70m-seed-expressive-voice",
       "date": "2026-07-13",
       "company": "Gradium",
-      "headline": "Update: Gradium extends seed round by $30M (total $100M+), Nvidia joins as new investor, opens San Francisco office \u2014 capital still backing a frontier voice-model lab directly, not just session/orchestration plays",
+      "headline": "Update: Gradium extends seed round by $30M (total $100M+), Nvidia joins as new investor, opens San Francisco office — capital still backing a frontier voice-model lab directly, not just session/orchestration plays",
       "url": "https://techcrunch.com/2026/07/09/paris-based-ai-voice-startup-gradium-raises-100m-seed-backed-by-nvidia/",
       "type": "funding",
       "status": "developing"
@@ -1075,7 +1075,7 @@
       "id": "openai-gpt-live",
       "date": "2026-07-13",
       "company": "OpenAI",
-      "headline": "Update: GPT-Live draws its first real user backlash days into rollout \u2014 not latency or accuracy, but backchanneling (\"mhmm\"/\"yeah\") landing as over-frequent and intrusive rather than natural; no tuning control shipped yet",
+      "headline": "Update: GPT-Live draws its first real user backlash days into rollout — not latency or accuracy, but backchanneling (\"mhmm\"/\"yeah\") landing as over-frequent and intrusive rather than natural; no tuning control shipped yet",
       "url": "https://finance.biggo.com/news/e3986ab2-abf9-4cee-b8dc-39349a6a6eaf",
       "type": "customer_signal",
       "status": "developing"
@@ -1102,7 +1102,7 @@
       "id": "elevenlabs-22b-tender-offer",
       "date": "2026-07-14",
       "company": "ElevenLabs",
-      "headline": "Update: $22B tender offer talks reportedly on track to close by September \u2014 first concrete timeline attached to the July 2 valuation story",
+      "headline": "Update: $22B tender offer talks reportedly on track to close by September — first concrete timeline attached to the July 2 valuation story",
       "url": "https://www.bloomberg.com/news/articles/2026-07-02/elevenlabs-in-talks-for-tender-offer-at-22-billion-valuation",
       "type": "funding",
       "status": "developing"
@@ -1111,7 +1111,7 @@
       "id": "speechify-simba-3-2-tts-leaderboard",
       "date": "2026-07-15",
       "company": "Speechify",
-      "headline": "Speechify Simba 3.2 takes #1 on Artificial Analysis TTS leaderboard and joint-second on Voice Arena, beating ElevenLabs/Cartesia/OpenAI/Google DeepMind flagships while also being the cheapest model in the top ten (~15x cheaper than ElevenLabs, ~6x cheaper than Cartesia) \u2014 first new player in this brief's TTS leaderboard-churn thread to combine #1 quality with lowest price",
+      "headline": "Speechify Simba 3.2 takes #1 on Artificial Analysis TTS leaderboard and joint-second on Voice Arena, beating ElevenLabs/Cartesia/OpenAI/Google DeepMind flagships while also being the cheapest model in the top ten (~15x cheaper than ElevenLabs, ~6x cheaper than Cartesia) — first new player in this brief's TTS leaderboard-churn thread to combine #1 quality with lowest price",
       "url": "https://www.prweb.com/releases/speechifys-simba-3-2-ranks-1-on-independent-artificial-analysis-tts-leaderboard-worlds-best-real-time-voice-model-above-elevenlabs-openai-google-deepmind--others-302819731.html",
       "type": "tech",
       "status": "new"
@@ -1129,7 +1129,7 @@
       "id": "openai-gpt-live-agi-framing",
       "date": "2026-07-15",
       "company": "OpenAI",
-      "headline": "OpenAI researcher frames GPT-Live as \"one step closer to a truly accessible AGI\" during launch livestream \u2014 first time this brief has seen a vendor attach AGI messaging specifically to a voice/naturalism feature rather than a reasoning capability",
+      "headline": "OpenAI researcher frames GPT-Live as \"one step closer to a truly accessible AGI\" during launch livestream — first time this brief has seen a vendor attach AGI messaging specifically to a voice/naturalism feature rather than a reasoning capability",
       "url": "https://gizmodo.com/the-future-is-always-listening-openai-says-its-new-voice-assistant-is-one-step-closer-to-a-truly-accessible-agi-2000783210",
       "type": "founder_take",
       "status": "new"
@@ -1165,7 +1165,7 @@
       "id": "voice-scam-economic-impact-insuranceopedia",
       "date": "2026-07-20",
       "company": "Industry / Insuranceopedia",
-      "headline": "Insuranceopedia study estimates deepfake voice scams could cost Americans ~$39.7B/year (base case, range $2.6B-$46.4B); 25% of US adults report receiving an AI-voice scam call, 77% of those targeted lost money \u2014 first dollar-figure quantification of the voice-cloning/vishing threat this brief has tracked since June",
+      "headline": "Insuranceopedia study estimates deepfake voice scams could cost Americans ~$39.7B/year (base case, range $2.6B-$46.4B); 25% of US adults report receiving an AI-voice scam call, 77% of those targeted lost money — first dollar-figure quantification of the voice-cloning/vishing threat this brief has tracked since June",
       "url": "https://cordcuttersnews.com/experts-warn-this-ai-scam-could-cost-americans-nearly-40-billion-a-year-heres-how-to-protect-yourself/",
       "type": "tech",
       "status": "new"
@@ -1174,7 +1174,7 @@
       "id": "deeplearningai-vocalbridge-voice-builder-challenge",
       "date": "2026-07-20",
       "company": "DeepLearning.AI / VocalBridge / Sabre",
-      "headline": "Update: Sabre, VocalBridge, and DeepLearning.AI ran a 400-developer Bay Area hackathon (July 18) targeting agentic travel voice agents against real Sabre APIs, American Airlines, and PayPal data, explicitly testing higher-stakes moments (disrupted flight, late-night hotel issue) rather than chatbot demos \u2014 same recovery-loop/escalation-design thread as the July 13 builder challenge, now extended into a named enterprise-data domain",
+      "headline": "Update: Sabre, VocalBridge, and DeepLearning.AI ran a 400-developer Bay Area hackathon (July 18) targeting agentic travel voice agents against real Sabre APIs, American Airlines, and PayPal data, explicitly testing higher-stakes moments (disrupted flight, late-night hotel issue) rather than chatbot demos — same recovery-loop/escalation-design thread as the July 13 builder challenge, now extended into a named enterprise-data domain",
       "url": "https://www.prnewswire.com/news-releases/sabre-opens-travel-infrastructure-to-silicon-valley-developers-building-the-next-voice-ai-agents-powering-the-complete-trip-at-bay-area-hackathon-302826482.html",
       "type": "customer_signal",
       "status": "developing"
@@ -1183,7 +1183,7 @@
       "id": "apple-openai-hardware-trade-secret-lawsuit",
       "date": "2026-07-21",
       "company": "Apple / OpenAI",
-      "headline": "Update: reporting fills in OpenAI's first hardware device as an explicitly voice-first \u2018humanlike AI companion\u2019 \u2014 screen-free, camera, motorized parts, runs advanced ChatGPT Voice Mode, unveil later 2026 / ship 2027; TechCrunch (July 19) asks directly whether Apple's trade-secret suit will delay it",
+      "headline": "Update: reporting fills in OpenAI's first hardware device as an explicitly voice-first ‘humanlike AI companion’ — screen-free, camera, motorized parts, runs advanced ChatGPT Voice Mode, unveil later 2026 / ship 2027; TechCrunch (July 19) asks directly whether Apple's trade-secret suit will delay it",
       "url": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/",
       "type": "market",
       "status": "developing"
@@ -1192,7 +1192,7 @@
       "id": "eu-dma-google-android-ai-assistants",
       "date": "2026-07-22",
       "company": "EU / Google",
-      "headline": "EU Digital Markets Act decision (July 16) orders Google to give rival AI assistants (ChatGPT, Claude, Perplexity) Gemini-equivalent Android access: voice invocation, on-device actions, contextual/system data across 11 feature groups; search-data sharing Jan 2027, voice hooks with Android 18 by Aug 2027, concurrent hotword with Android 19 by 2028 \u2014 first regulator (not partnership/acquisition) forcing open the assistant-invocation layer",
+      "headline": "EU Digital Markets Act decision (July 16) orders Google to give rival AI assistants (ChatGPT, Claude, Perplexity) Gemini-equivalent Android access: voice invocation, on-device actions, contextual/system data across 11 feature groups; search-data sharing Jan 2027, voice hooks with Android 18 by Aug 2027, concurrent hotword with Android 19 by 2028 — first regulator (not partnership/acquisition) forcing open the assistant-invocation layer",
       "url": "https://www.androidauthority.com/eu-android-ai-google-search-mandates-3688186/",
       "type": "market",
       "status": "new"
@@ -1201,7 +1201,7 @@
       "id": "xai-grok-voice-21-multilingual-voices",
       "date": "2026-07-22",
       "company": "xAI",
-      "headline": "xAI ships 21 new multilingual Grok voices (July 6) plus naturalness retrain of original five; 25+ languages across realtime Voice Agent API, TTS API, Voice Agent Builder \u2014 previously unreported in this brief",
+      "headline": "xAI ships 21 new multilingual Grok voices (July 6) plus naturalness retrain of original five; 25+ languages across realtime Voice Agent API, TTS API, Voice Agent Builder — previously unreported in this brief",
       "url": "https://x.ai/news/new-flagship-voices",
       "type": "tech",
       "status": "new"
@@ -1264,7 +1264,7 @@
       "id": "soundhound-deliverect-voice-ordering",
       "date": "2026-07-27",
       "company": "SoundHound / Deliverect",
-      "headline": "SoundHound AI partners with Deliverect to fully automate restaurant voice ordering (drive-through, phone, kiosk) straight into kitchen POS across 100+ languages; distinct from the pending SoundHound-LivePerson merger \u2014 SoundHound running a vertical-integration play and an enterprise-CX-fusion play simultaneously",
+      "headline": "SoundHound AI partners with Deliverect to fully automate restaurant voice ordering (drive-through, phone, kiosk) straight into kitchen POS across 100+ languages; distinct from the pending SoundHound-LivePerson merger — SoundHound running a vertical-integration play and an enterprise-CX-fusion play simultaneously",
       "url": "https://www.prnewswire.com/news-releases/deliverect-and-soundhound-ai-partner-to-turn-voice-into-a-fully-automated-ordering-channel-for-restaurants-302833315.html",
       "type": "market",
       "status": "new"
@@ -1282,7 +1282,7 @@
       "id": "openai-gpt-live",
       "date": "2026-07-27",
       "company": "OpenAI",
-      "headline": "Update: GPT-Live comes to the ChatGPT desktop app (macOS/Windows), able to steer Codex and ChatGPT Work agents by voice mid-conversation \u2014 voice as control surface for other agents, not just a conversation product",
+      "headline": "Update: GPT-Live comes to the ChatGPT desktop app (macOS/Windows), able to steer Codex and ChatGPT Work agents by voice mid-conversation — voice as control surface for other agents, not just a conversation product",
       "url": "https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/",
       "type": "tech",
       "status": "developing"
@@ -1291,7 +1291,7 @@
       "id": "eu-ai-act-article-50-deepfake-disclosure",
       "date": "2026-07-27",
       "company": "EU",
-      "headline": "EU AI Act Article 50 deepfake/synthetic-content disclosure obligations become enforceable August 2, 2026; broad definition covers AI-generated voice resembling a real person, fines up to \u20ac15M or 3% global turnover; marking/detection grace period for pre-Aug-2 systems only extends to Dec 2",
+      "headline": "EU AI Act Article 50 deepfake/synthetic-content disclosure obligations become enforceable August 2, 2026; broad definition covers AI-generated voice resembling a real person, fines up to €15M or 3% global turnover; marking/detection grace period for pre-Aug-2 systems only extends to Dec 2",
       "url": "https://datamatters.sidley.com/2026/06/24/eu-ai-act-transparency-obligations-preparing-for-compliance-by-2-august-2026/",
       "type": "market",
       "status": "new"
@@ -1318,7 +1318,7 @@
       "id": "amazon-az3-chip-ondevice-wakeword",
       "date": "2026-07-28",
       "company": "Amazon",
-      "headline": "Update: Panos Panay tells CNN the always-listening $50 Bee Pioneer bracelet is now central to Alexa's ambient-assistant future, teases agentic \"Moonraker\" project \u2014 first explicit link between the July 7 AZ3 on-device roadmap and a concrete always-on consumer product",
+      "headline": "Update: Panos Panay tells CNN the always-listening $50 Bee Pioneer bracelet is now central to Alexa's ambient-assistant future, teases agentic \"Moonraker\" project — first explicit link between the July 7 AZ3 on-device roadmap and a concrete always-on consumer product",
       "url": "https://us.cnn.com/2026/07/26/tech/ai-devices-see-listen-record-meta-amazon-plaud",
       "type": "market",
       "status": "developing"
@@ -1327,7 +1327,7 @@
       "id": "inflection-pi-journeys-voice-mode-2",
       "date": "2026-07-28",
       "company": "Inflection AI",
-      "headline": "Inflection AI Labs launches with Pi Journeys and Real-Time Voice Mode 2.0 (near-latency-free, detects and mirrors vocal stress/excitement/sadness) \u2014 first real consumer voice push since Mustafa Suleyman and most technical staff exited to Microsoft in 2024; originally announced July 21, previously unreported in this brief",
+      "headline": "Inflection AI Labs launches with Pi Journeys and Real-Time Voice Mode 2.0 (near-latency-free, detects and mirrors vocal stress/excitement/sadness) — first real consumer voice push since Mustafa Suleyman and most technical staff exited to Microsoft in 2024; originally announced July 21, previously unreported in this brief",
       "url": "https://venturebeat.com/orchestration/inflection-ai-returns-to-consumer-market-with-pi-journeys-after-microsoft-upheaval",
       "type": "market",
       "status": "new"
@@ -1354,7 +1354,7 @@
       "id": "xai-grok-voice-think-fast-2",
       "date": "2026-07-30",
       "company": "xAI",
-      "headline": "Grok Voice Think Fast 2.0: $0.08/min (up 60% from $0.05/min for 1.0); TTFA 1.25s->0.70s, #2 on Artificial Analysis Speech-to-Speech Index (82.9%), #1 on tau-Voice Agentic Performance (56.5%), only top-5 model under 1s TTFA; grok-voice-latest auto-upgrades Aug 5 \u2014 first foundation-model-layer S2S price increase this brief has tracked",
+      "headline": "Grok Voice Think Fast 2.0: $0.08/min (up 60% from $0.05/min for 1.0); TTFA 1.25s->0.70s, #2 on Artificial Analysis Speech-to-Speech Index (82.9%), #1 on tau-Voice Agentic Performance (56.5%), only top-5 model under 1s TTFA; grok-voice-latest auto-upgrades Aug 5 — first foundation-model-layer S2S price increase this brief has tracked",
       "url": "https://x.ai/news/grok-voice-think-fast-2",
       "type": "tech",
       "status": "new"
@@ -1363,7 +1363,7 @@
       "id": "encore-ai-30m-series-a-interaction-mining",
       "date": "2026-07-30",
       "company": "Encore AI",
-      "headline": "Encore AI (formerly Insait IO) raises $30M Series A (Team8, Planven, The Garage) for 'Interaction Mining' \u2014 encodes top-performing sales/service staff behavior into agents across voice, chat, email, IVR, form-fill for banks and insurers; several investors are customers-turned-investors",
+      "headline": "Encore AI (formerly Insait IO) raises $30M Series A (Team8, Planven, The Garage) for 'Interaction Mining' — encodes top-performing sales/service staff behavior into agents across voice, chat, email, IVR, form-fill for banks and insurers; several investors are customers-turned-investors",
       "url": "https://techcrunch.com/2026/07/29/encore-ai-raises-30m-to-build-ai-agents-that-learn-from-customer-calls/",
       "type": "funding",
       "status": "new"
@@ -1381,7 +1381,7 @@
       "id": "ovh-gladia-acquisition",
       "date": "2026-08-03",
       "company": "OVH Groupe / Gladia",
-      "headline": "Update: OVH Groupe completed the Gladia acquisition July 31 (all-share deal, 1.8M new OVH shares at \u20ac15.66 each) \u2014 first sovereign-cloud voice-AI deal in this brief's tracked thread to actually close rather than remain in exclusive negotiations",
+      "headline": "Update: OVH Groupe completed the Gladia acquisition July 31 (all-share deal, 1.8M new OVH shares at €15.66 each) — first sovereign-cloud voice-AI deal in this brief's tracked thread to actually close rather than remain in exclusive negotiations",
       "url": "https://corporate.ovhcloud.com/en/newsroom/news/ovh-group-gladia-closing-acquisition-voice-ai/",
       "type": "market",
       "status": "closed"
@@ -1390,7 +1390,7 @@
       "id": "eu-ai-act-article-50-deepfake-disclosure",
       "date": "2026-08-03",
       "company": "EU",
-      "headline": "Update: Article 50 became enforceable August 2 \u2014 fines up to \u20ac15M/3% global turnover now live; duty applies to essentially any AI voice/chat interaction with an EU user, not only formally 'high-risk' Annex III systems, a distinction several readiness guides were still conflating days before the deadline",
+      "headline": "Update: Article 50 became enforceable August 2 — fines up to €15M/3% global turnover now live; duty applies to essentially any AI voice/chat interaction with an EU user, not only formally 'high-risk' Annex III systems, a distinction several readiness guides were still conflating days before the deadline",
       "url": "https://www.aguardic.com/blog/eu-ai-act-article-50-august-2-readiness",
       "type": "market",
       "status": "developing"
@@ -1399,7 +1399,7 @@
       "id": "microsoft-mai-voice-2",
       "date": "2026-08-03",
       "company": "Microsoft",
-      "headline": "Update: MAI-Voice-2-Flash ships in public preview (July 23, previously unreported here) \u2014 2x faster / 32% cheaper than MAI-Voice-2 at $15/1M characters, powers Dynamics 365 Contact Center; Microsoft claims up to 89% lower GPU cost than a comparable OpenAI-based stack",
+      "headline": "Update: MAI-Voice-2-Flash ships in public preview (July 23, previously unreported here) — 2x faster / 32% cheaper than MAI-Voice-2 at $15/1M characters, powers Dynamics 365 Contact Center; Microsoft claims up to 89% lower GPU cost than a comparable OpenAI-based stack",
       "url": "https://venturebeat.com/infrastructure/microsoft-launches-new-in-house-ai-models-it-says-cut-costs-up-to-89-versus-openai",
       "type": "tech",
       "status": "developing"
@@ -1408,7 +1408,7 @@
       "id": "microsoft-mai-realtime-preview",
       "date": "2026-08-04",
       "company": "Microsoft",
-      "headline": "MAI-Realtime bidirectional/full-duplex voice model spotted in hidden preview (TestingCatalog scoop, Aug 2): more natural than MAI-Voice-2, runs web search + tools mid-conversation, 17 languages; no model card, pricing, or public availability yet \u2014 completes an in-house listen/speak/full-duplex trio with MAI-Transcribe and MAI-Voice-2",
+      "headline": "MAI-Realtime bidirectional/full-duplex voice model spotted in hidden preview (TestingCatalog scoop, Aug 2): more natural than MAI-Voice-2, runs web search + tools mid-conversation, 17 languages; no model card, pricing, or public availability yet — completes an in-house listen/speak/full-duplex trio with MAI-Transcribe and MAI-Voice-2",
       "url": "https://www.testingcatalog.com/exclusive-microsoft-tests-new-mai-realtime-voice-model/",
       "type": "tech",
       "status": "new"
@@ -1426,7 +1426,7 @@
       "id": "gradium-zeghidour-context-thesis",
       "date": "2026-08-04",
       "company": "Gradium",
-      "headline": "Founder take: Gradium CEO/co-founder Neil Zeghidour \u2014 \"All the failure cases we see are a lack of context\"; frames transcription/synthesis as commodity, context as the real unsolved problem",
+      "headline": "Founder take: Gradium CEO/co-founder Neil Zeghidour — \"All the failure cases we see are a lack of context\"; frames transcription/synthesis as commodity, context as the real unsolved problem",
       "url": "https://www.pymnts.com/news/artificial-intelligence/2026/gradium-ceo-says-voice-ai-must-understand-not-just-transcribe-the-words/",
       "type": "founder_take",
       "status": "new"
@@ -1444,7 +1444,7 @@
       "id": "openai-gpt-live",
       "date": "2026-08-05",
       "company": "OpenAI",
-      "headline": "Update: OpenAI publishes engineering account of GPT-Live's full-duplex rebuild \u2014 turn detector removed from audio path entirely, model decides talk/listen/backchannel/tool-call many times per second instead of on silence trigger; median response jitter cut from 489ms to 104ms",
+      "headline": "Update: OpenAI publishes engineering account of GPT-Live's full-duplex rebuild — turn detector removed from audio path entirely, model decides talk/listen/backchannel/tool-call many times per second instead of on silence trigger; median response jitter cut from 489ms to 104ms",
       "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live/",
       "type": "tech",
       "status": "developing"
@@ -1453,7 +1453,7 @@
       "id": "xai-grok-voice-think-fast-2",
       "date": "2026-08-05",
       "company": "xAI",
-      "headline": "Update: Grok Voice Think Fast 2.0's forced auto-upgrade landed as scheduled \u2014 grok-voice-latest now routes to 2.0 at $0.08/min, migrating unpinned callers off 1.0's $0.05/min pricing",
+      "headline": "Update: Grok Voice Think Fast 2.0's forced auto-upgrade landed as scheduled — grok-voice-latest now routes to 2.0 at $0.08/min, migrating unpinned callers off 1.0's $0.05/min pricing",
       "url": "https://x.ai/news/grok-voice-think-fast-2",
       "type": "market",
       "status": "closed"
@@ -1462,7 +1462,7 @@
       "id": "modulate-ai4-voice-supervision",
       "date": "2026-08-06",
       "company": "Modulate",
-      "headline": "Modulate presents 'Voice Agent Supervision: Finding the Hidden Cost of Conversational Blind Spots' at Ai4 2026 \u2014 Velma platform is a live in-call supervision layer flagging frustration/escalation/compliance signals that transcript-only monitoring misses; Modulate's models rank #1 on HF Open ASR Leaderboard",
+      "headline": "Modulate presents 'Voice Agent Supervision: Finding the Hidden Cost of Conversational Blind Spots' at Ai4 2026 — Velma platform is a live in-call supervision layer flagging frustration/escalation/compliance signals that transcript-only monitoring misses; Modulate's models rank #1 on HF Open ASR Leaderboard",
       "url": "https://www.accessnewswire.com/newsroom/en/computers-technology-and-internet/modulate-to-showcase-voice-native-ai-architecture-at-ai4-2026-1193493",
       "type": "tech",
       "status": "new"
@@ -1471,7 +1471,7 @@
       "id": "rime-miravoice-caller-retention-study",
       "date": "2026-08-06",
       "company": "Rime",
-      "headline": "Independent Miravoice study presented at AAPOR 2026 (~100K calls, 12 voices across Rime/ElevenLabs/Google): Rime voices show statistically significant lower hang-up-during-intro rates and fastest median completion time \u2014 first third-party outcome-based TTS caller-retention benchmark tracked in this brief; update on Rime thread (Series A + Rafael Valle hire, July 16)",
+      "headline": "Independent Miravoice study presented at AAPOR 2026 (~100K calls, 12 voices across Rime/ElevenLabs/Google): Rime voices show statistically significant lower hang-up-during-intro rates and fastest median completion time — first third-party outcome-based TTS caller-retention benchmark tracked in this brief; update on Rime thread (Series A + Rafael Valle hire, July 16)",
       "url": "https://www.cmswire.com/customer-experience/rime-lands-24m-series-a-to-scale-voice-ai/",
       "type": "customer_signal",
       "status": "developing"
@@ -1480,7 +1480,7 @@
       "id": "soundhound-liveperson-acquisition-oasys",
       "date": "2026-08-06",
       "company": "SoundHound / LivePerson",
-      "headline": "Update: LivePerson/SoundHound merger vote details firmed up \u2014 shareholders vote by 11:59pm ET Aug 19 (record date July 6), deal values LivePerson shares at ~$3.33 (cash + stock, ~22% premium to pre-announcement price), board unanimously recommends approval",
+      "headline": "Update: LivePerson/SoundHound merger vote details firmed up — shareholders vote by 11:59pm ET Aug 19 (record date July 6), deal values LivePerson shares at ~$3.33 (cash + stock, ~22% premium to pre-announcement price), board unanimously recommends approval",
       "url": "https://www.tipranks.com/news/company-announcements/liveperson-sets-august-vote-on-premium-all-stock-and-cash-merger-with-soundhound-ai",
       "type": "market",
       "status": "developing"
@@ -1507,7 +1507,7 @@
       "id": "openai-brockman-voice-interface-future",
       "date": "2026-08-10",
       "company": "OpenAI",
-      "headline": "Greg Brockman: voice is 'the interface of the future,' clicking/typing is 'a phase' that ends within a couple of years \u2014 said at ChatGPT Voice/GPT-Live media roundtable",
+      "headline": "Greg Brockman: voice is 'the interface of the future,' clicking/typing is 'a phase' that ends within a couple of years — said at ChatGPT Voice/GPT-Live media roundtable",
       "url": "https://fortune.com/2026/08/04/openai-president-greg-brockman-we-contort-ourselves-around-computers-clicking-and-typing-is-a-phase/",
       "type": "founder_take",
       "status": "new"
@@ -1516,7 +1516,7 @@
       "id": "deepgram-nova3-quality-punjabi-nepali",
       "date": "2026-08-10",
       "company": "Deepgram",
-      "headline": "Deepgram changelog: improved Nova-3 monolingual quality (Aug 4) and added Punjabi/Nepali batch+streaming support (Aug 5) \u2014 incremental shipping continues underneath the infra-layer cooldown",
+      "headline": "Deepgram changelog: improved Nova-3 monolingual quality (Aug 4) and added Punjabi/Nepali batch+streaming support (Aug 5) — incremental shipping continues underneath the infra-layer cooldown",
       "url": "https://developers.deepgram.com/changelog",
       "type": "tech",
       "status": "new"
@@ -1525,9 +1525,27 @@
       "id": "kinney-drugs-burt-ai-pullback",
       "date": "2026-08-11",
       "company": "Kinney Drugs",
-      "headline": "Kinney Drugs pulls back its \"Burt\" AI phone assistant after hundreds of customer complaints \u2014 wrong refill info on sensitive medications, unclear consent, no human escalation path; reverts to touch-tone; hit HN front page",
+      "headline": "Kinney Drugs pulls back its \"Burt\" AI phone assistant after hundreds of customer complaints — wrong refill info on sensitive medications, unclear consent, no human escalation path; reverts to touch-tone; hit HN front page",
       "url": "https://vtdigger.org/2026/08/10/kinney-drugs-pulls-back-ai-tool-after-customer-complaints/",
       "type": "customer_signal",
+      "status": "new"
+    },
+    {
+      "id": "happyrobot-150m-series-c-unicorn",
+      "date": "2026-08-12",
+      "company": "HappyRobot",
+      "headline": "HappyRobot raises $150M Series C at $1.2B valuation (Prysm Capital, Eurazeo); verticalized voice agents for logistics/ops (DHL, Kuehne+Nagel, Uber, 150+ enterprise customers) expanding into insurance, energy, telecom, airlines; discloses six-model coordination architecture (VAD, ASR, end-of-turn, LLM, TTS, cleanup filter) as the real production challenge; CEO: verticalization beats general-purpose rivals who are 'clueless about the operations and intricacies of these industries' — echoes HN's framing of Kinney Drugs' Burt pullback one day earlier; originally announced Aug 4, previously unreported in this brief",
+      "url": "https://techfundingnews.com/happyrobot-150m-series-c-ai-agents/",
+      "type": "funding",
+      "status": "new"
+    },
+    {
+      "id": "elevenlabs-dubbing-v2-api",
+      "date": "2026-08-12",
+      "company": "ElevenLabs",
+      "headline": "ElevenLabs ships Dubbing v2 API (Aug 10): project-based dubbing across 90+ languages, editable JSON transcripts/translations, regenerate-only-changed-regions workflow",
+      "url": "https://elevenlabs.io/docs/changelog/2026/8/10",
+      "type": "tech",
       "status": "new"
     }
   ],
@@ -1588,13 +1606,8 @@
       "direction": "emerging"
     },
     {
-      "since": "2026-05-30",
-      "theme": "Speech-to-speech models collapsing the STT->LLM->TTS chain; S2S cost barrier falling fast (Gemini Live $0.00165/min).",
-      "direction": "up"
-    },
-    {
       "since": "2026-06-02",
-      "theme": "Microsoft building in-house voice stack (MAI series) \u2014 platform risk for pure-play TTS/STT vendors serving Azure enterprise.",
+      "theme": "Microsoft building in-house voice stack (MAI series) — platform risk for pure-play TTS/STT vendors serving Azure enterprise.",
       "direction": "emerging"
     },
     {
@@ -1639,7 +1652,7 @@
     },
     {
       "since": "2026-06-08",
-      "theme": "Platform players (Apple) choosing third-party AI for voice (Gemini ~$1B/year) rather than building in-house; validates specialist voice AI infrastructure market \u2014 no one is 'just going to build this themselves.'",
+      "theme": "Platform players (Apple) choosing third-party AI for voice (Gemini ~$1B/year) rather than building in-house; validates specialist voice AI infrastructure market — no one is 'just going to build this themselves.'",
       "direction": "up"
     },
     {
@@ -1654,7 +1667,7 @@
     },
     {
       "since": "2026-06-09",
-      "theme": "Telephony (phone calling via SIP/Twilio) emerging as the primary voice agent deployment surface; SIP infrastructure costs hidden from all published API pricing models \u2014 a real production COGS blind spot.",
+      "theme": "Telephony (phone calling via SIP/Twilio) emerging as the primary voice agent deployment surface; SIP infrastructure costs hidden from all published API pricing models — a real production COGS blind spot.",
       "direction": "emerging"
     },
     {
@@ -1669,7 +1682,7 @@
     },
     {
       "since": "2026-06-10",
-      "theme": "Benchmark proliferation: AA now runs 3 distinct voice evals (AA-WER agent-specific, Speech Arena TTS quality, AA-WER Streaming); different leaders on each \u2014 benchmark literacy becoming a required builder skill for vendor procurement.",
+      "theme": "Benchmark proliferation: AA now runs 3 distinct voice evals (AA-WER agent-specific, Speech Arena TTS quality, AA-WER Streaming); different leaders on each — benchmark literacy becoming a required builder skill for vendor procurement.",
       "direction": "emerging"
     },
     {
@@ -1689,12 +1702,12 @@
     },
     {
       "since": "2026-06-12",
-      "theme": "Enterprise voice diverging into platform track (Vapi/Retell/ElevenAgents \u2014 developer volume) vs. custom-engineering track (Deepgram QSR/vertical, AethexAI \u2014 high ACV); custom track requires forward-deployed engineering, not just API access.",
+      "theme": "Enterprise voice diverging into platform track (Vapi/Retell/ElevenAgents — developer volume) vs. custom-engineering track (Deepgram QSR/vertical, AethexAI — high ACV); custom track requires forward-deployed engineering, not just API access.",
       "direction": "emerging"
     },
     {
       "since": "2026-06-12",
-      "theme": "Voice AI has a two-sided security problem: AI agents vulnerable to inaudible audio hijacking (AudioHijack), AND human employees vulnerable to AI-generated voice impersonation (Teams vishing); both threats live in production \u2014 no vendor has published mitigations for either.",
+      "theme": "Voice AI has a two-sided security problem: AI agents vulnerable to inaudible audio hijacking (AudioHijack), AND human employees vulnerable to AI-generated voice impersonation (Teams vishing); both threats live in production — no vendor has published mitigations for either.",
       "direction": "up"
     },
     {
@@ -1704,7 +1717,7 @@
     },
     {
       "since": "2026-06-15",
-      "theme": "Code-switching is the next STT frontier: monolingual ASR WER spikes 30-50% at language boundaries; no commercial benchmark existed until ServiceNow built one in-house \u2014 signals that multilingual benchmarking (per condition) is now a procurement necessity, not a nice-to-have.",
+      "theme": "Code-switching is the next STT frontier: monolingual ASR WER spikes 30-50% at language boundaries; no commercial benchmark existed until ServiceNow built one in-house — signals that multilingual benchmarking (per condition) is now a procurement necessity, not a nice-to-have.",
       "direction": "emerging"
     },
     {
@@ -1714,7 +1727,7 @@
     },
     {
       "since": "2026-06-16",
-      "theme": "Instruction following in long multi-turn voice conversations is the next production quality axis \u2014 and no production-validated benchmark exists yet; builders stuck on 18-month-old models because evaluation cost of switching is too high without trusted voice-specific evals.",
+      "theme": "Instruction following in long multi-turn voice conversations is the next production quality axis — and no production-validated benchmark exists yet; builders stuck on 18-month-old models because evaluation cost of switching is too high without trusted voice-specific evals.",
       "direction": "emerging"
     },
     {
@@ -1749,7 +1762,7 @@
     },
     {
       "since": "2026-06-19",
-      "theme": "TTS benchmark fragmentation deepening: Vapi Humanness Index (Grok #1), AA Speech Arena (Alibaba #1), Coval (Gradium #1) all crown different winners with different methodologies; no single TTS leaderboard exists \u2014 deployment surface determines the right benchmark.",
+      "theme": "TTS benchmark fragmentation deepening: Vapi Humanness Index (Grok #1), AA Speech Arena (Alibaba #1), Coval (Gradium #1) all crown different winners with different methodologies; no single TTS leaderboard exists — deployment surface determines the right benchmark.",
       "direction": "up"
     },
     {
@@ -1769,32 +1782,32 @@
     },
     {
       "since": "2026-06-22",
-      "theme": "STT regional specialists outperforming global leaders by 15-18% on local conditions: Gnani (India), Gladia (Europe), Soniox (multilingual telephony); aggregate WER leaderboards becoming actively misleading for procurement \u2014 per-condition benchmarking now a required builder skill.",
+      "theme": "STT regional specialists outperforming global leaders by 15-18% on local conditions: Gnani (India), Gladia (Europe), Soniox (multilingual telephony); aggregate WER leaderboards becoming actively misleading for procurement — per-condition benchmarking now a required builder skill.",
       "direction": "up"
     },
     {
       "since": "2026-06-23",
-      "theme": "TTS quality leadership now unstable at the top: three different #1 models from three different countries in four weeks (Alibaba, xAI/Grok, MiniMax); any model-level TTS advantage lasts weeks not quarters \u2014 defensible moat is session orchestration and enterprise ops, not model quality.",
+      "theme": "TTS quality leadership now unstable at the top: three different #1 models from three different countries in four weeks (Alibaba, xAI/Grok, MiniMax); any model-level TTS advantage lasts weeks not quarters — defensible moat is session orchestration and enterprise ops, not model quality.",
       "direction": "up"
     },
     {
       "since": "2026-06-23",
-      "theme": "Disfluency modeling as TTS quality frontier: MiniMax Speech 2.8's native sound tags (um, uh, ah) show 60% naturalness improvement; competing on imperfection rather than clarity is a new axis \u2014 expect fast-follow from ElevenLabs, Grok, Cartesia.",
+      "theme": "Disfluency modeling as TTS quality frontier: MiniMax Speech 2.8's native sound tags (um, uh, ah) show 60% naturalness improvement; competing on imperfection rather than clarity is a new axis — expect fast-follow from ElevenLabs, Grok, Cartesia.",
       "direction": "emerging"
     },
     {
       "since": "2026-06-23",
-      "theme": "Voice agent platform competition shifting from model quality to enterprise operations: CRM sync, live call monitoring, PCAP debugging, data retention, simulation testing (Retell, Vapi, Cartesia Line) \u2014 the bottleneck is now operations infrastructure, confirmed by 60% demo-to-production failure rate and 21% satisfaction despite 87% adoption.",
+      "theme": "Voice agent platform competition shifting from model quality to enterprise operations: CRM sync, live call monitoring, PCAP debugging, data retention, simulation testing (Retell, Vapi, Cartesia Line) — the bottleneck is now operations infrastructure, confirmed by 60% demo-to-production failure rate and 21% satisfaction despite 87% adoption.",
       "direction": "up"
     },
     {
       "since": "2026-06-24",
-      "theme": "Context-aware STT emerging as next architecture shift: AssemblyAI Context Carryover feeds agent's last turn into STT model, cutting critical-utterance errors 65%; transcribing audio \u2192 understanding the conversation. Expect Deepgram, ElevenLabs Scribe, Smallest AI Pulse to follow within two release cycles.",
+      "theme": "Context-aware STT emerging as next architecture shift: AssemblyAI Context Carryover feeds agent's last turn into STT model, cutting critical-utterance errors 65%; transcribing audio → understanding the conversation. Expect Deepgram, ElevenLabs Scribe, Smallest AI Pulse to follow within two release cycles.",
       "direction": "emerging"
     },
     {
       "since": "2026-06-24",
-      "theme": "Voice AI buyer migrating from developer to CX operator: CCW 2026 (contact center conference, not tech conference) was the venue for more voice AI launches than any dev conference this week; no-code voice agent builders (RingCentral AIR Pro Studio, Amazon Connect Agentic CX Designer) becoming table stakes \u2014 the tool is moving from the builder to the operator.",
+      "theme": "Voice AI buyer migrating from developer to CX operator: CCW 2026 (contact center conference, not tech conference) was the venue for more voice AI launches than any dev conference this week; no-code voice agent builders (RingCentral AIR Pro Studio, Amazon Connect Agentic CX Designer) becoming table stakes — the tool is moving from the builder to the operator.",
       "direction": "up"
     },
     {
@@ -1824,7 +1837,7 @@
     },
     {
       "since": "2026-06-26",
-      "theme": "Healthcare becoming voice AI's first fully funded vertical category: Prosper AI $30M (a16z), Deepgram HLTH Europe deployments, Microsoft Copilot Studio voice GA for Dynamics 365 Contact Center \u2014 structured call workflows + compliance moat + measurable ROI = repeatable vertical template. Insurance and financial services next.",
+      "theme": "Healthcare becoming voice AI's first fully funded vertical category: Prosper AI $30M (a16z), Deepgram HLTH Europe deployments, Microsoft Copilot Studio voice GA for Dynamics 365 Contact Center — structured call workflows + compliance moat + measurable ROI = repeatable vertical template. Insurance and financial services next.",
       "direction": "emerging"
     },
     {
@@ -1844,52 +1857,52 @@
     },
     {
       "since": "2026-06-29",
-      "theme": "STT Pareto frontier now crowded with specialists: Soniox v5 (price-performance, $2/1K min), Speechmatics Melia (code-switching, 55+ languages), Cartesia Ink-2 (accuracy + semantic turn detection), plus regional leaders (Gnani, Gladia, Smallest AI). No single model wins everywhere \u2014 STT procurement is a multi-axis vendor selection, not a leaderboard pick.",
+      "theme": "STT Pareto frontier now crowded with specialists: Soniox v5 (price-performance, $2/1K min), Speechmatics Melia (code-switching, 55+ languages), Cartesia Ink-2 (accuracy + semantic turn detection), plus regional leaders (Gnani, Gladia, Smallest AI). No single model wins everywhere — STT procurement is a multi-axis vendor selection, not a leaderboard pick.",
       "direction": "up"
     },
     {
       "since": "2026-06-29",
-      "theme": "Custom inference silicon entering voice AI cost calculus: OpenAI Jalape\u00f1o (50% lower inference cost target, end-of-2026 deployment) could halve per-minute voice AI costs within a year. Platform companies (OpenAI, Google TPU) building custom chips while pure-play voice companies remain on commodity GPU \u2014 structural cost advantage divergence emerging.",
+      "theme": "Custom inference silicon entering voice AI cost calculus: OpenAI Jalapeño (50% lower inference cost target, end-of-2026 deployment) could halve per-minute voice AI costs within a year. Platform companies (OpenAI, Google TPU) building custom chips while pure-play voice companies remain on commodity GPU — structural cost advantage divergence emerging.",
       "direction": "emerging"
     },
     {
       "since": "2026-06-30",
-      "theme": "Turn detection moving from opaque model parameter to precision-tunable API surface: ElevenLabs interruption_ignore_terms (phrase-level suppression), Deepgram UpdateListen (mid-session EOT threshold), Microsoft Voice Live threshold_level \u2014 all shipped within two weeks. False-interruption rate per content type is the next eval axis builders must instrument.",
+      "theme": "Turn detection moving from opaque model parameter to precision-tunable API surface: ElevenLabs interruption_ignore_terms (phrase-level suppression), Deepgram UpdateListen (mid-session EOT threshold), Microsoft Voice Live threshold_level — all shipped within two weeks. False-interruption rate per content type is the next eval axis builders must instrument.",
       "direction": "emerging"
     },
     {
       "since": "2026-06-30",
-      "theme": "S2S cost floor has collapsed 10x in 12 months: OpenAI Realtime at ~$0.04/min (confirmed by Pipecat co-founder), Gemini Live at $0.00165/min, Jalape\u00f1o coming end-2026. The economic argument for cascaded pipelines is no longer 'cost' \u2014 the remaining arguments are debuggability, controllability, and STT/LLM/TTS tuning independence.",
+      "theme": "S2S cost floor has collapsed 10x in 12 months: OpenAI Realtime at ~$0.04/min (confirmed by Pipecat co-founder), Gemini Live at $0.00165/min, Jalapeño coming end-2026. The economic argument for cascaded pipelines is no longer 'cost' — the remaining arguments are debuggability, controllability, and STT/LLM/TTS tuning independence.",
       "direction": "up"
     },
     {
       "since": "2026-07-01",
-      "theme": "Turn-detection research expanding from 1:1 end-of-speech/interruption tuning (Deepgram, Cartesia, ElevenLabs) into multi-party floor-tracking (Amazon Science ModeratorLM) \u2014 the 2-party problem is commoditizing fast, multi-party is the next open differentiation window for meeting assistants and group-call agents.",
+      "theme": "Turn-detection research expanding from 1:1 end-of-speech/interruption tuning (Deepgram, Cartesia, ElevenLabs) into multi-party floor-tracking (Amazon Science ModeratorLM) — the 2-party problem is commoditizing fast, multi-party is the next open differentiation window for meeting assistants and group-call agents.",
       "direction": "emerging"
     },
     {
       "since": "2026-07-01",
-      "theme": "Sovereign voice AI theme escalating from equity investment/partnership into outright M&A: OVH acquiring Gladia to internalize STT signals hyperscalers now see specialist STT/TTS vendors as acquisition targets, not just integration partners \u2014 same logic as Microsoft's in-house MAI-Voice build, different mechanism.",
+      "theme": "Sovereign voice AI theme escalating from equity investment/partnership into outright M&A: OVH acquiring Gladia to internalize STT signals hyperscalers now see specialist STT/TTS vendors as acquisition targets, not just integration partners — same logic as Microsoft's in-house MAI-Voice build, different mechanism.",
       "direction": "emerging"
     },
     {
       "since": "2026-07-02",
-      "theme": "Foundation model vendors verticalizing into the no-code builder layer, not just the API layer: xAI ships its own Voice Agent Builder directly competing with Vapi/Retell/Bland on price \u2014 after CX platforms did the same at CCW, model vendors are now cutting out the orchestration middleman too.",
+      "theme": "Foundation model vendors verticalizing into the no-code builder layer, not just the API layer: xAI ships its own Voice Agent Builder directly competing with Vapi/Retell/Bland on price — after CX platforms did the same at CCW, model vendors are now cutting out the orchestration middleman too.",
       "direction": "emerging"
     },
     {
       "since": "2026-07-02",
-      "theme": "Session-stack telephony convergence: Cartesia SIP trunking mirrors ElevenLabs' ElevenAgents telephony move \u2014 both leading session-stack vendors now absorbing the phone layer that was flagged (June 9) as a hidden production COGS blind spot.",
+      "theme": "Session-stack telephony convergence: Cartesia SIP trunking mirrors ElevenLabs' ElevenAgents telephony move — both leading session-stack vendors now absorbing the phone layer that was flagged (June 9) as a hidden production COGS blind spot.",
       "direction": "up"
     },
     {
       "since": "2026-07-02",
-      "theme": "First documented price increase in this brief's tracked history: AssemblyAI raises in-region STT pricing 10% against 12 months of category-wide cost collapse \u2014 early signal that data-residency/compliance processing carries real infra cost that doesn't ride the commodity curve down.",
+      "theme": "First documented price increase in this brief's tracked history: AssemblyAI raises in-region STT pricing 10% against 12 months of category-wide cost collapse — early signal that data-residency/compliance processing carries real infra cost that doesn't ride the commodity curve down.",
       "direction": "watch"
     },
     {
       "since": "2026-07-03",
-      "theme": "Investors pricing the voice session/orchestration layer well above the model layer: ElevenLabs' valuation doubled in 5 months (Feb $11B -> July ~$22B talks) right after completing its full session stack (STT+Speech Engine+TTS+telephony), even as TTS model-quality leadership churns weekly \u2014 confirms model quality is not the moat being paid for.",
+      "theme": "Investors pricing the voice session/orchestration layer well above the model layer: ElevenLabs' valuation doubled in 5 months (Feb $11B -> July ~$22B talks) right after completing its full session stack (STT+Speech Engine+TTS+telephony), even as TTS model-quality leadership churns weekly — confirms model quality is not the moat being paid for.",
       "direction": "up"
     },
     {
@@ -1899,7 +1912,7 @@
     },
     {
       "since": "2026-07-06",
-      "theme": "Interruption handling splitting into two scored problems: prevention (turn-detection precision, tracked since May) and now recovery (IHBench) \u2014 recovery quality tracks with reasoning strength (closed-weight models degrade 3.3x slower), reframing 'recovery loop is the moat' as a language-model selection question, not just an audio-model one.",
+      "theme": "Interruption handling splitting into two scored problems: prevention (turn-detection precision, tracked since May) and now recovery (IHBench) — recovery quality tracks with reasoning strength (closed-weight models degrade 3.3x slower), reframing 'recovery loop is the moat' as a language-model selection question, not just an audio-model one.",
       "direction": "emerging"
     },
     {
@@ -1909,7 +1922,7 @@
     },
     {
       "since": "2026-07-06",
-      "theme": "Geographic white-space pattern extends to East Asia (Kotoba Technologies, Japanese/Korean/Chinese S2S) alongside India (Gnani), Europe (Gladia), Africa/Middle East (AethexAI) \u2014 regional specialists keep landing real enterprise traction ahead of aggregate benchmarks, and remain plausible acquisition targets per the OVH-Gladia precedent.",
+      "theme": "Geographic white-space pattern extends to East Asia (Kotoba Technologies, Japanese/Korean/Chinese S2S) alongside India (Gnani), Europe (Gladia), Africa/Middle East (AethexAI) — regional specialists keep landing real enterprise traction ahead of aggregate benchmarks, and remain plausible acquisition targets per the OVH-Gladia precedent.",
       "direction": "up"
     },
     {
@@ -1924,7 +1937,7 @@
     },
     {
       "since": "2026-07-07",
-      "theme": "Consolidation spreading from voice-model M&A (OVH-Gladia) to voice+CX channel fusion: SoundHound absorbing LivePerson to own both voice and digital messaging under one agentic platform is the inverse of CX suites (Zoom, RingCentral, Talkdesk) bolting on voice-agent builders \u2014 same endpoint, opposite direction of travel.",
+      "theme": "Consolidation spreading from voice-model M&A (OVH-Gladia) to voice+CX channel fusion: SoundHound absorbing LivePerson to own both voice and digital messaging under one agentic platform is the inverse of CX suites (Zoom, RingCentral, Talkdesk) bolting on voice-agent builders — same endpoint, opposite direction of travel.",
       "direction": "emerging"
     },
     {
@@ -1939,17 +1952,17 @@
     },
     {
       "since": "2026-07-08",
-      "theme": "Frontier realtime models now fixing tool-call dead air inside the model itself: OpenAI's gpt-realtime-2.1-mini reasons while a tool call executes, moving a problem builders used to patch with filler phrases into first-class model behavior \u2014 lands two days after IHBench put a number on how much post-interruption/pause recovery still varies by model tier.",
+      "theme": "Frontier realtime models now fixing tool-call dead air inside the model itself: OpenAI's gpt-realtime-2.1-mini reasons while a tool call executes, moving a problem builders used to patch with filler phrases into first-class model behavior — lands two days after IHBench put a number on how much post-interruption/pause recovery still varies by model tier.",
       "direction": "emerging"
     },
     {
       "since": "2026-07-08",
-      "theme": "STT/TTS API surfaces turning into production-tuning dial sets (ElevenLabs keyterms biasing, no_verbatim) rather than raw accuracy jumps, now that top-vendor WER gaps have shrunk to fractions of a point \u2014 same shift as Deepgram's mid-session threshold tuning and ElevenLabs' interruption_ignore_terms two weeks ago.",
+      "theme": "STT/TTS API surfaces turning into production-tuning dial sets (ElevenLabs keyterms biasing, no_verbatim) rather than raw accuracy jumps, now that top-vendor WER gaps have shrunk to fractions of a point — same shift as Deepgram's mid-session threshold tuning and ElevenLabs' interruption_ignore_terms two weeks ago.",
       "direction": "up"
     },
     {
       "since": "2026-07-08",
-      "theme": "No-code voice builders shipping fast without safety gating: a week-old Grok Voice Agent Builder review found no confirmation step before acting on a misheard transcription \u2014 concrete illustration of the demo-to-production gap this brief quantified in June (60% failure rate, 21% satisfaction despite 87% adoption).",
+      "theme": "No-code voice builders shipping fast without safety gating: a week-old Grok Voice Agent Builder review found no confirmation step before acting on a misheard transcription — concrete illustration of the demo-to-production gap this brief quantified in June (60% failure rate, 21% satisfaction despite 87% adoption).",
       "direction": "watch"
     },
     {
@@ -1959,12 +1972,12 @@
     },
     {
       "since": "2026-07-09",
-      "theme": "Voice-AI naturalism now ships with a named psychological-safety liability: OpenAI pairs GPT-Live's full-duplex backchanneling with explicit post-launch monitoring for emotional reliance, extending the governance thread (Voices for CX brand authenticity, Netflix/Gene Wilder consent) into a third lane \u2014 dependency risk \u2014 that companion-style and long-session voice products should expect to be evaluated on next.",
+      "theme": "Voice-AI naturalism now ships with a named psychological-safety liability: OpenAI pairs GPT-Live's full-duplex backchanneling with explicit post-launch monitoring for emotional reliance, extending the governance thread (Voices for CX brand authenticity, Netflix/Gene Wilder consent) into a third lane — dependency risk — that companion-style and long-session voice products should expect to be evaluated on next.",
       "direction": "emerging"
     },
     {
       "since": "2026-07-10",
-      "theme": "Companion-voice products now pre-emptively disclaiming clinical/dependency framing in launch copy: Grido's 'not a clinical or medical product' positioning lands one day after OpenAI named emotional reliance as a monitored GPT-Live risk \u2014 the psychological-safety lane is shaping product marketing before regulation forces it.",
+      "theme": "Companion-voice products now pre-emptively disclaiming clinical/dependency framing in launch copy: Grido's 'not a clinical or medical product' positioning lands one day after OpenAI named emotional reliance as a monitored GPT-Live risk — the psychological-safety lane is shaping product marketing before regulation forces it.",
       "direction": "emerging"
     },
     {
@@ -1984,12 +1997,12 @@
     },
     {
       "since": "2026-07-13",
-      "theme": "Recovery-loop/escalation design graduates from vendor feature to practiced builder skill: DeepLearning.AI's community challenge scored 38 teams explicitly on teaching agents when to call a human for backup \u2014 the recovery-loop thesis (tracked since June 1, shipped as Retell's Conductor in early July) is now something builders train and compete on directly, not just something platforms bake in.",
+      "theme": "Recovery-loop/escalation design graduates from vendor feature to practiced builder skill: DeepLearning.AI's community challenge scored 38 teams explicitly on teaching agents when to call a human for backup — the recovery-loop thesis (tracked since June 1, shipped as Retell's Conductor in early July) is now something builders train and compete on directly, not just something platforms bake in.",
       "direction": "up"
     },
     {
       "since": "2026-07-13",
-      "theme": "Naturalism failure mode flips at consumer scale: GPT-Live's backchannel over-eagerness shows full-duplex products can fail by over-signaling engagement, not just by cutting people off \u2014 the opposite direction from every turn-detection story this brief has tracked since May. Enterprise voice vendors already ship fine-grained dials for this (ElevenLabs interruption_ignore_terms, Deepgram mid-session threshold updates); OpenAI's consumer product shipped with none.",
+      "theme": "Naturalism failure mode flips at consumer scale: GPT-Live's backchannel over-eagerness shows full-duplex products can fail by over-signaling engagement, not just by cutting people off — the opposite direction from every turn-detection story this brief has tracked since May. Enterprise voice vendors already ship fine-grained dials for this (ElevenLabs interruption_ignore_terms, Deepgram mid-session threshold updates); OpenAI's consumer product shipped with none.",
       "direction": "emerging"
     },
     {
@@ -1999,37 +2012,37 @@
     },
     {
       "since": "2026-07-14",
-      "theme": "Voice-tuning dials are reaching mass consumer platforms, not just developer APIs: Apple ships user-facing pace/expressivity sliders for the rebuilt Siri in iOS 27 beta, the same 'production-tuning dial' pattern tracked since June 30 for ElevenLabs/Deepgram APIs \u2014 now visible to end users, not just builders.",
+      "theme": "Voice-tuning dials are reaching mass consumer platforms, not just developer APIs: Apple ships user-facing pace/expressivity sliders for the rebuilt Siri in iOS 27 beta, the same 'production-tuning dial' pattern tracked since June 30 for ElevenLabs/Deepgram APIs — now visible to end users, not just builders.",
       "direction": "emerging"
     },
     {
       "since": "2026-07-14",
-      "theme": "OpenAI's post-launch fix speed depends on problem type: architectural fixes (tool-call dead air, routed to background reasoning) shipped within days; UX-tuning fixes needing real usage data (GPT-Live backchannel frequency) and access gaps (API signup) both took a week or more \u2014 useful calibration for how fast a platform vendor resolves different classes of production complaint.",
+      "theme": "OpenAI's post-launch fix speed depends on problem type: architectural fixes (tool-call dead air, routed to background reasoning) shipped within days; UX-tuning fixes needing real usage data (GPT-Live backchannel frequency) and access gaps (API signup) both took a week or more — useful calibration for how fast a platform vendor resolves different classes of production complaint.",
       "direction": "watch"
     },
     {
       "since": "2026-07-15",
-      "theme": "TTS leaderboard churn adds a price axis: unlike the prior three #1 flips (Alibaba, Grok, MiniMax), which won on quality alone at comparable price points, Speechify's Simba 3.2 tops Artificial Analysis while also being the cheapest model in the top ten \u2014 a more direct threat to the ElevenLabs/Cartesia session-stack pricing bet than quality churn alone.",
+      "theme": "TTS leaderboard churn adds a price axis: unlike the prior three #1 flips (Alibaba, Grok, MiniMax), which won on quality alone at comparable price points, Speechify's Simba 3.2 tops Artificial Analysis while also being the cheapest model in the top ten — a more direct threat to the ElevenLabs/Cartesia session-stack pricing bet than quality churn alone.",
       "direction": "emerging"
     },
     {
       "since": "2026-07-15",
-      "theme": "Vendors escalating voice-naturalism messaging into AGI territory: OpenAI's \"one step closer to a truly accessible AGI\" framing for GPT-Live is the first time this brief has seen AGI language attached to a voice/UX feature rather than a reasoning one \u2014 raises the stakes on getting naturalism/backchannel tuning right given OpenAI's own emotional-reliance monitoring on the same product.",
+      "theme": "Vendors escalating voice-naturalism messaging into AGI territory: OpenAI's \"one step closer to a truly accessible AGI\" framing for GPT-Live is the first time this brief has seen AGI language attached to a voice/UX feature rather than a reasoning one — raises the stakes on getting naturalism/backchannel tuning right given OpenAI's own emotional-reliance monitoring on the same product.",
       "direction": "watch"
     },
     {
       "since": "2026-07-16",
-      "theme": "Frontier-lab audio talent flowing OUT to vertical voice specialists, not just platforms absorbing specialists: Rime hires Rafael Valle straight from Meta Superintelligence Labs, mirroring Gradium's Nvidia-backed extension a week earlier \u2014 two proprietary S2S labs raising and recruiting from general frontier labs in the same six weeks, betting vertical model ownership beats being a component in someone else's session stack.",
+      "theme": "Frontier-lab audio talent flowing OUT to vertical voice specialists, not just platforms absorbing specialists: Rime hires Rafael Valle straight from Meta Superintelligence Labs, mirroring Gradium's Nvidia-backed extension a week earlier — two proprietary S2S labs raising and recruiting from general frontier labs in the same six weeks, betting vertical model ownership beats being a component in someone else's session stack.",
       "direction": "emerging"
     },
     {
       "since": "2026-07-16",
-      "theme": "A funded, technically serious founder (Rime's Lily Clifford) publicly calling most production voice agents \"a new IVR, but with a better voice\" is a direct counterweight to OpenAI's AGI framing for GPT-Live one week earlier \u2014 naturalism-benchmark chasing vs. the harder, less measurable problem of making the interaction worth having.",
+      "theme": "A funded, technically serious founder (Rime's Lily Clifford) publicly calling most production voice agents \"a new IVR, but with a better voice\" is a direct counterweight to OpenAI's AGI framing for GPT-Live one week earlier — naturalism-benchmark chasing vs. the harder, less measurable problem of making the interaction worth having.",
       "direction": "watch"
     },
     {
       "since": "2026-07-17",
-      "theme": "On-device STT gets a credible platform-vendor upgrade outside the specialist pack: independently-benchmarked Apple SpeechAnalyzer beats Whisper on English WER/speed but drops custom vocab and 70+ locales versus Whisper \u2014 a real tradeoff, not a clean replacement, for production teams.",
+      "theme": "On-device STT gets a credible platform-vendor upgrade outside the specialist pack: independently-benchmarked Apple SpeechAnalyzer beats Whisper on English WER/speed but drops custom vocab and 70+ locales versus Whisper — a real tradeoff, not a clean replacement, for production teams.",
       "direction": "emerging"
     },
     {
@@ -2039,67 +2052,67 @@
     },
     {
       "since": "2026-07-20",
-      "theme": "Voice-cloning/vishing threat gets a market-sized price tag: Insuranceopedia's ~$39.7B/year estimate is the first dollar-figure attempt (vs. incident counts like the 442% H2-2024 vishing surge) to size the security thread tracked since AudioHijack and the Teams-vishing wave in June \u2014 expect voice authentication/anti-spoofing to start showing up as an explicit enterprise procurement line item, mirroring how data-sovereignty hardened into one over June.",
+      "theme": "Voice-cloning/vishing threat gets a market-sized price tag: Insuranceopedia's ~$39.7B/year estimate is the first dollar-figure attempt (vs. incident counts like the 442% H2-2024 vishing surge) to size the security thread tracked since AudioHijack and the Teams-vishing wave in June — expect voice authentication/anti-spoofing to start showing up as an explicit enterprise procurement line item, mirroring how data-sovereignty hardened into one over June.",
       "direction": "emerging"
     },
     {
       "since": "2026-07-20",
-      "theme": "Recovery-loop/escalation-design builder-skill thread keeps compounding: VocalBridge's July 13 scored builder challenge and July 18 Sabre travel hackathon are two instances in a week of the same organizing idea (train/test builders explicitly on when-to-escalate, not just model selection) \u2014 worth watching for a third before calling it a durable pattern.",
+      "theme": "Recovery-loop/escalation-design builder-skill thread keeps compounding: VocalBridge's July 13 scored builder challenge and July 18 Sabre travel hackathon are two instances in a week of the same organizing idea (train/test builders explicitly on when-to-escalate, not just model selection) — worth watching for a third before calling it a durable pattern.",
       "direction": "watch"
     },
     {
       "since": "2026-07-21",
-      "theme": "OpenAI's Apple-lawsuit exposure names its first hardware bet explicitly as a voice-first product, not just AI-adjacent: a screen-free 'humanlike AI companion' built on ChatGPT Voice Mode, with camera/motorized parts designed to seem alive \u2014 the same emotional-reliance tension flagged for GPT-Live (July 9) and Grido (July 10) now attaches to a physical device whose ship timeline a live trade-secret suit could plausibly delay.",
+      "theme": "OpenAI's Apple-lawsuit exposure names its first hardware bet explicitly as a voice-first product, not just AI-adjacent: a screen-free 'humanlike AI companion' built on ChatGPT Voice Mode, with camera/motorized parts designed to seem alive — the same emotional-reliance tension flagged for GPT-Live (July 9) and Grido (July 10) now attaches to a physical device whose ship timeline a live trade-secret suit could plausibly delay.",
       "direction": "emerging"
     },
     {
       "since": "2026-07-22",
-      "theme": "First regulatory (not competitive) crack in platform-assistant lock-in: EU's DMA order forces Google to open Android's voice-invocation layer to rival consumer AI assistants \u2014 a countervailing force against the 'wrapper compression'/native-first-party-voice thread this brief has tracked since June, though the 2027-2028 timeline means zero near-term effect for builders and covers consumer assistants, not enterprise voice-agent platforms.",
+      "theme": "First regulatory (not competitive) crack in platform-assistant lock-in: EU's DMA order forces Google to open Android's voice-invocation layer to rival consumer AI assistants — a countervailing force against the 'wrapper compression'/native-first-party-voice thread this brief has tracked since June, though the 2027-2028 timeline means zero near-term effect for builders and covers consumer assistants, not enterprise voice-agent platforms.",
       "direction": "emerging"
     },
     {
       "since": "2026-07-23",
-      "theme": "Foundation-model vendors racing into the enterprise voice/chat agent deployment layer with opposite go-to-market bets: xAI's Voice Agent Builder (July 2) is cheap and self-serve; OpenAI's Presence is FDE/SI-led consulting with undisclosed pricing and no self-serve tier \u2014 both aimed at the same operations layer Vapi/Retell/CX suites currently own.",
+      "theme": "Foundation-model vendors racing into the enterprise voice/chat agent deployment layer with opposite go-to-market bets: xAI's Voice Agent Builder (July 2) is cheap and self-serve; OpenAI's Presence is FDE/SI-led consulting with undisclosed pricing and no self-serve tier — both aimed at the same operations layer Vapi/Retell/CX suites currently own.",
       "direction": "emerging"
     },
     {
       "since": "2026-07-23",
-      "theme": "Recovery-loop-as-moat thesis (tracked since June 1) now operationalized directly by a frontier model vendor: OpenAI's Presence makes identity verification, policy-bound approved actions, and human escalation first-class primitives, and OpenAI dogfoods it on its own support line before selling it \u2014 same 'prove it on yourself first' pattern as Retell's Conductor (July 7).",
+      "theme": "Recovery-loop-as-moat thesis (tracked since June 1) now operationalized directly by a frontier model vendor: OpenAI's Presence makes identity verification, policy-bound approved actions, and human escalation first-class primitives, and OpenAI dogfoods it on its own support line before selling it — same 'prove it on yourself first' pattern as Retell's Conductor (July 7).",
       "direction": "up"
     },
     {
       "since": "2026-07-24",
-      "theme": "Context/memory-in-voice theme gets its first audio-agnostic entrant: DevRev builds voice on top of an existing cross-system memory graph (tickets, orders, code, docs) rather than building context features on top of an STT/turn-detection stack \u2014 inverts the direction every prior mover in this thread (AssemblyAI, ElevenLabs, Deepgram) has taken, and is a real competitive angle for CRM/support incumbents (Zendesk, Salesforce, Intercom) against voice-native platforms.",
+      "theme": "Context/memory-in-voice theme gets its first audio-agnostic entrant: DevRev builds voice on top of an existing cross-system memory graph (tickets, orders, code, docs) rather than building context features on top of an STT/turn-detection stack — inverts the direction every prior mover in this thread (AssemblyAI, ElevenLabs, Deepgram) has taken, and is a real competitive angle for CRM/support incumbents (Zendesk, Salesforce, Intercom) against voice-native platforms.",
       "direction": "emerging"
     },
     {
       "since": "2026-07-24",
-      "theme": "Voice-authenticity and companion-safety threads (Voices for CX, Netflix/Gene Wilder, GPT-Live emotional-reliance monitoring, Grido's clinical disclaimer) now have a hard-enforcement counterpart and an opposite-direction counterexample in the same week: TikTok Shop bans undisclosed AI voice in commerce, while Meta patents a device built to listen continuously without disclosure \u2014 the same underlying anxiety about synthetic/monitored voice, pulling toward disclosure-first regulation on one side and listen-by-default hardware on the other.",
+      "theme": "Voice-authenticity and companion-safety threads (Voices for CX, Netflix/Gene Wilder, GPT-Live emotional-reliance monitoring, Grido's clinical disclaimer) now have a hard-enforcement counterpart and an opposite-direction counterexample in the same week: TikTok Shop bans undisclosed AI voice in commerce, while Meta patents a device built to listen continuously without disclosure — the same underlying anxiety about synthetic/monitored voice, pulling toward disclosure-first regulation on one side and listen-by-default hardware on the other.",
       "direction": "emerging"
     },
     {
       "since": "2026-07-27",
-      "theme": "Voice as a control surface for other agents is emerging as a convergent bet: Anthropic's voice-triggered cross-app connectors (Gmail/Calendar/Slack/Canva/Notion) and OpenAI's GPT-Live steering Codex/ChatGPT Work agents on desktop shipped within 24 hours of each other, but both labs kept their most capable reasoning model (Claude Fable, and implicitly GPT-5.5-class reasoning routed to background in GPT-Live) out of the direct voice path \u2014 voice is trusted as an orchestration UI before it's trusted to carry frontier reasoning directly.",
+      "theme": "Voice as a control surface for other agents is emerging as a convergent bet: Anthropic's voice-triggered cross-app connectors (Gmail/Calendar/Slack/Canva/Notion) and OpenAI's GPT-Live steering Codex/ChatGPT Work agents on desktop shipped within 24 hours of each other, but both labs kept their most capable reasoning model (Claude Fable, and implicitly GPT-5.5-class reasoning routed to background in GPT-Live) out of the direct voice path — voice is trusted as an orchestration UI before it's trusted to carry frontier reasoning directly.",
       "direction": "emerging"
     },
     {
       "since": "2026-07-27",
-      "theme": "SoundHound running two integration-depth bets at once \u2014 vertical (Deliverect/restaurant ordering, narrow vocabulary + high call volume, mirrors Deepgram's June QSR playbook) and horizontal (LivePerson merger fusing voice + enterprise messaging, vote set for Aug 20) \u2014 a live test of which integration strategy actually wins enterprise voice.",
+      "theme": "SoundHound running two integration-depth bets at once — vertical (Deliverect/restaurant ordering, narrow vocabulary + high call volume, mirrors Deepgram's June QSR playbook) and horizontal (LivePerson merger fusing voice + enterprise messaging, vote set for Aug 20) — a live test of which integration strategy actually wins enterprise voice.",
       "direction": "emerging"
     },
     {
       "since": "2026-07-27",
-      "theme": "Voice-authenticity/disclosure thread (Voices for CX, TikTok ban, Netflix/Gene Wilder, Meta patent) gets its first hard regulatory deadline: EU AI Act Article 50 enforceable Aug 2 with fines up to \u20ac15M/3% global turnover \u2014 the governance conversation this brief has tracked since June stops being soft-power/PR and starts being a compliance line item for anyone shipping AI voice in the EU.",
+      "theme": "Voice-authenticity/disclosure thread (Voices for CX, TikTok ban, Netflix/Gene Wilder, Meta patent) gets its first hard regulatory deadline: EU AI Act Article 50 enforceable Aug 2 with fines up to €15M/3% global turnover — the governance conversation this brief has tracked since June stops being soft-power/PR and starts being a compliance line item for anyone shipping AI voice in the EU.",
       "direction": "up"
     },
     {
       "since": "2026-07-28",
-      "theme": "Always-on consumer audio hardware splits into two opposite bets in the same week: Meta metering an on-device, zero-marginal-cost glasses feature and retreating within days under backlash, while Amazon leans further into always-listening (Bee bracelet, \"Moonraker\") as the foundation of Alexa's next act \u2014 the business model and disclosure norms for always-on audio devices are still unresolved on both sides.",
+      "theme": "Always-on consumer audio hardware splits into two opposite bets in the same week: Meta metering an on-device, zero-marginal-cost glasses feature and retreating within days under backlash, while Amazon leans further into always-listening (Bee bracelet, \"Moonraker\") as the foundation of Alexa's next act — the business model and disclosure norms for always-on audio devices are still unresolved on both sides.",
       "direction": "emerging"
     },
     {
       "since": "2026-07-28",
-      "theme": "Companion-voice re-entrants keep landing into a tightening safety window: Inflection's emotion-aware Pi Journeys relaunch arrives days before EU AI Act Article 50 enforcement and on the heels of GPT-Live's emotional-reliance monitoring and Grido's clinical disclaimer \u2014 the companion-safety thread (tracked since July 9) is now shaping how a comeback consumer voice product gets positioned, not just how incumbents respond to backlash.",
+      "theme": "Companion-voice re-entrants keep landing into a tightening safety window: Inflection's emotion-aware Pi Journeys relaunch arrives days before EU AI Act Article 50 enforcement and on the heels of GPT-Live's emotional-reliance monitoring and Grido's clinical disclaimer — the companion-safety thread (tracked since July 9) is now shaping how a comeback consumer voice product gets positioned, not just how incumbents respond to backlash.",
       "direction": "watch"
     },
     {
@@ -2114,22 +2127,22 @@
     },
     {
       "since": "2026-07-30",
-      "theme": "S2S cost floor (collapsing since June 30) meets its first foundation-model-layer counter-pressure: xAI raises Grok Voice Think Fast 2.0 pricing 60% alongside a real capability jump (TTFA 1.25s->0.70s, #2 on AA Speech-to-Speech Index) \u2014 unlike AssemblyAI's July 2 regional-compliance surcharge, this is a straight capability-for-price bet from a frontier vendor, the first sign price may not only move down.",
+      "theme": "S2S cost floor (collapsing since June 30) meets its first foundation-model-layer counter-pressure: xAI raises Grok Voice Think Fast 2.0 pricing 60% alongside a real capability jump (TTFA 1.25s->0.70s, #2 on AA Speech-to-Speech Index) — unlike AssemblyAI's July 2 regional-compliance surcharge, this is a straight capability-for-price bet from a frontier vendor, the first sign price may not only move down.",
       "direction": "watch"
     },
     {
       "since": "2026-07-30",
-      "theme": "Recovery-loop-as-moat thesis (tracked since June 1) gets a behavioral-cloning variant: Encore AI's Interaction Mining encodes what top-performing human reps actually do (not just architecture for graceful escalation like Retell's Conductor or OpenAI's Presence) into agents across voice and adjacent channels \u2014 banking/insurance vertical funding streak continuing healthcare's pattern (Prosper AI, Assort Health).",
+      "theme": "Recovery-loop-as-moat thesis (tracked since June 1) gets a behavioral-cloning variant: Encore AI's Interaction Mining encodes what top-performing human reps actually do (not just architecture for graceful escalation like Retell's Conductor or OpenAI's Presence) into agents across voice and adjacent channels — banking/insurance vertical funding streak continuing healthcare's pattern (Prosper AI, Assort Health).",
       "direction": "emerging"
     },
     {
       "since": "2026-07-31",
-      "theme": "EU AI Act Article 50 (enforceable Aug 2) turns out to have concrete build requirements, not just a headline fine: a session-start disclosure UI and machine-readable synthetic-audio marking, with the disclosure-UI obligation carrying no grace period even though marking/detection has one through Dec 2 for pre-Aug-2 systems \u2014 sharpens the governance thread (tracked since June) from brand-perception risk into a two-day-out engineering deadline.",
+      "theme": "EU AI Act Article 50 (enforceable Aug 2) turns out to have concrete build requirements, not just a headline fine: a session-start disclosure UI and machine-readable synthetic-audio marking, with the disclosure-UI obligation carrying no grace period even though marking/detection has one through Dec 2 for pre-Aug-2 systems — sharpens the governance thread (tracked since June) from brand-perception risk into a two-day-out engineering deadline.",
       "direction": "up"
     },
     {
       "since": "2026-08-03",
-      "theme": "Efficiency-beats-scale thesis (tracked since June 17) gets capital from both ends in one week: Smallest AI's $13M Series A and Microsoft's MAI-Voice-2-Flash both lead with speed/cost unit economics over model quality \u2014 the competitive frontier visibly shifting from benchmark wins to production cost-per-minute.",
+      "theme": "Efficiency-beats-scale thesis (tracked since June 17) gets capital from both ends in one week: Smallest AI's $13M Series A and Microsoft's MAI-Voice-2-Flash both lead with speed/cost unit economics over model quality — the competitive frontier visibly shifting from benchmark wins to production cost-per-minute.",
       "direction": "up"
     },
     {
@@ -2139,17 +2152,17 @@
     },
     {
       "since": "2026-08-03",
-      "theme": "EU AI Act Article 50 moves from countdown to live enforcement (August 2): fines and market-surveillance authority powers now active; the transparency duty catches ordinary voice/chat AI broadly, not just high-risk-classified systems \u2014 a distinction that caught several compliance guides out right up to the deadline.",
+      "theme": "EU AI Act Article 50 moves from countdown to live enforcement (August 2): fines and market-surveillance authority powers now active; the transparency duty catches ordinary voice/chat AI broadly, not just high-risk-classified systems — a distinction that caught several compliance guides out right up to the deadline.",
       "direction": "up"
     },
     {
       "since": "2026-08-04",
-      "theme": "Vertically-integrated full-duplex voice stacks now emerging at the model-vendor layer too, not just infra: Microsoft's unannounced MAI-Realtime completes a listen/speak/full-duplex trio (MAI-Transcribe + MAI-Voice-2 + MAI-Realtime), mirroring the session-stack bundling this brief has tracked among infra vendors (Cartesia, ElevenLabs, Deepgram) since June \u2014 model labs now racing infra vendors to own the whole conversation.",
+      "theme": "Vertically-integrated full-duplex voice stacks now emerging at the model-vendor layer too, not just infra: Microsoft's unannounced MAI-Realtime completes a listen/speak/full-duplex trio (MAI-Transcribe + MAI-Voice-2 + MAI-Realtime), mirroring the session-stack bundling this brief has tracked among infra vendors (Cartesia, ElevenLabs, Deepgram) since June — model labs now racing infra vendors to own the whole conversation.",
       "direction": "emerging"
     },
     {
       "since": "2026-08-04",
-      "theme": "Context (not raw transcription/synthesis accuracy) named as the central failure mode by a second prominent voice-AI founder (Gradium's Zeghidour) \u2014 echoes the June 1 community 'recovery loop is the real moat' signal and the June 12 turn-detection/CSAT story; reinforces context/memory as the actual competitive frontier now that STT/TTS quality is commodity.",
+      "theme": "Context (not raw transcription/synthesis accuracy) named as the central failure mode by a second prominent voice-AI founder (Gradium's Zeghidour) — echoes the June 1 community 'recovery loop is the real moat' signal and the June 12 turn-detection/CSAT story; reinforces context/memory as the actual competitive frontier now that STT/TTS quality is commodity.",
       "direction": "up"
     },
     {
@@ -2174,30 +2187,35 @@
     },
     {
       "since": "2026-08-07",
-      "theme": "Benchmark-vs-production-latency gap gets its sharpest data point yet: Qwen Audio 3.0 Realtime Plus sweeps every AA Speech-to-Speech Index sub-benchmark but posts ~4s time-to-first-audio (vs 1.14s for GPT-Realtime-2 High) \u2014 a composite intelligence score that doesn't penalize latency enough to catch an unshippable model, reinforcing the Aug 6 'credibility bar rising toward outcome-based validation' thread from the opposite direction.",
+      "theme": "Benchmark-vs-production-latency gap gets its sharpest data point yet: Qwen Audio 3.0 Realtime Plus sweeps every AA Speech-to-Speech Index sub-benchmark but posts ~4s time-to-first-audio (vs 1.14s for GPT-Realtime-2 High) — a composite intelligence score that doesn't penalize latency enough to catch an unshippable model, reinforcing the Aug 6 'credibility bar rising toward outcome-based validation' thread from the opposite direction.",
       "direction": "up"
     },
     {
       "since": "2026-08-07",
-      "theme": "Second Chinese-lab #1 on a Western-facing voice benchmark in two months (Alibaba Qwen Audio 3.0 Realtime after June's Fun-Realtime-TTS) \u2014 model-layer capability gap closing/gone even as production-readiness gap stays wide.",
+      "theme": "Second Chinese-lab #1 on a Western-facing voice benchmark in two months (Alibaba Qwen Audio 3.0 Realtime after June's Fun-Realtime-TTS) — model-layer capability gap closing/gone even as production-readiness gap stays wide.",
       "direction": "emerging"
     },
     {
       "since": "2026-08-10",
-      "theme": "Infra-layer 'cooldown' is a headline-architecture gap, not vendor inactivity: Deepgram's Aug 4-5 changelog (Nova-3 quality tuning, Punjabi/Nepali support) shows maintenance-tier shipping continuing underneath the same week press coverage calls the STT/TTS layer dead \u2014 changelogs, not blog front pages, are where the real signal is right now.",
+      "theme": "Infra-layer 'cooldown' is a headline-architecture gap, not vendor inactivity: Deepgram's Aug 4-5 changelog (Nova-3 quality tuning, Punjabi/Nepali support) shows maintenance-tier shipping continuing underneath the same week press coverage calls the STT/TTS layer dead — changelogs, not blog front pages, are where the real signal is right now.",
       "direction": "watch"
     },
     {
       "since": "2026-08-10",
-      "theme": "Voice-as-default-interface thesis (tracked since July 3) gets its most senior institutional backer yet: OpenAI president Greg Brockman frames clicking/typing itself as 'a phase' ending within a couple of years, a stronger and more explicit claim than any prior platform-vendor voice feature ship \u2014 raises the execution bar on GPT-Live's own naturalness bugs (jitter, backchannel over-eagerness).",
+      "theme": "Voice-as-default-interface thesis (tracked since July 3) gets its most senior institutional backer yet: OpenAI president Greg Brockman frames clicking/typing itself as 'a phase' ending within a couple of years, a stronger and more explicit claim than any prior platform-vendor voice feature ship — raises the execution bar on GPT-Live's own naturalness bugs (jitter, backchannel over-eagerness).",
       "direction": "up"
     },
     {
       "since": "2026-08-11",
-      "theme": "Demo-to-production-gap and recovery-loop themes (tracked since June) get their first named, concrete real-world instance: Kinney Drugs' pharmacy voice assistant pulled after hundreds of complaints over wrong sensitive-medication info and no human escalation \u2014 survey stats (60% failure, 74% rollback) now have a face.",
+      "theme": "Demo-to-production-gap and recovery-loop themes (tracked since June) get their first named, concrete real-world instance: Kinney Drugs' pharmacy voice assistant pulled after hundreds of complaints over wrong sensitive-medication info and no human escalation — survey stats (60% failure, 74% rollback) now have a face.",
       "direction": "up"
+    },
+    {
+      "since": "2026-08-12",
+      "theme": "Verticalization hardening from go-to-market choice into explicit technical thesis: domain-specific coordination-layer engineering (not just model quality) framed by builders as what separates production voice deployments from public pullbacks (HappyRobot vs. Kinney Drugs).",
+      "direction": "emerging"
     }
   ],
-  "last_run": "2026-08-11",
+  "last_run": "2026-08-12",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
