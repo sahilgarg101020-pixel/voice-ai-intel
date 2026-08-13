@@ -1547,6 +1547,15 @@
       "url": "https://elevenlabs.io/docs/changelog/2026/8/10",
       "type": "tech",
       "status": "new"
+    },
+    {
+      "id": "google-gemini-1b-mau-voice-63pct",
+      "date": "2026-08-13",
+      "company": "Google",
+      "headline": "Gemini app hits 1B monthly users (Google's fastest-growing product ever); Google says 63% of users now talk to it by voice rather than type, with a growing voice-only segment and parents 43% more likely to use voice for everyday tasks — but discloses no measurement methodology for either figure, and coverage flags the count likely blends active adoption with default Android-assistant upgrades",
+      "url": "https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/",
+      "type": "customer_signal",
+      "status": "new"
     }
   ],
   "themes": [
@@ -2214,8 +2223,13 @@
       "since": "2026-08-12",
       "theme": "Verticalization hardening from go-to-market choice into explicit technical thesis: domain-specific coordination-layer engineering (not just model quality) framed by builders as what separates production voice deployments from public pullbacks (HappyRobot vs. Kinney Drugs).",
       "direction": "emerging"
+    },
+    {
+      "since": "2026-08-13",
+      "theme": "Voice-as-default-interface thesis (Brockman, Aug 10) gets its first hard usage number from a platform vendor: Google says 63% of Gemini's newly-crossed 1B monthly users talk rather than type — but the figure ships with no disclosed measurement methodology, extending this summer's 'benchmark claims need receipts' skepticism (Miravoice, Aug 6) to vendor usage-adoption stats too.",
+      "direction": "up"
     }
   ],
-  "last_run": "2026-08-12",
+  "last_run": "2026-08-13",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
