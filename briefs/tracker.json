@@ -1592,6 +1592,15 @@
       "url": "https://www.techtimes.com/articles/322592/20260801/gpt-live-voice-gets-synthid-watermarks-one-day-before-eu-ai-act-enforcement.htm",
       "type": "market",
       "status": "developing"
+    },
+    {
+      "id": "soundhound-liveperson-acquisition-oasys",
+      "date": "2026-08-17",
+      "company": "SoundHound / LivePerson",
+      "headline": "Update: shareholder vote set for August 20, 10am ET; all 5 required foreign-investment approvals cleared (Bulgaria, Canada, Italy, Germany, UK); board + ISS + Glass Lewis unanimously recommend \"for\"; ~$3.33/share, ~22% premium",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/LPSN/pressreleases/3231337/liveperson-sets-august-vote-on-premium-all-stock-and-cash-merger-with-soundhound-ai/",
+      "type": "market",
+      "status": "developing"
     }
   ],
   "themes": [
@@ -2269,8 +2278,13 @@
       "since": "2026-08-14",
       "theme": "TTS design unit shifting from utterance to whole-conversation state machine (Deepgram Flux TTS) \u2014 same coordination-over-model-quality argument as HappyRobot's six-model thesis (Aug 12).",
       "direction": "emerging"
+    },
+    {
+      "since": "2026-08-17",
+      "theme": "Consolidation wave (OVH-Gladia, Poland/ElevenLabs, Yellow.ai SPAC) reaches its first shareholder vote: SoundHound-LivePerson merger goes to a vote Aug 20 with all regulatory approvals cleared and unanimous board/proxy-advisor recommendation \u2014 public markets about to weigh in on the roll-up-over-model-quality thesis private rounds have been pricing since ElevenLabs doubled valuation.",
+      "direction": "up"
     }
   ],
-  "last_run": "2026-08-14",
+  "last_run": "2026-08-17",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
