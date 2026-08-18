@@ -1601,6 +1601,15 @@
       "url": "https://www.theglobeandmail.com/investing/markets/stocks/LPSN/pressreleases/3231337/liveperson-sets-august-vote-on-premium-all-stock-and-cash-merger-with-soundhound-ai/",
       "type": "market",
       "status": "developing"
+    },
+    {
+      "id": "vapi-workflows-retirement-squads",
+      "date": "2026-08-18",
+      "company": "Vapi",
+      "headline": "Vapi retires visual node-based Workflows builder effective Aug 18, consolidates on Squads (multi-assistant handoff); stated reason: current AI systems can't reliably hold node-level state as autonomous agents",
+      "url": "https://docs.vapi.ai/workflows/overview",
+      "type": "tech",
+      "status": "new"
     }
   ],
   "themes": [
@@ -2283,8 +2292,13 @@
       "since": "2026-08-17",
       "theme": "Consolidation wave (OVH-Gladia, Poland/ElevenLabs, Yellow.ai SPAC) reaches its first shareholder vote: SoundHound-LivePerson merger goes to a vote Aug 20 with all regulatory approvals cleared and unanimous board/proxy-advisor recommendation \u2014 public markets about to weigh in on the roll-up-over-model-quality thesis private rounds have been pricing since ElevenLabs doubled valuation.",
       "direction": "up"
+    },
+    {
+      "since": "2026-08-18",
+      "theme": "Coordination-over-model-quality thesis (HappyRobot Aug 12, Deepgram Flux TTS Aug 14) gets its first vendor self-critique: Vapi kills its own node-based visual Workflows builder, naming in public that current models can't reliably hold node-level state as autonomous agents, and pivots to bounded-responsibility multi-assistant handoff (Squads) instead \u2014 a concrete admission, not just an abstract 'orchestration is hard' take.",
+      "direction": "emerging"
     }
   ],
-  "last_run": "2026-08-17",
+  "last_run": "2026-08-18",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
