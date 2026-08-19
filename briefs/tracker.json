@@ -1610,6 +1610,24 @@
       "url": "https://docs.vapi.ai/workflows/overview",
       "type": "tech",
       "status": "new"
+    },
+    {
+      "id": "reddit-play-mode-ai-narration",
+      "date": "2026-08-19",
+      "company": "Reddit",
+      "headline": "Reddit rolls out AI-narrated \"Play\" mode: multi-voice TTS + synced captions turn selected text posts/comments into short video, web Aug 17 / iOS+Android Aug 18; Huffman framed as retention play vs third-party Reddit-narration accounts on TikTok; TTS vendor undisclosed",
+      "url": "https://betanews.com/article/reddit-ai-narrated-videos-play-mode/",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "elevenlabs-background-audio-filtering",
+      "date": "2026-08-19",
+      "company": "ElevenLabs",
+      "headline": "Update: v2.63.0 (shipped Aug 11, surfaced via changelog check this cycle) adds background audio filtering to suppress false activations from ambient noise/nearby conversations, plus single-use token auth and realtime STT secondary-language/entity detection — third release in the false-interruption fix arc after turn-detection tuning and interruption_ignore_terms",
+      "url": "https://elevenlabs.io/docs/changelog/2026/8/10",
+      "type": "tech",
+      "status": "new"
     }
   ],
   "themes": [
@@ -2297,8 +2315,18 @@
       "since": "2026-08-18",
       "theme": "Coordination-over-model-quality thesis (HappyRobot Aug 12, Deepgram Flux TTS Aug 14) gets its first vendor self-critique: Vapi kills its own node-based visual Workflows builder, naming in public that current models can't reliably hold node-level state as autonomous agents, and pivots to bounded-responsibility multi-assistant handoff (Squads) instead \u2014 a concrete admission, not just an abstract 'orchestration is hard' take.",
       "direction": "emerging"
+    },
+    {
+      "since": "2026-08-19",
+      "theme": "False-interruption fix, not raw WER, is where TTS/STT vendors are quietly shipping: ElevenLabs' three-release arc (turn-detection tuning \u2192 interruption_ignore_terms \u2192 background audio filtering) tracks directly to the June 12 clinic-builder finding that cutting false interruptions moved CSAT 22 points while WER work barely moved it.",
+      "direction": "up"
+    },
+    {
+      "since": "2026-08-19",
+      "theme": "Consumer TTS-as-retention-feature emerging at mainstream platform scale (Reddit's Play mode) \u2014 narration built in-house to defend engagement rather than licensed out, a signal utterance-level TTS quality/cost has cleared the 'good enough to ship everywhere' bar.",
+      "direction": "emerging"
     }
   ],
-  "last_run": "2026-08-18",
+  "last_run": "2026-08-19",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
