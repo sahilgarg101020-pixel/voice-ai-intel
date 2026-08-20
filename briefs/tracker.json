@@ -1628,6 +1628,33 @@
       "url": "https://elevenlabs.io/docs/changelog/2026/8/10",
       "type": "tech",
       "status": "new"
+    },
+    {
+      "id": "cartesia-sonic-3-6",
+      "date": "2026-08-20",
+      "company": "Cartesia",
+      "headline": "Cartesia ships Sonic-3.6 (beta), #1 on both Artificial Analysis speech arenas (1,283 Elo Provider Voice, 1,123 Elo Controlled Voice), launched alongside an Ink-2 refresh ~3 months after Sonic-3.5",
+      "url": "https://www.marktechpost.com/2026/08/18/cartesia-ships-sonic-3-6-a-streaming-tts-model-that-now-leads-both-artificial-analysis-speech-arenas/",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "deepgram-singapore-apac-hq",
+      "date": "2026-08-20",
+      "company": "Deepgram",
+      "headline": "Deepgram opens APAC headquarters in Singapore backed by EDBI strategic investment extending its $130M Series C; 96% YoY APAC API growth, 20+ regional markets served",
+      "url": "https://finance.yahoo.com/technology/ai/articles/voice-ai-infrastructure-leader-deepgram-010000763.html",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "elevenlabs-flows-api-scribe-default-aug17",
+      "date": "2026-08-20",
+      "company": "ElevenLabs",
+      "headline": "ElevenLabs Aug 17 changelog: async Flows API, ElevenAgents turn/soft-timeout controls, Singapore data residency, and default ASR provider for ElevenAgents switched to ElevenLabs' own scribe_realtime",
+      "url": "https://elevenlabs.io/docs/changelog/2026/8/17",
+      "type": "tech",
+      "status": "new"
     }
   ],
   "themes": [
@@ -2325,8 +2352,23 @@
       "since": "2026-08-19",
       "theme": "Consumer TTS-as-retention-feature emerging at mainstream platform scale (Reddit's Play mode) \u2014 narration built in-house to defend engagement rather than licensed out, a signal utterance-level TTS quality/cost has cleared the 'good enough to ship everywhere' bar.",
       "direction": "emerging"
+    },
+    {
+      "since": "2026-08-20",
+      "theme": "TTS leaderboard churn hits a fifth #1 flip since June (Alibaba, Grok/Vapi, MiniMax, Speechify, now Cartesia Sonic-3.6) \u2014 model-level TTS leadership shelf life keeps shrinking; Cartesia pairing the win with an Ink-2 refresh mirrors ElevenLabs' session-stack-bundling instinct rather than betting on the model alone.",
+      "direction": "up"
+    },
+    {
+      "since": "2026-08-20",
+      "theme": "Southeast Asia (Singapore specifically) becomes the newest node in the regional/sovereign-voice-AI thread (Poland/ElevenLabs, India/Gnani, Australia/Deepgram): Deepgram's EDBI-backed APAC HQ and ElevenLabs' Singapore data residency landed the same week, both trailing real demand growth (Deepgram cites 96% YoY APAC API growth) rather than leading it.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-08-20",
+      "theme": "ElevenLabs' 'default voice wrapper' entrenchment moves from external endorsement to internal default: Scribe v2 Realtime went from opt-in STT option (June) to the enforced default ASR provider for ElevenAgents (Aug 17) \u2014 every new agent feature now reinforces staying inside ElevenLabs' own stack.",
+      "direction": "up"
     }
   ],
-  "last_run": "2026-08-19",
+  "last_run": "2026-08-20",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
