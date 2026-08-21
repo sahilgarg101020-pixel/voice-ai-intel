@@ -1624,7 +1624,7 @@
       "id": "elevenlabs-background-audio-filtering",
       "date": "2026-08-19",
       "company": "ElevenLabs",
-      "headline": "Update: v2.63.0 (shipped Aug 11, surfaced via changelog check this cycle) adds background audio filtering to suppress false activations from ambient noise/nearby conversations, plus single-use token auth and realtime STT secondary-language/entity detection — third release in the false-interruption fix arc after turn-detection tuning and interruption_ignore_terms",
+      "headline": "Update: v2.63.0 (shipped Aug 11, surfaced via changelog check this cycle) adds background audio filtering to suppress false activations from ambient noise/nearby conversations, plus single-use token auth and realtime STT secondary-language/entity detection \u2014 third release in the false-interruption fix arc after turn-detection tuning and interruption_ignore_terms",
       "url": "https://elevenlabs.io/docs/changelog/2026/8/10",
       "type": "tech",
       "status": "new"
@@ -1655,6 +1655,42 @@
       "url": "https://elevenlabs.io/docs/changelog/2026/8/17",
       "type": "tech",
       "status": "new"
+    },
+    {
+      "id": "wispr-flow-280m-series-b-canto",
+      "date": "2026-08-17",
+      "company": "Wispr",
+      "headline": "Wispr Flow raises $280M Series B at $2B valuation (Menlo Ventures); Canto proprietary 2B-param speech model cuts noisy-environment WER from 30%+ to 5-10%; 60B+ words dictated, near-total Fortune 500 adoption; expanding into meeting notetaking and wearable (Oasis ring) silent dictation",
+      "url": "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation/",
+      "type": "funding",
+      "status": "new"
+    },
+    {
+      "id": "openbenchmarks-voice-agent-latency-reality-gap",
+      "date": "2026-08-21",
+      "company": "Openbenchmarks",
+      "headline": "Openbenchmarks publishes independent real-phone-call TTFAB latency data for voice agent platforms (Telnyx 1,296ms median, Bland 1,520ms, Vapi 1,558ms, Retell 1,740ms); finds vendor self-reported latency runs ~490ms below what's actually measured from call audio",
+      "url": "https://openbenchmarks.com/voice-agent-latency",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "soundhound-liveperson-acquisition-oasys",
+      "date": "2026-08-21",
+      "company": "SoundHound / LivePerson",
+      "headline": "Update: August 20 shareholder vote convened and immediately adjourned to September 2 \u2014 97%+ of votes cast were in favor but turnout fell short of the majority-of-all-outstanding-shares threshold required to close",
+      "url": "https://www.tipranks.com/news/company-announcements/liveperson-adjourns-shareholder-vote-on-soundhound-merger",
+      "type": "market",
+      "status": "developing"
+    },
+    {
+      "id": "cartesia-sonic-3-6",
+      "date": "2026-08-21",
+      "company": "Cartesia",
+      "headline": "Update: Sonic-3.6 (still sonic-preview, #1 on Artificial Analysis TTS quality as of Aug 19) now explicitly targeted for GA \"later in August\"",
+      "url": "https://www.marktechpost.com/2026/08/18/cartesia-ships-sonic-3-6-a-streaming-tts-model-that-now-leads-both-artificial-analysis-speech-arenas/",
+      "type": "tech",
+      "status": "developing"
     }
   ],
   "themes": [
@@ -2367,8 +2403,18 @@
       "since": "2026-08-20",
       "theme": "ElevenLabs' 'default voice wrapper' entrenchment moves from external endorsement to internal default: Scribe v2 Realtime went from opt-in STT option (June) to the enforced default ASR provider for ElevenAgents (Aug 17) \u2014 every new agent feature now reinforces staying inside ElevenLabs' own stack.",
       "direction": "up"
+    },
+    {
+      "since": "2026-08-21",
+      "theme": "Voice-as-input (dictation/ASR) capital cycle distinct from voice-as-output infra race: Wispr's $280M round funded on noisy-environment WER accuracy (30%\u21925-10%) and wearable/silent-input expansion, not conversational-agent latency or turn-taking.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-08-21",
+      "theme": "\"Benchmark claims need receipts\" thread (Miravoice, Google MAU stat) gets its first independent instrument: Openbenchmarks measuring real-phone-call TTFAB finds a consistent ~490ms gap between vendor-reported and actually-measured latency across major voice agent platforms.",
+      "direction": "emerging"
     }
   ],
-  "last_run": "2026-08-20",
+  "last_run": "2026-08-21",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
