@@ -1718,6 +1718,33 @@
       "url": "https://www.streetinsider.com/Corporate+News/LivePerson+extends+special+meeting+deadline+for+SoundHound+AI+merger+vote/26958928.html",
       "type": "market",
       "status": "developing"
+    },
+    {
+      "id": "cartesia-sonic-3-6",
+      "date": "2026-08-25",
+      "company": "Cartesia",
+      "headline": "Update: still shipping only as sonic-preview with no confirmed GA date; self-declared 'later in August' target close to slipping with days left in the month; confirmed adding Odia and Urdu (44 total languages, up from 42 on Sonic-3.5)",
+      "url": "https://www.cartesia.ai/launch",
+      "type": "tech",
+      "status": "developing"
+    },
+    {
+      "id": "elevenlabs-mcp-server-deprecation-hosted",
+      "date": "2026-08-25",
+      "company": "ElevenLabs",
+      "headline": "ElevenLabs deprecates local/self-hosted MCP server and MCP player (Aug 22 changelog), archives both repos, consolidates entirely on its hosted MCP server — tool-calling/integration layer joins STT/TTS/turn-detection as ElevenLabs-hosting-only",
+      "url": "https://elevenlabs.io/docs/changelog",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "deepgram-cli-0-3-0-flux-language-expansion",
+      "date": "2026-08-25",
+      "company": "Deepgram",
+      "headline": "Deepgram CLI 0.3.0 (Aug 19) completes CLI support for Flux TTS (GA'd Aug 12) and fixes Flux STT streaming; Nova-3 adds Afrikaans/Georgian and Numerals expands to four more languages (Aug 17 changelog) — routine maintenance-tier activity, no headline launch",
+      "url": "https://developers.deepgram.com/changelog",
+      "type": "tech",
+      "status": "new"
     }
   ],
   "themes": [
@@ -2125,8 +2152,18 @@
       "since": "2026-08-24",
       "theme": "SEA regional-voice thread (Deepgram/ElevenLabs Singapore, Aug 20) gets its first vertical product layer: Seavoice sells code-switching-first contact-center agents directly to banks/telcos, echoing Gnani AI's India-specific-accuracy playbook rather than competing on generic multilingual coverage.",
       "direction": "emerging"
+    },
+    {
+      "since": "2026-08-25",
+      "theme": "First real-time case of a TTS leaderboard win missing its own GA clock: Cartesia's Sonic-3.6 self-declared 'later in August' target is close to slipping nine days after the beta ship, with docs still defaulting to 3.5 — a concrete counterpoint to the 'five #1 flips since June' churn thread, since leaderboard rank and production-shipped are turning out to be weeks apart, not days.",
+      "direction": "watch"
+    },
+    {
+      "since": "2026-08-25",
+      "theme": "ElevenLabs' 'own the whole stack' entrenchment (Scribe default, Aug 20) extends from the audio layers to tool-calling: deprecating the self-hosted MCP server in favor of hosted-only (Aug 22) means the tool-integration layer that connects a voice agent to other systems now also only works ElevenLabs' way — ties the 'voice as control surface for other agents' thread (July 27) directly into the stack-lock-in thread.",
+      "direction": "up"
     }
   ],
-  "last_run": "2026-08-24",
+  "last_run": "2026-08-25",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
