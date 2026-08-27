@@ -1763,6 +1763,15 @@
       "url": "https://arxiv.org/abs/2512.14865",
       "type": "tech",
       "status": "new"
+    },
+    {
+      "id": "mavenir-sanas-mavcore-partnership",
+      "date": "2026-08-27",
+      "company": "Mavenir / Sanas",
+      "headline": "Mavenir integrates Sanas real-time Speech AI into MAVcore telecom core-network voice AI portfolio, bundling accent transformation with deepfake/fraud-signal detection, orchestrated via AI Agent Studio",
+      "url": "https://www.mavenir.com/press-releases/mavenir-adds-sanas-real-time-speech-ai-to-its-mavcore-voice-ai-portfolio-for-telecom-operators/",
+      "type": "market",
+      "status": "new"
     }
   ],
   "themes": [
@@ -2185,8 +2194,13 @@
       "since": "2026-08-26",
       "direction": "emerging",
       "theme": "Voice-specific eval thread (Coval/Pipecat June 16, Inscribe receipts July 17) gets its first purpose-built multi-turn academic benchmarks: MTalk-Bench and Audio MultiChallenge both show S2S models handle semantic content fine but fail on paralinguistic/ambient-sound signal and multi-turn coherence, with the best frontier model still failing roughly half of real multi-turn human-speech test cases."
+    },
+    {
+      "since": "2026-08-27",
+      "direction": "emerging",
+      "theme": "Voice AI infra thread gets its first telecom-carrier-network embedding: Mavenir bundles Sanas' real-time speech AI (accent transform + deepfake/fraud detection) directly into MAVcore, the telecom core-network layer — voice AI and deepfake defense move from an app-layer API choice into carrier infrastructure shipped by default, a distribution model distinct from the Singapore-style geographic-footprint plays (Deepgram, ElevenLabs, Aug 20)."
     }
   ],
-  "last_run": "2026-08-26",
+  "last_run": "2026-08-27",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
