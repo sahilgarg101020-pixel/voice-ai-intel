@@ -1772,6 +1772,42 @@
       "url": "https://www.mavenir.com/press-releases/mavenir-adds-sanas-real-time-speech-ai-to-its-mavcore-voice-ai-portfolio-for-telecom-operators/",
       "type": "market",
       "status": "new"
+    },
+    {
+      "id": "artificial-analysis-speech-agent-arena",
+      "date": "2026-08-28",
+      "company": "Artificial Analysis",
+      "headline": "Artificial Analysis launches Speech Agent Arena: first major independent leaderboard scoring S2S models on task outcomes — 25% Speech Reasoning (Big Bench Audio), 25% Agentic Performance (tau-Voice tool-calling), 25% Arena Preference, 25% Task Success Rate across 35 scenarios",
+      "url": "https://artificialanalysis.ai/methodology/speech-to-speech-benchmarking",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "murf-ai-falcon-2-tts",
+      "date": "2026-08-28",
+      "company": "Murf AI",
+      "headline": "Murf AI (Bengaluru) launches Falcon 2 real-time TTS at $0.01/min (5x cheaper than ElevenLabs Turbo/Flash $0.05), 150+ voices, 35+ languages, sub-100ms response, claimed 10,000-call concurrency; public since Aug 20",
+      "url": "https://www.deccanherald.com/business/companies/murf-ai-launches-voice-foundation-model-falcon-2-with-real-time-voice-4117265",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "krisp-8x8-partnership-accent-conversion",
+      "date": "2026-08-28",
+      "company": "Krisp / 8x8",
+      "headline": "Krisp joins 8x8 Technology Partner Ecosystem: real-time bidirectional accent conversion, noise cancellation, voice isolation across 60+ languages bundled directly into 8x8 Contact Center and Work; announced Aug 20",
+      "url": "https://finance.yahoo.com/technology/ai/articles/krisp-joins-8x8-technology-partner-130000294.html",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "ringg-ai-10m-series-a-extension-peak-xv",
+      "date": "2026-08-28",
+      "company": "Ringg AI",
+      "headline": "Ringg AI (Bengaluru) raises $10M Series A extension (Peak XV lead, Arkam Ventures, Capital 2b; $15.5M total round); pivoted from TTS vendor DesiVocal to enterprise voice agents; ~20M call attempts/month across Flipkart, Practo, Groww, PolicyBazaar; expanding into WhatsApp and browser agents via proprietary context graph",
+      "url": "https://techcrunch.com/2026/08/25/indias-ringg-gets-backing-from-peak-xv-as-it-pushes-voice-ai-past-the-phone-call/",
+      "type": "funding",
+      "status": "new"
     }
   ],
   "themes": [
@@ -2199,8 +2235,28 @@
       "since": "2026-08-27",
       "direction": "emerging",
       "theme": "Voice AI infra thread gets its first telecom-carrier-network embedding: Mavenir bundles Sanas' real-time speech AI (accent transform + deepfake/fraud detection) directly into MAVcore, the telecom core-network layer — voice AI and deepfake defense move from an app-layer API choice into carrier infrastructure shipped by default, a distribution model distinct from the Singapore-style geographic-footprint plays (Deepgram, ElevenLabs, Aug 20)."
+    },
+    {
+      "since": "2026-08-28",
+      "direction": "up",
+      "theme": "Voice-specific eval thread (Coval/Pipecat June 16, Inscribe July 17, MTalk-Bench/Audio MultiChallenge Aug 26) gets its first major independent outcome-based leaderboard: Artificial Analysis's Speech Agent Arena weights task success and tool-calling as heavily as voice-quality preference — benchmark credibility bar keeps rising from 'sounds good' toward 'gets the job done'."
+    },
+    {
+      "since": "2026-08-28",
+      "direction": "up",
+      "theme": "TTS price war gains a sharper edge: Murf AI's Falcon 2 at $0.01/min (5x under ElevenLabs Turbo/Flash) follows Speechify's cheapest-in-top-ten Simba 3.2 (Aug 15) — price is now a live competitive axis alongside WER/latency, pushing defensible ground further toward orchestration and context rather than raw synthesis."
+    },
+    {
+      "since": "2026-08-28",
+      "direction": "emerging",
+      "theme": "Audio-quality/trust-layer bundling reaches the CX-platform layer one week after it reached the telecom core: Krisp joining 8x8's partner ecosystem (noise cancellation, accent conversion) mirrors Mavenir-Sanas (Aug 27) at a different layer of the stack — two infra tiers reaching for 'bundle the audio-quality vendor into what you already buy' in the same week."
+    },
+    {
+      "since": "2026-08-28",
+      "direction": "emerging",
+      "theme": "Regional voice-agent platforms keep landing real production scale ahead of aggregate benchmarks (Ringg AI: ~20M call attempts/month, following Seavoice Aug 24, Gnani, AethexAI) while pivoting away from being TTS-model vendors themselves — Ringg's own DesiVocal-to-agent-platform pivot is a direct data point for the 'model layer is unsustainable to own, application layer is where the margin is' thesis."
     }
   ],
-  "last_run": "2026-08-27",
+  "last_run": "2026-08-28",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
