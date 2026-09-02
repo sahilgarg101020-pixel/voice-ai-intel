@@ -1862,6 +1862,33 @@
       "url": "https://openai.com/index/jalapeno-first-results/",
       "type": "tech",
       "status": "developing"
+    },
+    {
+      "id": "artificial-analysis-speech-agent-arena",
+      "date": "2026-09-02",
+      "company": "Artificial Analysis",
+      "headline": "Update: Task Success Rate results now live \u2014 Grok Voice Think Fast 1.0 leads at 52.1% (avg 5.6 min/conversation), GPT-Realtime-2 High 39.8%, GPT-Realtime-1.5 38.8%, Gemini 3.1 Flash Live High 37.7%; best model still completes barely half of agentic scenarios end-to-end",
+      "url": "https://artificialanalysis.ai/speech-to-speech",
+      "type": "tech",
+      "status": "developing"
+    },
+    {
+      "id": "blue-voice-police-ai-assistant",
+      "date": "2026-09-02",
+      "company": "Blue Voice",
+      "headline": "Blue Voice raises $6M seed (SignalFire, Las Olas Venture Capital) for a real-time conversational AI + policy-guidance assistant for police officers; live daily at 225 county agencies across 25 states \u2014 new vertical (public safety/legal), no prior voice-AI vendor presence",
+      "url": "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers/",
+      "type": "funding",
+      "status": "new"
+    },
+    {
+      "id": "apate-ai-voice-scam-baiting",
+      "date": "2026-09-02",
+      "company": "Apate",
+      "headline": "Apate deploys ~200K AI 'victim' voice personas (real vocal tics/hesitations) to scam-bait fraudsters by phone; ~600K scam calls/month engaged for Australian telco TPG, ~$13M prevented losses \u2014 inverse of the voice-cloning-enterprise-attack thread (Jun 12)",
+      "url": "https://cointelegraph.com/magazine/fake-ai-victims-are-scam-baiting-600000-fraudsters-every-month",
+      "type": "customer_signal",
+      "status": "new"
     }
   ],
   "themes": [
@@ -1873,11 +1900,6 @@
     {
       "since": "2026-08-03",
       "theme": "Sovereign/platform consolidation of independent STT/TTS vendors moves from announcements to closings: OVH-Gladia completed July 31, the first deal in this thread (Deepgram+Fortanix+NVIDIA, Poland/ElevenLabs) to actually close; independent voice-infra vendors' realistic exits narrowing to acquisition-by-platform or defensible niche.",
-      "direction": "up"
-    },
-    {
-      "since": "2026-08-03",
-      "theme": "EU AI Act Article 50 moves from countdown to live enforcement (August 2): fines and market-surveillance authority powers now active; the transparency duty catches ordinary voice/chat AI broadly, not just high-risk-classified systems \u2014 a distinction that caught several compliance guides out right up to the deadline.",
       "direction": "up"
     },
     {
@@ -1914,16 +1936,6 @@
       "since": "2026-08-07",
       "theme": "Benchmark-vs-production-latency gap gets its sharpest data point yet: Qwen Audio 3.0 Realtime Plus sweeps every AA Speech-to-Speech Index sub-benchmark but posts ~4s time-to-first-audio (vs 1.14s for GPT-Realtime-2 High) \u2014 a composite intelligence score that doesn't penalize latency enough to catch an unshippable model, reinforcing the Aug 6 'credibility bar rising toward outcome-based validation' thread from the opposite direction.",
       "direction": "up"
-    },
-    {
-      "since": "2026-08-07",
-      "theme": "Second Chinese-lab #1 on a Western-facing voice benchmark in two months (Alibaba Qwen Audio 3.0 Realtime after June's Fun-Realtime-TTS) \u2014 model-layer capability gap closing/gone even as production-readiness gap stays wide.",
-      "direction": "emerging"
-    },
-    {
-      "since": "2026-08-10",
-      "theme": "Infra-layer 'cooldown' is a headline-architecture gap, not vendor inactivity: Deepgram's Aug 4-5 changelog (Nova-3 quality tuning, Punjabi/Nepali support) shows maintenance-tier shipping continuing underneath the same week press coverage calls the STT/TTS layer dead \u2014 changelogs, not blog front pages, are where the real signal is right now.",
-      "direction": "watch"
     },
     {
       "since": "2026-08-10",
@@ -2059,8 +2071,23 @@
       "since": "2026-08-31",
       "direction": "watch",
       "theme": "Cascade (STT->LLM->TTS) vs. speech-to-speech architecture debate gets a public counter-narrative: AssemblyAI and Gradium engineering write-ups argue a well-engineered cascade can beat S2S on raw latency and remains dominant in production for tool-calling/compliance/auditability use cases \u2014 a check against vendor S2S marketing that founders should weigh before defaulting to end-to-end."
+    },
+    {
+      "since": "2026-09-02",
+      "direction": "up",
+      "theme": "AA Speech Agent Arena's Task Success Rate component goes live and the ceiling is lower than the hype: even the leading model (Grok Voice Think Fast 1.0) resolves only ~52% of agentic scenarios end-to-end, with GPT-Realtime-2 and Gemini 3.1 Flash Live in the high-30s \u2014 first outcome-based benchmark number attached to the 60%-demo-failure/74%-rollback survey stats this brief has tracked since June."
+    },
+    {
+      "since": "2026-09-02",
+      "direction": "emerging",
+      "theme": "Verticalization thread (HappyRobot, Prosper, Seavoice, Gnani) picks up a domain with zero prior voice-AI vendor presence: Blue Voice's $6M seed for a real-time policy-guidance assistant for police officers is context-and-retrieval-as-moat (Gradium's Zeghidour, Aug 4) applied to a wholly new vertical."
+    },
+    {
+      "since": "2026-09-02",
+      "direction": "emerging",
+      "theme": "Adversarial/defensive use of voice synthesis emerges as the mirror image of the enterprise voice-cloning-attack thread (Jun 12): Apate's ~200K AI 'victim' personas scam-bait fraudsters at telecom scale (600K calls/month for TPG) \u2014 same tech, deployed to waste attackers' time rather than impersonate a real person."
     }
   ],
-  "last_run": "2026-09-01",
+  "last_run": "2026-09-02",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
