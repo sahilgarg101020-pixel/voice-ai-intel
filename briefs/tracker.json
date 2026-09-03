@@ -1889,6 +1889,33 @@
       "url": "https://cointelegraph.com/magazine/fake-ai-victims-are-scam-baiting-600000-fraudsters-every-month",
       "type": "customer_signal",
       "status": "new"
+    },
+    {
+      "id": "soundhound-liveperson-acquisition-oasys",
+      "date": "2026-09-03",
+      "company": "SoundHound / LivePerson",
+      "headline": "Update: reconvened shareholder vote passed Sept 2; merger expected to close Sept 4 at 0.4673 SoundHound shares + $3.31 cash per LivePerson share — first item in the consolidation-wave thread to complete a full vote-to-close cycle",
+      "url": "https://www.investing.com/news/company-news/liveperson-adjourns-shareholder-vote-on-soundhound-merger-93CH-4870209",
+      "type": "market",
+      "status": "closed"
+    },
+    {
+      "id": "fireflies-voice-agents-launch",
+      "date": "2026-09-03",
+      "company": "Fireflies.ai",
+      "headline": "Fireflies.ai (meeting-notes/productivity vendor, not a voice-AI startup) launches Voice Agents for recruiting screening, sales discovery, and support calls; 40,000+ conversations across 2,100+ orgs in 97 countries at launch, usage-based pricing; recruiting-screening use case falls under EU AI Act Annex III high-risk classification (compliance deadline deferred to Dec 2027, but Article 50 AI-disclosure requirement for automated phone systems already live since Aug 2026)",
+      "url": "https://www.globenewswire.com/news-release/2026/09/02/3355372/0/en/fireflies-launches-voice-agents-now-running-40-000-conversations-across-2100-organizations-in-97-countries.html",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "breezeblue-breeze-tts-2",
+      "date": "2026-09-03",
+      "company": "BreezeBlue",
+      "headline": "Breeze TTS 2 takes #1 among open-weights TTS models on Artificial Analysis Speech Arena (1,215 Elo overall, +90 Elo over Fish Audio S2 Pro among open models), 50 languages, weights on Hugging Face; released Aug 25, surfaced via AA this cycle",
+      "url": "https://artificialanalysis.ai/text-to-speech/models/breeze-tts-2",
+      "type": "tech",
+      "status": "new"
     }
   ],
   "themes": [
@@ -2086,8 +2113,18 @@
       "since": "2026-09-02",
       "direction": "emerging",
       "theme": "Adversarial/defensive use of voice synthesis emerges as the mirror image of the enterprise voice-cloning-attack thread (Jun 12): Apate's ~200K AI 'victim' personas scam-bait fraudsters at telecom scale (600K calls/month for TPG) \u2014 same tech, deployed to waste attackers' time rather than impersonate a real person."
+    },
+    {
+      "since": "2026-09-03",
+      "direction": "up",
+      "theme": "Consolidation-wave thread (OVH-Gladia, Poland/ElevenLabs, since Aug 3) gets its first completed public-markets cycle: SoundHound-LivePerson's shareholder vote passed Sept 2 after three quorum-driven adjournments, close expected Sept 4 \u2014 confirms the public-vote path is mechanically slower than negotiated private deals, not that it's contested."
+    },
+    {
+      "since": "2026-09-03",
+      "direction": "emerging",
+      "theme": "\"Adjacent platform bundles in voice\" thread (Reddit Play mode, Aug 19) gets a sharper instance: Fireflies, a meeting-notes vendor, ships outbound/inbound phone-calling voice agents competing directly with Vapi/Retell/Bland in recruiting/sales/support verticals, using existing Fortune-500 distribution as the wedge rather than voice-AI credibility \u2014 also the first item this brief has tied to a live EU AI Act disclosure obligation (Article 50, automated phone systems, effective Aug 2026) rather than just a deferred high-risk classification."
     }
   ],
-  "last_run": "2026-09-02",
+  "last_run": "2026-09-03",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
