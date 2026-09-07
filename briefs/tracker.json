@@ -1961,6 +1961,24 @@
       "url": "https://www.cartesia.ai/blog/sonic-3.6",
       "type": "tech",
       "status": "closed"
+    },
+    {
+      "id": "soundhound-liveperson-acquisition-oasys",
+      "date": "2026-09-07",
+      "company": "SoundHound / LivePerson",
+      "headline": "Update: post-close positioning statement — combined company serves 25 of the Fortune 100, holds 750+ patents; LivePerson's messaging platform folds into OASYS, SoundHound's orchestration layer, pitched as one system across voice/web/mobile/SMS/social",
+      "url": "https://finance.yahoo.com/technology/ai/articles/soundhound-ai-completes-acquisition-liveperson-132600164.html",
+      "type": "market",
+      "status": "closed"
+    },
+    {
+      "id": "speechmatics-melia-code-switching-stt",
+      "date": "2026-09-07",
+      "company": "Speechmatics",
+      "headline": "Update: Melia takes #1 on Artificial Analysis's STT speed leaderboard at 206x real-time (60-min file back in under 20s, single-pass) — ahead of AssemblyAI (105x), Gladia (81x), ElevenLabs (55x), Soniox (37x), Amazon (18x); no accuracy trade-off claimed",
+      "url": "https://www.speechmatics.com/company/articles-and-news/melia-fastest-speech-to-text-artificial-analysis",
+      "type": "tech",
+      "status": "developing"
     }
   ],
   "themes": [
@@ -2183,8 +2201,18 @@
       "since": "2026-09-04",
       "direction": "emerging",
       "theme": "Context-as-moat thesis (Zeghidour Aug 4, community recovery-loop June) gets a concrete TTS product instance: Inworld's TTS-2 \"steering\" uses full multi-turn audio context to control delivery, competing on contextual expressiveness rather than raw TTFB — distinct axis from the six-flip TTS leaderboard churn race tracked since June."
+    },
+    {
+      "since": "2026-09-07",
+      "direction": "up",
+      "theme": "Consolidation-wave thread (OVH-Gladia, Poland/ElevenLabs, SoundHound-LivePerson vote-to-close since Aug 3) gets its full end-to-end read: SoundHound's post-close statement frames the deal as 'own the whole conversation channel' (voice/web/mobile/SMS/social under one orchestration layer, OASYS) — the same instinct this brief has tracked at the infra layer (Cartesia, ElevenLabs bundling STT+TTS+telephony) now playing out at the M&A layer."
+    },
+    {
+      "since": "2026-09-07",
+      "direction": "watch",
+      "theme": "\"Benchmark claims need receipts\" thread (Miravoice, Openbenchmarks TTFAB gap, since Aug) gains a narrower but real instance: Speechmatics' 206x speed claim for Melia is third-party-measured (Artificial Analysis) rather than vendor-run, but is a batch-transcription-speed number, not a streaming-latency one — worth flagging as founders increasingly need to separate which claim a vendor is actually making."
     }
   ],
-  "last_run": "2026-09-04",
+  "last_run": "2026-09-07",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
