@@ -1979,6 +1979,42 @@
       "url": "https://www.speechmatics.com/company/articles-and-news/melia-fastest-speech-to-text-artificial-analysis",
       "type": "tech",
       "status": "developing"
+    },
+    {
+      "id": "meta-muse-voice-transcribe",
+      "date": "2026-09-08",
+      "company": "Meta",
+      "headline": "Meta Superintelligence Labs launches Muse Voice Transcribe: real-time streaming ASR + 20+-speaker diarization + endpointing in one pass, #1 on streaming STT and diarization benchmarks (17.5% avg DER), $0.18/hr, OpenAI-SDK compatible; notably closed-weights, a departure from Meta's usual open speech posture; originally announced Sept 1, previously unreported in this brief",
+      "url": "https://www.marktechpost.com/2026/09/01/meta-superintelligence-labs-releases-muse-voice-transcribe-one-real-time-model-for-streaming-asr-diarization-and-endpointing/",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "microsoft-mai-transcribe-2",
+      "date": "2026-09-08",
+      "company": "Microsoft",
+      "headline": "Microsoft ships MAI-Transcribe-2 (Sept 3): #1 on FLEURS (5.2% avg WER), up to 10x faster than GPT-Transcribe and 7x faster than ElevenLabs Scribe v2, 60 languages with code-switching, $0.10/hr intro pricing (72% cut from MAI-Transcribe-1.5's $0.36/hr) — next version in Microsoft's in-house MAI-Voice-2/MAI-Transcribe/MAI-Realtime full-stack push",
+      "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/mai-transcribe-2-highest-quality-transcription-at-the-fastest-speed-and-lowest-c/4550972",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "google-gemini-live-guided-vision",
+      "date": "2026-09-08",
+      "company": "Google",
+      "headline": "Gemini Live adds Guided Vision (Sept 1, September Android Drop): camera-based voice narration of surroundings for blind/low-vision users (reading fine print, describing menus, locating objects), rolling out to Android 9+ — voice-as-interface extending into accessibility, distinct use case from the Sept 4 Workspace Live productivity push",
+      "url": "https://www.androidauthority.com/gemini-live-guided-vision-2-3705480/",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "creoir-defense-voice-ai-seed",
+      "date": "2026-09-08",
+      "company": "Creoir",
+      "headline": "Creoir (Oulu, Finland) raises seed (Gungnir Capital lead, EUR2M target) for EdgeVUI, on-device offline-first voice AI for defense and mission-critical systems — first defense-vertical voice AI company tracked in this brief",
+      "url": "https://www.eu-startups.com/2026/09/oulu-based-creoir-secures-seed-funding-to-scale-voice-ai-for-defence-and-mission-critical-systems",
+      "type": "funding",
+      "status": "new"
     }
   ],
   "themes": [
@@ -2211,8 +2247,28 @@
       "since": "2026-09-07",
       "direction": "watch",
       "theme": "\"Benchmark claims need receipts\" thread (Miravoice, Openbenchmarks TTFAB gap, since Aug) gains a narrower but real instance: Speechmatics' 206x speed claim for Melia is third-party-measured (Artificial Analysis) rather than vendor-run, but is a batch-transcription-speed number, not a streaming-latency one — worth flagging as founders increasingly need to separate which claim a vendor is actually making."
+    },
+    {
+      "since": "2026-09-08",
+      "direction": "up",
+      "theme": "TTS price war (Murf Falcon 2, Aug 28) jumps to the STT layer, driven by frontier labs rather than startups: Microsoft's MAI-Transcribe-2 ($0.10/hr intro, 72% cut) and Meta's Muse Voice Transcribe ($0.18/hr) both undercut incumbent STT pricing in the same week, both leading with speed/cost over raw accuracy — same efficiency-beats-scale thesis (Aug 3) now playing out at the frontier-lab layer on transcription unit economics."
+    },
+    {
+      "since": "2026-09-08",
+      "direction": "emerging",
+      "theme": "Meta breaks from its usual open-weights speech posture: Muse Voice Transcribe (streaming ASR + diarization + endpointing in one pass) ships closed, suggesting the full-session-in-one-call bundle is seen as commercially defensible in a way raw transcription no longer is — reinforces the 'context/session-handling is the moat, not transcription accuracy' thread (Zeghidour Aug 4)."
+    },
+    {
+      "since": "2026-09-08",
+      "direction": "emerging",
+      "theme": "Voice-as-default-interface thesis (Brockman Aug 10, Google Workspace Live Sept 4) picks up an accessibility axis distinct from productivity: Gemini Live's Guided Vision uses voice to replace the screen entirely for blind/low-vision users via live camera narration — a separate market from voice-as-faster-typing that founders building assistive or hands-busy/eyes-busy field tools should treat on its own terms."
+    },
+    {
+      "since": "2026-09-08",
+      "direction": "emerging",
+      "theme": "Verticalization thread (HappyRobot, Prosper, Seavoice, Blue Voice) reaches a new vertical with a different technical shape: Creoir's on-device, fully offline EdgeVUI for defense/mission-critical systems is edge-inference-first by requirement (no cloud dependency in security-critical environments), distinct from the cloud-first contact-center voice stacks this brief has tracked all summer."
     }
   ],
-  "last_run": "2026-09-07",
+  "last_run": "2026-09-08",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
