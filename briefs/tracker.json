@@ -2042,6 +2042,51 @@
       "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/voicing-ai-launches-knowledge-mesh-a-context-layer-for-enterprise-ai-agents/",
       "type": "tech",
       "status": "new"
+    },
+    {
+      "id": "apple-siri-ios27-gemini-wwdc2026",
+      "date": "2026-09-10",
+      "company": "Apple / Google",
+      "headline": "Update: Siri AI officially ships Sept 9 — complex queries route to a custom Gemini model in Apple's own data centers on Nvidia Blackwell hardware; on-device models handle expressive TTS + dictation (Apple grader panel: 44.7% preferred vs. 17.6% old system); iOS 27 beta Sept 14 (EN), 5 more languages in October; Musk calls it 'an unreasonable concentration of power for Google'; Kuo says Siri AI 'must outclass Google Gemini, not just catch up'",
+      "url": "https://www.macworld.com/article/3162330/how-much-gemini-is-really-in-the-new-siri-ai.html",
+      "type": "market",
+      "status": "developing"
+    },
+    {
+      "id": "apple-airpods-5-live-translation",
+      "date": "2026-09-10",
+      "company": "Apple",
+      "headline": "Apple AirPods 5 ship hands-free Live Translation (Sept 9, retail Sept 18, $129/$149): stem press/voice/Action-button triggered real-time translation, no phone required",
+      "url": "https://www.theapplepost.com/2026/09/09/71937/apple-unveils-airpods-5-with-stronger-active-noise-cancellation-siri-ai-and-live-translation/",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "deepgram-flux-tts-launch",
+      "date": "2026-09-10",
+      "company": "Deepgram",
+      "headline": "Update: Flux TTS free promotional window (up to 45 concurrent streams globally, 5 EU/AU) ends Sept 12 (Sept 13 EU/AU); standard pricing takes effect Sept 13",
+      "url": "https://finance.yahoo.com/technology/ai/articles/text-speech-comes-age-deepgram-130200962.html",
+      "type": "market",
+      "status": "developing"
+    },
+    {
+      "id": "yc-batch-voice-for-agents-maven-lato-lunabill",
+      "date": "2026-09-10",
+      "company": "Maven / LATO / LunaBill",
+      "headline": "YC batch voice bets skew toward voice-for-machines: Maven builds a voice-native commerce/checkout API for AI agents to transact with each other; LATO automates research workflows via voice + agents; LunaBill runs AI voice callers for healthcare billing/insurance follow-up",
+      "url": "https://www.forbes.com/sites/dariashunina/2026/09/03/meet-the-yc-startups-betting-on-what-comes-next/",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "consumer-family-emergency-voice-scam-fbi-2026",
+      "date": "2026-09-10",
+      "company": "Security / Industry",
+      "headline": "Back-to-school wave of AI voice-cloning 'family emergency' scams needs just a 3-second clip scraped from social video to fake a child's distress call; FBI 2025 data: 22,364 AI-fraud complaints, ~$893M in losses, $5M+ tied to voice-cloned distress calls specifically",
+      "url": "https://www.wsmv.com/2026/09/08/scammers-are-using-ai-mimic-childrens-voices-exploit-parents-expert-warns-heres-what-know/",
+      "type": "customer_signal",
+      "status": "new"
     }
   ],
   "themes": [
@@ -2116,11 +2161,6 @@
       "direction": "emerging"
     },
     {
-      "since": "2026-08-17",
-      "theme": "Consolidation wave (OVH-Gladia, Poland/ElevenLabs, Yellow.ai SPAC) reaches its first shareholder vote: SoundHound-LivePerson merger goes to a vote Aug 20 with all regulatory approvals cleared and unanimous board/proxy-advisor recommendation — public markets about to weigh in on the roll-up-over-model-quality thesis private rounds have been pricing since ElevenLabs doubled valuation.",
-      "direction": "up"
-    },
-    {
       "since": "2026-08-18",
       "theme": "Coordination-over-model-quality thesis (HappyRobot Aug 12, Deepgram Flux TTS Aug 14) gets its first vendor self-critique: Vapi kills its own node-based visual Workflows builder, naming in public that current models can't reliably hold node-level state as autonomous agents, and pivots to bounded-responsibility multi-assistant handoff (Squads) instead — a concrete admission, not just an abstract 'orchestration is hard' take.",
       "direction": "emerging"
@@ -2169,11 +2209,6 @@
       "since": "2026-08-24",
       "theme": "SEA regional-voice thread (Deepgram/ElevenLabs Singapore, Aug 20) gets its first vertical product layer: Seavoice sells code-switching-first contact-center agents directly to banks/telcos, echoing Gnani AI's India-specific-accuracy playbook rather than competing on generic multilingual coverage.",
       "direction": "emerging"
-    },
-    {
-      "since": "2026-08-25",
-      "theme": "First real-time case of a TTS leaderboard win missing its own GA clock: Cartesia's Sonic-3.6 self-declared 'later in August' target is close to slipping nine days after the beta ship, with docs still defaulting to 3.5 — a concrete counterpoint to the 'five #1 flips since June' churn thread, since leaderboard rank and production-shipped are turning out to be weeks apart, not days.",
-      "direction": "watch"
     },
     {
       "since": "2026-08-25",
@@ -2309,8 +2344,23 @@
       "since": "2026-09-09",
       "direction": "emerging",
       "theme": "Context-as-moat thesis (Zeghidour Aug 4, Inworld TTS-2 steering Sept 4) reaches dedicated infrastructure at a small vendor: Voicing AI's Knowledge Mesh is a governed context layer built under the voice agent rather than a model feature — worth watching whether a larger vendor ships an equivalent standalone context/knowledge layer next."
+    },
+    {
+      "since": "2026-09-10",
+      "direction": "up",
+      "theme": "Voice-as-default-interface thesis (Brockman Aug 10, Google 63%-MAU Aug 13, Google Assistant shutdown Sept 9) gets its most consequential capitulation yet: Apple, the platform most identified with on-device privacy, ships Siri AI routing complex queries to a custom Gemini model in its own data centers — Musk's antitrust framing and Kuo's 'must outclass, not just match' warning both land the same point: running on a rival's engine isn't a moat, and Apple's own dictation-preference stat is self-graded, not independent (extends the 'benchmark claims need receipts' thread, Miravoice Aug 6)."
+    },
+    {
+      "since": "2026-09-10",
+      "direction": "emerging",
+      "theme": "Verticalization thread (HappyRobot, Prosper, Seavoice, Blue Voice, Creoir) picks up a machine-to-machine angle distinct from every prior human-facing vertical: YC's Maven pitches voice-native/conversational commerce as infrastructure for AI agents transacting with each other, not for human callers — worth watching whether agent-to-agent voice commerce becomes a real category or stays one startup's bet."
+    },
+    {
+      "since": "2026-09-10",
+      "direction": "watch",
+      "theme": "Voice-cloning-attack thread (enterprise Teams exploit June 12, Apate's scam-baiting mirror Sept 2, $39.7B/year systemic-cost estimate July) gets a consumer-targeted data point: family-emergency scams now need just a 3-second clip and drew FBI-tracked losses over $5M in 2025 — the same capability pushing down-market toward a threat surface no enterprise security team defends; liveness detection and consent verification are shifting from compliance checkbox toward load-bearing trust feature for cloning/synthesis vendors."
     }
   ],
-  "last_run": "2026-09-09",
+  "last_run": "2026-09-10",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
