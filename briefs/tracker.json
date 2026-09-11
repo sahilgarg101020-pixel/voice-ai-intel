@@ -2087,6 +2087,33 @@
       "url": "https://www.wsmv.com/2026/09/08/scammers-are-using-ai-mimic-childrens-voices-exploit-parents-expert-warns-heres-what-know/",
       "type": "customer_signal",
       "status": "new"
+    },
+    {
+      "id": "openai-gpt-live",
+      "date": "2026-09-11",
+      "company": "OpenAI",
+      "headline": "Update: GPT-Live-1 ships in the API (Sept 10) — flat $0.05/min voice layer, reasoning/tool calls delegated to a separately billed backend (GPT-6 Astra default); +30pp on Full Duplex Bench vs gpt-realtime-2.1, turn-taking latency 1.4s->0.8s, tool-calling accuracy 60%->87%; closes the API-timeline gap watched since July; EliseAI cut 23,000 lines of pipeline code (~80%), Speak cut mid-pause interruptions ~80%",
+      "url": "https://www.testingcatalog.com/openai-launches-gpt-live-1-for-full-duplex-voice-agents/",
+      "type": "tech",
+      "status": "closed"
+    },
+    {
+      "id": "elevenlabs-umg-ai-music-licensing",
+      "date": "2026-09-11",
+      "company": "ElevenLabs / Universal Music Group",
+      "headline": "ElevenLabs signs its first major-label deal: multi-year licensing agreement with Universal Music Group for a new AI remix/mashup/personalized-vocal platform, separate from ElevenLabs' existing Music API and ElevenMusic products",
+      "url": "https://www.digitalmusicnews.com/2026/09/10/universal-music-elevenlabs-deal/",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "deepgram-flux-tts-launch",
+      "date": "2026-09-11",
+      "company": "Deepgram",
+      "headline": "Update: Flux TTS standard pricing confirmed at $0.045/1,000 characters pay-as-you-go, effective Sept 13 once the free promotional window ends — still well above Murf's $0.01/min Falcon 2 floor",
+      "url": "https://deepgram.com/product/text-to-speech/flux",
+      "type": "market",
+      "status": "closed"
     }
   ],
   "themes": [
@@ -2359,8 +2386,23 @@
       "since": "2026-09-10",
       "direction": "watch",
       "theme": "Voice-cloning-attack thread (enterprise Teams exploit June 12, Apate's scam-baiting mirror Sept 2, $39.7B/year systemic-cost estimate July) gets a consumer-targeted data point: family-emergency scams now need just a 3-second clip and drew FBI-tracked losses over $5M in 2025 — the same capability pushing down-market toward a threat surface no enterprise security team defends; liveness detection and consent verification are shifting from compliance checkbox toward load-bearing trust feature for cloning/synthesis vendors."
+    },
+    {
+      "since": "2026-09-11",
+      "direction": "up",
+      "theme": "Coordination-over-model-quality thesis (HappyRobot Aug 12, Vapi Squads Aug 18, Deepgram Flux TTS Aug 14) gets its strongest frontier-lab endorsement: GPT-Live-1's API launch productizes 'split the always-on conversational layer from a separately billed reasoning backend' as OpenAI's own architecture, with two named builders (EliseAI, Speak) already showing 80%-scale production wins from adopting the split rather than hand-rolling it."
+    },
+    {
+      "since": "2026-09-11",
+      "direction": "emerging",
+      "theme": "Voice pricing is fragmenting into incomparable units rather than converging: GPT-Live-1's flat $0.05/min voice-presence pricing, Deepgram Flux TTS's now-confirmed $0.045/1,000-character rate, and Murf's $0.01/min floor are three different pricing shapes for adjacent parts of the stack, making vendor cost comparison for builders harder even as headline dollar figures keep falling."
+    },
+    {
+      "since": "2026-09-11",
+      "direction": "emerging",
+      "theme": "ElevenLabs' 'own the whole stack' entrenchment (Scribe default Aug 17, hosted-only MCP Aug 22) extends sideways into content rights: its first major-label deal (Universal Music Group) builds a licensed generative-music business on the same synthesis stack, a different vertical from conversational voice agents but the same platform-lock-in instinct."
     }
   ],
-  "last_run": "2026-09-10",
+  "last_run": "2026-09-11",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
