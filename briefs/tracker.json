@@ -2168,6 +2168,69 @@
       "url": "https://startupsuccessstories.in/squadstack-ai-launches-revenue-linked-pricing-model-for-voice-ai-sales-agents/",
       "type": "market",
       "status": "new"
+    },
+    {
+      "id": "apple-siri-ios27-gemini-wwdc2026",
+      "date": "2026-09-16",
+      "company": "Apple / Google",
+      "headline": "Update: Siri AI English public beta live Sept 14-15, gated to iPhone 17/18 Pro and M3/M4 Mac/iPad with 12GB+ RAM; French/Japanese/Korean/Portuguese/Spanish follow in October; community critique frames Gemini-routing as a trust/data-flow question, not a quality one",
+      "url": "https://www.apple.com/newsroom/2026/09/siri-ai-a-profoundly-more-capable-and-personal-assistant-is-here/",
+      "type": "market",
+      "status": "developing"
+    },
+    {
+      "id": "voicestudio-open-source-elevenlabs-alternative",
+      "date": "2026-09-16",
+      "company": "VoiceStudio",
+      "headline": "Update: star growth continues past 29,000+ (from 16,000 two days prior); no production-adoption evidence yet, still a GitHub-traction signal only",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "type": "tech",
+      "status": "developing"
+    },
+    {
+      "id": "google-gemini-3-8-live",
+      "date": "2026-09-16",
+      "company": "Google DeepMind",
+      "headline": "Gemini 3.8 Live and 3.8 Live Extended Thinking reach GA as native audio-to-audio models; Extended Thinking reasons during live audio, claims #1 on AA Speech-to-Speech Quality Index (82.6) and 97.7% Big Bench Audio, beats GPT-Live-1/Astra/Grok Voice on Google's numbers; $0.005/min audio in, $0.018/min audio out",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "deepgram-force-end-turn",
+      "date": "2026-09-16",
+      "company": "Deepgram",
+      "headline": "Deepgram ships ForceEndTurn (SDK v7.9.0/v5.11.0): developers can manually end a caller's turn via push-to-talk/DTMF/custom VAD instead of relying solely on Flux's automatic end-of-turn detection; also adds Flux TTS expressivity controls and 0.5-1.5x speed range",
+      "url": "https://github.com/deepgram/deepgram-python-sdk/releases/tag/v7.9.0",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "nari-labs-coval-benchmark",
+      "date": "2026-09-16",
+      "company": "Nari Labs",
+      "headline": "Nari Labs (Qwen3-based) tops Coval's independent STT/TTS leaderboard (44ms p50/3.6% WER ASR; self-hosted TTS ~$2/1M chars vs ElevenLabs v3 ~$100/1M, Cartesia Sonic-3.5 ~$49/1M), posts to Hacker News (74 points) as a real-time-viable open alternative",
+      "url": "https://narilabs.com/blog/nari-labs-leads-coval-voice-ai-benchmarks/",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "cognition-devin-voice-swe2",
+      "date": "2026-09-16",
+      "company": "Cognition",
+      "headline": "Cognition ships Devin Voice (Sept 10, previously unreported): full-duplex, millisecond-interrupt voice control for its Devin coding agent, built on GPT-Live — voice-as-interface reaching software engineering rather than customer-facing calls",
+      "url": "https://releasebot.io/updates/devin",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "deepgram-india-endpoint-ga",
+      "date": "2026-09-16",
+      "company": "Deepgram",
+      "headline": "Deepgram's India regional endpoint (api.in.deepgram.com) reaches GA for in-country data processing/storage — fourth regional endpoint after US, EU, Australia",
+      "url": "https://developers.deepgram.com/changelog",
+      "type": "market",
+      "status": "new"
     }
   ],
   "themes": [
@@ -2410,8 +2473,28 @@
       "since": "2026-09-15",
       "direction": "emerging",
       "theme": "Voice pricing fragmentation (GPT-Live-1 flat /bin/bash.05/min, Deepgram /bin/bash.045/1K-char, Murf /bin/bash.01/min floor, since Sept 11) gets a fourth, structurally different shape: SquadStack drops usage-based billing entirely for a success-fee/outcome-based model in bank sales — only viable because a verticalized platform can own the full call-to-outcome loop, a preview of where narrow voice verticals go once model/infra cost is cheap enough to absorb as fixed cost."
+    },
+    {
+      "since": "2026-09-16",
+      "direction": "emerging",
+      "theme": "Intelligence-latency tradeoff thread (Coval/Pipecat/Ultravox June 16) gets its first architectural resolution rather than just a faster point on the same curve: Gemini 3.8 Live Extended Thinking reasons during live audio instead of forcing a fast-shallow-vs-slow-smart choice, priced at $0.005/$0.018 per-minute in/out — far below GPT-Live-1's flat $0.05/min — adding a fifth incompatible shape to the pricing-fragmentation thread (since Sept 11)."
+    },
+    {
+      "since": "2026-09-16",
+      "direction": "up",
+      "theme": "False-interruption/turn-taking thread (ElevenLabs interruption_ignore_terms Aug 19, Deepgram defer_until_eot Sept 15) gets its first manual override: Deepgram's ForceEndTurn lets developers bypass automatic end-of-turn detection entirely via push-to-talk/DTMF/custom VAD — an admission that deterministic control still beats the smartest automatic model for some production calls."
+    },
+    {
+      "since": "2026-09-16",
+      "direction": "up",
+      "theme": "Open-source-catches-up thread (Fluxions vui Aug 24, VoiceStudio product-surface parity Sept 15) sharpens into raw unit economics: Nari Labs, launched via a single Hacker News post, beats AssemblyAI on WER and undercuts ElevenLabs TTS pricing by roughly 50x — paired with independent Coval data showing ElevenLabs Multilingual v2 at 1,232ms P50 latency, reinforcing that an incumbent's headline strength (quality) and production fit (latency, cost) are separate questions."
+    },
+    {
+      "since": "2026-09-16",
+      "direction": "emerging",
+      "theme": "Voice-as-default-interface thesis (Brockman Aug 10, Google Workspace Live Sept 4, Apple Siri AI Sept 10) reaches developer tools for the first time: Cognition's Devin Voice puts full-duplex voice control on a coding agent rather than a customer-facing call or consumer app, and does it on top of GPT-Live within days of its API launch — evidence OpenAI's split-conversational-layer architecture travels beyond its own case studies (EliseAI, Speak)."
     }
   ],
-  "last_run": "2026-09-15",
+  "last_run": "2026-09-16",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
