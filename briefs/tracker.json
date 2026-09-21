@@ -2303,6 +2303,33 @@
       "url": "https://github.com/egma-ai/egma",
       "type": "tech",
       "status": "new"
+    },
+    {
+      "id": "openai-codex-voice-conversations",
+      "date": "2026-09-21",
+      "company": "OpenAI",
+      "headline": "OpenAI adds experimental voice conversations to Codex (Sept 18): live transcripts and microphone controls via /experimental in the CLI/TUI, alongside live reasoning summaries and agent task management",
+      "url": "https://releasebot.io/updates/openai/codex",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "speechmatics-livekit-linden-inference",
+      "date": "2026-09-21",
+      "company": "Speechmatics",
+      "headline": "Update: Linden GA's as standalone 'Agent STT' product (Sept 17), positioned around high-consequence semantic errors (account numbers, negations, one-word confirmations) rather than aggregate WER; $0.30/hr down to $0.15/hr at volume; independent Pipecat testing puts it at 1.07% pooled WER, lowest of 12 services benchmarked",
+      "url": "https://www.globenewswire.com/news-release/2026/09/17/3364138/0/en/speechmatics-launches-agent-stt-for-the-speech-errors-that-derail-voice-agents.html",
+      "type": "tech",
+      "status": "developing"
+    },
+    {
+      "id": "apple-siri-ios27-gemini-wwdc2026",
+      "date": "2026-09-21",
+      "company": "Apple / Google",
+      "headline": "Update: iOS 27 ships publicly (Sept 14) with Gemini-routed Siri AI; reviewers report faster response than first beta but Siri still cuts off longer verbal prompts before the user finishes speaking, a false-interruption bug persisting at the largest consumer voice AI deployment to date",
+      "url": "https://www.phonearena.com/news/siris-biggest-change-in-a-decade-is-here-narrowing-the-gap-on-gemini_id183192",
+      "type": "customer_signal",
+      "status": "developing"
     }
   ],
   "themes": [
@@ -2600,8 +2627,23 @@
       "since": "2026-09-18",
       "direction": "emerging",
       "theme": "Audio-testing-infra thread (named category June 4, Cloudflare native diagnostics Sept 17) sharpens into three distinct shapes converging on the same layer in under two weeks: Treble's funded acoustic-simulation platform (noise/room conditions upstream of conversation scoring), Egma's open-source self-hosted testing tool gaining HN traction, and Cloudflare's native SDK diagnostics — funded, open-source, and platform-native approaches all landing on 'testing/observability shouldn't be a separate purchase' simultaneously."
+    },
+    {
+      "since": "2026-09-21",
+      "direction": "emerging",
+      "theme": "Voice-as-default-interface thesis reaching developer tools (Cognition Devin Voice Sept 16) gets its strongest confirmation yet: OpenAI ships experimental voice conversations into its own Codex CLI three days later — the lab that built the split-conversational-layer architecture (GPT-Live) using it on its own flagship dev tool, not just validated by a third party building on top of it."
+    },
+    {
+      "since": "2026-09-21",
+      "direction": "up",
+      "theme": "False-interruption/turn-taking thread (clinic-builder CSAT finding June 12, ElevenLabs/Deepgram manual overrides Aug-Sept) gets its highest-scale real-world instance: Apple's iOS 27 Siri AI, backed by a custom $1B/year Gemini deal and months of beta iteration, still cuts off longer verbal prompts at public GA — strong evidence turn-detection remains harder than model quality regardless of budget or lab."
+    },
+    {
+      "since": "2026-09-21",
+      "direction": "emerging",
+      "theme": "STT vendors start marketing against named high-consequence error classes instead of aggregate WER: Speechmatics' Agent STT GA frames Linden around digit transposition, missed negations, and dropped confirmations specifically — the STT-layer mirror of the turn-detection precision/recall shift already underway (Cartesia Ink-2)."
     }
   ],
-  "last_run": "2026-09-18",
+  "last_run": "2026-09-21",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
