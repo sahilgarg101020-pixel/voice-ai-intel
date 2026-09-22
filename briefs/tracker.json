@@ -2330,6 +2330,42 @@
       "url": "https://www.phonearena.com/news/siris-biggest-change-in-a-decade-is-here-narrowing-the-gap-on-gemini_id183192",
       "type": "customer_signal",
       "status": "developing"
+    },
+    {
+      "id": "alibaba-qwen-livetranslate",
+      "date": "2026-09-22",
+      "company": "Alibaba / Qwen",
+      "headline": "Qwen3.8-LiveTranslate: real-time interpretation on new Interleave architecture, 60 languages understood/29 spoken, 2.3s avg lag, per-speaker voice-preserving diarization, $7.50/1M audio input tokens",
+      "url": "https://www.marktechpost.com/2026/09/19/alibaba-qwen-team-releases-qwen3-8-livetranslate/",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "xai-grok-voice-transcribe-2",
+      "date": "2026-09-22",
+      "company": "xAI",
+      "headline": "Grok Voice Transcribe 2.0: #1 Artificial Analysis streaming accuracy, multilingual WER 20.6%->6.8% on 19-language benchmark, same pricing as v1.0, drop-in upgrade",
+      "url": "https://www.marktechpost.com/2026/09/18/spacexai-releases-grok-voice-transcribe-2-0/",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "sierra-aiuc-1-certification",
+      "date": "2026-09-22",
+      "company": "Sierra",
+      "headline": "Sierra earns AIUC-1 certification: independent Schellman audit + adversarial testing of chat AND voice agents (manipulation, protected-info exposure, real-world voice conditions) - first voice-agent-behavior certification tracked",
+      "url": "https://www.unite.ai/sierra-earns-aiuc-1-certification-after-independent-audit/",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "tencent-gander-omni-interaction-agent",
+      "date": "2026-09-22",
+      "company": "Tencent",
+      "headline": "Gander (Omni-Interaction-Agent): open-source full-duplex omni-modal agent on MiniCPM-o 4.5, Cerebellum-Brain split architecture (fast reactive turn-taking layer + slower reasoning layer), continuous audio-visual perception",
+      "url": "https://arxiv.org/abs/2609.08977",
+      "type": "tech",
+      "status": "new"
     }
   ],
   "themes": [
@@ -2642,8 +2678,28 @@
       "since": "2026-09-21",
       "direction": "emerging",
       "theme": "STT vendors start marketing against named high-consequence error classes instead of aggregate WER: Speechmatics' Agent STT GA frames Linden around digit transposition, missed negations, and dropped confirmations specifically — the STT-layer mirror of the turn-detection precision/recall shift already underway (Cartesia Ink-2)."
+    },
+    {
+      "since": "2026-09-22",
+      "direction": "emerging",
+      "theme": "Real-time interpretation becomes its own sub-vertical distinct from general conversational voice agents: Alibaba's Qwen3.8-LiveTranslate (Sept 19) is the second major-lab live-translation model in three months after Gemini 3.5 Live Translate (June 11), and raises the bar with per-speaker voice-preserving diarization in multi-party calls."
+    },
+    {
+      "since": "2026-09-22",
+      "direction": "watch",
+      "theme": "\"Benchmark claims need receipts\" thread (Miravoice, Openbenchmarks TTFAB gap, Speechmatics 206x) gets a fresh test case: xAI's Grok Voice Transcribe 2.0 claims a 3x multilingual WER improvement (20.6%->6.8%) and #1 Artificial Analysis streaming accuracy from a company with no prior STT track record - self-reported and AA-ranked, not yet independently reproduced."
+    },
+    {
+      "since": "2026-09-22",
+      "direction": "emerging",
+      "theme": "Reliability-and-trust thread (demo-to-production 60% failure rate, Sinch 74%-rollback survey, since June) gets its first named third-party certification: Sierra's AIUC-1 (Schellman audit + adversarial voice-agent testing) is a different procurement bar than SOC2 infra compliance - worth watching whether it becomes a healthcare/finance/insurance RFP requirement."
+    },
+    {
+      "since": "2026-09-22",
+      "direction": "up",
+      "theme": "Open-source-catches-up thread (VoiceStudio product-surface parity, Nari Labs unit economics, Sept 15-16) extends from model quality/pricing to full agentic architecture: Tencent's Gander open-sources a Cerebellum-Brain fast/slow split - the open-source mirror of the 'think while speaking' bet closed labs made twice this cycle (Gemini 3.8 Live Extended Thinking, StepAudio 3)."
     }
   ],
-  "last_run": "2026-09-21",
+  "last_run": "2026-09-22",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
