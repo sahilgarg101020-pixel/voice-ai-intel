@@ -2366,6 +2366,15 @@
       "url": "https://arxiv.org/abs/2609.08977",
       "type": "tech",
       "status": "new"
+    },
+    {
+      "id": "brahma-ai-150m-raise",
+      "date": "2026-09-23",
+      "company": "Brahma AI",
+      "headline": "Brahma AI raises $150M at $2B valuation for enterprise digital-human/voice content platform",
+      "url": "https://www.storyboard18.com/digital/prime-focus-backed-brahma-ai-raises-150-million-at-2-billion-valuation-eyes-global-expansion-111171.htm",
+      "type": "funding",
+      "status": "new"
     }
   ],
   "themes": [
@@ -2698,8 +2707,13 @@
       "since": "2026-09-22",
       "direction": "up",
       "theme": "Open-source-catches-up thread (VoiceStudio product-surface parity, Nari Labs unit economics, Sept 15-16) extends from model quality/pricing to full agentic architecture: Tencent's Gander open-sources a Cerebellum-Brain fast/slow split - the open-source mirror of the 'think while speaking' bet closed labs made twice this cycle (Gemini 3.8 Live Extended Thinking, StepAudio 3)."
+    },
+    {
+      "since": "2026-09-23",
+      "direction": "emerging",
+      "theme": "Bundle-into-the-platform pattern (Mavenir-Sanas telecom core, Krisp-8x8 CX, Genesys-ElevenLabs/Deepgram, since Aug 27) gets a content-production-layer analog: Brahma AI's $150M raise ($2B valuation) sells voice/multilingual synthesis as one pillar of an enterprise digital-human video platform (Warner Bros, NBA, Mayo Clinic) rather than a standalone conversational-agent API — a distinct buyer and competitive set (Synthesia, HeyGen, ElevenLabs Avatars) from the Vapi/Retell/Bland lane this brief tracks most weeks."
     }
   ],
-  "last_run": "2026-09-22",
+  "last_run": "2026-09-23",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
