@@ -2375,6 +2375,51 @@
       "url": "https://www.storyboard18.com/digital/prime-focus-backed-brahma-ai-raises-150-million-at-2-billion-valuation-eyes-global-expansion-111171.htm",
       "type": "funding",
       "status": "new"
+    },
+    {
+      "id": "meta-muse-voice-avatar-charm",
+      "date": "2026-09-24",
+      "company": "Meta",
+      "headline": "Meta Connect 2026: Muse gets real-time voice conversation, natural-language voice design, Muse Realtime Avatar, and Muse Charm keychain hardware (holiday 2026)",
+      "url": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "google-gemini-3-8-flash-tts-voice-design",
+      "date": "2026-09-24",
+      "company": "Google",
+      "headline": "Gemini 3.8 Flash TTS and Flash-Lite TTS ship natural-language voice design (not cloning) across 100+ languages; Flash-Lite positioned for voice agents",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "academic-fullduplex-tool-calling-delegation-token",
+      "date": "2026-09-24",
+      "company": "Academic",
+      "headline": "Frontend-backend delegation-token architecture for tool calls in full-duplex speech models: 92-97% tool-call recall, 81.2% correct rejection of irrelevant calls",
+      "url": "https://arxiv.org/abs/2609.19334",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "academic-voice-light-speculative-tool-calls",
+      "date": "2026-09-24",
+      "company": "Academic",
+      "headline": "Voice-Light: full-duplex cascaded voice agent with causal turn-taking and speculative generation; tool calls execute concurrently with audible bridge speech",
+      "url": "https://arxiv.org/abs/2609.20995",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "qualcomm-camera-earbuds-concept",
+      "date": "2026-09-24",
+      "company": "Qualcomm",
+      "headline": "Qualcomm shows camera-equipped earbuds concept (with Cleer) fusing ambient visual sensing with voice AI",
+      "url": "https://insideai.news/news/ai-hardware-infrastructure/qualcomm-camera-earbuds/12772/",
+      "type": "tech",
+      "status": "new"
     }
   ],
   "themes": [
@@ -2712,8 +2757,23 @@
       "since": "2026-09-23",
       "direction": "emerging",
       "theme": "Bundle-into-the-platform pattern (Mavenir-Sanas telecom core, Krisp-8x8 CX, Genesys-ElevenLabs/Deepgram, since Aug 27) gets a content-production-layer analog: Brahma AI's $150M raise ($2B valuation) sells voice/multilingual synthesis as one pillar of an enterprise digital-human video platform (Warner Bros, NBA, Mayo Clinic) rather than a standalone conversational-agent API — a distinct buyer and competitive set (Synthesia, HeyGen, ElevenLabs Avatars) from the Vapi/Retell/Bland lane this brief tracks most weeks."
+    },
+    {
+      "since": "2026-09-24",
+      "direction": "up",
+      "theme": "Voice-as-default-interface thesis (Brockman Aug 10, Google Workspace Sept 4, Apple Siri Sept 10, Cognition/OpenAI Codex Sept 16-21) gets its most consequential form-factor bet yet: Meta's Muse Charm is a purpose-built, screen-free keychain betting the whole value proposition on 'the voice stack is always there' — paired with Apple Watch's Audio Intelligence enclave (Sept 14) and Qualcomm's camera-earbuds concept the same week, dedicated always-on voice hardware is hardening into its own category distinct from phone-based assistants."
+    },
+    {
+      "since": "2026-09-24",
+      "direction": "up",
+      "theme": "Tool-calling-safety thread (Deepgram defer_until_eot, ElevenLabs tool-locking, Sept 15) gets independent academic validation rather than just vendor patchwork: two unrelated papers this week land on structurally similar fixes — hold the line or fill it with bridge speech while the backend executes a tool call — with the frontend-backend paper's 92-97% recall the first hard tool-calling number this brief has seen outside a vendor's own benchmark."
+    },
+    {
+      "since": "2026-09-24",
+      "direction": "emerging",
+      "theme": "Voice design — describe the voice you want rather than clone a reference clip or win a WER/latency benchmark — opens as its own competitive axis: Gemini 3.8 Flash TTS and Meta's Muse voice-customization feature shipped the same day, with Google notably hiring expressive-voice research talent (Hume's Alan Cowen) rather than just competing on TTFA — a layer distinct from the TTS leaderboard churn (six #1 flips since June) tracked all summer."
     }
   ],
-  "last_run": "2026-09-23",
+  "last_run": "2026-09-24",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
