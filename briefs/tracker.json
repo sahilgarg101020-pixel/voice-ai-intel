@@ -2420,6 +2420,33 @@
       "url": "https://insideai.news/news/ai-hardware-infrastructure/qualcomm-camera-earbuds/12772/",
       "type": "tech",
       "status": "new"
+    },
+    {
+      "id": "sela-mortgage-voice-agents-21m",
+      "date": "2026-09-25",
+      "company": "Sela",
+      "headline": "Sela raises $21M seed+Series A (Costanoa lead, Emergence Capital) for mortgage-vertical voice agents; $1B+/month originations, 6/10 largest independent mortgage banks, $10M ARR in 18 months, A/B test: 9% lead-to-lock lift, 40%+ higher lender profit",
+      "url": "https://forkast.news/sela-raises-21m-for-voice-ai-agents-that-originate-1b-in-mortgage-loans-monthly/",
+      "type": "funding",
+      "status": "new"
+    },
+    {
+      "id": "openai-chatgpt-mobile-voice-agentic-worktab",
+      "date": "2026-09-25",
+      "company": "OpenAI",
+      "headline": "ChatGPT mobile app ships voice-based agentic features: Plus/Pro users trigger Work tab (draft docs, summarize Slack, build sites) by voice, smoother voice/text switching; free/Go get plugins and connected apps instead",
+      "url": "https://dataconomy.com/2026/09/24/openai-voice-power-work-features-chatgpt-mobile/",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "alebex-ai-aa-wer-streaming-8th",
+      "date": "2026-09-25",
+      "company": "Alebex AI",
+      "headline": "Vancouver-based Alebex AI ranks 8th on Artificial Analysis AA-WER Streaming Index (released Sept 21) on its first public model release, ahead of Google, Microsoft, NVIDIA, and Amazon; targets receptionist/booking/customer-ops voice infra",
+      "url": "https://www.globenewswire.com/news-release/2026/09/24/3368687/0/en/vancouver-ai-company-alebex-ranks-8th-in-international-speech-to-text-benchmark.html",
+      "type": "tech",
+      "status": "new"
     }
   ],
   "themes": [
@@ -2772,8 +2799,23 @@
       "since": "2026-09-24",
       "direction": "emerging",
       "theme": "Voice design — describe the voice you want rather than clone a reference clip or win a WER/latency benchmark — opens as its own competitive axis: Gemini 3.8 Flash TTS and Meta's Muse voice-customization feature shipped the same day, with Google notably hiring expressive-voice research talent (Hume's Alan Cowen) rather than just competing on TTFA — a layer distinct from the TTS leaderboard churn (six #1 flips since June) tracked all summer."
+    },
+    {
+      "since": "2026-09-25",
+      "direction": "up",
+      "theme": "Vertical-voice-agent thread (Bland/Retell/Vapi/Sindarin/Rox/PolyAI/Hume $50-250M rounds) gets its clearest unit-economics data point yet: Sela's $21M raise leads with a controlled 10,000+-borrower A/B test (9% lead-to-lock lift, 40%+ lender profit uplift) rather than call-volume or ARR alone — a higher evidentiary bar for founders picking a vertical and for enterprise buyers evaluating one."
+    },
+    {
+      "since": "2026-09-25",
+      "direction": "up",
+      "theme": "Voice-as-control-surface-for-other-agents thread (GPT-Live desktop steering Codex/ChatGPT Work, July 24) extends to OpenAI's highest-traffic surface: ChatGPT mobile's Work tab goes voice-triggerable for Plus/Pro only, suggesting OpenAI treats voice-driven agent invocation as a paid-tier differentiator — worth watching whether Google Workspace Live or Claude voice match the paywall placement, not just the capability."
+    },
+    {
+      "since": "2026-09-25",
+      "direction": "watch",
+      "theme": "Chinese-lab-tops-Western-leaderboards pattern (Alibaba, MiniMax, StepFun, since June) gets a reminder that leaderboard permeability cuts both ways: Alebex AI, an unknown Vancouver startup, ranks 8th on Artificial Analysis' AA-WER Streaming Index ahead of Google/Microsoft/NVIDIA/Amazon on its first release — a lead worth an independent eval, not a settled result, until a second model or named customer backs it."
     }
   ],
-  "last_run": "2026-09-24",
+  "last_run": "2026-09-25",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
