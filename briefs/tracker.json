@@ -2447,6 +2447,33 @@
       "url": "https://www.globenewswire.com/news-release/2026/09/24/3368687/0/en/vancouver-ai-company-alebex-ranks-8th-in-international-speech-to-text-benchmark.html",
       "type": "tech",
       "status": "new"
+    },
+    {
+      "id": "google-gemini-call-for-me",
+      "date": "2026-09-28",
+      "company": "Google",
+      "headline": "Gemini \"Call for Me\" (Pixel 11 beta, US): AI places outbound calls to businesses to book, check stock, reschedule, with live transcript and takeover; sensitive info off-limits",
+      "url": "https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners/",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "android-authority-call-for-me-privacy-telemetry",
+      "date": "2026-09-28",
+      "company": "Google",
+      "headline": "Unreleased Call for Me code strings show full call transcripts sent to Google servers, human review possible, used for AI training — surfaced ahead of any published privacy policy",
+      "url": "https://the-decoder.com/googles-call-for-me-lets-gemini-phone-businesses-for-you/",
+      "type": "customer_signal",
+      "status": "new"
+    },
+    {
+      "id": "alibaba-qwen-audio-3-1-price-cuts",
+      "date": "2026-09-28",
+      "company": "Alibaba",
+      "headline": "Qwen-Audio-3.1: five-model voice stack (ASR, TTS, Realtime, +TTS-Next, +ASR-Next) ships with ASR pricing down ~95%, Realtime ~85%, TTS ~70%; ASR-Next adds speaker ID + emotion/ambient detection",
+      "url": "https://the-decoder.com/alibaba-launches-qwen-audio-3-1-with-five-new-models-and-slashes-ai-audio-prices-by-up-to-95-percent/",
+      "type": "market",
+      "status": "new"
     }
   ],
   "themes": [
@@ -2814,8 +2841,18 @@
       "since": "2026-09-25",
       "direction": "watch",
       "theme": "Chinese-lab-tops-Western-leaderboards pattern (Alibaba, MiniMax, StepFun, since June) gets a reminder that leaderboard permeability cuts both ways: Alebex AI, an unknown Vancouver startup, ranks 8th on Artificial Analysis' AA-WER Streaming Index ahead of Google/Microsoft/NVIDIA/Amazon on its first release — a lead worth an independent eval, not a settled result, until a second model or named customer backs it."
+    },
+    {
+      "since": "2026-09-28",
+      "theme": "Vertical-voice-agent thesis (Bland/Retell/Vapi/Sela, inbound AI answering calls) gets its mirror image at the OS layer: Google's Gemini \"Call for Me\" puts AI on the outbound side, calling businesses on a consumer's own number — creating a new bot-vs-human caller problem for every IVR built to detect and route humans, at consumer scale rather than enterprise API scale.",
+      "direction": "emerging"
+    },
+    {
+      "since": "2026-09-28",
+      "theme": "TTS/STT price war (Murf Falcon 2 Aug 28, Microsoft/Meta STT cuts Sept 8) hits its steepest cut yet, and for the first time from a frontier lab rather than a startup: Alibaba's Qwen-Audio-3.1 cuts ASR pricing up to 95%, Realtime ~85%, TTS ~70% — commoditization pressure on raw voice API access is accelerating faster than most teams are pricing their own roadmaps for.",
+      "direction": "up"
     }
   ],
-  "last_run": "2026-09-25",
+  "last_run": "2026-09-28",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
