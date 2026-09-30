@@ -2501,6 +2501,24 @@
       "url": "https://techcrunch.com/2026/09/28/modulate-raises-25m-for-its-voice-models-and-analysis-suite/",
       "type": "funding",
       "status": "new"
+    },
+    {
+      "id": "openai-devday-2026-dots-gpt-6-1-sol",
+      "date": "2026-09-30",
+      "company": "OpenAI",
+      "headline": "DevDay 2026: dots always-on agents and GPT-6.1 Sol (~1/5 Astra token price); agent-first, no new voice model; lowers cost of GPT-Live backend",
+      "url": "https://www.axios.com/2026/09/29/openai-dev-day-2026-dots-space-sol",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "aircall-ai-voice-agents-outbound-campaigns",
+      "date": "2026-09-30",
+      "company": "Aircall",
+      "headline": "Aircall AI Voice Agents add Outbound Campaigns: contact-list upload, end-to-end calls, lead qualification, meeting booking",
+      "url": "https://aircall.io/blog/news/ai-voice-agents-sept26/",
+      "type": "market",
+      "status": "new"
     }
   ],
   "themes": [
@@ -2893,8 +2911,13 @@
       "since": "2026-09-29",
       "theme": "Runtime supervision (frustration, fraud, deepfake, compliance) emerging as a separately funded layer above agent platforms (Modulate $25M).",
       "direction": "emerging"
+    },
+    {
+      "since": "2026-09-30",
+      "theme": "Voice is a thin, flat-priced front-end ($0.05/min GPT-Live-1) on an agent backend whose token costs keep falling (GPT-6.1 Sol); value and margin shift to actions, state, and recovery. Outbound campaigns (Aircall) raise supervision/compliance stakes.",
+      "direction": "up"
     }
   ],
-  "last_run": "2026-09-29",
+  "last_run": "2026-09-30",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
