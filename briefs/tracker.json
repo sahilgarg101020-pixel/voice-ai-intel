@@ -2519,9 +2519,37 @@
       "url": "https://aircall.io/blog/news/ai-voice-agents-sept26/",
       "type": "market",
       "status": "new"
+    },
+    {
+      "id": "inworld-ultravox-acquisition",
+      "date": "2026-10-01",
+      "company": "Inworld / Ultravox",
+      "headline": "Inworld acquires Ultravox voice-agent platform to expand into agent software and S2S research",
+      "url": "https://runtimewire.com/article/inworld-acquires-ultravox-voice-agents",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "inception-mercury-voice-ga",
+      "date": "2026-10-01",
+      "company": "Inception",
+      "headline": "Mercury Voice diffusion LLM GA for enterprise: <320ms first token, 128K ctx, $0.20/M input; benchmark claims unpublished",
+      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-voice",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "elevenlabs-22b-tender-offer",
+      "date": "2026-10-01",
+      "company": "ElevenLabs",
+      "headline": "Update: $300M employee tender at $22B completed (2x Feb round)",
+      "url": "https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/",
+      "type": "funding",
+      "status": "closed"
     }
   ],
   "themes": [
+    "Model vendors acquire up-stack: Inworld buys Ultravox (speech models -> agent platform), echoing ElevenLabs' stack bundling; independent platforms on third-party voices shrink. Meanwhile Mercury Voice (diffusion LLM, <320ms first token) bets the cascaded pipeline survives via a faster LLM step, but lacks end-to-end receipts.",
     {
       "since": "2026-08-18",
       "theme": "Coordination-over-model-quality thesis (HappyRobot Aug 12, Deepgram Flux TTS Aug 14) gets its first vendor self-critique: Vapi kills its own node-based visual Workflows builder, naming in public that current models can't reliably hold node-level state as autonomous agents, and pivots to bounded-responsibility multi-assistant handoff (Squads) instead \u2014 a concrete admission, not just an abstract 'orchestration is hard' take.",
@@ -2918,6 +2946,6 @@
       "direction": "up"
     }
   ],
-  "last_run": "2026-09-30",
+  "last_run": "2026-10-01",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
