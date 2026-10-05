@@ -2582,6 +2582,33 @@
       "url": "https://x.com/stephzhan/status/2105722479453082017",
       "type": "founder_take",
       "status": "new"
+    },
+    {
+      "id": "microsoft-mai-voice-2-1",
+      "date": "2026-10-05",
+      "company": "Microsoft",
+      "headline": "MAI-Voice-2.1 ($22/M chars) and 2.1-Flash ($15/M, 23 languages, 97 voices) released Oct 1, on OpenRouter",
+      "url": "https://openrouter.ai/microsoft/mai-voice-2.1-flash",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "pipecat-v1-12-classifiers",
+      "date": "2026-10-05",
+      "company": "Pipecat",
+      "headline": "Pipecat v1.12.0 Classifiers: cheap typed LLM questions for turn-taking and voicemail detection",
+      "url": "https://newreleases.io/project/github/pipecat-ai/pipecat/release/v1.12.0",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "revin-allstar-roofing-expansion",
+      "date": "2026-10-05",
+      "company": "Revin",
+      "headline": "Allstar Services extends Revin voice/SMS agents to ten more roofing brands",
+      "url": "https://agilebrandguide.com/yesterdays-martech-ai-cx-news-october-3-2026/",
+      "type": "customer_signal",
+      "status": "new"
     }
   ],
   "themes": [
@@ -2709,8 +2736,13 @@
       "since": "2026-10-02",
       "theme": "Full-duplex interaction models extend from audio to video (Tavus Griffin), while infra players (LiveKit/Loophole) buy startup-time and scaling expertise; near-human realism starts to force safety gating.",
       "direction": "emerging"
+    },
+    {
+      "since": "2026-10-05",
+      "direction": "up",
+      "theme": "Turn-taking/call-state decisions are being unbundled into small cheap classifier calls (Pipecat Classifiers) \u2014 a pluggable layer, pressuring proprietary turn-detectors; TTS flash-tier pricing ($15/M MAI-Voice-2.1-Flash) continues commoditizing."
     }
   ],
-  "last_run": "2026-10-02",
+  "last_run": "2026-10-05",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
