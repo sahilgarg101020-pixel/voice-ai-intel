@@ -2609,6 +2609,24 @@
       "url": "https://agilebrandguide.com/yesterdays-martech-ai-cx-news-october-3-2026/",
       "type": "customer_signal",
       "status": "new"
+    },
+    {
+      "id": "microsoft-mai-transcribe-2-streaming",
+      "date": "2026-10-06",
+      "company": "Microsoft",
+      "headline": "MAI-Transcribe-2-Streaming: 60 languages, 2.5% AA-WER Streaming, ~100ms first partial, 0.13s final, $0.54/hr",
+      "url": "https://pasqualepillitteri.it/en/news/19840/microsoft-mai-transcribe-2-streaming",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "photon-4-5m-seed-spectrum-messaging-agents",
+      "date": "2026-10-06",
+      "company": "Photon",
+      "headline": "Photon raises $4.5M seed for cross-channel agent infra (iMessage/WhatsApp/SIP voice); 40K dev sign-ups, 10x revenue in 4 months",
+      "url": "https://dealroom.co/news/158365-photon-raises-4-5m-to-build-agents-that-live-in-your-messaging-apps/",
+      "type": "funding",
+      "status": "new"
     }
   ],
   "themes": [
@@ -2741,8 +2759,13 @@
       "since": "2026-10-05",
       "direction": "up",
       "theme": "Turn-taking/call-state decisions are being unbundled into small cheap classifier calls (Pipecat Classifiers) \u2014 a pluggable layer, pressuring proprietary turn-detectors; TTS flash-tier pricing ($15/M MAI-Voice-2.1-Flash) continues commoditizing."
+    },
+    {
+      "since": "2026-10-06",
+      "direction": "up",
+      "theme": "Cascade bundling: Microsoft pairs streaming STT (~$0.54/hr) with flash TTS on one bill, joining AssemblyAI and LiveKit bundles; single-layer vendors compete with the bundled default, so differentiation must come from hard-slice accuracy, end-of-turn signal, or entity handling."
     }
   ],
-  "last_run": "2026-10-05",
+  "last_run": "2026-10-06",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
