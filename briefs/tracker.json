@@ -2627,6 +2627,15 @@
       "url": "https://dealroom.co/news/158365-photon-raises-4-5m-to-build-agents-that-live-in-your-messaging-apps/",
       "type": "funding",
       "status": "new"
+    },
+    {
+      "id": "community-voice-pricing-all-in-cost-gap",
+      "date": "2026-10-08",
+      "company": "Community",
+      "headline": "Analysis: Vapi $0.05/min headline bills $0.09-$0.14 once providers stacked; pricing transparency gap",
+      "url": "https://beri.net/article/voice-ai-per-minute-pricing-vapi-retell-elevenlabs-bland-cost-per-resolved-call",
+      "type": "customer_signal",
+      "status": "new"
     }
   ],
   "themes": [
@@ -2766,6 +2775,6 @@
       "theme": "Cascade bundling: Microsoft pairs streaming STT (~$0.54/hr) with flash TTS on one bill, joining AssemblyAI and LiveKit bundles; single-layer vendors compete with the bundled default, so differentiation must come from hard-slice accuracy, end-of-turn signal, or entity handling."
     }
   ],
-  "last_run": "2026-10-07",
+  "last_run": "2026-10-08",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
