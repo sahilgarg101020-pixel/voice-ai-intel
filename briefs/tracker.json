@@ -2654,6 +2654,24 @@
       "url": "https://propakistani.pk/2026/09/29/elevenlabs-unveils-its-fastest-most-expressive-voice-ai-models-yet/amp/",
       "type": "market",
       "status": "developing"
+    },
+    {
+      "id": "execs-voice-ai-no-chatgpt-moment-polyai-otter",
+      "date": "2026-10-13",
+      "company": "PolyAI / Otter",
+      "headline": "Execs: voice AI hasn't had its ChatGPT moment; barriers are recognition, reasoning speed, emotional expression",
+      "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
+      "type": "founder_take",
+      "status": "new"
+    },
+    {
+      "id": "deepl-voice-fast-company-next-big-things",
+      "date": "2026-10-13",
+      "company": "DeepL",
+      "headline": "DeepL Voice named to Fast Company Next Big Things in Tech",
+      "url": "https://finance.yahoo.com/technology/ai/articles/deepl-voice-named-fast-companys-141300599.html",
+      "type": "market",
+      "status": "closed"
     }
   ],
   "themes": [
@@ -2796,8 +2814,13 @@
       "since": "2026-10-12",
       "direction": "emerging",
       "theme": "Four quiet cycles: post-DevDay/Microsoft release wave has settled; consolidation (Ultravox, Loophole Labs, ElevenLabs tender) and independent benchmarks are the likeliest next signals."
+    },
+    {
+      "since": "2026-10-13",
+      "direction": "emerging",
+      "theme": "Operators (PolyAI, Otter) say full-duplex has not yet delivered a breakout user-visible leap; recognition, reasoning speed and emotion remain the barriers \u2014 reliability in a vertical beats raw latency as differentiator."
     }
   ],
-  "last_run": "2026-10-12",
+  "last_run": "2026-10-13",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
