@@ -2690,6 +2690,15 @@
       "url": "https://kingy.ai/news/karnataka-elevenlabs-partnership-voice-ai",
       "type": "market",
       "status": "new"
+    },
+    {
+      "id": "vocca-20m-series-a-healthcare-voice",
+      "date": "2026-10-15",
+      "company": "Vocca",
+      "headline": "Vocca raises $20M Series A (Norrsken VC) for healthcare scheduling voice agents",
+      "url": "https://www.startup.eu/investments/vocca-20-m-series-a-10-2026",
+      "type": "funding",
+      "status": "new"
     }
   ],
   "themes": [
@@ -2842,8 +2851,13 @@
       "since": "2026-10-14",
       "direction": "emerging",
       "theme": "As raw API prices fall, vendors compete on deployment constraints (air-gapped, on-prem, on-device): Deepgram offline laptop push is a regulated-buyer wedge; open question is whether TTS/agent layers follow STT."
+    },
+    {
+      "since": "2026-10-15",
+      "direction": "up",
+      "theme": "Vertical voice funding keeps flowing to outcome-tied workflows (Sela, Revin, Vocca healthcare scheduling); defensibility = integration depth + compliance in one vertical, not horizontal platform."
     }
   ],
-  "last_run": "2026-10-14",
+  "last_run": "2026-10-15",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
