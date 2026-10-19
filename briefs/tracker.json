@@ -2717,6 +2717,15 @@
       "url": "https://vapi.ai/blog/gpt-live-beta",
       "type": "market",
       "status": "new"
+    },
+    {
+      "id": "xai-grok-voice-3",
+      "date": "2026-10-19",
+      "company": "xAI",
+      "headline": "Grok Voice 3.0 S2S: AA S2S index 86.9 (vs 81.3), sub-1s latency, $0.08/min; latest alias auto-upgraded",
+      "url": "https://www.producthunt.com/p/spacexsi/grok-voice-3-0",
+      "type": "market",
+      "status": "new"
     }
   ],
   "themes": [
@@ -2879,8 +2888,13 @@
       "since": "2026-10-16",
       "direction": "emerging",
       "theme": "Speech-to-speech reaches platforms (Vapi GPT-Live) but lacks fallbacks, handoffs and custom voices; independent expressive-voice specialists face absorption (Hume API reportedly sunsetting) \u2014 keep swap paths on voice dependencies."
+    },
+    {
+      "since": "2026-10-19",
+      "direction": "emerging",
+      "theme": "S2S index race led by cheap flat-priced Grok Voice 3.0 but agent-task score reportedly trails GPT-Live; silent 'latest' alias upgrades make model pinning and regression calls a production requirement."
     }
   ],
-  "last_run": "2026-10-16",
+  "last_run": "2026-10-19",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
