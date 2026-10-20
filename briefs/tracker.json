@@ -2726,29 +2726,36 @@
       "url": "https://www.producthunt.com/p/spacexsi/grok-voice-3-0",
       "type": "market",
       "status": "new"
+    },
+    {
+      "id": "monday-harmony-voice-ai-sales",
+      "date": "2026-10-20",
+      "company": "Monday.com",
+      "headline": "Monday.com launches Harmony voice AI for sales calls (OneAI tech, ~200ms)",
+      "url": "https://thenextweb.com/news/monday-harmony-voice-ai-sales",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "speechmatics-oak-medical-stt",
+      "date": "2026-10-20",
+      "company": "Speechmatics",
+      "headline": "Speechmatics Oak medical STT: 91% medical-term recall vs 74.3% avg (vendor-reported)",
+      "url": "https://www.globenewswire.com/news-release/2026/10/14/3380824/0/en/voice-ai-model-built-to-accurately-capture-real-multilingual-medical-conversations.html",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "audiocodes-deutsche-telekom-voice-ai-notes",
+      "date": "2026-10-20",
+      "company": "AudioCodes / Deutsche Telekom",
+      "headline": "Deutsche Telekom launches Voice AI Notes Mobile on AudioCodes VoiceAI Connect",
+      "url": "https://www.prnewswire.com/news-releases/deutsche-telekom-leverages-audiocodes-voiceai-connect-to-bring-ai-powered-services-to-mobile-business-customers-302912435.html",
+      "type": "market",
+      "status": "new"
     }
   ],
   "themes": [
-    {
-      "since": "2026-09-17",
-      "direction": "up",
-      "theme": "Distribution-incumbent-undercuts-specialists pattern (Fireflies into calling Sept 3, Gupshup's CPaaS bolt-on Sept 14) reaches a third company in three weeks: Intermedia's AI Receptionist folds a native voice agent into its UCaaS platform \u2014 the fastest-repeating pattern this brief has tracked all cycle, worth watching for a dedicated agent platform (Vapi/Retell/Bland) price response."
-    },
-    {
-      "since": "2026-09-18",
-      "direction": "up",
-      "theme": "Intelligence-latency tradeoff thread (Coval/Pipecat June, Gemini 3.8 Live Extended Thinking Sept 16) gets a second independent architectural resolution within 48 hours: StepFun's StepAudio 3 Think-While-Speaking executes private reasoning in parallel with spoken output rather than picking a point on the fast-shallow-vs-slow-smart curve \u2014 two labs converging on the same architecture in the same week is a stronger signal than either alone that this is being solved structurally."
-    },
-    {
-      "since": "2026-09-18",
-      "direction": "up",
-      "theme": "Chinese-lab presence at the top of Western speech leaderboards becomes a standing pattern rather than a novelty: StepFun (Sept 18) is the third Chinese lab this cycle to top an Artificial Analysis speech sub-leaderboard, after Alibaba Fun-Realtime-TTS and MiniMax Speech 2.8 (both June) \u2014 founders benchmarking vendors now need Chinese labs in the comparison set by default."
-    },
-    {
-      "since": "2026-09-18",
-      "direction": "emerging",
-      "theme": "Audio-testing-infra thread (named category June 4, Cloudflare native diagnostics Sept 17) sharpens into three distinct shapes converging on the same layer in under two weeks: Treble's funded acoustic-simulation platform (noise/room conditions upstream of conversation scoring), Egma's open-source self-hosted testing tool gaining HN traction, and Cloudflare's native SDK diagnostics \u2014 funded, open-source, and platform-native approaches all landing on 'testing/observability shouldn't be a separate purchase' simultaneously."
-    },
     {
       "since": "2026-09-21",
       "direction": "emerging",
@@ -2893,8 +2900,13 @@
       "since": "2026-10-19",
       "direction": "emerging",
       "theme": "S2S index race led by cheap flat-priced Grok Voice 3.0 but agent-task score reportedly trails GPT-Live; silent 'latest' alias upgrades make model pinning and regression calls a production requirement."
+    },
+    {
+      "since": "2026-10-20",
+      "direction": "up",
+      "theme": "Incumbents buy voice teams and bundle (Monday.com/OneAI, Deutsche Telekom/AudioCodes); specialists respond with narrow-slice accuracy claims (Speechmatics Oak medical recall)."
     }
   ],
-  "last_run": "2026-10-19",
+  "last_run": "2026-10-20",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
