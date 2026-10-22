@@ -2762,6 +2762,24 @@
       "url": "https://aiweekly.co/alerts/mistral-voxtral-3-posts-41-wer-on-fleurs-beating-whisper",
       "type": "market",
       "status": "new"
+    },
+    {
+      "id": "sierra-fleming-1-synthetic-caller-detection",
+      "date": "2026-10-22",
+      "company": "Sierra",
+      "headline": "Sierra fleming-1 scores caller audio in real time for synthetic voice; pairs with Personal Agent Protocol",
+      "url": "https://sierra.ai/blog/caller-id-in-the-age-of-agents",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "decagon-voice-3-chord",
+      "date": "2026-10-22",
+      "company": "Decagon",
+      "headline": "Decagon Voice 3 (duplex, 70+ languages) and in-house Chord speech model trained on licensed data",
+      "url": "https://decagon.ai/blog/decagon-chord-voice-model",
+      "type": "tech",
+      "status": "new"
     }
   ],
   "themes": [
@@ -2919,8 +2937,13 @@
       "since": "2026-10-21",
       "direction": "up",
       "theme": "Full-stack bundling (STT+TTS+agent SDK under one vendor) extends to Mistral Voxtral 3; STT price approaching a floor ($0.008/min streaming), so differentiation shifts to error-class accuracy and turn detection."
+    },
+    {
+      "since": "2026-10-22",
+      "direction": "emerging",
+      "theme": "Agent platforms move down the stack into their own voice models (Decagon Chord) and trust tooling (Sierra fleming-1 synthetic-caller detection); licensed/consented-data provenance and AI-caller detection become differentiators."
     }
   ],
-  "last_run": "2026-10-21",
+  "last_run": "2026-10-22",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
