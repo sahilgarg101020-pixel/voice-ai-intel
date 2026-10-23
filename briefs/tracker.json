@@ -2780,6 +2780,15 @@
       "url": "https://decagon.ai/blog/decagon-chord-voice-model",
       "type": "tech",
       "status": "new"
+    },
+    {
+      "id": "elevenlabs-eleven-realtime-v1",
+      "date": "2026-10-23",
+      "company": "ElevenLabs",
+      "headline": "Eleven Realtime v1 Mini/Max speech-to-speech launched Oct 20; OpenAI Realtime protocol compatible; 98.8% reasoning, ~570ms first audio (vendor-reported)",
+      "url": "https://elevenlabs.io/docs/eleven-agents/customization/realtime-models",
+      "type": "tech",
+      "status": "new"
     }
   ],
   "themes": [
@@ -2942,8 +2951,13 @@
       "since": "2026-10-22",
       "direction": "emerging",
       "theme": "Agent platforms move down the stack into their own voice models (Decagon Chord) and trust tooling (Sierra fleming-1 synthetic-caller detection); licensed/consented-data provenance and AI-caller detection become differentiators."
+    },
+    {
+      "since": "2026-10-23",
+      "direction": "up",
+      "theme": "S2S becomes drop-in: ElevenLabs Eleven Realtime copies the OpenAI Realtime wire protocol (Mini/Max tiers), cutting switching cost; counter-pressure is opacity (no transcript/component control), so logging and transcripts become the regulated-buyer ask."
     }
   ],
-  "last_run": "2026-10-22",
+  "last_run": "2026-10-23",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
