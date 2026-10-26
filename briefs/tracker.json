@@ -2789,54 +2789,27 @@
       "url": "https://elevenlabs.io/docs/eleven-agents/customization/realtime-models",
       "type": "tech",
       "status": "new"
+    },
+    {
+      "id": "karta-ai-3m-seed-bfsi-voice",
+      "date": "2026-10-26",
+      "company": "Karta AI",
+      "headline": "Karta AI raises $3M seed for BFSI voice agents, ~2M conversations/month (self-reported)",
+      "url": "https://www.ciol.com/funding-acquistion-merger/karta-ai-raises-3-million-voice-ai-financial-services-12718653",
+      "type": "funding",
+      "status": "new"
+    },
+    {
+      "id": "voicerun-5-5m-seed-voice-agent-foundry",
+      "date": "2026-10-26",
+      "company": "VoiceRun",
+      "headline": "VoiceRun $5.5M seed (Flybridge), full-stack voice agent platform; date unconfirmed",
+      "url": "https://aibusiness.com/agentic-ai/voicerun-startup-full-stack-voice-ai-platform",
+      "type": "funding",
+      "status": "new"
     }
   ],
   "themes": [
-    {
-      "since": "2026-09-21",
-      "direction": "emerging",
-      "theme": "Voice-as-default-interface thesis reaching developer tools (Cognition Devin Voice Sept 16) gets its strongest confirmation yet: OpenAI ships experimental voice conversations into its own Codex CLI three days later \u2014 the lab that built the split-conversational-layer architecture (GPT-Live) using it on its own flagship dev tool, not just validated by a third party building on top of it."
-    },
-    {
-      "since": "2026-09-21",
-      "direction": "up",
-      "theme": "False-interruption/turn-taking thread (clinic-builder CSAT finding June 12, ElevenLabs/Deepgram manual overrides Aug-Sept) gets its highest-scale real-world instance: Apple's iOS 27 Siri AI, backed by a custom $1B/year Gemini deal and months of beta iteration, still cuts off longer verbal prompts at public GA \u2014 strong evidence turn-detection remains harder than model quality regardless of budget or lab."
-    },
-    {
-      "since": "2026-09-21",
-      "direction": "emerging",
-      "theme": "STT vendors start marketing against named high-consequence error classes instead of aggregate WER: Speechmatics' Agent STT GA frames Linden around digit transposition, missed negations, and dropped confirmations specifically \u2014 the STT-layer mirror of the turn-detection precision/recall shift already underway (Cartesia Ink-2)."
-    },
-    {
-      "since": "2026-09-22",
-      "direction": "emerging",
-      "theme": "Real-time interpretation becomes its own sub-vertical distinct from general conversational voice agents: Alibaba's Qwen3.8-LiveTranslate (Sept 19) is the second major-lab live-translation model in three months after Gemini 3.5 Live Translate (June 11), and raises the bar with per-speaker voice-preserving diarization in multi-party calls."
-    },
-    {
-      "since": "2026-09-22",
-      "direction": "watch",
-      "theme": "\"Benchmark claims need receipts\" thread (Miravoice, Openbenchmarks TTFAB gap, Speechmatics 206x) gets a fresh test case: xAI's Grok Voice Transcribe 2.0 claims a 3x multilingual WER improvement (20.6%->6.8%) and #1 Artificial Analysis streaming accuracy from a company with no prior STT track record - self-reported and AA-ranked, not yet independently reproduced."
-    },
-    {
-      "since": "2026-09-22",
-      "direction": "emerging",
-      "theme": "Reliability-and-trust thread (demo-to-production 60% failure rate, Sinch 74%-rollback survey, since June) gets its first named third-party certification: Sierra's AIUC-1 (Schellman audit + adversarial voice-agent testing) is a different procurement bar than SOC2 infra compliance - worth watching whether it becomes a healthcare/finance/insurance RFP requirement."
-    },
-    {
-      "since": "2026-09-22",
-      "direction": "up",
-      "theme": "Open-source-catches-up thread (VoiceStudio product-surface parity, Nari Labs unit economics, Sept 15-16) extends from model quality/pricing to full agentic architecture: Tencent's Gander open-sources a Cerebellum-Brain fast/slow split - the open-source mirror of the 'think while speaking' bet closed labs made twice this cycle (Gemini 3.8 Live Extended Thinking, StepAudio 3)."
-    },
-    {
-      "since": "2026-09-23",
-      "direction": "emerging",
-      "theme": "Bundle-into-the-platform pattern (Mavenir-Sanas telecom core, Krisp-8x8 CX, Genesys-ElevenLabs/Deepgram, since Aug 27) gets a content-production-layer analog: Brahma AI's $150M raise ($2B valuation) sells voice/multilingual synthesis as one pillar of an enterprise digital-human video platform (Warner Bros, NBA, Mayo Clinic) rather than a standalone conversational-agent API \u2014 a distinct buyer and competitive set (Synthesia, HeyGen, ElevenLabs Avatars) from the Vapi/Retell/Bland lane this brief tracks most weeks."
-    },
-    {
-      "since": "2026-09-24",
-      "direction": "up",
-      "theme": "Voice-as-default-interface thesis (Brockman Aug 10, Google Workspace Sept 4, Apple Siri Sept 10, Cognition/OpenAI Codex Sept 16-21) gets its most consequential form-factor bet yet: Meta's Muse Charm is a purpose-built, screen-free keychain betting the whole value proposition on 'the voice stack is always there' \u2014 paired with Apple Watch's Audio Intelligence enclave (Sept 14) and Qualcomm's camera-earbuds concept the same week, dedicated always-on voice hardware is hardening into its own category distinct from phone-based assistants."
-    },
     {
       "since": "2026-09-24",
       "direction": "up",
@@ -2956,8 +2929,13 @@
       "since": "2026-10-23",
       "direction": "up",
       "theme": "S2S becomes drop-in: ElevenLabs Eleven Realtime copies the OpenAI Realtime wire protocol (Mini/Max tiers), cutting switching cost; counter-pressure is opacity (no transcript/component control), so logging and transcripts become the regulated-buyer ask."
+    },
+    {
+      "since": "2026-10-26",
+      "direction": "up",
+      "theme": "Seed capital keeps flowing to vertical voice (BFSI Karta, healthcare Vocca, mortgage Sela) and builder tooling (VoiceRun) rather than foundation voice models; S2S-for-latency, cascade-for-control hybrid is the emerging production consensus."
     }
   ],
-  "last_run": "2026-10-23",
+  "last_run": "2026-10-26",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
