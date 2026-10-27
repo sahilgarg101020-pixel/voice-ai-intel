@@ -2811,16 +2811,6 @@
   ],
   "themes": [
     {
-      "since": "2026-09-24",
-      "direction": "up",
-      "theme": "Tool-calling-safety thread (Deepgram defer_until_eot, ElevenLabs tool-locking, Sept 15) gets independent academic validation rather than just vendor patchwork: two unrelated papers this week land on structurally similar fixes \u2014 hold the line or fill it with bridge speech while the backend executes a tool call \u2014 with the frontend-backend paper's 92-97% recall the first hard tool-calling number this brief has seen outside a vendor's own benchmark."
-    },
-    {
-      "since": "2026-09-24",
-      "direction": "emerging",
-      "theme": "Voice design \u2014 describe the voice you want rather than clone a reference clip or win a WER/latency benchmark \u2014 opens as its own competitive axis: Gemini 3.8 Flash TTS and Meta's Muse voice-customization feature shipped the same day, with Google notably hiring expressive-voice research talent (Hume's Alan Cowen) rather than just competing on TTFA \u2014 a layer distinct from the TTS leaderboard churn (six #1 flips since June) tracked all summer."
-    },
-    {
       "since": "2026-09-25",
       "direction": "up",
       "theme": "Vertical-voice-agent thread (Bland/Retell/Vapi/Sindarin/Rox/PolyAI/Hume $50-250M rounds) gets its clearest unit-economics data point yet: Sela's $21M raise leads with a controlled 10,000+-borrower A/B test (9% lead-to-lock lift, 40%+ lender profit uplift) rather than call-volume or ARR alone \u2014 a higher evidentiary bar for founders picking a vertical and for enterprise buyers evaluating one."
@@ -2934,8 +2924,13 @@
       "since": "2026-10-26",
       "direction": "up",
       "theme": "Seed capital keeps flowing to vertical voice (BFSI Karta, healthcare Vocca, mortgage Sela) and builder tooling (VoiceRun) rather than foundation voice models; S2S-for-latency, cascade-for-control hybrid is the emerging production consensus."
+    },
+    {
+      "since": "2026-10-27",
+      "direction": "emerging",
+      "theme": "Fifteenth quiet cycle: market digesting the October release wave; practitioner guidance converges on p95 latency budgets under ~800ms and semantic end-of-turn over fixed silence timeouts. Next signals likely independent evals of S2S wire-compatible entrants and deadline-driven migrations (Hume Nov 13, Cartesia Dec 1)."
     }
   ],
-  "last_run": "2026-10-26",
+  "last_run": "2026-10-27",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
