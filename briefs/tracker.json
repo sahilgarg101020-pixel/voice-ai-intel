@@ -2931,6 +2931,6 @@
       "theme": "Fifteenth quiet cycle: market digesting the October release wave; practitioner guidance converges on p95 latency budgets under ~800ms and semantic end-of-turn over fixed silence timeouts. Next signals likely independent evals of S2S wire-compatible entrants and deadline-driven migrations (Hume Nov 13, Cartesia Dec 1)."
     }
   ],
-  "last_run": "2026-10-27",
+  "last_run": "2026-10-28",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
