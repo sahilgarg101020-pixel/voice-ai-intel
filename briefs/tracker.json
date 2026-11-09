@@ -2943,8 +2943,13 @@
       "since": "2026-11-06",
       "direction": "up",
       "theme": "Orchestration layer consolidating under model vendors (LiveKit/Loophole, Inworld/Ultravox, Deepgram/Daily-Pipecat); neutral framework/observability becomes both a risk (default-provider bias) and an opening for independents."
+    },
+    {
+      "since": "2026-11-09",
+      "direction": "emerging",
+      "theme": "Another quiet cycle: market in migration/hardening mode (Hume Nov 13, Cartesia Dec 1 deadlines); X API 402 leaves founder/investor takes unmonitored."
     }
   ],
-  "last_run": "2026-11-06",
+  "last_run": "2026-11-09",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
