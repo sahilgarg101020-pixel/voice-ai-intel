@@ -2816,6 +2816,15 @@
       "url": "https://thenextweb.com/news/deepgram-daily-acquisition-pipecat-open-source",
       "type": "market",
       "status": "new"
+    },
+    {
+      "id": "deepgram-daily-pipecat-acquisition",
+      "date": "2026-11-10",
+      "company": "Deepgram",
+      "headline": "Update: newsletter says Pipecat moves to independent foundation; Deepgram partner marketplace (19 partners) reported; unverified single source",
+      "url": "https://livetok.substack.com/p/weekly-updates-nov-9th-2026",
+      "type": "market",
+      "status": "developing"
     }
   ],
   "themes": [
@@ -2950,6 +2959,6 @@
       "theme": "Another quiet cycle: market in migration/hardening mode (Hume Nov 13, Cartesia Dec 1 deadlines); X API 402 leaves founder/investor takes unmonitored."
     }
   ],
-  "last_run": "2026-11-09",
+  "last_run": "2026-11-10",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
