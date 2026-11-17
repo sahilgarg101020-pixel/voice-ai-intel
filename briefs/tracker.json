@@ -3122,6 +3122,69 @@
       "url": "https://www.forbes.com/sites/timkeary/2026/11/12/voice-ai-startup-hits-100-million--run-rate-with-46-million-funding/",
       "type": "market",
       "status": "developing"
+    },
+    {
+      "id": "elevenlabs-kotoba-acquisition",
+      "date": "2026-11-17",
+      "company": "ElevenLabs",
+      "headline": "Reported: ElevenLabs to acquire Kotoba Technologies for >$100M (Nikkei)",
+      "url": "https://asia.nikkei.com/business/business-deals/us-ai-voice-startup-elevenlabs-to-buy-japanese-focused-peer-kotoba",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "google-ml-kit-ondevice-asr-tts",
+      "date": "2026-11-17",
+      "company": "Google",
+      "headline": "On-device offline ASR/TTS in ML Kit/MediaPipe (AI Edge Gallery), ~100ms TTS start",
+      "url": "https://developers.googleblog.com/on-device-speech-recognition-and-text-to-speech-in-google-ai-edge-gallery/",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "greene-google-notebooklm-voice-lawsuit",
+      "date": "2026-11-17",
+      "company": "Google",
+      "headline": "Greene v Google: NotebookLM voice claims survive demurrer",
+      "url": "https://www.loeb.com/en/insights/publications/2026/11/greene-v-google-llc",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "sag-aftra-2026-animation-ai-terms",
+      "date": "2026-11-17",
+      "company": "SAG-AFTRA",
+      "headline": "2026 TV/Basic Cable Animation agreements ratified with updated AI voice terms",
+      "url": "https://thewrap.com/industry-news/labor-unions/sag-aftra-members-ratify-tv-animation-contracts/",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "xtium-xtai-voice",
+      "date": "2026-11-17",
+      "company": "XTIUM",
+      "headline": "XTAI Voice managed AI voice agent service via resellers",
+      "url": "https://telecomreseller.com/2026/11/13/xtium-launches-xtai-voice/",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "master-concept-elevenlabs-partnership",
+      "date": "2026-11-17",
+      "company": "Master Concept",
+      "headline": "APAC SI partners with ElevenLabs",
+      "url": "https://manilatimes.net/2026/11/16/tmt-newswire/pr-newswire/master-concept-partners-with-elevenlabs-to-accelerate-enterprise-voice-ai-adoption/2470530",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "uk-gov-voice-elevenlabs-contract",
+      "date": "2026-11-17",
+      "company": "ElevenLabs",
+      "headline": "Update: GOV Voice award still single-source",
+      "url": "https://publictechnology.net/2026/11/16/education-and-skills/government-signs-11m-deal-with-ai-voice-generator-to-modernise-citizen-interactions",
+      "type": "market",
+      "status": "developing"
     }
   ],
   "themes": [
@@ -3289,8 +3352,23 @@
       "since": "2026-11-16",
       "direction": "emerging",
       "theme": "Assistants get phone lines as a plug-in tool (CALL-E, Google Call for me, Mitra): user-approved call plans + proof-of-outcome; disclosure optional; inbound stacks will need agent-caller handling."
+    },
+    {
+      "since": "2026-11-17",
+      "direction": "up",
+      "theme": "Global platforms buy regional language depth (ElevenLabs-Kotoba >$100M for CJK real-time S2S, after Korea/Karnataka/UK GOV Voice): acquisition is the realistic exit for language-specialist voice stacks."
+    },
+    {
+      "since": "2026-11-17",
+      "direction": "up",
+      "theme": "On-device STT/TTS becomes a free OS primitive (Google ML Kit ~100ms TTS, Apple SpeechAnalyzer, Amazon AZ3): commodity mobile speech APIs squeezed; cloud retains agents, telephony, branded voices."
+    },
+    {
+      "since": "2026-11-17",
+      "direction": "emerging",
+      "theme": "Voice provenance liability: Greene v Google NotebookLM survives demurrer + SAG-AFTRA 2026 animation AI terms + EU Art. 50 — default/stock voices need documented provenance."
     }
   ],
-  "last_run": "2026-11-16",
+  "last_run": "2026-11-17",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
