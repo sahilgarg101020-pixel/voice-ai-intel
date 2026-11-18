@@ -3185,19 +3185,81 @@
       "url": "https://publictechnology.net/2026/11/16/education-and-skills/government-signs-11m-deal-with-ai-voice-generator-to-modernise-citizen-interactions",
       "type": "market",
       "status": "developing"
+    },
+    {
+      "id": "microsoft-mai-realtime-1",
+      "date": "2026-11-18",
+      "company": "Microsoft",
+      "headline": "MAI Realtime 1 S2S (Ignite): $0.01/audio min + reasoning billed separately, OpenAI Realtime-compatible, claims beats GPT-Realtime 2.1; MAI Labs preview",
+      "url": "https://microsoft.ai/news/introducing-mai-realtime-1/",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "microsoft-dragon-copilot-transcribe",
+      "date": "2026-11-18",
+      "company": "Microsoft",
+      "headline": "Dragon Copilot Transcribe on MAI-Transcribe-2 powers all Dragon Copilot clinical transcription",
+      "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "retell-tell-1",
+      "date": "2026-11-18",
+      "company": "Retell AI",
+      "headline": "Tell-1 in-house contact-center LLM: interleaved reasoning, <100ms model latency, $0.035/min, selectable Nov 19; #1 on own vCX bench but trails on tool calling; no model card",
+      "url": "https://www.retellai.com/tell-1-technical-blog",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "bland-tofu-1",
+      "date": "2026-11-18",
+      "company": "Bland",
+      "headline": "Tofu-1 full-duplex S2S research preview (Nov 15): noisy-line caller separation, enterprise-gated, GA January, no benchmarks/pricing",
+      "url": "https://www.marktechpost.com/2026/11/15/bland-tofu-1-full-duplex-speech-to-speech-model/",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "fish-audio-fish-agent",
+      "date": "2026-11-18",
+      "company": "Fish Audio",
+      "headline": "Fish Agent public beta: no-code phone agents on full-duplex Live 3 (English-only), rented or Twilio numbers, on-prem",
+      "url": "https://docs.fish.audio/agents/overview",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "tone-belfort-sales-voice",
+      "date": "2026-11-18",
+      "company": "Tone",
+      "headline": "Jordan Belfort-cofounded sales voice startup Tone, ~$10M raised (headline-level)",
+      "url": "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street",
+      "type": "funding",
+      "status": "new"
+    },
+    {
+      "id": "livekit-turn-detector-interrupt-rate",
+      "date": "2026-11-18",
+      "company": "LiveKit",
+      "headline": "Jesse Hall: speed isn't human-feel; audio turn detector cuts off callers 4.5% vs 9.9%",
+      "url": "https://finance.biggo.com/news/0d6f6f22655ba31d",
+      "type": "founder_take",
+      "status": "new"
+    },
+    {
+      "id": "hume-ai-api-shutdown",
+      "date": "2026-11-18",
+      "company": "Hume AI",
+      "headline": "Update: Hume docs confirm TTS/EVI APIs shut Nov 13, data deleted; clones must be recreated elsewhere",
+      "url": "https://dev.hume.ai/docs/speech-to-speech-evi/overview",
+      "type": "market",
+      "status": "closed"
     }
   ],
   "themes": [
-    {
-      "since": "2026-09-25",
-      "direction": "up",
-      "theme": "Vertical-voice-agent thread (Bland/Retell/Vapi/Sindarin/Rox/PolyAI/Hume $50-250M rounds) gets its clearest unit-economics data point yet: Sela's $21M raise leads with a controlled 10,000+-borrower A/B test (9% lead-to-lock lift, 40%+ lender profit uplift) rather than call-volume or ARR alone — a higher evidentiary bar for founders picking a vertical and for enterprise buyers evaluating one."
-    },
-    {
-      "since": "2026-09-25",
-      "direction": "up",
-      "theme": "Voice-as-control-surface-for-other-agents thread (GPT-Live desktop steering Codex/ChatGPT Work, July 24) extends to OpenAI's highest-traffic surface: ChatGPT mobile's Work tab goes voice-triggerable for Plus/Pro only, suggesting OpenAI treats voice-driven agent invocation as a paid-tier differentiator — worth watching whether Google Workspace Live or Claude voice match the paywall placement, not just the capability."
-    },
     {
       "since": "2026-09-25",
       "direction": "watch",
@@ -3367,8 +3429,18 @@
       "since": "2026-11-17",
       "direction": "emerging",
       "theme": "Voice provenance liability: Greene v Google NotebookLM survives demurrer + SAG-AFTRA 2026 animation AI terms + EU Art. 50 — default/stock voices need documented provenance."
+    },
+    {
+      "since": "2026-11-18",
+      "direction": "up",
+      "theme": "S2S voice layer races to ~1c/min (GPT-Live $0.05 -> Cartesia $0.03 -> MAI Realtime 1 $0.01, all reasoning billed separately, Realtime-protocol compatible): audio minutes become transport; margin moves to reasoning + workflow/outcome pricing."
+    },
+    {
+      "since": "2026-11-18",
+      "direction": "up",
+      "theme": "Agent platforms vertically integrate own models (Retell Tell-1, Bland Tofu-1, Fish Live 3, after Decagon Chord/Phonic/Guava), all self-benchmarked; tool-calling/grounding gaps make third-party evals the next buyer demand. Noise-robust selective attention emerging as phone S2S frontier."
     }
   ],
-  "last_run": "2026-11-17",
+  "last_run": "2026-11-18",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
