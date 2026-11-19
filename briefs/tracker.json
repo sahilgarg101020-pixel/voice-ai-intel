@@ -3257,6 +3257,60 @@
       "url": "https://dev.hume.ai/docs/speech-to-speech-evi/overview",
       "type": "market",
       "status": "closed"
+    },
+    {
+      "id": "assemblyai-stt-3-7",
+      "date": "2026-11-19",
+      "company": "AssemblyAI",
+      "headline": "AssemblyAI STT-3.7 family incl. Realtime-Agent ($0.45/hr, 4.46% WER on voice-agent calls); 3.5 Pro deprecated, default auto-migration Dec 8",
+      "url": "https://assemblyai.com/changelog",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "elevenlabs-marketplace",
+      "date": "2026-11-19",
+      "company": "ElevenLabs",
+      "headline": "ElevenLabs Marketplace for industry agents (Salesforce, IBM, NiCE, Twilio, Zendesk), launched Nov 11",
+      "url": "https://elevenlabs.io/blog/marketplace",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "google-gemini-66-regional-voices",
+      "date": "2026-11-19",
+      "company": "Google",
+      "headline": "Gemini app adds 66 regional voices (EN-US/UK/IN, Hindi, PT-BR, Indonesian, Korean)",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/regional-voices/",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "stork-phone-audio-stt-benchmark",
+      "date": "2026-11-19",
+      "company": "Stork",
+      "headline": "Stork: 10 STT models on G.711 phone audio; top 5 tied 5.5-6.0% WER; noise costs more than 8kHz codec",
+      "url": "https://www.stork.ai/blog/speech-to-text-phone-audio-test-2026",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "perplexity-voice-ai-teammates-mobile",
+      "date": "2026-11-19",
+      "company": "Perplexity",
+      "headline": "Perplexity voice control of AI teammates on mobile (single source, unverified)",
+      "url": "https://www.unite.ai/perplexity-brings-voice-controlled-ai-teammates-to-mobile/",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "retell-tell-1",
+      "date": "2026-11-19",
+      "company": "Retell AI",
+      "headline": "Update: Tell-1 selectable Nov 19; still no model card or third-party tool-calling eval",
+      "url": "https://www.orcarouter.ai/sv/blog/retell-tell-1-voice-model",
+      "type": "tech",
+      "status": "developing"
     }
   ],
   "themes": [
@@ -3439,8 +3493,23 @@
       "since": "2026-11-18",
       "direction": "up",
       "theme": "Agent platforms vertically integrate own models (Retell Tell-1, Bland Tofu-1, Fish Live 3, after Decagon Chord/Phonic/Guava), all self-benchmarked; tool-calling/grounding gaps make third-party evals the next buyer demand. Noise-robust selective attention emerging as phone S2S frontier."
+    },
+    {
+      "since": "2026-11-19",
+      "direction": "up",
+      "theme": "STT WER parity on phone audio (Stork: 5 models within noise) shifts differentiation to entity accuracy and noise robustness; vendors now quote voice-agent-call WER (AssemblyAI 3.7)."
+    },
+    {
+      "since": "2026-11-19",
+      "direction": "up",
+      "theme": "Clustered vendor model swaps/auto-migrations (Cartesia Line Dec 1, AssemblyAI Dec 8, ChatGPT voice Dec 11, Vertex Dec 13, Hume shutdown) make version pinning and swap-regression testing an operational necessity."
+    },
+    {
+      "since": "2026-11-19",
+      "direction": "emerging",
+      "theme": "Voice platforms become app marketplaces themselves (ElevenLabs Marketplace, Deepgram 19-partner marketplace), inverting the earlier pattern of agents distributing via incumbents' marketplaces."
     }
   ],
-  "last_run": "2026-11-18",
+  "last_run": "2026-11-19",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
