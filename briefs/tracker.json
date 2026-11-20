@@ -3311,6 +3311,69 @@
       "url": "https://www.orcarouter.ai/sv/blog/retell-tell-1-voice-model",
       "type": "tech",
       "status": "developing"
+    },
+    {
+      "id": "twilio-conversation-relay-smart-turn-detection-ga",
+      "date": "2026-11-20",
+      "company": "Twilio",
+      "headline": "Conversation Relay Smart Turn Detection + STT failover GA; Agent Connect; not PCI/HIPAA",
+      "url": "https://www.twilio.com/en-us/changelog/general-availability--smart-turn-detection-for-conversationrelay",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "microsoft-teams-voice-agent-certification-unify",
+      "date": "2026-11-20",
+      "company": "Microsoft",
+      "headline": "Teams Voice Agent Certification Program (Unify): AudioCodes, AnywhereNow, NiCE Cognigy",
+      "url": "https://learn.microsoft.com/en-us/microsoftteams/teams-voice-agents",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "zyphra-zonos3-mini",
+      "date": "2026-11-20",
+      "company": "Zyphra",
+      "headline": "ZONOS3-Mini Apache-2.0 MoE TTS, 100M active, 43 langs, on-device",
+      "url": "https://aiweekly.co/alerts/zyphra-open-sources-zonos3-mini-moe-tts-at-80ms-first-audio",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "reson8-rumble-2-flash",
+      "date": "2026-11-20",
+      "company": "Reson8",
+      "headline": "Rumble-2-Flash 0.5B ASR weights on HF; license unclear",
+      "url": "https://huggingface.co/Reson8/Rumble-2-Flash",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "openai-chatgpt-live-dictation",
+      "date": "2026-11-20",
+      "company": "OpenAI",
+      "headline": "ChatGPT Live Dictation streaming, no 10-min cap",
+      "url": "https://tbreak.com/chatgpt-live-dictation/",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "nice-cognigy-next-gen-native-s2s",
+      "date": "2026-11-20",
+      "company": "NiCE",
+      "headline": "Next-gen Cognigy with native speech-to-speech (Nov 12)",
+      "url": "https://letsdatascience.com/news/nice-launches-next-generation-cognigy-for-enterprise-ai-agen-1cd26855",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "dialpad-ada-merger",
+      "date": "2026-11-20",
+      "company": "Dialpad",
+      "headline": "Dialpad and Ada combine (Nov 4) — voice network + agents",
+      "url": "https://www.dialpad.com/press/dialpad-and-ada/",
+      "type": "market",
+      "status": "new"
     }
   ],
   "themes": [
@@ -3508,8 +3571,18 @@
       "since": "2026-11-19",
       "direction": "emerging",
       "theme": "Voice platforms become app marketplaces themselves (ElevenLabs Marketplace, Deepgram 19-partner marketplace), inverting the earlier pattern of agents distributing via incumbents' marketplaces."
+    },
+    {
+      "since": "2026-11-20",
+      "direction": "up",
+      "theme": "Turn detection becoming a free platform feature at the telephony layer (Twilio Smart Turn GA in-media-path, after Pipecat classifiers / Flux / LiveKit); value moves to acting on eager end-of-turn and post-barge-in recovery; compliance (HIPAA/PCI) gaps are a temporary wedge."
+    },
+    {
+      "since": "2026-11-20",
+      "direction": "emerging",
+      "theme": "Incumbent channels add formal gates for voice agents (Microsoft Teams voice-agent certification; ElevenLabs/Deepgram marketplaces; Dialpad+Ada) — certification becomes a sales prerequisite for enterprise-bound startups."
     }
   ],
-  "last_run": "2026-11-19",
+  "last_run": "2026-11-20",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
