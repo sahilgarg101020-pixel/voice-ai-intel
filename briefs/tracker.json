@@ -3428,6 +3428,69 @@
       "url": "https://www.capitalbrief.com/briefing/laronix-raises-5m-for-ai-tech-helping-people-who-have-lost-their-voice-7e24a70a-31bf-4696-a02f-0f9de0724167/",
       "type": "funding",
       "status": "new"
+    },
+    {
+      "id": "innovaccer-gravity-grok-voice",
+      "date": "2026-11-24",
+      "company": "Innovaccer",
+      "headline": "Innovaccer adds xAI/SpaceXSI Grok Voice S2S to Gravity Voice healthcare agents",
+      "url": "https://siliconangle.com/2026/11/23/innovaccer-expands-gravity-voice-ai-agents-with-spacexsis-grok-voice-model/",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "natural-voice-payment-agent-handoff",
+      "date": "2026-11-24",
+      "company": "Natural",
+      "headline": "Natural Voice: voice agents transfer callers to Natural's payment agent for card capture",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/natural-enables-voice-agents-to-accept-payments-over-the-phone/",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "openai-gpt-live-1-1-api-standby",
+      "date": "2026-11-24",
+      "company": "OpenAI",
+      "headline": "GPT-Live-1.1 in API with $0.02/min standby vs $0.05/min active",
+      "url": "https://www.i-scoop.eu/gpt-live-1-1-api/",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "inworld-sava-open-source-vad-eot",
+      "date": "2026-11-24",
+      "company": "Inworld",
+      "headline": "Inworld open-sources SAVA VAD+end-of-turn model (Apache 2.0); mid-pack on LiveKit eot-bench",
+      "url": "https://inworld.ai/blog/introducing-sava",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "crunchbase-voice-ai-9-5b-2026-154-deals",
+      "date": "2026-11-24",
+      "company": "Crunchbase",
+      "headline": "Voice AI raised $9.5B in 2026 through Nov 11, +67% YoY, deals down to 154",
+      "url": "https://news.crunchbase.com/venture/voice-ai-startups-global-investment",
+      "type": "funding",
+      "status": "new"
+    },
+    {
+      "id": "bevado-10m-seed-property-management",
+      "date": "2026-11-24",
+      "company": "Bevado",
+      "headline": "Bevado $10M seed (RET Ventures) for property-management omnichannel agents",
+      "url": "https://pulse2.com/bevado-raises-10-million-seed-round-for-property-management-ai-agents/",
+      "type": "funding",
+      "status": "new"
+    },
+    {
+      "id": "community-gpt-live-delegation-never-fires",
+      "date": "2026-11-24",
+      "company": "OpenAI community",
+      "headline": "Devs report GPT-Live verbally acknowledges but never delegates tool call",
+      "url": "https://community.openai.com/tag/gpt-live/1198",
+      "type": "customer_signal",
+      "status": "new"
     }
   ],
   "themes": [
@@ -3645,8 +3708,13 @@
       "since": "2026-11-23",
       "direction": "up",
       "theme": "Tool calls (~1s each, externally measured) now dominate the voice latency budget over model/TTS speed; speculative/prefetched tool calls on eager end-of-turn and caller-side PSTN measurement are the frontier."
+    },
+    {
+      "since": "2026-11-24",
+      "direction": "emerging",
+      "theme": "Agent-to-agent handoff: specialized hosted agents (Natural payments) take a caller mid-call under their own compliance scope; S2S models (Grok Voice at Innovaccer) are added as swappable voice layers under vertical logic. Pricing splits active vs idle (GPT-Live standby $0.02/min)."
     }
   ],
-  "last_run": "2026-11-23",
+  "last_run": "2026-11-24",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
