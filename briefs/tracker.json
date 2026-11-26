@@ -3563,6 +3563,51 @@
       "url": "https://www.bhfs.com/insight/new-tcpa-revocation-of-consent-rules-take-effect-on-november-25/",
       "type": "market",
       "status": "developing"
+    },
+    {
+      "id": "elevenlabs-33b-funding-talks-2027",
+      "date": "2026-11-26",
+      "company": "ElevenLabs",
+      "headline": "ElevenLabs in early talks to raise at $33B valuation, Q1 2027 close; ARR $700M",
+      "url": "https://siliconangle.com/2026/11/25/voice-ai-startup-elevenlabs-reportedly-seeking-new-funding-at-33b-valuation/",
+      "type": "funding",
+      "status": "new"
+    },
+    {
+      "id": "wispr-flow-canto-2",
+      "date": "2026-11-26",
+      "company": "Wispr Flow",
+      "headline": "Wispr Flow Canto-2 dictation STT: -36% errors across 14 languages, names/terms 41%->69%",
+      "url": "https://9to5mac.com/2026/11/25/wispr-flow-improves-dictation-accuracy-with-new-canto-2-speech-to-text-model/",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "murf-ai-finch-stt",
+      "date": "2026-11-26",
+      "company": "Murf AI",
+      "headline": "Murf Finch streaming STT: #1 Voice of India across 11 Indic languages, 50ms TTFS, $0.12/hr",
+      "url": "https://murf.ai/finch",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "five9-level-ai-acquisition",
+      "date": "2026-11-26",
+      "company": "Five9",
+      "headline": "Five9 buys Level AI for ~$325M cash (~$20M ARR)",
+      "url": "https://www.cmswire.com/contact-center/five9-buys-level-ai-for-325m-to-expand-cx-ai/",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "community-gpt-live-cuts-off-users-backlash",
+      "date": "2026-11-26",
+      "company": "OpenAI",
+      "headline": "ChatGPT users say GPT-Live jumps in too quickly as legacy voice retirement nears",
+      "url": "https://www.techradar.com/ai-platforms-assistants/chatgpt/im-beyond-disappointed-because-chatgpt-means-a-lot-to-me-users-are-furious-that-openai-is-retiring-their-favorite-voice-modes",
+      "type": "customer_signal",
+      "status": "new"
     }
   ],
   "themes": [
@@ -3775,8 +3820,18 @@
       "since": "2026-11-25",
       "direction": "emerging",
       "theme": "Self-improving loop moves into the platform (Vapi Agent Loop: observe→propose→simulate→traffic-split→rollback), after Coval+Phonely partnership; standalone eval vendors compete with a bundled feature, and the scarce input is a CRM business-outcome signal. Gartner's routing-to-resolution framing (fast tier vs reasoning tier) mirrors builder practice; full-duplex (Boson, Block Dessa) remains preview-only."
+    },
+    {
+      "since": "2026-11-26",
+      "direction": "up",
+      "theme": "Valuation bifurcation: CCaaS incumbents buy analytics/QA at ~16x ARR (Five9/Level AI, Salesforce/Cresta) while the voice runtime layer commands ~47x (ElevenLabs $33B talks); STT competes on slice metrics (entity recall, Indic phone audio) and dictation splits off as its own market (Wispr Canto-2)."
+    },
+    {
+      "since": "2026-11-26",
+      "direction": "emerging",
+      "theme": "Consumer pushback on full-duplex eagerness: GPT-Live users report being cut off mid-thought — adaptive turn-taking patience, not just speed, becomes a UX requirement."
     }
   ],
-  "last_run": "2026-11-25",
+  "last_run": "2026-11-26",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
