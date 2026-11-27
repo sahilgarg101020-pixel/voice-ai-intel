@@ -3608,6 +3608,51 @@
       "url": "https://www.techradar.com/ai-platforms-assistants/chatgpt/im-beyond-disappointed-because-chatgpt-means-a-lot-to-me-users-are-furious-that-openai-is-retiring-their-favorite-voice-modes",
       "type": "customer_signal",
       "status": "new"
+    },
+    {
+      "id": "retell-dialer",
+      "date": "2026-11-27",
+      "company": "Retell",
+      "headline": "Retell Dialer: outbound campaigns (call+text, rules-based follow-up, CRM write-back, DNC/reassigned/calling-hour toggles); Batch Calls deprecated",
+      "url": "https://www.retellai.com/changelog/retell-dialer",
+      "type": "market",
+      "status": "new"
+    },
+    {
+      "id": "elbic-2-7m-preseed-sovereign-voice",
+      "date": "2026-11-27",
+      "company": "Elbic",
+      "headline": "Berlin's Elbic raises EUR2.7M pre-seed (Repeat Ventures) for localized sovereign voice models",
+      "url": "https://bytebrief.ai/article/50af65929cbce94370ee8880908584c2ed8c75739cc0979f8fae7103ca74a5ab",
+      "type": "funding",
+      "status": "new"
+    },
+    {
+      "id": "deepgram-nova3-odia-santali-ndebele-frisian",
+      "date": "2026-11-27",
+      "company": "Deepgram",
+      "headline": "Nova-3 adds Odia, Santali, Southern Ndebele, Western Frisian (Nov 24, aggregator-sourced)",
+      "url": "https://releasebot.io/updates/deepgram",
+      "type": "tech",
+      "status": "new"
+    },
+    {
+      "id": "community-crm-output-over-humanlike-voice",
+      "date": "2026-11-27",
+      "company": "Community",
+      "headline": "Operator (~5k calls/mo): human-sounding voice no longer differentiates; value is structured CRM output; nobody replays recordings",
+      "url": "https://kblip.com/social/stop-demoing-how-human-your-voice-agent-sounds-nobody-using-XPSDpeA",
+      "type": "customer_signal",
+      "status": "new"
+    },
+    {
+      "id": "murf-ai-finch-stt",
+      "date": "2026-11-27",
+      "company": "Murf",
+      "headline": "Update: Murf STT out of beta Nov 23 (streaming + file up to 1h)",
+      "url": "https://releasebot.io/updates/categories/ai-voice-and-speech",
+      "type": "tech",
+      "status": "developing"
     }
   ],
   "themes": [
@@ -3830,8 +3875,13 @@
       "since": "2026-11-26",
       "direction": "emerging",
       "theme": "Consumer pushback on full-duplex eagerness: GPT-Live users report being cut off mid-thought — adaptive turn-taking patience, not just speed, becomes a UX requirement."
+    },
+    {
+      "since": "2026-11-27",
+      "direction": "up",
+      "theme": "Outbound agent platforms become campaign + compliance systems (Retell Dialer, Convoso, Aircall): CRM write-back schema and default TCPA checks (DNC, reassigned numbers, calling hours) are the product; operators say humanlike voice no longer differentiates."
     }
   ],
-  "last_run": "2026-11-26",
+  "last_run": "2026-11-27",
   "notes": "Dedupe key = normalized headline/url. reported_items entry: {id, date, company, headline, url, type, status}. type = tech | customer_signal | founder_take | market | funding. status = new | developing | closed. themes = rolling directional observations; direction = up | down | emerging | watch."
 }
